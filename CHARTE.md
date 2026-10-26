@@ -39,7 +39,7 @@ On explique, on ne commente pas.
 | Barres neutres des graphiques | `#5C5C58` |
 
 **Couleur d'accent : une seule par post**, la même sur toutes ses pages.
-Elle change d'un post à l'autre, au choix parmi :
+Elle change d'un post à l'autre, au choix parmi les 8 couleurs ci-dessous. **Varier** : jamais la même que les deux posts précédents. Toutes ont un contraste d'au moins 6 pour 1 sur le fond noir.
 
 | Nom | Couleur |
 |---|---|
@@ -47,6 +47,10 @@ Elle change d'un post à l'autre, au choix parmi :
 | Rouge-orangé | `#FF5A36` |
 | Vert | `#3DDC97` |
 | Bleu | `#5AA9FF` |
+| Violet | `#B388FF` |
+| Rose | `#FF6FB5` |
+| Turquoise | `#2EE6D6` |
+| Orange | `#FF9F1C` |
 
 L'accent sert uniquement au gros chiffre, à l'étiquette de rubrique, aux valeurs mises en avant, à la barre du jour dans les graphiques et au filet sous les images.
 Le texte posé sur l'étiquette d'accent est toujours `#0B0B0C`.

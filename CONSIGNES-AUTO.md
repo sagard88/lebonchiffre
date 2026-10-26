@@ -26,6 +26,7 @@ Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge
 
 - Suis `CHARTE.md` et le format de `README.md`. Dossier : `posts/AAAA-MM-JJ-HHh-sujet/`. Ajoute `"publier_a"` dans `post.json`.
 - **Date en couverture** pour tout événement daté.
+- **Couleur principale** (`accent`) : varie parmi les 8 de la charte (jaune, rouge, vert, bleu, violet, rose, turquoise, orange), jamais la même que les deux derniers posts (regarde leur `post.json`).
 - **Images** : sujet réel (personne, lieu, objet, événement) = vraie image sous licence libre, à chercher sur Wikimedia Commons par son API (vérifie la licence et l'auteur, crédite-les) ou dans un kit presse officiel. Jamais de photo d'agence ou d'article de presse. Une idée ou un phénomène = illustration Gemini (`npm run illustrer`), **une seule génération** (crédit de 5 €), ou couverture sans image.
 - `npm run fabriquer -- posts/<dossier>`, puis regarde l'image de couverture `images/1.jpg`. Corrige tout débordement de texte.
 - Légende : 2 à 3 paragraphes, une question, les sources, 4 à 5 mots-dièse ; « Illustration générée par IA » si besoin.

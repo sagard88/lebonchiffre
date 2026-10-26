@@ -26,7 +26,7 @@ function controler(post, dossier) {
   const alertes = [];
   const pages = post.pages ?? [];
 
-  if (!ACCENTS[post.accent]) erreurs.push(`accent « ${post.accent} » inconnu (jaune, rouge, vert ou bleu)`);
+  if (!ACCENTS[post.accent]) erreurs.push(`accent « ${post.accent} » inconnu (${Object.keys(ACCENTS).join(', ')})`);
   if (!post.rubrique) erreurs.push('rubrique manquante');
   if (pages.length < 3 || pages.length > 6) erreurs.push(`${pages.length} pages : il en faut entre 3 et 6`);
   if (pages[0]?.type !== 'couverture') erreurs.push('la première page doit être la couverture');

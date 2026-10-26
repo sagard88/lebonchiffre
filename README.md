@@ -22,7 +22,7 @@ Il a seulement besoin de Node et de Google Chrome (rien à installer). Les polic
 
 ```
 {
-  "accent": "jaune" | "rouge" | "vert" | "bleu",
+  "accent": "jaune" | "rouge" | "vert" | "bleu" | "violet" | "rose" | "turquoise" | "orange",
   "rubrique": "Monde",                      // étiquette de la couverture
   "pages": [ ... 3 à 6 pages ... ],
   "legende": { "contexte": "2 ou 3 phrases", "hashtags": ["monde", "actu"] }

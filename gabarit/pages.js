@@ -9,6 +9,10 @@ const ACCENTS = {
   rouge: '#FF5A36',
   vert: '#3DDC97',
   bleu: '#5AA9FF',
+  violet: '#B388FF',
+  rose: '#FF6FB5',
+  turquoise: '#2EE6D6',
+  orange: '#FF9F1C',
 };
 
 const POLICES = pathToFileURL(path.join(__dirname, 'polices', 'polices.css')).href;
