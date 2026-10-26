@@ -9,11 +9,13 @@ jobs:
       - name: Instagram
         env:
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
-        run: curl -sf "https://graph.instagram.com/v23.0/me?fields=username&access_token=$INSTAGRAM_TOKEN" | jq -e .username
+        run: |
+          curl -sf "https://graph.instagram.com/v23.0/me?fields=username&access_token=$INSTAGRAM_TOKEN" | jq -e .username
       - name: Gemini
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
-        run: curl -sf -H "x-goog-api-key: $GEMINI_KEY" "https://generativelanguage.googleapis.com/v1beta/models?pageSize=1" | jq -e '.models | length > 0'
+        run: |
+          curl -sf -H "x-goog-api-key: $GEMINI_KEY" "https://generativelanguage.googleapis.com/v1beta/models?pageSize=1" | jq -e '.models | length > 0'
       - name: GitHub (GH_PAT)
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
