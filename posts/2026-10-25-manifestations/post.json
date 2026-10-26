@@ -1,0 +1,112 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Manifestations",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "× 6",
+      "phrase": "l'écart entre les deux comptages de la manifestation de Marseille.",
+      "contexte": "Samedi 24 octobre : 17 000 selon la préfecture, 100 000 selon la CGT.",
+      "image": "officiel/marseille-danaides.jpg",
+      "credit": "Photo : B. Soubeyrand",
+      "source": "ICI"
+    },
+    {
+      "type": "graphique",
+      "sens": "horizontal",
+      "titre": "Ville par ville.",
+      "unite": "Combien de fois le chiffre de la CGT dépasse celui des autorités, samedi 24 octobre",
+      "barres": [
+        {
+          "label": "Marseille",
+          "valeur": 5.9,
+          "affiche": "× 5,9",
+          "jour": true
+        },
+        {
+          "label": "Toulouse",
+          "valeur": 3,
+          "affiche": "× 3"
+        },
+        {
+          "label": "Paris",
+          "valeur": 2.3,
+          "affiche": "× 2,3"
+        },
+        {
+          "label": "France entière",
+          "valeur": 2,
+          "affiche": "× 2"
+        }
+      ],
+      "source": "ICI, Franceinfo, Le Monde"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Les chiffres bruts",
+      "titre": "Autorités contre CGT,\nsamedi 24 octobre.",
+      "lignes": [
+        {
+          "gauche": "Marseille",
+          "droite": "17 000 contre 100 000",
+          "fort": true
+        },
+        {
+          "gauche": "Toulouse",
+          "droite": "26 500 contre 80 000"
+        },
+        {
+          "gauche": "Paris",
+          "droite": "110 000 contre 250 000"
+        },
+        {
+          "gauche": "France",
+          "droite": "410 000 contre 800 000"
+        }
+      ],
+      "source": "ICI, Franceinfo, Le Monde"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Pourquoi ?",
+      "titre": "Pourquoi un tel écart ?",
+      "chiffres": [
+        {
+          "valeur": "× 2",
+          "texte": "L'écart habituel entre syndicats et police dans les manifestations en France."
+        },
+        {
+          "valeur": "Les trottoirs",
+          "texte": "La police compte à des points de passage ; les syndicats comptent aussi ceux qui suivent sur les côtés."
+        },
+        {
+          "valeur": "Aucun outil",
+          "texte": "Ne permet de compter une manifestation de façon fiable, concluait déjà l'inspection de la police en 2006."
+        }
+      ],
+      "source": "Slate, Lyon Capitale"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "ICI, 24 octobre 2026 (Marseille)",
+        "Franceinfo, 24 octobre 2026 (France et Paris)",
+        "Le Monde, via Wikipédia (Toulouse)",
+        "Slate et Lyon Capitale (méthodes de comptage)",
+        "Photo : Bertrand Soubeyrand, CC BY-SA 4.0, Wikimedia Commons"
+      ],
+      "question": "Selon vous, pourquoi un tel écart ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Samedi 24 octobre, la mobilisation contre la vie chère a réuni 410 000 personnes en France selon le ministère de l'Intérieur, 800 000 selon la CGT. Un écart du simple au double, habituel en France. Mais à Marseille, il grimpe à près de six : 17 000 manifestants pour la préfecture, 100 000 pour la CGT.\n\nPourquoi de telles différences ? La police compte à des points de passage du cortège, les syndicats estiment l'ensemble de la journée, trottoirs compris. Et dès 2006, l'inspection de la police concluait qu'aucun outil ne permettait de compter une foule de façon fiable.\n\nLe mouvement continue : les Gilets jaunes appellent à un « acte III » le samedi 31 octobre, et cinq syndicats (CFDT, CGT, FO, Unsa, FSU) à une journée de grève et de manifestations le jeudi 5 novembre.",
+    "hashtags": [
+      "manifestation",
+      "marseille",
+      "viechere",
+      "france",
+      "actu"
+    ]
+  }
+}

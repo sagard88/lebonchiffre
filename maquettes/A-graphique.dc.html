@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Piste A · Variante graphique</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFD60A}a:hover{color:#ffe55c}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; display: flex; flex-direction: column; justify-content: space-between; background: #0B0B0C; color: #F5F5F2; font-family: Inter, sans-serif;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="font-size: 30px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;">Le Bon Chiffre</div>
+<div style="font-size: 26px; font-weight: 600; color: #0B0B0C; background: {{accent}}; padding: 10px 20px;">EN GRAPHIQUE</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px;">
+<div style="font-size: 64px; font-weight: 800; line-height: 1.1;">Population mondiale</div>
+<div style="font-size: 34px; color: #B8B8B2;">En milliards d'habitants</div>
+</div>
+<figure role="img" aria-label="Population mondiale : 2,5 milliards en 1950, 4,1 en 1975, 6,1 en 2000, 8 en 2022, puis 9,7 prévus en 2050 et 10,3 vers 2085." style="margin: 0; display: flex; flex-direction: column; gap: 16px;">
+<div style="height: 600px; display: flex; align-items: flex-end; justify-content: space-between; border-bottom: 2px solid #8E8E88;">
+<div style="width: 110px; display: flex; flex-direction: column; align-items: center; gap: 12px;"><div style="font-family: Anton, sans-serif; font-size: 44px;">2,5</div><div style="width: 110px; height: 126px; background: #5C5C58; border-radius: 4px 4px 0 0;"></div></div>
+<div style="width: 110px; display: flex; flex-direction: column; align-items: center; gap: 12px;"><div style="font-family: Anton, sans-serif; font-size: 44px;">4,1</div><div style="width: 110px; height: 207px; background: #5C5C58; border-radius: 4px 4px 0 0;"></div></div>
+<div style="width: 110px; display: flex; flex-direction: column; align-items: center; gap: 12px;"><div style="font-family: Anton, sans-serif; font-size: 44px;">6,1</div><div style="width: 110px; height: 308px; background: #5C5C58; border-radius: 4px 4px 0 0;"></div></div>
+<div style="width: 110px; display: flex; flex-direction: column; align-items: center; gap: 12px;"><div style="font-family: Anton, sans-serif; font-size: 56px;">8</div><div style="width: 110px; height: 404px; background: {{accent}}; border-radius: 4px 4px 0 0;"></div></div>
+<div style="width: 110px; display: flex; flex-direction: column; align-items: center; gap: 12px;"><div style="font-family: Anton, sans-serif; font-size: 44px; color: #B8B8B2;">9,7</div><div style="width: 110px; height: 490px; box-sizing: border-box; border: 3px dashed #8E8E88; border-bottom: 0; border-radius: 4px 4px 0 0;"></div></div>
+<div style="width: 110px; display: flex; flex-direction: column; align-items: center; gap: 12px;"><div style="font-family: Anton, sans-serif; font-size: 44px; color: #B8B8B2;">10,3</div><div style="width: 110px; height: 520px; box-sizing: border-box; border: 3px dashed #8E8E88; border-bottom: 0; border-radius: 4px 4px 0 0;"></div></div>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 28px; color: #B8B8B2;">
+<div style="width: 110px; text-align: center;">1950</div>
+<div style="width: 110px; text-align: center;">1975</div>
+<div style="width: 110px; text-align: center;">2000</div>
+<div style="width: 110px; text-align: center; font-weight: 600; color: #F5F5F2;">2022</div>
+<div style="width: 110px; text-align: center;">2050</div>
+<div style="width: 110px; text-align: center;">~2085</div>
+</div>
+<div style="display: flex; gap: 32px; font-size: 26px; color: #B8B8B2;">
+<div style="display: flex; align-items: center; gap: 12px;"><div style="width: 28px; height: 28px; background: #5C5C58; border-radius: 4px;"></div>Mesuré</div>
+<div style="display: flex; align-items: center; gap: 12px;"><div style="width: 28px; height: 28px; box-sizing: border-box; border: 3px dashed #8E8E88; border-radius: 4px;"></div>Projection ONU</div>
+</div>
+</figure>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; font-size: 26px; color: #8E8E88;">
+<div>Source : ONU, World Population Prospects 2024</div>
+<div style="font-weight: 600; color: #F5F5F2;">2 / 4</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FFD60A","options":["#FFD60A","#FF5A36","#3DDC97","#5AA9FF"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#FFD60A' };
+}
+}
+</script>
+</body>
+</html>

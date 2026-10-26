@@ -1,0 +1,47 @@
+{
+  "accent": "bleu",
+  "rubrique": "Démographie",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "647 818",
+      "phrase": "décès en France en 2025, plus que de naissances.",
+      "contexte": "Une première depuis la Seconde Guerre mondiale.",
+      "source": "Insee"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Le bilan",
+      "titre": "Une France qui vieillit.",
+      "lignes": [
+        { "gauche": "645 000", "droite": "naissances en 2025, −2,1 % en un an", "fort": true },
+        { "gauche": "1,56", "droite": "enfant par femme" },
+        { "gauche": "79,5 ans", "droite": "l'âge moyen au décès" },
+        { "gauche": "+0,25 %", "droite": "de population grâce aux migrations" }
+      ],
+      "source": "Insee"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Pourquoi",
+      "titre": "Pourquoi plus de décès.",
+      "chiffres": [
+        { "valeur": "La grippe", "texte": "Une épidémie hivernale virulente en janvier 2025." },
+        { "valeur": "Le baby-boom", "texte": "Les générations nombreuses nées après-guerre arrivent aux âges où l'on meurt le plus." }
+      ],
+      "source": "Insee Focus n° 389"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Insee Focus n° 389, octobre 2026 (décès 2025, chiffre définitif)",
+        "Insee, bilan démographique 2025 (naissances, fécondité)"
+      ],
+      "question": "Ça vous surprend ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "647 818 personnes sont mortes en France en 2025, selon le chiffre définitif publié par l'Insee en octobre. Dans le même temps, 645 000 bébés sont nés. Pour la première fois depuis la fin de la Seconde Guerre mondiale, les décès dépassent les naissances.\n\nDeux raisons : une grippe hivernale virulente en janvier 2025, et l'arrivée des générations du baby-boom aux âges où la mortalité est la plus forte. En face, les naissances reculent encore (−2,1 % en un an) et la fécondité tombe à 1,56 enfant par femme.\n\nLa population continue pourtant d'augmenter légèrement (+0,25 %), grâce au solde migratoire.",
+    "hashtags": ["demographie", "naissances", "france", "insee", "actu"]
+  }
+}

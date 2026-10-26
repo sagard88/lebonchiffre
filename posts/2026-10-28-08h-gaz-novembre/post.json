@@ -1,0 +1,48 @@
+{
+  "accent": "rouge",
+  "rubrique": "Gaz",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "+6,6 %",
+      "phrase": "pour le prix repère du gaz au 1er novembre.",
+      "contexte": "La troisième hausse d'affilée, selon la CRE.",
+      "source": "CRE"
+    },
+    {
+      "type": "graphique",
+      "titre": "Trois hausses en trois mois.",
+      "unite": "Prix repère de vente du gaz, en euros par MWh TTC",
+      "barres": [
+        { "label": "Septembre", "valeur": 172.05, "affiche": "172" },
+        { "label": "Octobre", "valeur": 182.88, "affiche": "183" },
+        { "label": "Novembre", "valeur": 194.9, "affiche": "195", "jour": true }
+      ],
+      "source": "CRE"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Sur la facture",
+      "titre": "Ce que ça change pour vous.",
+      "chiffres": [
+        { "valeur": "12 €", "texte": "De plus en moyenne sur la facture de novembre, pour les offres indexées." },
+        { "valeur": "+11 %", "texte": "La facture annuelle 2026 par rapport à 2025, soit environ 135 €, selon la CRE." },
+        { "valeur": "Prix fixe", "texte": "Les ménages en offre à prix fixe ne sont pas concernés par la hausse." }
+      ],
+      "source": "CRE, MoneyVox, Effy"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Commission de régulation de l'énergie, prix repère de novembre 2026 (12 octobre)",
+        "Hello Watt et MoneyVox, octobre 2026",
+        "Effy, prix du gaz d'octobre 2026"
+      ],
+      "question": "Votre contrat de gaz est à prix fixe ou indexé ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Au 1er novembre, le prix repère du gaz publié par la Commission de régulation de l'énergie passe de 182,88 à 194,90 euros le mégawattheure TTC : +6,6 %. C'est la troisième hausse d'affilée, après +5,6 % en septembre et +6,3 % en octobre.\n\nSur le chauffage, le kWh grimpe même de 8,3 %. Pour les ménages dont l'offre suit ce prix repère, la facture de novembre augmente d'environ 12 euros, et la CRE estime que la facture annuelle 2026 sera 11 % plus chère que celle de 2025.\n\nEn cause : la hausse des cours du gaz sur les marchés en septembre. Les offres à prix fixe ne sont pas concernées.",
+    "hashtags": ["gaz", "energie", "pouvoirdachat", "factures", "actu"]
+  }
+}

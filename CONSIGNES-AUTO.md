@@ -1,0 +1,37 @@
+# Consignes des passages automatiques de Claude
+
+Tu prépares seul des posts pour @lebonchiffre, sans personne pour te répondre. Tout en français. Sois économe : le quota de l'abonnement Claude Pro est partagé, et une dizaine de lectures web par post doit suffire.
+
+## Ta mission selon le mode
+
+- **matin** : prépare 2 posts, `"publier_a"` aujourd'hui à `08:00` et à `14:00` (heure de Paris).
+- **soir** : prépare 1 post, `"publier_a"` aujourd'hui à `19:00`.
+- **brulant** : prépare 1 post sur le sujet brûlant signalé en tête de `journal/veille.json`, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`.
+
+Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge à l'heure dite.
+
+## Choisir le sujet
+
+1. Lis `journal/veille.json` (tendances classées, gratuites) : c'est ton point de départ.
+2. Varie les rubriques (politique, économie, sport, jeux vidéo, tech, société, culture…). Évite tout sujet déjà traité ces 7 derniers jours : regarde les noms des dossiers de `posts/` et la fin de `journal/publications.log`.
+3. Le sujet doit tenir en **un chiffre fort et vérifiable**.
+
+## Vérifier (règle absolue)
+
+- Chaque chiffre publié doit être confirmé par **2 sources indépendantes** (médias reconnus, organismes officiels).
+- Si les sources divergent ou manquent : **abandonne ce sujet** et prends-en un autre. Jamais d'approximation.
+- Méfie-toi des annonces anticipées ou erronées (ex. articles publiés par erreur) : attends la confirmation officielle.
+
+## Fabriquer
+
+- Suis `CHARTE.md` et le format de `README.md`. Dossier : `posts/AAAA-MM-JJ-HHh-sujet/`. Ajoute `"publier_a"` dans `post.json`.
+- **Date en couverture** pour tout événement daté.
+- **Images** : sujet réel (personne, lieu, objet, événement) = vraie image sous licence libre, à chercher sur Wikimedia Commons par son API (vérifie la licence et l'auteur, crédite-les) ou dans un kit presse officiel. Jamais de photo d'agence ou d'article de presse. Une idée ou un phénomène = illustration Gemini (`npm run illustrer`), **une seule génération** (crédit de 5 €), ou couverture sans image.
+- `npm run fabriquer -- posts/<dossier>`, puis regarde l'image de couverture `images/1.jpg`. Corrige tout débordement de texte.
+- Légende : 2 à 3 paragraphes, une question, les sources, 4 à 5 mots-dièse ; « Illustration générée par IA » si besoin.
+
+## Terminer
+
+- Ajoute une ligne à `journal/claude.log` : date, mode, dossiers préparés (ou raison de l'abandon).
+- Ne touche jamais à `.env` ni aux secrets, ne les affiche jamais.
+- Si rien de fiable n'est trouvé, ne prépare rien plutôt qu'un post douteux, et note-le dans `journal/claude.log`.

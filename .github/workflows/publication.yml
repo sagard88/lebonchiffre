@@ -1,0 +1,28 @@
+# Publie chaque heure les posts dont l'heure est venue ("publier_a" dans post.json). Aucun token Claude.
+name: Publication
+on:
+  schedule:
+    - cron: '1 * * * *'
+  workflow_dispatch:
+concurrency:
+  group: lebonchiffre
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  publication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Publier
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: node gabarit/file.js
+      - name: Enregistrer
+        if: always()
+        run: bash gabarit/ci-commit.sh "Publication du $(TZ=Europe/Paris date '+%d/%m %H:%M')"

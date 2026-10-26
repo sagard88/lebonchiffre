@@ -1,0 +1,47 @@
+{
+  "accent": "jaune",
+  "rubrique": "Fnac Darty",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "35 €",
+      "phrase": "par action : l'offre de Daniel Kretinsky sur Fnac Darty.",
+      "contexte": "Bruxelles a donné son feu vert le 20 octobre.",
+      "source": "AFP"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Les enjeux",
+      "titre": "Une bataille pour le contrôle.",
+      "lignes": [
+        { "gauche": "28,5 %", "droite": "du capital déjà aux mains de Kretinsky" },
+        { "gauche": "50 %", "droite": "le seuil qu'il veut franchir", "fort": true },
+        { "gauche": "20 %", "droite": "et plus, détenus par Ceconomy" },
+        { "gauche": "JD.com", "droite": "le géant chinois qui rachète Ceconomy" }
+      ],
+      "source": "AFP, Économie Matin"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "La suite",
+      "titre": "Et maintenant ?",
+      "chiffres": [
+        { "valeur": "Début nov.", "texte": "La clôture de l'offre est attendue, selon un calendrier que doit fixer l'AMF." },
+        { "valeur": "En Bourse", "texte": "Fnac Darty restera cotée à Paris après l'opération." }
+      ],
+      "source": "AFP"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "AFP, 20 octobre 2026 (via Fortuneo et Boursedirect)",
+        "Économie Matin, OPA Fnac Darty"
+      ],
+      "question": "Vous achetez encore à la Fnac ou chez Darty ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "La Commission européenne a autorisé l'offre publique d'achat du milliardaire tchèque Daniel Kretinsky sur Fnac Darty, a annoncé le groupe le 20 octobre. C'était la dernière autorisation attendue : 35 euros par action, après un dividende de 1 euro versé en juin.\n\nKretinsky détient déjà 28,5 % du capital et veut dépasser 50 %. Objectif : garder la main face au géant chinois du commerce en ligne JD.com, en train de racheter l'allemand Ceconomy, qui possède plus de 20 % de Fnac Darty.\n\nL'offre devrait se clore début novembre. Fnac Darty restera cotée à la Bourse de Paris.",
+    "hashtags": ["fnac", "darty", "economie", "bourse", "actu"]
+  }
+}

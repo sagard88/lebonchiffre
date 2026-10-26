@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #0B0B0C; }
+  .board { display: flex; gap: 40px; padding: 40px; }
+  .pic { width: 1080px; height: 1080px; background: #0B0B0C; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #F5F5F2; }
+  .ring { position: absolute; inset: 0; border-radius: 50%; outline: 4px dashed #333; }
+  /* A : le nom en deux lignes */
+  .a1 { font-family: Inter, sans-serif; font-weight: 800; font-size: 120px; letter-spacing: 0.06em; line-height: 1; }
+  .a2 { font-family: Anton, sans-serif; font-size: 230px; line-height: 1; color: #FFD60A; margin-top: 10px; }
+  .a3 { width: 160px; height: 20px; background: #F5F5F2; margin-top: 30px; }
+  /* B : le chiffre seul */
+  .b1 { font-family: Anton, sans-serif; font-size: 620px; line-height: 0.9; color: #FFD60A; }
+  .b2 { width: 220px; height: 30px; background: #F5F5F2; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="board">
+  <div class="pic" id="A"><div class="ring"></div><div class="a1">LE BON</div><div class="a2">CHIFFRE</div><div class="a3"></div></div>
+  <div class="pic" id="B"><div class="ring"></div><div class="b1">1</div><div class="b2"></div></div>
+</div>
+</body>
+</html>

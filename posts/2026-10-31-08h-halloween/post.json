@@ -1,0 +1,42 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Halloween",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "50 M",
+      "phrase": "de paquets de bonbons vendus pour Halloween en 2025.",
+      "contexte": "Selon les prévisions de l'UFC-Que Choisir.",
+      "image": "halloween.jpg",
+      "ia": true,
+      "credit": "Image IA",
+      "source": "UFC-Que Choisir"
+    },
+    {
+      "type": "liste",
+      "etiquette": "En chiffres",
+      "titre": "Une fête devenue un marché.",
+      "lignes": [
+        { "gauche": "154 M€", "droite": "de confiseries d'Halloween en 2024", "fort": true },
+        { "gauche": "62 M", "droite": "d'unités vendues en 2024" },
+        { "gauche": "−3 %", "droite": "sur le prix moyen des bonbons en 2025" },
+        { "gauche": "85 €", "droite": "de budget moyen par personne" }
+      ],
+      "source": "Into the Minds, UFC-Que Choisir, OpinionWay"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "UFC-Que Choisir, Halloween 2025 (via Consoglobe)",
+        "Into the Minds, analyse du marché d'Halloween",
+        "Sondage OpinionWay pour Bonial"
+      ],
+      "question": "Vous fêtez Halloween ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Joyeux Halloween ! Selon l'UFC-Que Choisir, près de 50 millions de paquets de bonbons devaient être vendus en France pour Halloween 2025, avec des prix moyens en baisse de 3 % sur un an.\n\nArrivée en France dans les années 1990, la fête pèse désormais lourd : 154 millions d'euros de confiseries et 62 millions d'unités vendues en 2024, selon une analyse de marché d'Into the Minds. Un sondage OpinionWay pour Bonial évoque un budget moyen de 85 euros par personne.\n\nLes chiffres de cette année seront connus début novembre.",
+    "hashtags": ["halloween", "bonbons", "fete", "consommation", "actu"]
+  }
+}

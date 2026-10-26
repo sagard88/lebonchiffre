@@ -1,0 +1,46 @@
+{
+  "accent": "rouge",
+  "rubrique": "Logement",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "30 500",
+      "phrase": "ménages expulsés de leur logement en 2025, un record.",
+      "contexte": "La trêve hivernale commence ce dimanche 1er novembre.",
+      "source": "DAL, commissaires de justice"
+    },
+    {
+      "type": "graphique",
+      "titre": "+27 % en un an.",
+      "unite": "Expulsions locatives avec le concours de la force publique",
+      "barres": [
+        { "label": "2024", "valeur": 24556, "affiche": "24 556" },
+        { "label": "2025", "valeur": 30500, "affiche": "30 500", "jour": true }
+      ],
+      "source": "Ministère du Logement, DAL"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "La trêve",
+      "titre": "Cinq mois de répit.",
+      "chiffres": [
+        { "valeur": "1er nov.", "texte": "Début de la trêve : aucune expulsion locative ne peut être exécutée, sauf exceptions." },
+        { "valeur": "31 mars", "texte": "Fin de la trêve, les expulsions peuvent reprendre." }
+      ],
+      "source": "Service Public"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Fédération Droit au logement, communiqué du 27 mars 2026",
+        "Chambre nationale des commissaires de justice (+27,2 %)",
+        "Ministère du Logement, chiffre 2024 ; Service Public, trêve hivernale"
+      ],
+      "question": "Faut-il allonger la trêve hivernale ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "En 2025, environ 30 500 ménages ont été expulsés de leur logement avec le concours de la force publique, un record. C'est 27 % de plus qu'en 2024 (24 556 expulsions, selon le ministère du Logement). Ces chiffres ne comptent pas les locataires partis avant l'intervention des forces de l'ordre.\n\nCe dimanche 1er novembre commence la trêve hivernale : jusqu'au 31 mars, aucune expulsion locative ne peut être exécutée, sauf exceptions (relogement adapté, squat…).\n\nLes associations, comme Droit au logement, dénoncent une hausse continue des expulsions depuis plusieurs années.",
+    "hashtags": ["logement", "trevehivernale", "expulsions", "societe", "actu"]
+  }
+}

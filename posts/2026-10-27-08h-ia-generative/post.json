@@ -1,0 +1,53 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Intelligence artificielle",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "3,24 Mds",
+      "phrase": "de personnes utilisent l'IA générative chaque mois.",
+      "contexte": "Plus d'un humain sur trois, selon le rapport Digital 2027.",
+      "image": "ia.jpg",
+      "ia": true,
+      "credit": "Image IA",
+      "source": "Meltwater"
+    },
+    {
+      "type": "graphique",
+      "sens": "horizontal",
+      "titre": "Le monde connecté.",
+      "unite": "En milliards, octobre 2026",
+      "barres": [
+        { "label": "Internautes", "valeur": 6.15, "affiche": "6,15" },
+        { "label": "Comptes de réseaux sociaux", "valeur": 5.81, "affiche": "5,81" },
+        { "label": "Utilisateurs d'IA", "valeur": 3.24, "affiche": "3,24", "jour": true }
+      ],
+      "source": "Meltwater et We Are Social"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "En clair",
+      "titre": "Ce que ça veut dire.",
+      "chiffres": [
+        { "valeur": "39 %", "texte": "De la population mondiale utilise une IA générative chaque mois." },
+        { "valeur": "67 %", "texte": "En France, selon le Blog du Modérateur, qui reprend le rapport." },
+        { "valeur": "900 pages", "texte": "Pour le rapport Digital 2027, publié le 21 octobre." }
+      ],
+      "source": "Meltwater, Blog du Modérateur"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Meltwater et We Are Social, Digital 2027 (21 octobre 2026)",
+        "Blog du Modérateur, chiffres clés d'octobre 2026",
+        "Capital.com, 21 octobre 2026"
+      ],
+      "question": "Vous utilisez une IA chaque semaine ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Selon le rapport Digital 2027 de Meltwater et We Are Social, publié le 21 octobre, 3,24 milliards de personnes utilisent chaque mois une IA générative (ChatGPT, Gemini, Claude…). Soit plus d'un tiers de l'humanité, moins de quatre ans après l'arrivée de ces outils dans le grand public.\n\nLe même rapport compte 6,15 milliards d'internautes et 5,81 milliards de comptes sur les réseaux sociaux (une même personne peut en avoir plusieurs).\n\nEn France, l'usage serait encore plus répandu : 67 % de la population, selon le Blog du Modérateur.",
+    "hashtags": ["ia", "intelligenceartificielle", "tech", "numerique", "actu"]
+  }
+}

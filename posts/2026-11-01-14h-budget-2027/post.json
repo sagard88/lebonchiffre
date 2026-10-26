@@ -1,0 +1,48 @@
+{
+  "accent": "jaune",
+  "rubrique": "Budget 2027",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "54 Mds €",
+      "phrase": "d'économies prévues dans le budget 2027.",
+      "contexte": "Le double des 30 milliards évoqués au départ.",
+      "source": "Matignon"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Les chiffres",
+      "titre": "Ce qu'il y a dans le budget.",
+      "lignes": [
+        { "gauche": "43 Mds €", "droite": "de mesures nouvelles en 2027" },
+        { "gauche": "5 %", "droite": "le déficit visé, contre 5,4 % en 2026", "fort": true },
+        { "gauche": "6,5 %", "droite": "le déficit sans économies" },
+        { "gauche": "+10 Mds €", "droite": "de charge de la dette en plus" }
+      ],
+      "source": "Euronews, Public Sénat"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Qui paie",
+      "titre": "Où tombent les économies.",
+      "chiffres": [
+        { "valeur": "L'État", "texte": "Et ses opérateurs sont en première ligne, y compris l'Intérieur, la Justice et la Défense." },
+        { "valeur": "Les collectivités", "texte": "Devront limiter la hausse de leurs dépenses à l'inflation." }
+      ],
+      "source": "Acteurs publics, Public Sénat"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Euronews, 17 septembre 2026",
+        "Public Sénat, budget 2027",
+        "Acteurs publics, septembre 2026"
+      ],
+      "question": "Où faudrait-il faire des économies selon vous ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Le budget 2027, en discussion au Parlement, prévoit un effort de 54 milliards d'euros, le double des 30 milliards évoqués au départ. Le Premier ministre Sébastien Lecornu le justifie ainsi : sans mesures, le déficit public dépasserait 6,5 % du PIB en 2027.\n\nL'objectif est de le ramener de 5,4 % en 2026 à 5 % en 2027, alors que la charge de la dette va encore s'alourdir de 10 milliards. L'État et ses opérateurs sont en première ligne, et les collectivités devront limiter la hausse de leurs dépenses à l'inflation.\n\nUn débat parlementaire tendu, à quelques mois de la présidentielle, et qui motive aussi la grève intersyndicale du 5 novembre.",
+    "hashtags": ["budget", "politique", "economie", "finances", "actu"]
+  }
+}

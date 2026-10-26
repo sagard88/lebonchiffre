@@ -1,0 +1,89 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Microduck",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "399 $",
+      "phrase": "le prix du robot-canard star de la conférence Nvidia.",
+      "contexte": "Et il est né à Bordeaux.",
+      "image": "officiel/microduck-closeup.jpg",
+      "credit": "Photo : Pollen Robotics",
+      "source": "Pollen Robotics"
+    },
+    {
+      "type": "liste",
+      "etiquette": "La fiche",
+      "titre": "Petit, mais bourré de technologie.",
+      "lignes": [
+        {
+          "gauche": "25 cm",
+          "droite": "de haut"
+        },
+        {
+          "gauche": "800 g",
+          "droite": "à peine, batterie comprise"
+        },
+        {
+          "gauche": "15",
+          "droite": "moteurs, du cou aux pattes",
+          "fort": true
+        },
+        {
+          "gauche": "1 h",
+          "droite": "d'autonomie environ"
+        }
+      ],
+      "source": "Pollen Robotics"
+    },
+    {
+      "type": "image",
+      "etiquette": "Comment il apprend",
+      "image": "officiel/microduck-kickabout.jpg",
+      "credit": "Photo : Pollen Robotics",
+      "titre": "Il apprend à marcher tout seul.",
+      "texte": "Il s'entraîne d'abord dans un monde virtuel, puis applique ce qu'il a appris.\nSon logiciel est libre : chacun peut lui enseigner de nouveaux tours.",
+      "source": "Pollen Robotics"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Derrière le canard",
+      "titre": "Une histoire française.",
+      "chiffres": [
+        {
+          "valeur": "2016",
+          "texte": "Pollen Robotics est fondée à Bordeaux par d'anciens chercheurs de l'Inria."
+        },
+        {
+          "valeur": "2025",
+          "texte": "La start-up rejoint Hugging Face, la plateforme d'IA cofondée par des Français."
+        },
+        {
+          "valeur": "12,93 Mds $",
+          "texte": "Le prix auquel Nvidia a accepté de racheter Hugging Face en septembre."
+        }
+      ],
+      "source": "Pollen Robotics, Euronews"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Pollen Robotics, kit presse du Microduck",
+        "Nvidia, conférence GTC Berlin, 21 octobre 2026",
+        "Euronews, 3 septembre 2026 (rachat de Hugging Face)"
+      ],
+      "question": "Vous en voudriez un sur votre bureau ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Sur la scène du GTC Berlin, le 21 octobre, Jensen Huang, le patron de Nvidia, a fait marcher plusieurs Microduck : des robots-canards de 25 cm et moins de 800 g, équipés d'une caméra, d'un LiDAR et de 15 moteurs.\n\nDerrière ce petit robot, il y a Pollen Robotics, une start-up fondée à Bordeaux en 2016 par d'anciens chercheurs de l'Inria, passée chez Hugging Face en 2025. Le Microduck apprend ses mouvements dans un monde virtuel avant de poser une patte au sol, et son logiciel est libre : chacun peut lui enseigner de nouveaux tours.\n\nIl est en précommande à 399 $ hors taxes et livraison, avec des premières livraisons visées avant Noël en Amérique du Nord et en Europe.",
+    "hashtags": [
+      "robotique",
+      "microduck",
+      "nvidia",
+      "frenchtech",
+      "actu"
+    ]
+  }
+}

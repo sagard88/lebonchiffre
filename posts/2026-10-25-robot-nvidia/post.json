@@ -1,0 +1,90 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Robotique",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "71",
+      "phrase": "axes de mouvement pour le nouveau robot de Nvidia.",
+      "contexte": "Dont 40 rien que pour ses deux mains.",
+      "image": "robot.jpg",
+      "ia": true,
+      "credit": "Image IA, pas le vrai robot",
+      "source": "Nvidia"
+    },
+    {
+      "type": "liste",
+      "etiquette": "La fiche",
+      "titre": "Agile ONE SN.\nPrésenté le 21 octobre à Berlin.",
+      "lignes": [
+        {
+          "gauche": "1,40 m",
+          "droite": "de haut, la taille d'un enfant"
+        },
+        {
+          "gauche": "40 kg",
+          "droite": "sur la balance"
+        },
+        {
+          "gauche": "3 kg",
+          "droite": "de charge par bras"
+        },
+        {
+          "gauche": "2 070",
+          "droite": "téraflops de calcul embarqué",
+          "fort": true
+        }
+      ],
+      "source": "Nvidia"
+    },
+    {
+      "type": "image",
+      "etiquette": "Les mains",
+      "image": "main.jpg",
+      "ia": true,
+      "credit": "Image IA d'illustration, pas la vraie main du robot",
+      "titre": "Des mains presque humaines.",
+      "texte": "Cinq doigts et 20 axes de mouvement par main.\nLa force est ajustée mille fois par seconde, pour saisir sans écraser.",
+      "source": "Nvidia"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Et maintenant ?",
+      "chiffres": [
+        {
+          "valeur": "Début 2027",
+          "texte": "Les premières livraisons, d'abord pour les laboratoires de recherche."
+        },
+        {
+          "valeur": "1 000 à 2 000",
+          "texte": "Robots compacts qu'Agile Robots prévoit de fabriquer l'an prochain."
+        },
+        {
+          "valeur": "Quelques jours",
+          "texte": "Le temps de mise en route annoncé, contre plusieurs semaines avant."
+        }
+      ],
+      "source": "Nvidia, Agile Robots",
+      "etiquette": "La suite"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Nvidia, communiqué du 21 octobre 2026 (GTC Berlin)",
+        "KultureGeek, 21 octobre 2026"
+      ],
+      "question": "Vous laisseriez un robot travailler à côté de vous ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Nvidia a présenté le 21 octobre à Berlin l'Agile ONE SN, un robot humanoïde conçu avec l'allemand Agile Robots. 1,40 m, 40 kg, et des mains à cinq doigts qui concentrent 40 de ses 71 axes de mouvement. Il est attendu début 2027, d'abord dans les laboratoires de recherche.",
+    "hashtags": [
+      "robotique",
+      "nvidia",
+      "ia",
+      "tech",
+      "actu"
+    ]
+  }
+}

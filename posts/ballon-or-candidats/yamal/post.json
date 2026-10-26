@@ -1,0 +1,77 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Ballon d'Or",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "19 ans",
+      "phrase": "pour Lamine Yamal, plus jeune Ballon d'Or de l'histoire.",
+      "contexte": "Lundi 26 octobre, à Londres : champion du monde en juillet.",
+      "image": "yamal.jpg",
+      "credit": "Photo : Bryan Berlin",
+      "source": "France Football"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Sa saison",
+      "titre": "Une saison en or.",
+      "chiffres": [
+        {
+          "valeur": "45",
+          "texte": "Buts et passes décisives en club et en sélection (25 buts, 20 passes)."
+        },
+        {
+          "valeur": "3",
+          "texte": "Titres : Liga et Supercoupe avec le Barça, Coupe du monde avec l'Espagne."
+        },
+        {
+          "valeur": "265",
+          "texte": "Dribbles réussis, le record des cinq grands championnats européens."
+        }
+      ],
+      "source": "Sky Sports, France 24"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Le podium",
+      "titre": "Les trois finalistes.",
+      "lignes": [
+        {
+          "gauche": "1er",
+          "droite": "Lamine Yamal (FC Barcelone, Espagne)",
+          "fort": true
+        },
+        {
+          "gauche": "2e",
+          "droite": "à compléter"
+        },
+        {
+          "gauche": "3e",
+          "droite": "à compléter"
+        }
+      ],
+      "source": "France Football"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "France Football, cérémonie du 26 octobre 2026",
+        "Sky Sports, statistiques 2025-2026",
+        "France 24, 26 octobre 2026",
+        "Photo : Bryan Berlin, CC BY-SA 4.0, Wikimedia Commons"
+      ],
+      "question": "Yamal méritait-il le Ballon d'Or ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Lamine Yamal remporte le Ballon d'Or 2026, lundi 26 octobre au London Palladium. À 19 ans, l'ailier du FC Barcelone devient le plus jeune lauréat de l'histoire, un record détenu jusqu'ici par le Brésilien Ronaldo, sacré à 21 ans en 1997.\n\nSa saison : champion du monde avec l'Espagne en juillet, champion d'Espagne avec le Barça, 25 buts et 20 passes décisives, malgré une blessure à la cuisse au printemps.\n\nUne 70e cérémonie organisée pour la première fois hors de France, à Londres.",
+    "hashtags": [
+      "ballondor",
+      "lamineyamal",
+      "football",
+      "barca",
+      "actu"
+    ]
+  }
+}

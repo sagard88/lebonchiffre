@@ -1,0 +1,75 @@
+{
+  "accent": "jaune",
+  "rubrique": "Code noir",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "341 ans",
+      "phrase": "après sa création, le Code noir est enfin abrogé.",
+      "contexte": "Mardi 20 octobre : vote définitif au Sénat.",
+      "image": "officiel/code-noir-1735.png",
+      "credit": "Domaine public",
+      "source": "Sénat"
+    },
+    {
+      "type": "liste",
+      "etiquette": "L'histoire",
+      "titre": "Un texte resté dans le droit\npendant 178 ans après l'abolition.",
+      "lignes": [
+        {
+          "gauche": "1685",
+          "droite": "Louis XIV signe l'édit sur l'esclavage"
+        },
+        {
+          "gauche": "1848",
+          "droite": "abolition : le texte devient caduc"
+        },
+        {
+          "gauche": "Mai 2026",
+          "droite": "les députés votent son abrogation"
+        },
+        {
+          "gauche": "Oct. 2026",
+          "droite": "le Sénat l'abroge définitivement",
+          "fort": true
+        }
+      ],
+      "source": "Club des juristes, LCP"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Le vote",
+      "titre": "Une unanimité rare.",
+      "chiffres": [
+        {
+          "valeur": "320 – 0",
+          "texte": "Au Sénat, le 20 octobre : 320 voix pour, aucune contre."
+        },
+        {
+          "valeur": "254 – 0",
+          "texte": "À l'Assemblée nationale, le 28 mai : tous les députés présents ont voté pour."
+        }
+      ],
+      "source": "Sénat, LCP"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Sénat, scrutin du 20 octobre 2026 (via Le Soleil)",
+        "LCP, vote de l'Assemblée du 28 mai 2026",
+        "Le Club des juristes, « Abrogation symbolique du Code noir »"
+      ],
+      "question": "Saviez-vous que ce texte n'avait jamais été abrogé ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Mardi 20 octobre, le Sénat a définitivement abrogé le Code noir, par 320 voix pour et aucune contre. Les députés l'avaient déjà voté à l'unanimité le 28 mai, sur une proposition du député guadeloupéen Max Mathiasin.\n\nSigné sous Louis XIV en 1685, ce texte encadrait l'esclavage dans les colonies françaises. Il était devenu caduc avec l'abolition de 1848, mais n'avait jamais été formellement retiré du droit français.\n\nUne abrogation surtout symbolique, 341 ans après sa création et 178 ans après l'abolition de l'esclavage.",
+    "hashtags": [
+      "codenoir",
+      "histoire",
+      "esclavage",
+      "senat",
+      "actu"
+    ]
+  }
+}

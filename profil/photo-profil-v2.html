@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../gabarit/polices/polices.css">
+<style>
+  html, body { margin: 0; background: #0B0B0C; }
+  .pic { width: 1080px; height: 1080px; background: #0B0B0C; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; color: #F5F5F2; position: relative; }
+  .l1 { font-family: Inter, sans-serif; font-weight: 800; font-size: 158px; letter-spacing: 0.04em; line-height: 1; margin-top: 30px; }
+  .l2 { font-family: Anton, sans-serif; font-size: 300px; line-height: 1; color: #FFD60A; margin-top: 4px; }
+  .trait { width: 180px; height: 24px; background: #F5F5F2; margin-top: 26px; }
+  /* Aperçu du cercle Instagram, seulement avec ?cercle */
+  .cercle .pic::after { content: ''; position: absolute; inset: 0; border-radius: 50%; box-shadow: 0 0 0 600px rgba(255,0,0,0.35); }
+</style>
+</head>
+<body>
+<div class="pic"><div class="l1">LE BON</div><div class="l2">CHIFFRE</div><div class="trait"></div></div>
+<script>if (location.search.includes('cercle')) document.body.classList.add('cercle');</script>
+</body>
+</html>

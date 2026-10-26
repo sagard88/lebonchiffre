@@ -1,0 +1,79 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Alimentation",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "+9,5 %",
+      "phrase": "pour les prix des produits frais en un an.",
+      "contexte": "En septembre, selon l'Insee.",
+      "image": "marche.jpg",
+      "ia": true,
+      "credit": "Image IA",
+      "source": "Insee"
+    },
+    {
+      "type": "graphique",
+      "titre": "Ça s'accélère.",
+      "unite": "Hausse des prix des produits frais sur un an, en %",
+      "barres": [
+        {
+          "label": "Juillet",
+          "valeur": 3.8,
+          "affiche": "3,8"
+        },
+        {
+          "label": "Août",
+          "valeur": 5.9,
+          "affiche": "5,9"
+        },
+        {
+          "label": "Septembre",
+          "valeur": 9.5,
+          "affiche": "9,5",
+          "jour": true
+        }
+      ],
+      "source": "Insee"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "En perspective",
+      "titre": "Dans le reste du caddie.",
+      "chiffres": [
+        {
+          "valeur": "+1,4 %",
+          "texte": "L'ensemble de l'alimentation en un an : les produits frais tirent la hausse."
+        },
+        {
+          "valeur": "3,1 %",
+          "texte": "L'inflation générale en septembre, tirée surtout par l'énergie."
+        },
+        {
+          "valeur": "15 %",
+          "texte": "La part de l'alimentation dans le budget moyen suivi par l'Insee."
+        }
+      ],
+      "source": "Insee, Selectra"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Insee, Informations rapides n° 247, 15 octobre 2026",
+        "Selectra, panier Insee 2026"
+      ],
+      "question": "Vous avez changé vos habitudes de courses ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Fruits, légumes, poissons frais : les prix des produits frais ont bondi de 9,5 % en un an en septembre, selon l'Insee. La hausse s'accélère : +3,8 % en juillet, +5,9 % en août.\n\nL'alimentation dans son ensemble reste plus sage (+1,4 % sur un an), et l'inflation générale atteint 3,1 %, surtout à cause de l'énergie. L'alimentation représente environ 15 % du budget moyen suivi par l'Insee.\n\nL'Insee publie ce vendredi sa première estimation de l'inflation d'octobre : on saura vite si la tendance se confirme.",
+    "hashtags": [
+      "inflation",
+      "courses",
+      "alimentation",
+      "pouvoirdachat",
+      "actu"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+# Veille des tendances toutes les 30 minutes (sans Claude). Sujet brûlant : Claude prépare et publie un post.
+name: Veille
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+concurrency:
+  group: lebonchiffre
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Veille
+        id: veille
+        run: |
+          set +e
+          node gabarit/veille.js
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Post brûlant (Claude)
+        if: steps.veille.outputs.code == '10' && hashFiles('PAUSE') == ''
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: bash gabarit/ci-claude.sh brulant
+      - name: Enregistrer
+        if: always()
+        run: bash gabarit/ci-commit.sh "Veille du $(TZ=Europe/Paris date '+%d/%m %H:%M')"

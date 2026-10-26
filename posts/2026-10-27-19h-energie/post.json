@@ -1,0 +1,84 @@
+{
+  "accent": "rouge",
+  "rubrique": "Énergie",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "+21,3 %",
+      "phrase": "de hausse des prix de l'énergie en un an.",
+      "contexte": "Près de 7 fois l'inflation.",
+      "image": "couverture.jpg",
+      "ia": true,
+      "source": "Insee"
+    },
+    {
+      "type": "graphique",
+      "titre": "Et ça accélère.",
+      "unite": "Hausse des prix de l'énergie sur un an, en %",
+      "barres": [
+        {
+          "label": "Juillet",
+          "valeur": 12.6,
+          "affiche": "12,6"
+        },
+        {
+          "label": "Août",
+          "valeur": 16.7,
+          "affiche": "16,7"
+        },
+        {
+          "label": "Septembre",
+          "valeur": 21.3,
+          "affiche": "21,3",
+          "jour": true
+        }
+      ],
+      "source": "Insee"
+    },
+    {
+      "type": "image",
+      "image": "pompe.jpg",
+      "ia": true,
+      "titre": "Le plein et le chauffage tirent tout.",
+      "texte": "Carburants et fioul : +36,2 % en un an.\nGaz : +19 %.\nL'électricité, elle, bouge à peine : +1,4 %.",
+      "source": "Insee, septembre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Petit poste, gros effet.",
+      "chiffres": [
+        {
+          "valeur": "7,6 %",
+          "texte": "La part de l'énergie dans le budget moyen suivi par l'Insee."
+        },
+        {
+          "valeur": "Plus de 50 %",
+          "texte": "La part de l'inflation qui vient de l'énergie, malgré ce petit poids."
+        },
+        {
+          "valeur": "−0,3 %",
+          "texte": "Les produits manufacturés, seul grand poste dont les prix baissent."
+        }
+      ],
+      "source": "Insee, calcul Le Bon Chiffre",
+      "etiquette": "Décryptage"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Insee, Informations rapides n° 247, 15 octobre 2026 : prix à la consommation de septembre",
+        "JeChange, 30 septembre 2026 (évolution de juillet)"
+      ],
+      "question": "Vous l'avez senti sur vos factures ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "En septembre, l'énergie coûte 21,3 % plus cher qu'il y a un an, selon l'Insee. C'est presque sept fois l'inflation générale, mesurée à 3,1 %.\n\nCe sont les carburants et le fioul qui flambent (+36,2 % en un an), suivis du gaz (+19 %). L'électricité, elle, bouge à peine (+1,4 %).\n\nL'énergie ne pèse que 7,6 % du budget moyen des ménages, mais elle explique à elle seule plus de la moitié de l'inflation. Prochains chiffres, ceux d'octobre, le 30 octobre.",
+    "hashtags": [
+      "economie",
+      "inflation",
+      "energie",
+      "actu"
+    ]
+  }
+}

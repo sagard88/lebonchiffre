@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Piste A · 4 Sources et rendez-vous</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFD60A}a:hover{color:#ffe55c}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; display: flex; flex-direction: column; justify-content: space-between; background: #0B0B0C; color: #F5F5F2; font-family: Inter, sans-serif;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="font-size: 30px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;">Le Bon Chiffre</div>
+<div style="font-size: 26px; font-weight: 600; color: #0B0B0C; background: {{accent}}; padding: 10px 20px;">SOURCES</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 28px; border: 2px solid #2A2A2C; padding: 48px;">
+<div style="font-size: 30px; font-weight: 600; letter-spacing: 0.06em; color: #8E8E88;">VÉRIFIÉ AVEC</div>
+<div style="font-size: 36px; line-height: 1.4;">ONU, communiqué du 15 novembre 2022 : « Journée des 8 milliards »</div>
+<div style="font-size: 36px; line-height: 1.4;">ONU, World Population Prospects 2024</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 32px;">
+<div style="font-family: Anton, sans-serif; font-size: 150px; line-height: 0.95; color: {{accent}};">Demain,<br>un autre chiffre.</div>
+<div style="font-size: 40px; font-weight: 600; line-height: 1.35;">Vous l'auriez deviné ?<br>Dites-le en commentaire.</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; font-size: 26px; color: #8E8E88;">
+<div>Abonnez-vous · Enregistrez ce post</div>
+<div style="font-weight: 600; color: #F5F5F2;">4 / 4</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FFD60A","options":["#FFD60A","#FF5A36","#3DDC97","#5AA9FF"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#FFD60A' };
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+399 $ le prix du robot-canard star de la conférence Nvidia.
+
+Sur la scène du GTC Berlin, le 21 octobre, Jensen Huang, le patron de Nvidia, a fait marcher plusieurs Microduck : des robots-canards de 25 cm et moins de 800 g, équipés d'une caméra, d'un LiDAR et de 15 moteurs.
+
+Derrière ce petit robot, il y a Pollen Robotics, une start-up fondée à Bordeaux en 2016 par d'anciens chercheurs de l'Inria, passée chez Hugging Face en 2025. Le Microduck apprend ses mouvements dans un monde virtuel avant de poser une patte au sol, et son logiciel est libre : chacun peut lui enseigner de nouveaux tours.
+
+Il est en précommande à 399 $ hors taxes et livraison, avec des premières livraisons visées avant Noël en Amérique du Nord et en Europe.
+
+Vous en voudriez un sur votre bureau ? Dites-le en commentaire.
+
+Sources : Pollen Robotics, kit presse du Microduck ; Nvidia, conférence GTC Berlin, 21 octobre 2026 ; Euronews, 3 septembre 2026 (rachat de Hugging Face)
+
+#robotique #microduck #nvidia #frenchtech #actu

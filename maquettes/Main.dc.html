@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Piste A · Choc</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFD60A}a:hover{color:#ffe55c}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; display: flex; flex-direction: column; justify-content: space-between; background: #0B0B0C; color: #F5F5F2; font-family: Inter, sans-serif;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="font-size: 30px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;">Le Bon Chiffre</div>
+<div style="font-size: 26px; font-weight: 600; color: #0B0B0C; background: {{accent}}; padding: 10px 20px;">MONDE</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 32px;">
+<div style="font-family: Anton, sans-serif; font-size: 400px; line-height: 0.9; color: {{accent}}; letter-spacing: -0.01em;">8 Mds</div>
+<div style="width: 140px; height: 12px; background: #F5F5F2;"></div>
+<div style="font-size: 64px; font-weight: 800; line-height: 1.1; max-width: 860px;">d'êtres humains sur Terre.</div>
+<div style="font-size: 36px; font-weight: 400; line-height: 1.35; color: #B8B8B2; max-width: 860px;">Le cap a été franchi le 15 novembre 2022, selon l'ONU.</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; font-size: 26px; color: #8E8E88;">
+<div>Source : ONU</div>
+<div style="font-weight: 600; color: #F5F5F2;">Glissez pour comprendre →</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FFD60A","options":["#FFD60A","#FF5A36","#3DDC97","#5AA9FF"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#FFD60A' };
+}
+}
+</script>
+</body>
+</html>

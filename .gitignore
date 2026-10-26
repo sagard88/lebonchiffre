@@ -1,0 +1,5 @@
+.env
+node_modules/
+journal/veille.json
+posts/*/images/*.png
+posts/ballon-or-candidats/*-?.jpg

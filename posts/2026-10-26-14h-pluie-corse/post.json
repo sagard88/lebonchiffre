@@ -1,0 +1,49 @@
+{
+  "accent": "bleu",
+  "rubrique": "Météo",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "538,5 mm",
+      "phrase": "de pluie en 6 heures à Solenzara, en Corse.",
+      "contexte": "Mardi 20 octobre : un record de France.",
+      "source": "Météo-France"
+    },
+    {
+      "type": "graphique",
+      "sens": "horizontal",
+      "titre": "Records en série.",
+      "unite": "Pluie tombée à Solenzara le 20 octobre, en millimètres",
+      "barres": [
+        { "label": "En 1 heure", "valeur": 196.2, "affiche": "196,2" },
+        { "label": "En 3 heures", "valeur": 420.6, "affiche": "420,6" },
+        { "label": "En 6 heures", "valeur": 538.5, "affiche": "538,5", "jour": true },
+        { "label": "Ancien record 6 h", "valeur": 525.5, "affiche": "525,5" }
+      ],
+      "source": "Météo-France"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Pour comparer",
+      "titre": "Ce que ça représente.",
+      "chiffres": [
+        { "valeur": "538 litres", "texte": "D'eau tombés sur chaque mètre carré, en une demi-journée à peine." },
+        { "valeur": "640,5 mm", "texte": "Le total de l'épisode pluvieux à Solenzara, selon Météo-France." },
+        { "valeur": "2020", "texte": "L'ancien record sur 6 heures, à Valleraugue, dans le Gard : 525,5 mm." }
+      ],
+      "source": "Météo-France, Corse Net Infos"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Météo-France, épisode méditerranéen du 20 octobre 2026",
+        "Corse Net Infos, 20 octobre 2026"
+      ],
+      "question": "Vous avez déjà vécu un orage aussi violent ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Mardi 20 octobre, la station Météo-France de Solenzara, en Haute-Corse, a enregistré 538,5 mm de pluie en six heures. Une valeur jamais vue en France pour cette durée : l'ancien record, 525,5 mm, datait de septembre 2020 à Valleraugue, dans le Gard.\n\nLes records sont tombés en cascade : 196,2 mm en une heure, 420,6 mm en trois heures, et 640,5 mm sur l'ensemble de l'épisode. Un millimètre de pluie, c'est un litre d'eau par mètre carré : plus de 500 litres sont donc tombés sur chaque mètre carré en une demi-journée.\n\nLa Haute-Corse avait été placée en vigilance rouge pluie-inondation.",
+    "hashtags": ["corse", "meteo", "record", "pluie", "actu"]
+  }
+}

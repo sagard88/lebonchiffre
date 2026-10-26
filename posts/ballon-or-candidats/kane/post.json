@@ -1,0 +1,77 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Ballon d'Or",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "73 buts",
+      "phrase": "en une saison pour Harry Kane, Ballon d'Or 2026.",
+      "contexte": "Lundi 26 octobre, à Londres : premier Anglais sacré depuis 2001.",
+      "image": "kane.jpg",
+      "credit": "Photo : Bryan Berlin",
+      "source": "France Football"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Sa saison",
+      "titre": "Une saison record.",
+      "chiffres": [
+        {
+          "valeur": "73",
+          "texte": "Buts en club et en sélection, dont 61 avec le Bayern Munich."
+        },
+        {
+          "valeur": "3",
+          "texte": "Titres avec le Bayern : Bundesliga, Coupe d'Allemagne et Supercoupe."
+        },
+        {
+          "valeur": "3e",
+          "texte": "Place de l'Angleterre au Mondial 2026, après une victoire contre la France."
+        }
+      ],
+      "source": "Sky Sports, France 24"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Le podium",
+      "titre": "Les trois finalistes.",
+      "lignes": [
+        {
+          "gauche": "1er",
+          "droite": "Harry Kane (Bayern, Angleterre)",
+          "fort": true
+        },
+        {
+          "gauche": "2e",
+          "droite": "à compléter"
+        },
+        {
+          "gauche": "3e",
+          "droite": "à compléter"
+        }
+      ],
+      "source": "France Football"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "France Football, cérémonie du 26 octobre 2026",
+        "Sky Sports, statistiques 2025-2026",
+        "France 24, 26 octobre 2026",
+        "Photo : Bryan Berlin, CC BY-SA 4.0, Wikimedia Commons"
+      ],
+      "question": "Kane méritait-il le Ballon d'Or ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Harry Kane remporte le Ballon d'Or 2026, lundi 26 octobre au London Palladium. L'attaquant du Bayern Munich devient le premier Anglais sacré depuis Michael Owen en 2001, au terme d'une saison à 73 buts en club et en sélection.\n\nAvec le Bayern, il a remporté la Bundesliga, la Coupe et la Supercoupe d'Allemagne. Au Mondial 2026, il a marqué six buts et mené l'Angleterre jusqu'à la troisième place.\n\nUne 70e cérémonie organisée pour la première fois hors de France, à Londres.",
+    "hashtags": [
+      "ballondor",
+      "harrykane",
+      "football",
+      "bayern",
+      "actu"
+    ]
+  }
+}

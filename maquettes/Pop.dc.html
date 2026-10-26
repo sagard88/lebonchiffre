@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Piste C · Pop illustré</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFFFFF}a:hover{color:#FFE14D}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; display: flex; flex-direction: column; background: {{ground}}; color: #FFFFFF; font-family: 'Space Grotesk', sans-serif;">
+<div style="height: 660px; margin: 48px 48px 0; border-radius: 40px; background: #FFE14D; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; color: #1A1A2E;">
+<svg aria-hidden="true" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#1A1A2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"></rect><circle cx="9" cy="9" r="2"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+<div style="font-size: 36px; font-weight: 700;">[Illustration Gemini]</div>
+<div style="font-size: 26px; font-weight: 500; text-align: center; max-width: 640px;">Style fixe : aplats, contours épais, 3 couleurs de la palette, sans texte</div>
+</div>
+<div style="flex-grow: 1; box-sizing: border-box; padding: 40px 80px 64px; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="display: flex; align-items: flex-end; gap: 32px;">
+<div style="font-size: 300px; font-weight: 700; line-height: 0.8; letter-spacing: -0.05em;">27</div>
+<div style="font-size: 58px; font-weight: 700; line-height: 1.05; padding-bottom: 10px;">pays dans l'Union européenne.</div>
+</div>
+<div style="font-size: 34px; font-weight: 500; line-height: 1.35; max-width: 900px;">Depuis le départ du Royaume-Uni, le 31 janvier 2020.</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 26px; font-weight: 500;">
+<div style="font-weight: 700;">Le Bon Chiffre</div>
+<div>Source : UE · Glissez →</div>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"ground":{"editor":"color","default":"#2337E6","options":["#2337E6","#E6462E","#0F8A5F","#1A1A2E"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { ground: this.props.ground ?? '#2337E6' };
+}
+}
+</script>
+</body>
+</html>

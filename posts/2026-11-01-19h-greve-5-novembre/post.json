@@ -1,0 +1,50 @@
+{
+  "accent": "rouge",
+  "rubrique": "Grève du 5 novembre",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "211 Mds",
+      "phrase": "d'euros d'aides publiques aux entreprises en 2023.",
+      "contexte": "Les syndicats en grève ce jeudi 5 novembre veulent les réexaminer.",
+      "source": "Sénat"
+    },
+    {
+      "type": "graphique",
+      "sens": "horizontal",
+      "titre": "D'où viennent les 211 milliards.",
+      "unite": "Aides publiques aux entreprises en 2023, en milliards d'euros",
+      "barres": [
+        { "label": "Avantages fiscaux", "valeur": 88, "affiche": "88", "jour": true },
+        { "label": "Baisses de cotisations", "valeur": 75, "affiche": "75" },
+        { "label": "Bpifrance", "valeur": 41, "affiche": "41" },
+        { "label": "Subventions de l'État", "valeur": 7, "affiche": "7" }
+      ],
+      "source": "Commission d'enquête du Sénat"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Jeudi 5 novembre",
+      "titre": "La journée de grève.",
+      "lignes": [
+        { "gauche": "5", "droite": "syndicats : CFDT, CGT, FO, Unsa, FSU", "fort": true },
+        { "gauche": "54 Mds €", "droite": "d'économies du budget 2027 contestées" },
+        { "gauche": "Public", "droite": "et privé, retraités et jeunes appelés" }
+      ],
+      "source": "Économie Matin, Pixidia"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Commission d'enquête du Sénat, juillet 2025 (via Public Sénat)",
+        "Économie Matin, grève du 5 novembre",
+        "Pixidia, 13 octobre 2026"
+      ],
+      "question": "Vous serez en grève jeudi ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Ce jeudi 5 novembre, cinq syndicats (CFDT, CGT, FO, Unsa, FSU) appellent à une journée de grève et de manifestations, dans le public comme dans le privé. Ils contestent les 54 milliards d'euros d'économies du budget 2027 et réclament des hausses de salaires.\n\nParmi leurs revendications : réexaminer les aides publiques aux entreprises. Une commission d'enquête du Sénat les avait évaluées à au moins 211 milliards d'euros en 2023 : 88 milliards d'avantages fiscaux, 75 milliards de baisses de cotisations, 41 milliards de Bpifrance et 7 milliards de subventions.\n\nLa commission reconnaissait elle-même qu'il n'existe pas de définition officielle d'une « aide publique », d'où des estimations très variables selon le périmètre.",
+    "hashtags": ["greve", "5novembre", "syndicats", "budget", "actu"]
+  }
+}

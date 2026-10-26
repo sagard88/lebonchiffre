@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Piste A · 2 Le contexte</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFD60A}a:hover{color:#ffe55c}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; display: flex; flex-direction: column; justify-content: space-between; background: #0B0B0C; color: #F5F5F2; font-family: Inter, sans-serif;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="font-size: 30px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;">Le Bon Chiffre</div>
+<div style="font-size: 26px; font-weight: 600; color: #0B0B0C; background: {{accent}}; padding: 10px 20px;">LE CONTEXTE</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 48px;">
+<div style="font-size: 64px; font-weight: 800; line-height: 1.1;">Il a fallu des millénaires pour le 1er milliard.<br>Puis 11 ans pour le dernier.</div>
+<div style="display: flex; flex-direction: column; gap: 14px;">
+<div style="display: flex; align-items: baseline; gap: 32px; border-top: 2px solid #2A2A2C; padding-top: 14px;"><div style="font-family: Anton, sans-serif; font-size: 64px; width: 200px;">1804</div><div style="font-size: 38px; color: #B8B8B2;">1 milliard</div></div>
+<div style="display: flex; align-items: baseline; gap: 32px; border-top: 2px solid #2A2A2C; padding-top: 14px;"><div style="font-family: Anton, sans-serif; font-size: 64px; width: 200px;">1927</div><div style="font-size: 38px; color: #B8B8B2;">2 milliards</div></div>
+<div style="display: flex; align-items: baseline; gap: 32px; border-top: 2px solid #2A2A2C; padding-top: 14px;"><div style="font-family: Anton, sans-serif; font-size: 64px; width: 200px;">1974</div><div style="font-size: 38px; color: #B8B8B2;">4 milliards</div></div>
+<div style="display: flex; align-items: baseline; gap: 32px; border-top: 2px solid #2A2A2C; padding-top: 14px;"><div style="font-family: Anton, sans-serif; font-size: 64px; width: 200px;">2011</div><div style="font-size: 38px; color: #B8B8B2;">7 milliards</div></div>
+<div style="display: flex; align-items: baseline; gap: 32px; border-top: 2px solid #2A2A2C; padding-top: 14px;"><div style="font-family: Anton, sans-serif; font-size: 64px; width: 200px; color: {{accent}};">2022</div><div style="font-size: 38px; font-weight: 600; color: {{accent}};">8 milliards</div></div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; font-size: 26px; color: #8E8E88;">
+<div>Source : ONU</div>
+<div style="font-weight: 600; color: #F5F5F2;">2 / 4</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FFD60A","options":["#FFD60A","#FF5A36","#3DDC97","#5AA9FF"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#FFD60A' };
+}
+}
+</script>
+</body>
+</html>

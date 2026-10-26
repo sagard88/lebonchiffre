@@ -1,0 +1,14 @@
+1 400 failles corrigées par Microsoft en un seul mois.
+
+Le 13 octobre, Microsoft a corrigé plus de 1 400 failles de sécurité dans sa mise à jour mensuelle, le « Patch Tuesday ». Un record absolu, après celui de septembre (995), alors qu'on en comptait 54 en février et 163 en avril.
+
+Windows concentre plus de 1 100 de ces failles, et 69 sont jugées critiques. L'une d'elles, qui permet de contourner un avertissement de sécurité de Windows, était déjà exploitée par des pirates avant le correctif.
+
+Selon les spécialistes, cette avalanche s'explique surtout par l'IA, qui aide Microsoft et les chercheurs à passer le code au crible. Windows n'est pas devenu plus fragile : les failles sont mieux repérées. Le bon réflexe reste le même : installer la mise à jour.
+
+Vous faites vos mises à jour tout de suite, ou vous repoussez ? Dites-le en commentaire.
+
+Sources : Tenable, Patch Tuesday d'octobre 2026 (1 407 failles) ; BleepingComputer et Rapid7 (1 411 et 1 413 failles) ; BlogNT, 14 octobre 2026
+Illustration générée par IA
+
+#cybersecurite #microsoft #windows #tech #actu

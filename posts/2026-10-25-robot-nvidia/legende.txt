@@ -1,0 +1,10 @@
+71 axes de mouvement pour le nouveau robot de Nvidia.
+
+Nvidia a présenté le 21 octobre à Berlin l'Agile ONE SN, un robot humanoïde conçu avec l'allemand Agile Robots. 1,40 m, 40 kg, et des mains à cinq doigts qui concentrent 40 de ses 71 axes de mouvement. Il est attendu début 2027, d'abord dans les laboratoires de recherche.
+
+Vous laisseriez un robot travailler à côté de vous ? Dites-le en commentaire.
+
+Sources : Nvidia, communiqué du 21 octobre 2026 (GTC Berlin) ; KultureGeek, 21 octobre 2026
+Illustration générée par IA
+
+#robotique #nvidia #ia #tech #actu

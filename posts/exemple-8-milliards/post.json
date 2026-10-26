@@ -1,0 +1,61 @@
+{
+  "accent": "jaune",
+  "rubrique": "Monde",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "8 Mds",
+      "phrase": "d'êtres humains sur Terre.",
+      "contexte": "Le cap a été franchi le 15 novembre 2022, selon l'ONU.",
+      "source": "ONU"
+    },
+    {
+      "type": "liste",
+      "titre": "Il a fallu des millénaires pour le 1er milliard.\nPuis 11 ans pour le dernier.",
+      "lignes": [
+        { "gauche": "1804", "droite": "1 milliard" },
+        { "gauche": "1927", "droite": "2 milliards" },
+        { "gauche": "1974", "droite": "4 milliards" },
+        { "gauche": "2011", "droite": "7 milliards" },
+        { "gauche": "2022", "droite": "8 milliards", "fort": true }
+      ],
+      "source": "ONU"
+    },
+    {
+      "type": "graphique",
+      "titre": "Population mondiale",
+      "unite": "En milliards d'habitants",
+      "barres": [
+        { "label": "1950", "valeur": 2.5, "affiche": "2,5" },
+        { "label": "1975", "valeur": 4.1, "affiche": "4,1" },
+        { "label": "2000", "valeur": 6.1, "affiche": "6,1" },
+        { "label": "2022", "valeur": 8, "affiche": "8", "jour": true },
+        { "label": "2050", "valeur": 9.7, "affiche": "9,7", "projection": true },
+        { "label": "~2085", "valeur": 10.3, "affiche": "10,3", "projection": true }
+      ],
+      "source": "ONU, World Population Prospects 2024"
+    },
+    {
+      "type": "chiffres",
+      "titre": "La croissance ralentit.",
+      "chiffres": [
+        { "valeur": "10,3 Mds", "texte": "Le pic prévu par l'ONU, vers le milieu des années 2080." },
+        { "valeur": "2,2", "texte": "Enfants par femme en moyenne dans le monde, contre environ 5 en 1950." },
+        { "valeur": "2023", "texte": "L'Inde dépasse la Chine et devient le pays le plus peuplé." }
+      ],
+      "source": "ONU, projections 2024"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "ONU, communiqué du 15 novembre 2022 : « Journée des 8 milliards »",
+        "ONU, World Population Prospects 2024"
+      ],
+      "question": "Vous l'auriez deviné ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Il a fallu des millénaires pour atteindre le premier milliard, et seulement 11 ans pour passer de 7 à 8. Mais la croissance ralentit : l'ONU prévoit un pic vers 10,3 milliards dans les années 2080.",
+    "hashtags": ["monde", "actu", "population", "chiffres"]
+  }
+}

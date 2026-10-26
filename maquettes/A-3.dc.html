@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Piste A · 3 Et après ?</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFD60A}a:hover{color:#ffe55c}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px; display: flex; flex-direction: column; justify-content: space-between; background: #0B0B0C; color: #F5F5F2; font-family: Inter, sans-serif;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="font-size: 30px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;">Le Bon Chiffre</div>
+<div style="font-size: 26px; font-weight: 600; color: #0B0B0C; background: {{accent}}; padding: 10px 20px;">ET APRÈS ?</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 56px;">
+<div style="font-size: 64px; font-weight: 800; line-height: 1.1;">La croissance ralentit.</div>
+<div style="display: flex; flex-direction: column; gap: 8px;">
+<div style="font-family: Anton, sans-serif; font-size: 120px; line-height: 1; color: {{accent}};">10,3 Mds</div>
+<div style="font-size: 36px; line-height: 1.35; color: #B8B8B2;">Le pic prévu par l'ONU, vers le milieu des années 2080.</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px;">
+<div style="font-family: Anton, sans-serif; font-size: 120px; line-height: 1; color: {{accent}};">2,2</div>
+<div style="font-size: 36px; line-height: 1.35; color: #B8B8B2;">Enfants par femme en moyenne dans le monde, contre environ 5 en 1950.</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px;">
+<div style="font-family: Anton, sans-serif; font-size: 120px; line-height: 1; color: {{accent}};">2023</div>
+<div style="font-size: 36px; line-height: 1.35; color: #B8B8B2;">L'Inde dépasse la Chine et devient le pays le plus peuplé.</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; font-size: 26px; color: #8E8E88;">
+<div>Source : ONU, projections 2024</div>
+<div style="font-weight: 600; color: #F5F5F2;">3 / 4</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FFD60A","options":["#FFD60A","#FF5A36","#3DDC97","#5AA9FF"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#FFD60A' };
+}
+}
+</script>
+</body>
+</html>

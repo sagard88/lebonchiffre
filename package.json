@@ -1,0 +1,12 @@
+{
+  "name": "le-bon-chiffre",
+  "private": true,
+  "description": "Fabrication des posts Instagram de @lebonchiffre",
+  "scripts": {
+    "fabriquer": "node gabarit/fabriquer.js",
+    "polices": "node gabarit/telecharger-polices.js",
+    "publier": "node gabarit/publier.js",
+    "illustrer": "node gabarit/illustrer.js",
+    "jeton": "node gabarit/jeton.js"
+  }
+}

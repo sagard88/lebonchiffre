@@ -1,0 +1,77 @@
+{
+  "accent": "jaune",
+  "rubrique": "Loyers",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "+1,57 %",
+      "phrase": "la hausse maximale des loyers révisés ce trimestre.",
+      "contexte": "Indice de référence des loyers, publié par l'Insee le 15 octobre.",
+      "image": "cles.jpg",
+      "ia": true,
+      "source": "Insee"
+    },
+    {
+      "type": "graphique",
+      "titre": "Ça remonte.",
+      "unite": "Évolution sur un an de l'indice de référence des loyers, en %",
+      "barres": [
+        {
+          "label": "1er trim.",
+          "valeur": 0.78,
+          "affiche": "0,78"
+        },
+        {
+          "label": "2e trim.",
+          "valeur": 1.15,
+          "affiche": "1,15"
+        },
+        {
+          "label": "3e trim.",
+          "valeur": 1.57,
+          "affiche": "1,57",
+          "jour": true
+        }
+      ],
+      "source": "Insee"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Pour vous",
+      "titre": "Ce que ça change.",
+      "chiffres": [
+        {
+          "valeur": "711 €",
+          "texte": "Un loyer de 700 € peut passer à 711 € à la date de révision prévue au bail."
+        },
+        {
+          "valeur": "1 an",
+          "texte": "Le délai du propriétaire pour réclamer la hausse, sans effet rétroactif."
+        },
+        {
+          "valeur": "F et G",
+          "texte": "Les logements les plus mal isolés ne peuvent pas augmenter leur loyer."
+        }
+      ],
+      "source": "Insee, ImmoJeune"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Insee, indice de référence des loyers du 3e trimestre 2026 (15 octobre)",
+        "ImmoJeune et Tout sur mes finances, octobre 2026"
+      ],
+      "question": "Votre loyer a augmenté cette année ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "L'indice de référence des loyers (IRL) du troisième trimestre, publié par l'Insee le 15 octobre, progresse de 1,57 % sur un an. C'est le plafond de hausse pour les loyers révisés sur cette base, et sa plus forte progression depuis fin 2024.\n\nConcrètement, un loyer de 700 euros peut passer à 711 euros. La révision n'est pas automatique : le propriétaire a un an pour la réclamer, sans effet rétroactif. Et les logements classés F ou G au diagnostic énergétique ne peuvent plus voir leur loyer augmenter.\n\nProchain indice le 15 janvier 2027.",
+    "hashtags": [
+      "loyer",
+      "immobilier",
+      "locataire",
+      "pouvoirdachat",
+      "actu"
+    ]
+  }
+}

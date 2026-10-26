@@ -1,0 +1,77 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Ballon d'Or",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "22 buts",
+      "phrase": "en Coupe du monde pour Kylian Mbappé, Ballon d'Or 2026.",
+      "contexte": "Lundi 26 octobre, à Londres : le record absolu de la compétition.",
+      "image": "mbappe.jpg",
+      "credit": "Photo : Bryan Berlin",
+      "source": "France Football"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Sa saison",
+      "titre": "Une saison record.",
+      "chiffres": [
+        {
+          "valeur": "58",
+          "texte": "Buts en club et en sélection sur la saison 2025-2026."
+        },
+        {
+          "valeur": "10",
+          "texte": "Buts au Mondial 2026 : il termine meilleur buteur du tournoi."
+        },
+        {
+          "valeur": "0",
+          "texte": "Trophée collectif cette saison, avec le Real Madrid comme avec les Bleus."
+        }
+      ],
+      "source": "Sky Sports, France 24"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Le podium",
+      "titre": "Les trois finalistes.",
+      "lignes": [
+        {
+          "gauche": "1er",
+          "droite": "Kylian Mbappé (Real Madrid, France)",
+          "fort": true
+        },
+        {
+          "gauche": "2e",
+          "droite": "à compléter"
+        },
+        {
+          "gauche": "3e",
+          "droite": "à compléter"
+        }
+      ],
+      "source": "France Football"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "France Football, cérémonie du 26 octobre 2026",
+        "Sky Sports, statistiques 2025-2026",
+        "France 24, 26 octobre 2026",
+        "Photo : Bryan Berlin, CC BY-SA 4.0, Wikimedia Commons"
+      ],
+      "question": "Mbappé méritait-il le Ballon d'Or ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Kylian Mbappé remporte le Ballon d'Or 2026, lundi 26 octobre au London Palladium. L'attaquant du Real Madrid succède à Ousmane Dembélé : un deuxième sacre français de suite.\n\nSa saison : 58 buts en club et en sélection, le titre de meilleur buteur de Liga et celui du Mondial 2026 (10 buts). Avec 22 buts, il détient désormais le record absolu en Coupe du monde, même sans trophée collectif cette saison.\n\nUne 70e cérémonie organisée pour la première fois hors de France, à Londres.",
+    "hashtags": [
+      "ballondor",
+      "mbappe",
+      "football",
+      "realmadrid",
+      "actu"
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+# Charte graphique et éditoriale — Le Bon Chiffre
+
+Compte Instagram : **@lebonchiffre** · nom affiché sur les pages : « Le Bon Chiffre » (en majuscules par la mise en page).
+Référence unique pour chaque post. Le pipeline la suit à la lettre.
+Maquettes : https://claude.ai/artifact/327Mc3XWgLFWux4ySyJTLw (piste A).
+
+---
+
+## 1. Le concept
+
+Chaque post part d'un seul chiffre tiré de l'actualité.
+La couverture le montre en très gros, les pages suivantes expliquent d'où il vient et ce qu'il change.
+
+Ton : clair, direct, factuel. Pas d'opinion, pas de dramatisation.
+On explique, on ne commente pas.
+
+---
+
+## 2. Le format
+
+- Carrousel Instagram, images de **1080 × 1350 px** (portrait 4:5).
+- **3 à 6 pages** par post.
+- **Fixes** : la page 1 (couverture) et la dernière (sources et rendez-vous).
+- **Entre les deux, tout varie d'un post à l'autre** : nombre de pages, ordre, et mélange de pages texte, chiffres, graphique ou image.
+  Aucun schéma imposé, on choisit selon ce que le sujet raconte le mieux.
+- À éviter : deux posts d'affilée avec exactement la même suite de pages.
+
+---
+
+## 3. Les couleurs
+
+| Rôle | Couleur |
+|---|---|
+| Fond | `#0B0B0C` |
+| Texte principal | `#F5F5F2` |
+| Texte secondaire (explications) | `#B8B8B2` |
+| Texte discret (sources, crédits, numéros) | `#8E8E88` |
+| Filets et séparateurs | `#2A2A2C` |
+| Barres neutres des graphiques | `#5C5C58` |
+
+**Couleur d'accent : une seule par post**, la même sur toutes ses pages.
+Elle change d'un post à l'autre, au choix parmi :
+
+| Nom | Couleur |
+|---|---|
+| Jaune | `#FFD60A` |
+| Rouge-orangé | `#FF5A36` |
+| Vert | `#3DDC97` |
+| Bleu | `#5AA9FF` |
+
+L'accent sert uniquement au gros chiffre, à l'étiquette de rubrique, aux valeurs mises en avant, à la barre du jour dans les graphiques et au filet sous les images.
+Le texte posé sur l'étiquette d'accent est toujours `#0B0B0C`.
+Jamais deux accents dans le même post. Jamais d'autre couleur que celles-ci (hors images).
+
+---
+
+## 4. Les polices
+
+- **Anton** : les chiffres, et la grande phrase de la dernière page.
+- **Inter** : tout le reste. Graisses 800 (titres), 600 (étiquettes, numéros de page), 400 (explications).
+
+| Élément | Police | Taille |
+|---|---|---|
+| Gros chiffre de couverture | Anton | 400 px (réduite si le chiffre est long) |
+| Chiffres secondaires | Anton | 120 px |
+| Titre de page | Inter 800 | 60 à 64 px |
+| Explication | Inter 400 | 34 à 38 px |
+| Nom du compte | Inter 800, majuscules | 30 px |
+| Étiquette de rubrique | Inter 600, majuscules | 26 px |
+| Source, numéro de page, crédit | Inter 400 / 600 | 24 à 26 px |
+
+Les deux polices sont gratuites (Google Fonts).
+
+---
+
+## 5. La grille (identique sur toutes les pages)
+
+- Marges : **80 px** sur les quatre côtés.
+- **En haut** : nom du compte à gauche ; étiquette de rubrique à droite (fond accent, 10 × 20 px de marge intérieure).
+- **En bas** : source à gauche ; numéro de page à droite (« 2 / 4 »).
+  Sur la couverture, le numéro est remplacé par « Glissez pour comprendre → ».
+- Le contenu se place entre les deux, réparti verticalement.
+
+---
+
+## 6. Les types de pages
+
+**Couverture** (toujours en page 1)
+- Étiquette : **le sujet précis, pas la rubrique** (ÉNERGIE plutôt qu'ÉCONOMIE, LOYERS plutôt qu'IMMOBILIER). Le visiteur doit savoir de quoi on parle en une seconde.
+- Le chiffre en Anton, couleur d'accent ; un trait blanc de 140 × 12 px ; la phrase qui dit ce qu'il mesure.
+- **Date obligatoire en couverture** dès que le chiffre se rapporte à un événement daté (manifestation, match, élection, catastrophe…) : « Samedi 24 octobre : … ». Ces événements se répètent, le lecteur doit savoir duquel on parle.
+- Contexte : **une seule phrase courte, l'accroche** qui donne envie de glisser (« Près de 7 fois l'inflation. »), pas un rappel de date.
+- Deux versions :
+  - **texte seul** (fond noir) ;
+  - **illustrée** : l'illustration en noir et blanc, légèrement assombrie, occupe le haut de la page sous le nom du compte, et se fond dans le noir derrière le chiffre. Le chiffre reste toujours l'élément le plus visible. Le crédit s'ajoute après la source, en bas.
+- Alterner les deux au fil des posts.
+
+**Page texte**
+Un titre, puis une liste courte (frise de dates, étapes, comparaisons) séparée par des filets `#2A2A2C`.
+L'élément le plus important de la liste est en couleur d'accent.
+
+**Page chiffres**
+Un titre, puis 2 ou 3 chiffres secondaires (Anton 120 px, accent), chacun avec une phrase d'explication.
+
+**Page graphique** : voir section 8.
+
+**Page image** : voir section 7.
+
+**Dernière page** (toujours à la fin)
+- Étiquette : SOURCES.
+- Encadré « VÉRIFIÉ AVEC » listant les sources précises (organisme, document, date).
+- « Demain, un autre chiffre. » en Anton, couleur d'accent.
+- Une question pour faire réagir en commentaire, différente à chaque post.
+- En bas : « Abonnez-vous · Enregistrez ce post ».
+
+---
+
+## 7. Les images
+
+**Placement** : sur toute la largeur des marges (920 px), environ 640 px de haut (proportion 3:2).
+Filet de **12 px** en couleur d'accent juste dessous. Crédit en dessous, toujours.
+
+**Traitement : toute image passe en noir et blanc**, quelle que soit sa source, avec un contraste légèrement renforcé.
+C'est le gabarit qui s'en charge, jamais l'image d'origine qu'on garde telle quelle.
+
+**Règle d'or : vraie image ou illustration assumée**
+- Le post parle d'**un objet, une personne, un lieu ou un événement réels** (un robot précis, un dirigeant, un monument) : **la vraie image obligatoirement**, venant d'une source autorisée ci-dessous (espace presse officiel en priorité), avec son crédit.
+- Le post parle d'**une idée ou d'un phénomène** (l'inflation, la chaleur, la natalité) : **une illustration**, dans le style choisi pour le post (gravure, réaliste, autre), créditée « Illustration générée par IA ».
+- Jamais d'image générée qui imite un objet ou une personne réels.
+
+**Sources autorisées**
+
+| Source | Pour quoi | Crédit à afficher |
+|---|---|---|
+| Gemini | Illustrer une idée (inflation, canicule, foule stylisée) | « Illustration générée par IA » |
+| Wikimedia Commons | Lieux, monuments, personnalités, archives | Auteur + licence (ex. « Photo : J. Dupont, CC BY-SA 4.0 ») |
+| NASA, ESA, Copernicus, sites publics | Espace, climat, cartes, satellites | « Photo : NASA » etc. |
+| Unsplash, Pexels | Ambiances génériques | « Photo : Nom / Unsplash » |
+
+**Interdits**
+- Les photos d'agences et de presse (AFP, Reuters, photos d'articles) sans licence.
+- Une image générée qui ressemble à une vraie photo d'un événement ou d'une personne réelle.
+- Une photo générique présentée comme la photo de l'événement.
+- Du texte, un logo ou un chiffre dans l'image elle-même.
+
+**Prompt Gemini type** (seul le sujet change) :
+
+> Illustration éditoriale pour un média d'information. Sujet : [SUJET EN UNE PHRASE].
+> Style gravure contemporaine à fort contraste, aplats noirs profonds, fond sombre, sujet unique centré, composition simple et lisible en petit.
+> Rendu en noir et blanc, sans dégradé coloré.
+> Aucun texte, aucune lettre, aucun chiffre, aucun logo.
+> Aucune personne réelle identifiable, pas de rendu photographique.
+> Format paysage 3:2.
+
+---
+
+## 8. Les graphiques
+
+Fabriqués par le gabarit à partir des vrais chiffres, **jamais par Gemini**.
+
+- Formes possibles : barres verticales (évolution, jusqu'à 8 valeurs), barres horizontales (comparaison de pays ou de catégories), deux barres face à face (avant / après).
+- Barres `#5C5C58` ; **la valeur du jour en couleur d'accent**.
+- Valeurs prévues ou estimées : barre en pointillés `#8E8E88`, avec une légende « Projection ».
+- Chaque valeur écrite au-dessus de sa barre (Anton) ; libellés en Inter `#B8B8B2`.
+- Axe partant de zéro, une seule échelle, pas de quadrillage.
+- Titre qui dit ce qu'on mesure, sous-titre avec l'unité (« En milliards d'habitants »).
+- Source précise en bas de page.
+
+---
+
+## 9. L'écriture
+
+- Le gros chiffre : **8 caractères au plus**. Abréviations : « Mds », « M », « k € », « % ».
+- Virgule pour les décimales (1,5), espace pour les milliers (12 400), espace insécable avant « % », « € », « °C ».
+- Phrase de couverture : **10 mots au plus**.
+- Une idée par phrase. Phrases courtes, vocabulaire courant, pas de jargon sans explication.
+- Dates complètes la première fois (« le 15 novembre 2022 »).
+- Les projections sont toujours dites comme telles (« prévu », « selon les projections de »).
+
+---
+
+## 10. La vérification (avant toute mise en page)
+
+1. Le chiffre est confirmé par **deux sources indépendantes** (deux articles reprenant la même dépêche comptent pour une).
+2. On remonte à la **source première** quand elle existe (rapport, communiqué, décision officielle).
+3. La date de l'information est vérifiée (pas d'ancienne info qui ressort).
+4. Sujet rejeté si : source unique, chiffre non officiel, vidéo virale non confirmée, décès non confirmé, sujet judiciaire en cours visant une personne.
+5. **Validation humaine (1 clic) avant chaque publication.**
+
+---
+
+## 11. La légende Instagram
+
+```
+[Le chiffre et sa phrase, en une ligne]
+
+[2 ou 3 phrases de contexte]
+
+[La question de la dernière page]
+
+Sources : [liste]
+[« Illustration générée par IA » si besoin]
+
+#[thème] #actu #[2 ou 3 mots-clés du sujet]
+```
+
+3 à 5 mots-dièse au plus. Étiquette IA d'Instagram activée dès qu'une image est générée.

@@ -1,0 +1,20 @@
+# Prolonge le token Instagram chaque mois (il expire au bout de 60 jours) et met à jour le secret.
+name: Jeton
+on:
+  schedule:
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+jobs:
+  jeton:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prolonger le token
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          nouveau=$(curl -sf "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$INSTAGRAM_TOKEN" | jq -r .access_token)
+          [ -n "$nouveau" ] && [ "$nouveau" != "null" ]
+          echo "::add-mask::$nouveau"
+          gh secret set INSTAGRAM_TOKEN --repo "$GITHUB_REPOSITORY" --body "$nouveau"
+          echo "Token prolongé de 60 jours."

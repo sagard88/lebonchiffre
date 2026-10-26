@@ -1,0 +1,99 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Cybersécurité",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "1 400",
+      "phrase": "failles corrigées par Microsoft en un seul mois.",
+      "contexte": "Un record, pour le deuxième mois de suite.",
+      "image": "cadenas.jpg",
+      "ia": true,
+      "source": "Tenable",
+      "credit": "Image IA"
+    },
+    {
+      "type": "graphique",
+      "titre": "L'avalanche.",
+      "unite": "Failles corrigées par la mise à jour mensuelle de Microsoft, en 2026",
+      "barres": [
+        {
+          "label": "Février",
+          "valeur": 54,
+          "affiche": "54"
+        },
+        {
+          "label": "Avril",
+          "valeur": 163,
+          "affiche": "163"
+        },
+        {
+          "label": "Septembre",
+          "valeur": 995,
+          "affiche": "995"
+        },
+        {
+          "label": "Octobre",
+          "valeur": 1407,
+          "affiche": "1 407",
+          "jour": true
+        }
+      ],
+      "source": "Tenable, BleepingComputer"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Dans le détail",
+      "titre": "Ce que contient la mise à jour du 13 octobre.",
+      "lignes": [
+        {
+          "gauche": "1 100",
+          "droite": "failles et plus dans Windows"
+        },
+        {
+          "gauche": "69",
+          "droite": "jugées critiques"
+        },
+        {
+          "gauche": "301",
+          "droite": "logiciels et composants touchés"
+        },
+        {
+          "gauche": "1",
+          "droite": "déjà utilisée par des pirates",
+          "fort": true
+        }
+      ],
+      "source": "Tenable, BlogNT"
+    },
+    {
+      "type": "image",
+      "etiquette": "Le bon réflexe",
+      "image": "mise-a-jour.jpg",
+      "ia": true,
+      "titre": "Faites la mise à jour.",
+      "texte": "Une des failles était exploitée par des pirates avant même le correctif.\nSur Windows : Paramètres, puis Windows Update. Quelques minutes suffisent.",
+      "source": "Microsoft, Tenable"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Tenable, Patch Tuesday d'octobre 2026 (1 407 failles)",
+        "BleepingComputer et Rapid7 (1 411 et 1 413 failles)",
+        "BlogNT, 14 octobre 2026"
+      ],
+      "question": "Vous faites vos mises à jour tout de suite, ou vous repoussez ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Le 13 octobre, Microsoft a corrigé plus de 1 400 failles de sécurité dans sa mise à jour mensuelle, le « Patch Tuesday ». Un record absolu, après celui de septembre (995), alors qu'on en comptait 54 en février et 163 en avril.\n\nWindows concentre plus de 1 100 de ces failles, et 69 sont jugées critiques. L'une d'elles, qui permet de contourner un avertissement de sécurité de Windows, était déjà exploitée par des pirates avant le correctif.\n\nSelon les spécialistes, cette avalanche s'explique surtout par l'IA, qui aide Microsoft et les chercheurs à passer le code au crible. Windows n'est pas devenu plus fragile : les failles sont mieux repérées. Le bon réflexe reste le même : installer la mise à jour.",
+    "hashtags": [
+      "cybersecurite",
+      "microsoft",
+      "windows",
+      "tech",
+      "actu"
+    ]
+  }
+}

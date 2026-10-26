@@ -1,0 +1,47 @@
+{
+  "accent": "bleu",
+  "rubrique": "Chômage",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "8,3 %",
+      "phrase": "de chômage en France, au plus haut depuis 2020.",
+      "contexte": "Au 2e trimestre, selon l'Insee. Prochain chiffre le 10 novembre.",
+      "source": "Insee"
+    },
+    {
+      "type": "graphique",
+      "titre": "En hausse.",
+      "unite": "Taux de chômage au sens du BIT, en %",
+      "barres": [
+        { "label": "2e trim. 2025", "valeur": 7.6, "affiche": "7,6" },
+        { "label": "1er trim. 2026", "valeur": 8.1, "affiche": "8,1" },
+        { "label": "2e trim. 2026", "valeur": 8.3, "affiche": "8,3", "jour": true }
+      ],
+      "source": "Insee"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Dans le détail",
+      "titre": "Qui est touché.",
+      "chiffres": [
+        { "valeur": "2,7 M", "texte": "De chômeurs, 62 000 de plus en un trimestre." },
+        { "valeur": "21,6 %", "texte": "De chômage chez les 15-24 ans." },
+        { "valeur": "Partout", "texte": "Le chômage a augmenté dans toutes les régions de métropole en un an." }
+      ],
+      "source": "Insee"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Insee, Informations rapides n° 192, 7 août 2026",
+        "Insee, chômage localisé, 18 septembre 2026"
+      ],
+      "question": "Le marché de l'emploi est plus dur autour de vous ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Le taux de chômage atteint 8,3 % au deuxième trimestre 2026, selon l'Insee : +0,2 point en trois mois et +0,7 point en un an. C'est son plus haut niveau depuis 2020, il reste toutefois loin du pic de 2015.\n\n2,7 millions de personnes sont au chômage, 62 000 de plus qu'au trimestre précédent. Les jeunes sont les plus touchés : 21,6 % de chômage chez les 15-24 ans. Et la hausse touche toutes les régions de métropole.\n\nLe prochain chiffre, celui du troisième trimestre, sera publié le 10 novembre.",
+    "hashtags": ["chomage", "emploi", "economie", "insee", "actu"]
+  }
+}
