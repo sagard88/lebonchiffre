@@ -6,7 +6,7 @@ Objectif : 3 posts par jour (8 h, 14 h, 19 h) et l'actu brûlante publiée vite,
 
 | Rôle | Qui | Coût en tokens |
 |---|---|---|
-| Veille des tendances, toutes les 30 min | script `gabarit/veille.js` (Google Trends, Google Actualités, Reddit, YouTube) | 0 |
+| Veille des tendances, toutes les 45 min | script `gabarit/veille.js` (Google Trends, Google Actualités, Reddit, YouTube) | 0 |
 | Publication aux heures prévues | script `gabarit/publier.js`, lancé par le Planificateur de tâches | 0 |
 | Choix du sujet, vérification à 2 sources, rédaction, fabrication | Claude Code (`claude -p`, modèle Sonnet) | seulement là |
 

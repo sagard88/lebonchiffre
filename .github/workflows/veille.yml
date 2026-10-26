@@ -1,8 +1,12 @@
-# Veille des tendances toutes les 30 minutes (sans Claude). Sujet brûlant : Claude prépare et publie un post.
+# Veille des tendances toutes les 45 minutes (sans Claude). Sujet brûlant : Claude prépare et publie un post.
+# Cron ne sait pas faire « toutes les 45 min » : 4 horaires qui se répètent toutes les 3 heures.
 name: Veille
 on:
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '7 0-23/3 * * *'
+    - cron: '52 0-23/3 * * *'
+    - cron: '37 1-23/3 * * *'
+    - cron: '22 2-23/3 * * *'
   workflow_dispatch:
 concurrency:
   group: lebonchiffre
