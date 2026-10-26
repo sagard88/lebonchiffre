@@ -97,7 +97,7 @@ async function main() {
   candidats.slice(0, 8).forEach((c) =>
     console.log(`${String(c.score).padStart(3)}  ${c.sujet} (${c.trafic}+ recherches, ${c.grandsMedias.length} grands médias)`));
 
-  const heure = Number(new Intl.DateTimeFormat("fr-FR", { timeZone: "Europe/Paris", hour: "2-digit", hourCycle: "h23" }).format(new Date()));
+  const heure = Number(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Paris", hour: "2-digit", hourCycle: "h23" }).format(new Date()));
   const alertes = alertesDuJour();
   // VEILLE_SANS_ALERTE : simple mise à jour des tendances (récap, préparation), sans déclencher l'alerte du jour.
   if (brulant && heure >= 7 && heure < 23 && alertes.sujets.length === 0 && !process.env.VEILLE_SANS_ALERTE) {
