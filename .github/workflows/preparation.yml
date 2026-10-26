@@ -36,7 +36,7 @@ jobs:
           node-version: 24
       - name: Veille
         if: steps.mode.outputs.mode != ''
-        run: node gabarit/veille.js || true
+        run: VEILLE_SANS_ALERTE=1 node gabarit/veille.js || true
       - name: Claude prépare les posts
         if: steps.mode.outputs.mode != '' && hashFiles('PAUSE') == ''
         env:

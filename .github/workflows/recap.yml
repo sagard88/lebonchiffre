@@ -1,0 +1,36 @@
+# Récapitulatif chaque soir vers 21 h 30 (heure de Paris) : une issue du dépôt, que GitHub envoie par e-mail.
+name: Recap
+on:
+  schedule:
+    - cron: '30 19,20 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vérifier l'heure
+        id: heure
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(TZ=Europe/Paris date +%H)" = "21" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.heure.outputs.ok == '1'
+      - uses: actions/setup-node@v4
+        if: steps.heure.outputs.ok == '1'
+        with:
+          node-version: 24
+      - name: Envoyer le récapitulatif
+        if: steps.heure.outputs.ok == '1'
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VEILLE_SANS_ALERTE=1 node gabarit/veille.js > /dev/null || true
+          node gabarit/recap.js > /tmp/recap.md
+          printf '\n\n@%s' "${{ github.repository_owner }}" >> /tmp/recap.md
+          # Les récapitulatifs précédents sont fermés pour garder la liste propre.
+          for n in $(gh issue list --label recap --state open --json number --jq '.[].number'); do gh issue close "$n"; done
+          gh label create recap --color FFD60A --force > /dev/null
+          gh issue create --title "Récap du $(TZ=Europe/Paris date '+%d/%m/%Y')" --label recap --body-file /tmp/recap.md

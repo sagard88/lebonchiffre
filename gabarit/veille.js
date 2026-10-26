@@ -63,7 +63,7 @@ async function redditFrance() {
 }
 
 function alertesDuJour() {
-  const jour = new Date().toISOString().slice(0, 10);
+  const jour = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Paris" }).format(new Date());
   try {
     const a = JSON.parse(fs.readFileSync(ALERTES, 'utf8'));
     return a.jour === jour ? a : { jour, sujets: [] };
@@ -97,9 +97,10 @@ async function main() {
   candidats.slice(0, 8).forEach((c) =>
     console.log(`${String(c.score).padStart(3)}  ${c.sujet} (${c.trafic}+ recherches, ${c.grandsMedias.length} grands médias)`));
 
-  const heure = new Date().getHours();
+  const heure = Number(new Intl.DateTimeFormat("fr-FR", { timeZone: "Europe/Paris", hour: "2-digit", hourCycle: "h23" }).format(new Date()));
   const alertes = alertesDuJour();
-  if (brulant && heure >= 7 && heure < 23 && alertes.sujets.length === 0) {
+  // VEILLE_SANS_ALERTE : simple mise à jour des tendances (récap, préparation), sans déclencher l'alerte du jour.
+  if (brulant && heure >= 7 && heure < 23 && alertes.sujets.length === 0 && !process.env.VEILLE_SANS_ALERTE) {
     alertes.sujets.push(brulant.sujet);
     fs.writeFileSync(ALERTES, JSON.stringify(alertes, null, 2) + '\n');
     console.log(`\nBRÛLANT : ${brulant.sujet}`);
