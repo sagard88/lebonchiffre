@@ -41,7 +41,8 @@ async function main() {
   const illusJour = duJour(illustrations);
   const insta = await statsInstagram(lireEnv().INSTAGRAM_TOKEN);
 
-  out.push(`Bonsoir ! Voici la journée de @lebonchiffre.`);
+  // Entre accents graves : sur GitHub, « @lebonchiffre » notifierait l'utilisateur de ce nom.
+  out.push('Bonsoir ! Voici la journée de `@lebonchiffre`.');
 
   out.push('\n## Instagram');
   if (insta?.moi?.username) {

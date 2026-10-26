@@ -14,7 +14,7 @@ Objectif : 3 posts par jour (8 h, 14 h, 19 h) et l'actu brûlante publiée vite,
 
 1. **7 h** : prépare le post de 8 h (actu du matin) et celui de 14 h.
 2. **18 h** : prépare le post de 19 h (actu du jour).
-3. **Alerte « brûlant »** : quand la veille repère un sujet très chaud (au moins 5 grands médias en 1 h, ou plus de 100 000 recherches sur Google Trends), Claude prépare un post publié aussitôt. **Une alerte par jour au plus**, et pas entre 23 h et 7 h.
+3. **Alerte « brûlant »** : quand la veille repère un sujet très chaud (au moins 5 grands médias en 2 h et plus de 20 000 recherches, ou plus de 100 000 recherches sur Google Trends), Claude prépare un post publié aussitôt. **Une alerte par jour au plus**, et pas entre 23 h et 7 h.
 
 Les deux passages planifiés sont espacés de plus de 5 heures : chacun tombe dans une fenêtre de quota différente de l'abonnement Pro.
 

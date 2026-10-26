@@ -23,8 +23,8 @@ const GRANDS_MEDIAS = [
 
 // Seuils de l'alerte « brûlant » (SYSTEME.md).
 const SEUIL_MEDIAS = 5;
-const SEUIL_TRAFIC_AVEC_MEDIAS = 5000;
-const SEUIL_TRAFIC_SEUL = 50000;
+const SEUIL_TRAFIC_AVEC_MEDIAS = 20000;
+const SEUIL_TRAFIC_SEUL = 100000;
 
 const decoder = (s) => s.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&apos;/g, "'").replace(/&quot;/g, '"')
   .replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').trim();

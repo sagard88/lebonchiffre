@@ -6,7 +6,7 @@ Tu prépares seul des posts pour @lebonchiffre, sans personne pour te répondre.
 
 - **matin** : prépare 2 posts, `"publier_a"` aujourd'hui à `08:00` et à `14:00` (heure de Paris).
 - **soir** : prépare 1 post, `"publier_a"` aujourd'hui à `19:00`.
-- **brulant** : prépare 1 post sur le sujet brûlant signalé en tête de `journal/veille.json`, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`.
+- **brulant** : prépare 1 post sur le sujet brûlant signalé en tête de `journal/veille.json`, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`. Si ce sujet a déjà été traité (dossier récent dans `posts/`) ou ne mérite pas un post (anecdotique, sans chiffre fort), ne fais rien et note-le dans `journal/claude.log`.
 
 Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge à l'heure dite.
 
