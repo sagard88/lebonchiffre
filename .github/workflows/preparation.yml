@@ -25,6 +25,8 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.mode }}" ]; then echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"; exit 0; fi
           h=$(TZ=Europe/Paris date +%H)
+          # Jusqu'au 1er novembre, les 3 créneaux sont déjà programmés dans Meta Business Suite.
+          if [ "$(TZ=Europe/Paris date +%Y%m%d)" -lt 20261102 ]; then echo "mode=" >> "$GITHUB_OUTPUT"; exit 0; fi
           if [ "$h" = "07" ]; then echo "mode=matin" >> "$GITHUB_OUTPUT"; elif [ "$h" = "18" ]; then echo "mode=soir" >> "$GITHUB_OUTPUT"; else echo "mode=" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v4
         if: steps.mode.outputs.mode != ''
