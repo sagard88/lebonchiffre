@@ -1,0 +1,94 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Ballon d'Or",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "73 buts",
+      "phrase": "en une saison pour Harry Kane, Ballon d'Or 2026.",
+      "contexte": "Lundi 26 octobre, à Londres : premier Anglais sacré depuis 2001.",
+      "image": "kane.jpg",
+      "credit": "Photo : Bryan Berlin",
+      "source": "L'Équipe"
+    },
+    {
+      "type": "image",
+      "image": "kane-a.jpg",
+      "titre": "Le capitaine de l'Angleterre.",
+      "texte": "Six buts au Mondial 2026 et une troisième place.",
+      "credit": "Photo : Bryan Berlin",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Sa saison",
+      "titre": "Une saison record.",
+      "chiffres": [
+        {
+          "valeur": "73",
+          "texte": "Buts en 65 matchs avec le Bayern Munich et l'Angleterre, dont 61 en club."
+        },
+        {
+          "valeur": "3",
+          "texte": "Titres avec le Bayern : Bundesliga, Coupe d'Allemagne et Supercoupe."
+        },
+        {
+          "valeur": "3e",
+          "texte": "Place de l'Angleterre au Mondial 2026, après une victoire contre la France."
+        }
+      ],
+      "source": "L'Équipe, Sky Sports, France 24"
+    },
+    {
+      "type": "image",
+      "image": "kane-c.jpg",
+      "cadrage": "50% 15%",
+      "titre": "Meilleur buteur de la saison.",
+      "texte": "Il a aussi reçu lundi le trophée Gerd Müller.",
+      "credit": "Photo : Bryan Berlin",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Le podium",
+      "titre": "Le podium 2026.",
+      "lignes": [
+        {
+          "gauche": "1er",
+          "droite": "Harry Kane (Bayern, Angleterre)",
+          "fort": true
+        },
+        {
+          "gauche": "2e",
+          "droite": "Kylian Mbappé (Real Madrid, France)"
+        },
+        {
+          "gauche": "3e",
+          "droite": "Lamine Yamal (FC Barcelone, Espagne)"
+        }
+      ],
+      "source": "L'Équipe"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "L'Équipe, 26 octobre 2026 (palmarès et classement)",
+        "Sky Sports, statistiques 2025-2026",
+        "France 24, 26 octobre 2026",
+        "Photos : Bryan Berlin, CC BY-SA 4.0, Wikimedia Commons"
+      ],
+      "question": "Kane méritait-il le Ballon d'Or ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Harry Kane remporte le Ballon d'Or 2026, lundi 26 octobre au London Palladium, devant Kylian Mbappé et Lamine Yamal. L'attaquant du Bayern Munich devient le cinquième Anglais sacré, et le premier depuis Michael Owen en 2001.\n\nSa saison : 73 buts en 65 matchs en club et en sélection, un triplé Bundesliga, Coupe et Supercoupe d'Allemagne avec le Bayern, et six buts au Mondial 2026, où l'Angleterre a terminé troisième. Il a aussi reçu lundi le trophée Gerd Müller du meilleur buteur de la saison.\n\nChez les femmes, l'Espagnole Alexia Putellas remporte son troisième Ballon d'Or.",
+    "hashtags": [
+      "ballondor",
+      "harrykane",
+      "football",
+      "bayern",
+      "actu"
+    ]
+  }
+}

@@ -38,7 +38,7 @@ Chaque page a un `type` et une `source` (sauf la page `fin`).
 | `liste` | `titre`, `lignes` : `[{ "gauche": "1804", "droite": "1 milliard", "fort": true }]` (`fort` = en couleur d'accent) | LE CONTEXTE |
 | `chiffres` | `titre`, `chiffres` : `[{ "valeur": "10,3 Mds", "texte": "…" }]` (2 ou 3) | ET APRÈS ? |
 | `graphique` | `titre`, `unite`, `sens` (`"horizontal"` sinon vertical), `barres` : `[{ "label": "2022", "valeur": 8, "affiche": "8", "jour": true, "projection": false }]` (8 au plus) | EN GRAPHIQUE |
-| `image` | `image` (chemin du fichier, depuis le dossier du post), `credit` ou `"ia": true`, `titre`, `texte` | EN IMAGE |
+| `image` | `image` (chemin du fichier, depuis le dossier du post), `credit` ou `"ia": true`, `titre`, `texte`, `cadrage` (facultatif, ex. `"50% 20%"` pour garder le haut d'une photo en hauteur) | EN IMAGE |
 | `fin` (toujours en dernière) | `sources` (liste), `question` | SOURCES |
 
 Dans un graphique : `jour` met la barre en couleur d'accent, `projection` la dessine en pointillés (la légende s'ajoute seule).

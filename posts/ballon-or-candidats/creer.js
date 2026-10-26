@@ -46,9 +46,28 @@ const posts = {
     "Lamine Yamal remporte le Ballon d'Or 2026, lundi 26 octobre au London Palladium. À 19 ans, l'ailier du FC Barcelone devient le plus jeune lauréat de l'histoire, un record détenu jusqu'ici par le Brésilien Ronaldo, sacré à 21 ans en 1997.\n\nSa saison : champion du monde avec l'Espagne en juillet, champion d'Espagne avec le Barça, 25 buts et 20 passes décisives, malgré une blessure à la cuisse au printemps.\n\nUne 70e cérémonie organisée pour la première fois hors de France, à Londres.",
     'Yamal méritait-il le Ballon d\'Or ?\nDites-le en commentaire.', ['ballondor', 'lamineyamal', 'football', 'barca', 'actu']),
 };
+// Deux pages photo par version (3 vraies photos au total avec la couverture).
+const photos = {
+  kane: [
+    { image: 'kane-a.jpg', titre: "Le capitaine de l'Angleterre.", texte: 'Six buts au Mondial 2026 et une troisième place.' },
+    { image: 'kane-c.jpg', cadrage: '50% 15%', titre: 'Meilleur buteur de la saison.', texte: 'Il a aussi reçu ce soir le trophée Gerd Müller.' },
+  ],
+  mbappe: [
+    { image: 'mbappe-b.jpg', titre: 'Le capitaine des Bleus.', texte: '10 buts au Mondial 2026 : meilleur buteur du tournoi.' },
+    { image: 'mbappe-c.jpg', cadrage: '50% 20%', titre: '22 buts en Coupe du monde.', texte: 'Le record absolu de la compétition.' },
+  ],
+  yamal: [
+    { image: 'yamal-c.jpg', titre: 'Champion du monde à 19 ans.', texte: "Avec l'Espagne, victorieuse de l'Argentine en finale le 19 juillet." },
+    { image: 'yamal-a.jpg', titre: 'Déjà trois trophées Kopa.', texte: 'Meilleur jeune joueur du monde en 2024, 2025 et 2026.' },
+  ],
+};
 for (const [nom, post] of Object.entries(posts)) {
+  const [p1, p2] = photos[nom].map((p) => ({ type: 'image', ...p, credit: 'Photo : Bryan Berlin', source: 'Wikimedia Commons' }));
+  post.pages.splice(1, 0, p1);
+  post.pages.splice(3, 0, p2);
   const dir = path.join(__dirname, nom);
   fs.mkdirSync(dir, { recursive: true });
   fs.copyFileSync(path.join(__dirname, `${nom}-${nom === 'kane' ? 'b' : nom === 'mbappe' ? 'a' : 'b'}.jpg`), path.join(dir, `${nom}.jpg`));
+  photos[nom].forEach((p) => fs.copyFileSync(path.join(__dirname, p.image), path.join(dir, p.image)));
   fs.writeFileSync(path.join(dir, 'post.json'), JSON.stringify(post, null, 2) + '\n');
 }

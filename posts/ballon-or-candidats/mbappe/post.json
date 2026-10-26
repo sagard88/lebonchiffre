@@ -13,6 +13,14 @@
       "source": "France Football"
     },
     {
+      "type": "image",
+      "image": "mbappe-b.jpg",
+      "titre": "Le capitaine des Bleus.",
+      "texte": "10 buts au Mondial 2026 : meilleur buteur du tournoi.",
+      "credit": "Photo : Bryan Berlin",
+      "source": "Wikimedia Commons"
+    },
+    {
       "type": "chiffres",
       "etiquette": "Sa saison",
       "titre": "Une saison record.",
@@ -31,6 +39,15 @@
         }
       ],
       "source": "Sky Sports, France 24"
+    },
+    {
+      "type": "image",
+      "image": "mbappe-c.jpg",
+      "cadrage": "50% 20%",
+      "titre": "22 buts en Coupe du monde.",
+      "texte": "Le record absolu de la compétition.",
+      "credit": "Photo : Bryan Berlin",
+      "source": "Wikimedia Commons"
     },
     {
       "type": "liste",

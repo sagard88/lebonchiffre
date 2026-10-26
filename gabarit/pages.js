@@ -237,7 +237,7 @@ const MODELES = {
     const src = pathToFileURL(path.resolve(ctx.dossier, p.image)).href;
     return [`
     <div style="display: flex; flex-direction: column; gap: 14px;">
-      <div class="cadre"><img src="${src}" alt=""></div>
+      <div class="cadre"><img src="${src}" alt=""${p.cadrage ? ` style="object-position: ${echapper(p.cadrage)}"` : ''}></div>
       <div class="credit">${echapper(texteCredit(p))}</div>
     </div>
     <div style="display: flex; flex-direction: column; gap: 20px;">
