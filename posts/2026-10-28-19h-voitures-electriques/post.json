@@ -28,9 +28,18 @@
       "etiquette": "Le détail",
       "titre": "Le mois en trois chiffres.",
       "chiffres": [
-        { "valeur": "2,33 €", "texte": "Le litre de gazole début octobre : plus cher que le SP98, selon les relevés du ministère." },
-        { "valeur": "+11,6 %", "texte": "Pour l'ensemble du marché des voitures neuves, par rapport à septembre 2025." },
-        { "valeur": "8 183", "texte": "Tesla Model Y vendues en septembre : la voiture la plus vendue du mois, toutes motorisations confondues." }
+        {
+          "valeur": "2,33 €",
+          "texte": "Le litre de gazole début octobre : plus cher que le SP98, selon les relevés du ministère."
+        },
+        {
+          "valeur": "+11,6 %",
+          "texte": "Pour l'ensemble du marché des voitures neuves, par rapport à septembre 2025."
+        },
+        {
+          "valeur": "8 183",
+          "texte": "Tesla Model Y vendues en septembre : la voiture la plus vendue du mois, toutes motorisations confondues."
+        }
       ],
       "source": "Selectra, PFA, Caroom"
     },
@@ -47,7 +56,11 @@
   ],
   "legende": {
     "contexte": "En septembre, 42 % des voitures neuves immatriculées en France étaient 100 % électriques, selon la Plateforme automobile (PFA) et AAA Data. Un record absolu, sur un marché qui repart : 156 629 voitures neuves, 11,6 % de plus qu'il y a un an.\n\nLe vrai renversement est du côté du diesel : à peine 2 % des ventes du mois, contre 73 % en 2012. Et début octobre, le litre de gazole coûtait 2,33 € en moyenne, plus cher que le SP98.\n\nLa Tesla Model Y a été la voiture la plus vendue du mois, toutes motorisations confondues.",
-    "hashtags": ["voitureelectrique", "automobile", "diesel", "actu"]
-  },
-  "publier_a": "2026-10-28T19:00"
+    "hashtags": [
+      "voitureelectrique",
+      "automobile",
+      "diesel",
+      "actu"
+    ]
+  }
 }

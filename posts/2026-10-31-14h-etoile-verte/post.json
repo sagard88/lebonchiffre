@@ -24,8 +24,14 @@
       "etiquette": "Le détail",
       "titre": "Les restes d'un ancien\nsystème solaire.",
       "chiffres": [
-        { "valeur": "151", "texte": "Naines blanches proches de la Terre étudiées par l'équipe : certaines paraîtraient roses, cyan, jaunes ou violettes." },
-        { "valeur": "Lithium", "texte": "Avec le calcium et le sodium, il viendrait des débris rocheux de planètes ou d'astéroïdes détruits par l'étoile." }
+        {
+          "valeur": "151",
+          "texte": "Naines blanches proches de la Terre étudiées par l'équipe : certaines paraîtraient roses, cyan, jaunes ou violettes."
+        },
+        {
+          "valeur": "Lithium",
+          "texte": "Avec le calcium et le sodium, il viendrait des débris rocheux de planètes ou d'astéroïdes détruits par l'étoile."
+        }
       ],
       "source": "Université de Warwick, CNN, Nautilus"
     },
@@ -41,7 +47,12 @@
   ],
   "legende": {
     "contexte": "Des astronomes de l'université de Warwick, au Royaume-Uni, ont repéré la première étoile qui paraîtrait verte à l'œil humain. Il s'agit d'une naine blanche, WD J1330+6435, située à environ 280 années-lumière, dans la constellation du Dragon.\n\nLes étoiles normales ne peuvent paraître qu'orange, blanches ou bleues. Mais l'atmosphère très dense des naines blanches garde la trace de ce qu'elles ont avalé : ici, du sodium qui absorbe la partie orange de la lumière, avec du calcium et du lithium probablement venus de débris de planètes.\n\nL'étude, publiée le 15 octobre, suggère que d'autres naines blanches paraîtraient roses, cyan, jaunes ou violettes.",
-    "hashtags": ["astronomie", "espace", "etoile", "science", "actu"]
-  },
-  "publier_a": "2026-10-31T14:00"
+    "hashtags": [
+      "astronomie",
+      "espace",
+      "etoile",
+      "science",
+      "actu"
+    ]
+  }
 }
