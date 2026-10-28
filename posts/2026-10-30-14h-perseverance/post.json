@@ -1,0 +1,70 @@
+{
+  "accent": "orange",
+  "rubrique": "Mars",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "45,22 km",
+      "phrase": "parcourus sur Mars : Perseverance bat le record de distance.",
+      "contexte": "Dimanche 11 octobre, il a dépassé son aîné Opportunity.",
+      "image": "selfie.jpg",
+      "credit": "Photo : NASA/JPL-Caltech/MSSS",
+      "source": "NASA/JPL"
+    },
+    {
+      "type": "texte",
+      "titre": "Un record battu\nde 60 mètres.",
+      "paragraphes": [
+        "Le 11 octobre, le compteur de Perseverance a affiché **45,22 km**. C'est désormais le véhicule qui a roulé le plus loin sur un autre monde que la Terre.",
+        "L'ancien record appartenait à Opportunity : **45,16 km**, parcourus sur Mars entre 2004 et 2018. Soit à peine 60 mètres d'écart.",
+        "Mais Perseverance, arrivé en 2021, l'a fait en **5 ans et demi**. Opportunity avait mis près de 15 ans. Une grande partie du trajet a été conduite par le robot lui-même, grâce à son système de navigation autonome."
+      ],
+      "source": "NASA/JPL, South China Morning Post, VRT"
+    },
+    {
+      "type": "liste",
+      "etiquette": "La course",
+      "titre": "Le record de distance\nhors de la Terre, en km.",
+      "lignes": [
+        {
+          "gauche": "39",
+          "droite": "Lunokhod 2, robot soviétique sur la Lune, en 1973"
+        },
+        {
+          "gauche": "1",
+          "droite": "la distance prévue au départ pour Opportunity"
+        },
+        {
+          "gauche": "45,16",
+          "droite": "Opportunity, record tenu de 2014 à 2026"
+        },
+        {
+          "gauche": "45,22",
+          "droite": "Perseverance, le 11 octobre 2026",
+          "fort": true
+        }
+      ],
+      "source": "NASA, Planetary Society, Space.com"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "NASA/JPL, record de distance de Perseverance, octobre 2026 (via South China Morning Post et VRT)",
+        "Space.com et Planetary Society, record d'Opportunity face à Lunokhod 2, juillet 2014",
+        "Photo : NASA/JPL-Caltech/MSSS, autoportrait de Perseverance, avril 2021"
+      ],
+      "question": "Vous iriez sur Mars si on vous le proposait ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Le 11 octobre, le robot Perseverance de la NASA a franchi les 45,22 km au compteur. Il devient le véhicule qui a roulé le plus loin sur un autre monde que la Terre, devant son aîné Opportunity (45,16 km entre 2004 et 2018). Un record battu de 60 mètres seulement.\n\nLa différence est dans le rythme : Perseverance, arrivé dans le cratère Jezero en 2021, a mis cinq ans et demi, Opportunity près de quinze. Le premier détenteur du record était soviétique : Lunokhod 2, 39 km sur la Lune en 1973.\n\nDétail savoureux : Opportunity n'était conçu que pour rouler environ un kilomètre.",
+    "hashtags": [
+      "mars",
+      "nasa",
+      "perseverance",
+      "espace",
+      "actu"
+    ]
+  },
+  "publier_a": "2026-10-30T14:00"
+}

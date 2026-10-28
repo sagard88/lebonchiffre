@@ -10,22 +10,28 @@
       "source": "DAL, commissaires de justice"
     },
     {
-      "type": "graphique",
+      "type": "texte",
+      "etiquette": "Le record",
       "titre": "+27 % en un an.",
-      "unite": "Expulsions locatives avec le concours de la force publique",
-      "barres": [
-        { "label": "2024", "valeur": 24556, "affiche": "24 556" },
-        { "label": "2025", "valeur": 30500, "affiche": "30 500", "jour": true }
+      "paragraphes": [
+        "En 2025, environ **30 500 ménages** ont été expulsés de leur logement avec l’aide de la police ou de la gendarmerie. Ils étaient 24 556 en 2024, selon le ministère du Logement.",
+        "Et ce chiffre ne dit pas tout : il ne compte pas les locataires partis d’eux-mêmes avant l’arrivée des forces de l’ordre."
       ],
-      "source": "Ministère du Logement, DAL"
+      "source": "Ministère du Logement, DAL, commissaires de justice"
     },
     {
       "type": "chiffres",
       "etiquette": "La trêve",
       "titre": "Cinq mois de répit.",
       "chiffres": [
-        { "valeur": "1er nov.", "texte": "Début de la trêve : aucune expulsion locative ne peut être exécutée, sauf exceptions." },
-        { "valeur": "31 mars", "texte": "Fin de la trêve, les expulsions peuvent reprendre." }
+        {
+          "valeur": "1er nov.",
+          "texte": "Début de la trêve : aucune expulsion locative ne peut être exécutée, sauf exceptions."
+        },
+        {
+          "valeur": "31 mars",
+          "texte": "Fin de la trêve, les expulsions peuvent reprendre."
+        }
       ],
       "source": "Service Public"
     },
@@ -41,6 +47,13 @@
   ],
   "legende": {
     "contexte": "En 2025, environ 30 500 ménages ont été expulsés de leur logement avec le concours de la force publique, un record. C'est 27 % de plus qu'en 2024 (24 556 expulsions, selon le ministère du Logement). Ces chiffres ne comptent pas les locataires partis avant l'intervention des forces de l'ordre.\n\nCe dimanche 1er novembre commence la trêve hivernale : jusqu'au 31 mars, aucune expulsion locative ne peut être exécutée, sauf exceptions (relogement adapté, squat…).\n\nLes associations, comme Droit au logement, dénoncent une hausse continue des expulsions depuis plusieurs années.",
-    "hashtags": ["logement", "trevehivernale", "expulsions", "societe", "actu"]
-  }
+    "hashtags": [
+      "logement",
+      "trevehivernale",
+      "expulsions",
+      "societe",
+      "actu"
+    ]
+  },
+  "publier_a": "2026-10-30T08:00"
 }

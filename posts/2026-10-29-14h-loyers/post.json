@@ -1,5 +1,5 @@
 {
-  "accent": "jaune",
+  "accent": "orange",
   "rubrique": "Loyers",
   "pages": [
     {
@@ -12,28 +12,14 @@
       "source": "Insee"
     },
     {
-      "type": "graphique",
-      "titre": "Ça remonte.",
-      "unite": "Évolution sur un an de l'indice de référence des loyers, en %",
-      "barres": [
-        {
-          "label": "1er trim.",
-          "valeur": 0.78,
-          "affiche": "0,78"
-        },
-        {
-          "label": "2e trim.",
-          "valeur": 1.15,
-          "affiche": "1,15"
-        },
-        {
-          "label": "3e trim.",
-          "valeur": 1.57,
-          "affiche": "1,57",
-          "jour": true
-        }
+      "type": "texte",
+      "titre": "Comment est calculé\nce plafond.",
+      "paragraphes": [
+        "L’indice de référence des loyers suit **les prix à la consommation des 12 derniers mois**, hors tabac et hors loyers. Quand l’inflation repart, il repart aussi.",
+        "Au troisième trimestre 2026, il progresse de **1,57 % sur un an**. C’est la hausse maximale qu’un propriétaire peut appliquer à la date de révision prévue dans le bail.",
+        "Un seul cas y échappe : les logements classés **F ou G** au diagnostic énergétique, dont le loyer ne peut plus augmenter du tout."
       ],
-      "source": "Insee"
+      "source": "Insee, Service Public"
     },
     {
       "type": "chiffres",
@@ -47,10 +33,6 @@
         {
           "valeur": "1 an",
           "texte": "Le délai du propriétaire pour réclamer la hausse, sans effet rétroactif."
-        },
-        {
-          "valeur": "F et G",
-          "texte": "Les logements les plus mal isolés ne peuvent pas augmenter leur loyer."
         }
       ],
       "source": "Insee, ImmoJeune"
@@ -59,6 +41,7 @@
       "type": "fin",
       "sources": [
         "Insee, indice de référence des loyers du 3e trimestre 2026 (15 octobre)",
+        "Service Public, révision du loyer en cours de bail",
         "ImmoJeune et Tout sur mes finances, octobre 2026"
       ],
       "question": "Votre loyer a augmenté cette année ?\nDites-le en commentaire."
@@ -73,5 +56,6 @@
       "pouvoirdachat",
       "actu"
     ]
-  }
+  },
+  "publier_a": "2026-10-29T14:00"
 }

@@ -1,0 +1,47 @@
+{
+  "accent": "vert",
+  "rubrique": "Étoile verte",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "280",
+      "phrase": "années-lumière : la distance de la première étoile verte.",
+      "contexte": "Une couleur qu'on croyait impossible pour une étoile.",
+      "source": "Université de Warwick"
+    },
+    {
+      "type": "texte",
+      "titre": "Pourquoi aucune étoile\nn'est verte.",
+      "paragraphes": [
+        "Une étoile normale brille dans toutes les couleurs à la fois. Notre œil n'en retient qu'une teinte, liée à sa température : **orange, blanche ou bleue**. Jamais verte.",
+        "Mais les naines blanches, ces cadavres d'étoiles comme le Soleil, ont une atmosphère des millions de fois plus dense. Ce qu'elles ont avalé au cours de leur vie peut changer leur couleur.",
+        "Celle-ci, **WD J1330+6435**, dans la constellation du Dragon, contient du sodium qui absorbe l'orange de sa lumière. Il reste un vert pâle, couleur chartreuse."
+      ],
+      "source": "Université de Warwick, CNN"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Le détail",
+      "titre": "Les restes d'un ancien\nsystème solaire.",
+      "chiffres": [
+        { "valeur": "151", "texte": "Naines blanches proches de la Terre étudiées par l'équipe : certaines paraîtraient roses, cyan, jaunes ou violettes." },
+        { "valeur": "Lithium", "texte": "Avec le calcium et le sodium, il viendrait des débris rocheux de planètes ou d'astéroïdes détruits par l'étoile." }
+      ],
+      "source": "Université de Warwick, CNN, Nautilus"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Université de Warwick, communiqué du 15 octobre 2026",
+        "M. Hollands et al., RAS Techniques and Instruments, octobre 2026",
+        "CNN, 16 octobre 2026 ; Nautilus, octobre 2026"
+      ],
+      "question": "Vous saviez qu'aucune étoile n'est verte ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Des astronomes de l'université de Warwick, au Royaume-Uni, ont repéré la première étoile qui paraîtrait verte à l'œil humain. Il s'agit d'une naine blanche, WD J1330+6435, située à environ 280 années-lumière, dans la constellation du Dragon.\n\nLes étoiles normales ne peuvent paraître qu'orange, blanches ou bleues. Mais l'atmosphère très dense des naines blanches garde la trace de ce qu'elles ont avalé : ici, du sodium qui absorbe la partie orange de la lumière, avec du calcium et du lithium probablement venus de débris de planètes.\n\nL'étude, publiée le 15 octobre, suggère que d'autres naines blanches paraîtraient roses, cyan, jaunes ou violettes.",
+    "hashtags": ["astronomie", "espace", "etoile", "science", "actu"]
+  },
+  "publier_a": "2026-10-31T14:00"
+}

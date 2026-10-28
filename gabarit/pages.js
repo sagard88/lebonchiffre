@@ -61,6 +61,10 @@ const STYLE = `
   .ligne.fort .g, .ligne.fort .d { color: var(--accent); }
   .ligne.fort .d { font-weight: 600; }
 
+  /* Texte */
+  .paragraphe { font-size: 38px; line-height: 1.4; color: #B8B8B2; }
+  .paragraphe .accent { font-weight: 600; }
+
   /* Chiffres */
   .valeur { font-size: 120px; line-height: 1; color: var(--accent); }
 
@@ -196,6 +200,15 @@ const MODELES = {
     <div style="display: flex; flex-direction: column; gap: 14px;">${lignes}</div>`, 48];
   },
 
+  // Quelques paragraphes pour détailler l'info ; **mot** passe en couleur d'accent.
+  texte(p) {
+    const paragraphes = p.paragraphes.map((t) => `
+      <div class="paragraphe lignes" data-reduire>${echapper(t).replace(/\*\*(.+?)\*\*/g, '<span class="accent">$1</span>')}</div>`).join('');
+    return [`
+    <div class="titre lignes" data-reduire>${echapper(p.titre)}</div>
+    <div style="display: flex; flex-direction: column; gap: 32px;">${paragraphes}</div>`, 48];
+  },
+
   chiffres(p) {
     const items = p.chiffres.map((c) => `
       <div style="display: flex; flex-direction: column; gap: 8px;">
@@ -261,7 +274,7 @@ const MODELES = {
   },
 };
 
-const ETIQUETTES = { liste: 'Le contexte', chiffres: 'Et après ?', graphique: 'En graphique', image: 'En image', fin: 'Sources' };
+const ETIQUETTES = { texte: 'En détail', liste: 'Le contexte', chiffres: 'Et après ?', graphique: 'En graphique', image: 'En image', fin: 'Sources' };
 
 // Phrases de fin, sans référence au temps (plusieurs posts par jour). Choisie selon le chiffre du post,
 // pour qu'un même post garde toujours la même ; `signature` sur la page fin l'impose.

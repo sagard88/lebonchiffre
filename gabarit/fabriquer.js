@@ -46,8 +46,10 @@ function controler(post, dossier) {
       if (!p.image || !fs.existsSync(path.resolve(dossier, p.image))) erreurs.push(`${n} : image introuvable (${p.image})`);
       if (!p.ia && !p.credit) erreurs.push(`${n} : crédit de l'image manquant`);
     }
+    if (p.type === 'texte' && !p.paragraphes?.length) erreurs.push(`${n} : aucun paragraphe`);
     if (p.type === 'graphique') {
       if (!p.barres?.length || p.barres.length > 8) erreurs.push(`${n} : il faut entre 1 et 8 barres`);
+      if (p.barres?.length <= 2) alertes.push(`${n} : graphique de ${p.barres.length} barre(s), une phrase suffit sans doute`);
       if (p.barres?.some((b) => typeof b.valeur !== 'number' || b.valeur < 0)) erreurs.push(`${n} : chaque barre veut une valeur numérique positive`);
     }
     if (p.type === 'fin') {
@@ -55,6 +57,14 @@ function controler(post, dossier) {
       if (!p.question) erreurs.push(`${n} : question manquante`);
     }
   });
+
+  // Couleur principale : jamais la même que les deux posts précédents (ordre des dossiers).
+  const nom = path.basename(dossier);
+  const precedents = fs.readdirSync(path.dirname(dossier))
+    .filter((d) => /^\d{4}-/.test(d) && d < nom && fs.existsSync(path.join(path.dirname(dossier), d, 'post.json')))
+    .sort().slice(-2)
+    .map((d) => JSON.parse(fs.readFileSync(path.join(path.dirname(dossier), d, 'post.json'), 'utf8')).accent);
+  if (precedents.includes(post.accent)) alertes.push(`couleur « ${post.accent} » déjà prise par l'un des deux posts précédents (${precedents.join(', ')})`);
 
   const tags = post.legende?.hashtags ?? [];
   if (tags.length > 5) alertes.push(`${tags.length} mots-dièse (5 au plus)`);

@@ -14,6 +14,18 @@ La couverture le montre en très gros, les pages suivantes expliquent d'où il v
 Ton : clair, direct, factuel. Pas d'opinion, pas de dramatisation.
 On explique, on ne commente pas.
 
+### Sortir du lot
+
+Des milliers de comptes postent « l'inflation à 3 % ». Nous, on cherche **le chiffre qui fait dire « ah bon ? »** et qu'on a envie d'envoyer à quelqu'un.
+
+- **Un chiffre qui surprend plutôt qu'un chiffre qui informe.** Deux façons d'y arriver :
+  - **l'angle étonnant sur l'actu du jour** : dans un sujet dont tout le monde parle, trouver le chiffre que personne ne met en avant (le Code noir abrogé 341 ans après, et pas « le Sénat vote un texte ») ;
+  - **les sujets décalés** : sciences, animaux, records, espace, histoire, faits curieux, à condition qu'ils soient d'actualité et sourcés.
+- **Le test** : si le chiffre est déjà en titre de tous les journaux, il faut un autre angle ou un autre sujet.
+- **Le « détail qui tue » obligatoire** : chaque post contient au moins une info que le lecteur ne connaissait pas (une comparaison parlante, une origine, une conséquence inattendue).
+- **Conjoncture (inflation, taux, chômage, prix) : un post par jour au plus**, et seulement avec un angle concret (« ce que ça fait sur un plein », pas « l'indice progresse »).
+- **Fraîcheur** : un chiffre publié il y a plus d'un mois n'est pas de l'actu, sauf s'il est relié à un événement du jour, et la date est alors dite clairement.
+
 ---
 
 ## 2. Le format
@@ -21,7 +33,8 @@ On explique, on ne commente pas.
 - Carrousel Instagram, images de **1080 × 1350 px** (portrait 4:5).
 - **3 à 6 pages** par post.
 - **Fixes** : la page 1 (couverture) et la dernière (sources et rendez-vous).
-- **Entre les deux, tout varie d'un post à l'autre** : nombre de pages, ordre, et mélange de pages texte, chiffres, graphique ou image.
+- **Entre les deux, tout varie d'un post à l'autre** : nombre de pages, ordre, et mélange de pages texte, liste, chiffres, graphique ou image.
+  **Mieux vaut une page de texte qui détaille et explique qu'un graphique qui ne dit presque rien.**
   Aucun schéma imposé, on choisit selon ce que le sujet raconte le mieux.
 - À éviter : deux posts d'affilée avec exactement la même suite de pages.
 
@@ -99,7 +112,11 @@ Les deux polices sont gratuites (Google Fonts).
   - **illustrée** : l'illustration en noir et blanc, légèrement assombrie, occupe le haut de la page sous le nom du compte, et se fond dans le noir derrière le chiffre. Le chiffre reste toujours l'élément le plus visible. Le crédit s'ajoute après la source, en bas.
 - Alterner les deux au fil des posts.
 
-**Page texte**
+**Page texte** (`texte`)
+Un titre, puis 2 à 4 paragraphes courts qui racontent l'info : ce qui s'est passé, pourquoi, ce que ça change, le détail étonnant.
+Quelques mots clés en couleur d'accent. C'est la page qui fait la différence avec les autres comptes : elle apporte ce que le chiffre seul ne dit pas.
+
+**Page liste** (`liste`)
 Un titre, puis une liste courte (frise de dates, étapes, comparaisons) séparée par des filets `#2A2A2C`.
 L'élément le plus important de la liste est en couleur d'accent.
 
@@ -162,6 +179,13 @@ C'est le gabarit qui s'en charge, jamais l'image d'origine qu'on garde telle que
 
 Fabriqués par le gabarit à partir des vrais chiffres, **jamais par Gemini**.
 
+**Pas de graphique par habitude.** Un graphique seulement s'il montre ce qu'une phrase ne peut pas dire (une longue évolution, une répartition, un écart frappant entre plusieurs valeurs). Sinon, une page de texte.
+- Jamais de graphique à 2 barres pour dire « +27 % » : la phrase suffit.
+- **Même période et même mesure que la couverture.** Si la couverture dit « en un an », le graphique ne montre pas trois mois. Un taux « sur un an » mois par mois n'est pas une évolution sur l'année : à éviter, ou à expliquer en toutes lettres.
+- Jamais deux catégories qui se recoupent côte à côte (« électriques » et « électriques + hybrides »).
+- Barres régulièrement espacées dans le temps (pas « il y a un an, il y a trois mois, aujourd'hui »).
+- La couleur d'accent va à la valeur dont parle le post, pas simplement à la plus grande.
+
 - Formes possibles : barres verticales (évolution, jusqu'à 8 valeurs), barres horizontales (comparaison de pays ou de catégories), deux barres face à face (avant / après).
 - Barres `#5C5C58` ; **la valeur du jour en couleur d'accent**.
 - Valeurs prévues ou estimées : barre en pointillés `#8E8E88`, avec une légende « Projection ».
@@ -189,7 +213,15 @@ Fabriqués par le gabarit à partir des vrais chiffres, **jamais par Gemini**.
 2. On remonte à la **source première** quand elle existe (rapport, communiqué, décision officielle).
 3. La date de l'information est vérifiée (pas d'ancienne info qui ressort).
 4. Sujet rejeté si : source unique, chiffre non officiel, vidéo virale non confirmée, décès non confirmé, sujet judiciaire en cours visant une personne.
-5. **Validation humaine (1 clic) avant chaque publication.**
+5. **Tous les chiffres comptent**, pas seulement celui de la couverture : chaque chiffre secondaire est sourcé, et un chiffre douteux ou à source unique est retiré plutôt que gardé « pour remplir ».
+6. **Relecture de cohérence, page par page, avant fabrication** :
+   - la période et l'unité de chaque page collent avec la couverture ;
+   - chaque calcul est refait (« le double », « 7 fois », un pourcentage, une durée : 6 heures n'est pas une demi-journée) ;
+   - les chiffres d'une page à l'autre ne se contredisent pas (« 50 M de paquets » et « 62 M d'unités ») ;
+   - une prévision n'est pas présentée comme un résultat, un chiffre de l'an dernier n'est pas présenté comme celui de cette année ;
+   - aucune cause n'est affirmée sans source (« grâce aux aides » doit venir d'une source, pas d'une déduction) ;
+   - la règle juridique ou technique citée est exacte (unanimité ou majorité, etc.).
+7. **Validation humaine (1 clic) avant chaque publication.**
 
 ---
 

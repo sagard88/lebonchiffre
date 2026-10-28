@@ -1,0 +1,56 @@
+{
+  "accent": "violet",
+  "rubrique": "Citrouille record",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "1 432 kg",
+      "phrase": "pour la citrouille la plus lourde jamais pesée.",
+      "contexte": "Plus lourde qu'une voiture citadine. Joyeux Halloween.",
+      "source": "AP, Guinness World Records"
+    },
+    {
+      "type": "texte",
+      "titre": "Un record battu\nau bout d'une semaine.",
+      "paragraphes": [
+        "Le 3 octobre, l'Anglais Ian Paton bat le record du monde avec **1 295,8 kg**, plus qu'un rhinocéros blanc selon le Guinness.",
+        "Sept jours plus tard, le 10 octobre, l'Américain Ron Wallace pose la sienne sur la balance à Warren, dans le Rhode Island : **1 432 kg**. 136 kg de plus.",
+        "C'est la première citrouille à dépasser 3 000 livres. Le Guinness doit encore homologuer le record."
+      ],
+      "source": "AP, Guinness World Records, AGI"
+    },
+    {
+      "type": "image",
+      "image": "citrouilles.jpg",
+      "titre": "Faite à 90 % d'eau.",
+      "texte": "Toutes viennent de l'Atlantic Giant. Pollinisées à la main, un seul fruit par plant, elles prennent jusqu'à 23 kg par jour au pic de croissance. Ici, un concours en Californie.",
+      "credit": "Photo : Nick Ares, CC BY-SA 2.0",
+      "source": "AP (via Demotivateur)"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Le détail",
+      "titre": "Et pour le gagnant ?",
+      "chiffres": [
+        { "valeur": "3 500 $", "texte": "Le prix touché par Ron Wallace. Il a préféré un concours près de chez lui à ceux qui offraient jusqu'à 70 000 $." },
+        { "valeur": "2012", "texte": "Ron Wallace avait déjà été le premier à dépasser les 2 000 livres, soit 907 kg." }
+      ],
+      "source": "AP, AGI"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Associated Press, pesée du 10 octobre 2026 à Warren (via Demotivateur)",
+        "AGI, 15 octobre 2026",
+        "Guinness World Records, record d'Ian Paton du 3 octobre 2026",
+        "Photo : Nick Ares, CC BY-SA 2.0, Wikimedia Commons"
+      ],
+      "question": "Vous creusez une citrouille ce soir ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "1 432 kg : c'est le poids de la citrouille de l'Américain Ron Wallace, pesée le 10 octobre à Warren, dans le Rhode Island. La plus lourde jamais mesurée, en attente d'homologation par le Guinness World Records.\n\nLe record précédent n'aura tenu qu'une semaine : le 3 octobre, l'Anglais Ian Paton avait atteint 1 295,8 kg. Ron Wallace le pulvérise de 136 kg, en cultivant pour la première fois sous serre.\n\nSon prix : 3 500 dollars. Il a préféré un concours près de chez lui à ceux qui promettaient jusqu'à 70 000 dollars. Joyeux Halloween !",
+    "hashtags": ["halloween", "citrouille", "record", "insolite", "actu"]
+  },
+  "publier_a": "2026-10-31T08:00"
+}

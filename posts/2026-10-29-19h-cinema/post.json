@@ -1,5 +1,5 @@
 {
-  "accent": "rouge",
+  "accent": "rose",
   "style": "photo",
   "rubrique": "Cinéma",
   "pages": [
@@ -18,10 +18,23 @@
       "etiquette": "Les chiffres",
       "titre": "Une année exceptionnelle.",
       "lignes": [
-        { "gauche": "19,94 M", "droite": "d'entrées en août, record depuis 1980", "fort": true },
-        { "gauche": "8,88 M", "droite": "en septembre, −7,3 % sur un an" },
-        { "gauche": "136,8 M", "droite": "sur les neuf premiers mois" },
-        { "gauche": "N° 1", "droite": "en septembre : Spider-Man" }
+        {
+          "gauche": "19,94 M",
+          "droite": "d'entrées en août, record depuis 1980",
+          "fort": true
+        },
+        {
+          "gauche": "8,88 M",
+          "droite": "en septembre, −7,3 % sur un an"
+        },
+        {
+          "gauche": "136,8 M",
+          "droite": "sur les neuf premiers mois"
+        },
+        {
+          "gauche": "N° 1",
+          "droite": "en septembre : Spider-Man"
+        }
       ],
       "source": "CNC"
     },
@@ -36,6 +49,13 @@
   ],
   "legende": {
     "contexte": "Les Français retournent au cinéma : 136,8 millions d'entrées sur les neuf premiers mois de 2026, 25,3 % de plus qu'à la même période de 2025, selon le Centre national du cinéma (CNC).\n\nL'été a tout changé : avec 19,94 millions d'entrées, août 2026 est le meilleur mois d'août depuis le début du suivi mensuel, en 1980. Septembre est plus calme (8,88 millions, −7,3 % sur un an), avec Spider-Man: Brand New Day en tête du box-office.\n\nLes estimations mensuelles du CNC sont fiables à 5 % près.",
-    "hashtags": ["cinema", "boxoffice", "film", "culture", "actu"]
-  }
+    "hashtags": [
+      "cinema",
+      "boxoffice",
+      "film",
+      "culture",
+      "actu"
+    ]
+  },
+  "publier_a": "2026-10-29T19:00"
 }

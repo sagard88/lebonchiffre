@@ -15,12 +15,17 @@ Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge
 1. Lis `journal/veille.json` (tendances classées, gratuites) : c'est ton point de départ.
 2. Varie les rubriques (politique, économie, sport, jeux vidéo, tech, société, culture…). Évite tout sujet déjà traité ces 7 derniers jours : regarde les noms des dossiers de `posts/` et la fin de `journal/publications.log`.
 3. Le sujet doit tenir en **un chiffre fort et vérifiable**.
+4. **Sortir du lot** (section « Sortir du lot » de `CHARTE.md`) : cherche le chiffre qui fait dire « ah bon ? ». Soit l'angle que personne ne met en avant dans un sujet du jour, soit un sujet décalé (sciences, animaux, records, espace, histoire, faits curieux) d'actualité. Si ton chiffre est déjà en titre partout, trouve un autre angle.
+5. **Conjoncture (inflation, taux, chômage, prix) : un post par jour au plus**, avec un angle concret. Sur les 3 posts du jour, au moins un sujet décalé ou insolite.
+6. **Fraîcheur** : pas de chiffre publié il y a plus d'un mois, sauf s'il est relié à l'actu du jour (et daté clairement). Pas de chiffre de l'an dernier présenté comme celui de cette année, pas de prévision présentée comme un résultat.
 
 ## Vérifier (règle absolue)
 
 - Chaque chiffre publié doit être confirmé par **2 sources indépendantes** (médias reconnus, organismes officiels).
 - Si les sources divergent ou manquent : **abandonne ce sujet** et prends-en un autre. Jamais d'approximation.
 - Méfie-toi des annonces anticipées ou erronées (ex. articles publiés par erreur) : attends la confirmation officielle.
+- **Tous les chiffres du post** comptent, pas seulement la couverture. Un chiffre secondaire douteux ou à source unique : retire-le.
+- N'affirme aucune cause sans source (« grâce aux aides », « à cause de… »).
 
 ## Fabriquer
 
@@ -28,7 +33,9 @@ Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge
 - **Date en couverture** pour tout événement daté.
 - **Couleur principale** (`accent`) : varie parmi les 8 de la charte (jaune, rouge, vert, bleu, violet, rose, turquoise, orange), jamais la même que les deux derniers posts (regarde leur `post.json`).
 - **Images** : sujet réel (personne, lieu, objet, événement) = vraie image sous licence libre, à chercher sur Wikimedia Commons par son API (vérifie la licence et l'auteur, crédite-les) ou dans un kit presse officiel. Jamais de photo d'agence ou d'article de presse. Une idée ou un phénomène = illustration Gemini (`npm run illustrer`), **une seule génération** (crédit de 5 €), ou couverture sans image.
-- `npm run fabriquer -- posts/<dossier>`, puis regarde l'image de couverture `images/1.jpg`. Corrige tout débordement de texte.
+- **Graphique seulement s'il montre ce qu'une phrase ne peut pas dire** (section 8 de `CHARTE.md`). Sinon, une page `texte` qui détaille l'info : c'est elle qui fait la différence avec les autres comptes. Jamais de graphique à 2 barres, jamais une période différente de celle de la couverture.
+- **Relecture de cohérence** avant de fabriquer (section 10 de `CHARTE.md`) : relis chaque page contre la couverture (même période, même unité), refais chaque calcul (« le double », « 7 fois », les durées), vérifie qu'aucun chiffre n'en contredit un autre.
+- `npm run fabriquer -- posts/<dossier>`, puis regarde **toutes** les images `images/*.jpg`, pas seulement la couverture. Corrige tout débordement de texte et toute alerte du gabarit (couleur répétée, graphique inutile).
 - Légende : 2 à 3 paragraphes, une question, les sources, 4 à 5 mots-dièse ; « Illustration générée par IA » si besoin.
 
 ## Terminer

@@ -1,0 +1,58 @@
+{
+  "accent": "rose",
+  "rubrique": "Diamant rose",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "9,01 ct",
+      "phrase": "le diamant rose qu'on a retrouvé caché dans une pomme.",
+      "contexte": "Exposé au château de Chantilly, 100 ans après son vol.",
+      "source": "Musée Condé"
+    },
+    {
+      "type": "texte",
+      "titre": "Le casse de 1926.",
+      "paragraphes": [
+        "Dans la nuit du **11 au 12 octobre 1926**, deux voleurs entrent au musée Condé, à Chantilly, et emportent le Grand Condé, un diamant rose de 9,01 carats, avec d'autres trésors.",
+        "Deux mois plus tard, dans un hôtel parisien du boulevard de Strasbourg, une employée trouve une pomme dans les affaires des suspects. En la croquant, elle tombe **sur le diamant**.",
+        "Les autres objets volés n'ont pas eu cette chance : ils auraient été fondus ou jetés dans la Seine."
+      ],
+      "source": "Unidivers, Galerie Magazine"
+    },
+    {
+      "type": "image",
+      "image": "chantilly.jpg",
+      "cadrage": "50% 40%",
+      "titre": "Une copie à sa place depuis.",
+      "texte": "Après son retour, le vrai diamant a été mis à l'abri et une réplique a pris sa place. L'original est présenté au musée Condé depuis le 17 octobre.",
+      "credit": "Photo : Dguendel, CC BY 4.0",
+      "source": "Unidivers, Galerie Magazine"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Son histoire",
+      "titre": "Près de trois siècles\nd'histoire.",
+      "lignes": [
+        { "gauche": "1740", "droite": "première trace, dans un inventaire des Condé" },
+        { "gauche": "1926", "droite": "volé, puis retrouvé dans une pomme", "fort": true },
+        { "gauche": "2026", "droite": "exposé au musée Condé depuis le 17 octobre" }
+      ],
+      "source": "Galerie Magazine, ministère de la Culture (Joconde)"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Unidivers, « Le diamant rose de Chantilly », octobre 2026",
+        "Galerie Magazine, octobre 2026",
+        "Ministère de la Culture, base Joconde, notice OA 1575",
+        "Photo : Dguendel, CC BY 4.0, Wikimedia Commons"
+      ],
+      "question": "Vous iriez le voir ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "C'est l'une des histoires les plus étonnantes du patrimoine français. Dans la nuit du 11 au 12 octobre 1926, le Grand Condé, un diamant rose de 9,01 carats, est volé au musée Condé de Chantilly. Deux mois plus tard, il est retrouvé dans un hôtel parisien, caché à l'intérieur d'une pomme, découvert par une employée qui a croqué dedans.\n\nDepuis, c'est une copie qui était exposée. Cent ans après le vol, le musée Condé consacre une exposition au vrai diamant, ouverte depuis le 17 octobre.\n\nLa pierre est attestée dans les collections des princes de Condé depuis 1740, au moins.",
+    "hashtags": ["chantilly", "diamant", "patrimoine", "histoire", "actu"]
+  },
+  "publier_a": "2026-11-01T08:00"
+}

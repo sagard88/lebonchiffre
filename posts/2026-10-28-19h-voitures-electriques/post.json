@@ -1,5 +1,5 @@
 {
-  "accent": "vert",
+  "accent": "turquoise",
   "style": "photo",
   "rubrique": "Voitures électriques",
   "pages": [
@@ -7,32 +7,30 @@
       "type": "couverture",
       "chiffre": "42 %",
       "phrase": "des voitures neuves vendues en septembre sont électriques.",
-      "contexte": "Un record en France, selon la filière automobile.",
+      "contexte": "Un record en France. Et le diesel s'est presque éteint.",
       "image": "ev.jpg",
       "ia": true,
       "credit": "Image IA",
-      "source": "PFA"
-    },
-    {
-      "type": "graphique",
-      "sens": "horizontal",
-      "titre": "Le diesel s'efface.",
-      "unite": "Part des immatriculations de voitures neuves, septembre 2026, en %",
-      "barres": [
-        { "label": "Électriques", "valeur": 42, "affiche": "42 %", "jour": true },
-        { "label": "Électriques et hybrides rechargeables", "valeur": 48, "affiche": "48 %" },
-        { "label": "Diesel", "valeur": 2, "affiche": "2 %" }
-      ],
       "source": "PFA, AAA Data"
     },
     {
+      "type": "texte",
+      "titre": "Le diesel est passé\nde 73 % à 2 %.",
+      "paragraphes": [
+        "En septembre, **environ 65 000** voitures 100 % électriques ont été immatriculées en France, sur 156 629 voitures neuves. Avec les hybrides rechargeables, on atteint 48 %.",
+        "En face, le diesel ne pèse plus que **2 %** des ventes : à peine 2 400 voitures dans le mois, 62 % de moins qu'il y a un an.",
+        "En 2012, c'était l'inverse : **73 %** des voitures neuves vendues en France roulaient au gazole."
+      ],
+      "source": "PFA, AAA Data, Insee (CCFA)"
+    },
+    {
       "type": "chiffres",
-      "etiquette": "Pourquoi",
-      "titre": "Ce qui pousse à l'électrique.",
+      "etiquette": "Le détail",
+      "titre": "Le mois en trois chiffres.",
       "chiffres": [
-        { "valeur": "2,33 €", "texte": "Le litre de gazole début octobre, plus cher que le SP98, selon le ministère." },
-        { "valeur": "156 629", "texte": "Voitures neuves immatriculées en septembre, +11,6 % sur un an." },
-        { "valeur": "8 183", "texte": "Tesla Model Y vendues en septembre, la voiture la plus vendue du mois." }
+        { "valeur": "2,33 €", "texte": "Le litre de gazole début octobre : plus cher que le SP98, selon les relevés du ministère." },
+        { "valeur": "+11,6 %", "texte": "Pour l'ensemble du marché des voitures neuves, par rapport à septembre 2025." },
+        { "valeur": "8 183", "texte": "Tesla Model Y vendues en septembre : la voiture la plus vendue du mois, toutes motorisations confondues." }
       ],
       "source": "Selectra, PFA, Caroom"
     },
@@ -41,13 +39,15 @@
       "sources": [
         "Plateforme automobile (PFA), immatriculations de septembre 2026",
         "AAA Data via Économie Matin, octobre 2026",
+        "Insee, immatriculations 2012 (données CCFA) ; L'argus",
         "Selectra, relevé du ministère du 9 octobre 2026"
       ],
       "question": "Votre prochaine voiture sera électrique ?\nDites-le en commentaire."
     }
   ],
   "legende": {
-    "contexte": "En septembre, 42 % des voitures neuves immatriculées en France étaient 100 % électriques, selon la Plateforme automobile (PFA). Un record absolu. Avec les hybrides rechargeables, on atteint 48 %, alors que le diesel ne pèse plus que 2 % des ventes.\n\nLe marché repart aussi : 156 629 voitures neuves en septembre, 11,6 % de plus qu'il y a un an. La Tesla Model Y arrive en tête, devant la Renault 5.\n\nDeux moteurs à cette bascule : les aides publiques, et la flambée des carburants. Début octobre, le litre de gazole coûtait 2,33 euros en moyenne, plus cher que le SP98.",
-    "hashtags": ["voitureelectrique", "automobile", "carburant", "ecologie", "actu"]
-  }
+    "contexte": "En septembre, 42 % des voitures neuves immatriculées en France étaient 100 % électriques, selon la Plateforme automobile (PFA) et AAA Data. Un record absolu, sur un marché qui repart : 156 629 voitures neuves, 11,6 % de plus qu'il y a un an.\n\nLe vrai renversement est du côté du diesel : à peine 2 % des ventes du mois, contre 73 % en 2012. Et début octobre, le litre de gazole coûtait 2,33 € en moyenne, plus cher que le SP98.\n\nLa Tesla Model Y a été la voiture la plus vendue du mois, toutes motorisations confondues.",
+    "hashtags": ["voitureelectrique", "automobile", "diesel", "actu"]
+  },
+  "publier_a": "2026-10-28T19:00"
 }
