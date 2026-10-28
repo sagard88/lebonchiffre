@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 # Lance un passage de Claude Code (modèle Sonnet, abonnement Pro) et note sa consommation.
-# Usage : bash gabarit/ci-claude.sh matin|soir|brulant
+# Usage : bash gabarit/ci-claude.sh matin|soir|brulant|commande  (commande : consigne d'Olivier dans /tmp/consigne.txt)
 set -e
 MODE="$1"
+CONSIGNE=""
+[ "$MODE" = "commande" ] && CONSIGNE=" Consigne d'Olivier : $(cat /tmp/consigne.txt)"
 npm install -g -s @anthropic-ai/claude-code
-claude -p "Mode : $MODE. Nous sommes le $(TZ=Europe/Paris date '+%A %d %B %Y, %H:%M') (heure de Paris). Suis CONSIGNES-AUTO.md à la lettre." \
+claude -p "Mode : $MODE. Nous sommes le $(TZ=Europe/Paris date '+%A %d %B %Y, %H:%M') (heure de Paris). Suis CONSIGNES-AUTO.md à la lettre.$CONSIGNE" \
   --model sonnet --max-turns 80 --output-format json \
   --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(npm run:*),Bash(node:*),Bash(curl:*),Bash(ls:*),Bash(mkdir:*),Bash(cp:*),Bash(mv:*),Bash(file:*)" \
   > /tmp/claude.json || true

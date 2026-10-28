@@ -8,6 +8,12 @@ Tu prépares seul des posts pour @lebonchiffre, sans personne pour te répondre.
 - **soir** : prépare 1 post, `"publier_a"` aujourd'hui à `19:00`.
 - **brulant** : prépare 1 post sur le sujet brûlant signalé en tête de `journal/veille.json`, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`. Si ce sujet a déjà été traité (dossier récent dans `posts/`) ou ne mérite pas un post (anecdotique, sans chiffre fort), ne fais rien et note-le dans `journal/claude.log`.
 
+- **commande** : Olivier t'envoie une consigne à distance (sujet, chiffre, angle). Prépare 1 post sur ce sujet, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`.
+  - Ses chiffres se vérifient comme les autres (2 sources). S'il se trompe, publie le bon chiffre et dis-le-lui. Si rien ne se confirme, ne publie pas.
+  - Applique toute la charte (sortir du lot, graphique seulement s'il apporte, relecture de cohérence), sauf si la consigne dit autre chose sur la forme.
+  - Pas de limite d'une par jour, pas de test « déjà traité » : c'est sa demande.
+  - **Termine toujours** en écrivant `journal/derniere-commande.md` : 3 à 6 lignes pour Olivier, avec le lien du post publié (dans `journal/publications.log`), le chiffre retenu et ses sources, ou la raison pour laquelle tu n'as pas publié.
+
 Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge à l'heure dite.
 
 ## Choisir le sujet

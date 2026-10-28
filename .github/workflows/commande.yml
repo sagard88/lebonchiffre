@@ -1,0 +1,62 @@
+# Post à la demande : Olivier ouvre une issue (appli GitHub sur téléphone) avec sa consigne,
+# Claude cherche, vérifie, fabrique et publie tout de suite, puis répond dans l'issue.
+# Lancement possible aussi à la main (onglet Actions → Commande → Run workflow).
+name: Commande
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      consigne:
+        description: 'Ta consigne (sujet, chiffre, angle…)'
+        required: true
+concurrency:
+  group: lebonchiffre
+  cancel-in-progress: false
+permissions:
+  contents: write
+  issues: write
+jobs:
+  commande:
+    # Seulement les issues ouvertes par Olivier (pas les récapitulatifs du robot, pas un inconnu).
+    if: github.event_name == 'workflow_dispatch' || github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Accusé de réception
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body "Bien reçu, je m'en occupe. Réponse ici d'ici 10 à 20 minutes."
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Consigne
+        env:
+          TITRE: ${{ github.event.issue.title }}
+          CORPS: ${{ github.event.issue.body }}
+          SAISIE: ${{ github.event.inputs.consigne }}
+        run: |
+          rm -f journal/derniere-commande.md
+          printf '%s\n%s\n%s\n' "$TITRE" "$CORPS" "$SAISIE" > /tmp/consigne.txt
+      - name: Claude prépare et publie
+        if: hashFiles('PAUSE') == ''
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: bash gabarit/ci-claude.sh commande
+      - name: Répondre dans l'issue
+        if: always() && github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f PAUSE ]; then echo "Fichier PAUSE présent : aucune publication." > journal/derniere-commande.md; fi
+          [ -s journal/derniere-commande.md ] || echo "Le passage a échoué sans réponse. Détails dans l'onglet Actions du dépôt." > journal/derniere-commande.md
+          gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body-file journal/derniere-commande.md
+          gh issue close ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY"
+      - name: Enregistrer
+        if: always()
+        run: bash gabarit/ci-commit.sh "Commande du $(TZ=Europe/Paris date '+%d/%m %H:%M')"
