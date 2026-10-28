@@ -1,0 +1,74 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Call of Duty",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "N° 1",
+      "phrase": "des ventes sur Steam pour le nouveau Call of Duty.",
+      "contexte": "Semaine du 13 au 20 octobre 2026, avant même sa sortie.",
+      "image": "mw4_1.jpg",
+      "cadrage": "30% 20%",
+      "credit": "Image : Activision",
+      "source": "Steam, SteamDB"
+    },
+    {
+      "type": "image",
+      "image": "mw4_2.jpg",
+      "cadrage": "50% 30%",
+      "titre": "Modern Warfare 4 est là.",
+      "texte": "Le nouvel épisode de Call of Duty, édité par Activision, sort le 23 octobre 2026 sur PC, PS5, Xbox Series et Switch 2.",
+      "credit": "Image : Activision",
+      "source": "Activision, Wikipédia"
+    },
+    {
+      "type": "image",
+      "image": "mw4_4.jpg",
+      "cadrage": "50% 30%",
+      "titre": "Attention au mot « ventes ».",
+      "texte": "Steam ne donne pas de nombre d'exemplaires vendus. Il classe les jeux selon l'argent qu'ils rapportent.",
+      "credit": "Image : Activision",
+      "source": "VGChartz, SteamDB"
+    },
+    {
+      "type": "texte",
+      "etiquette": "Le détail",
+      "titre": "Numéro un avant la sortie.",
+      "paragraphes": [
+        "Les joueurs qui ont **précommandé** le jeu ont accédé à la campagne dès le **16 octobre**.",
+        "Sur cette même semaine, Modern Warfare 4 prend la **1re place** du classement hebdomadaire de Steam du 13 au 20 octobre, hors jeux gratuits.",
+        "Le classement mesure le **chiffre d'affaires**, pas le nombre d'exemplaires. Les estimations de ventes viennent de cabinets d'analyse, pas de Steam."
+      ],
+      "source": "SteamDB, VGChartz, iXBT"
+    },
+    {
+      "type": "image",
+      "image": "mw4_5.jpg",
+      "cadrage": "50% 30%",
+      "titre": "Sorti le 23 octobre.",
+      "texte": "Après l'accès anticipé du 16 octobre, le jeu est disponible pour tous depuis le 23 octobre 2026.",
+      "credit": "Image : Activision",
+      "source": "Activision"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "SteamDB, meilleures ventes Steam, semaine du 13 au 20 octobre 2026 (hors jeux gratuits)",
+        "VGChartz, classement hebdomadaire Steam, semaine 44 de 2026",
+        "Wikipédia et iXBT.games, dates de sortie et d'accès anticipé",
+        "Images : Activision, fiche officielle Steam"
+      ],
+      "question": "Vous jouez à Call of Duty ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Call of Duty : Modern Warfare 4 est n° 1 des ventes sur Steam, hors jeux gratuits, sur la semaine du 13 au 20 octobre 2026, avant même sa sortie officielle.\n\nLe jeu d'Activision est sorti le 23 octobre. Les précommandes donnaient accès à la campagne dès le 16 octobre. Attention : Steam classe selon l'argent rapporté, pas selon le nombre d'exemplaires.\n\nVous jouez à Call of Duty ? Dites-le en commentaire.\n\nSources : SteamDB, VGChartz, Wikipédia, iXBT.games. Images : Activision.",
+    "hashtags": [
+      "callofduty",
+      "jeuxvideo",
+      "steam",
+      "actu"
+    ]
+  }
+}

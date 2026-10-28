@@ -1,5 +1,7 @@
-Commande « dernier Call of Duty, se vend-il bien ? » : je n'ai RIEN publié.
-Le jeu est Call of Duty: Modern Warfare 4 (sorti le 23 octobre 2026). Activision n'a publié aucun chiffre de ventes ; les seuls chiffres disponibles sont des pics de joueurs Steam (SteamDB) qui divergent : 227 434 (GameRant, ghacks) contre ~215 000 (Windows Central), soit 26 à 30 % sous Black Ops 6 (~306 460), sur l'appli commune « Call of Duty HQ » (Warzone inclus) et sans les consoles.
-Seule info solide : n°1 des ventes Steam, y compris en Corée du Sud (AFP/France 24, 25/10), sans chiffre.
-Pas de chiffre confirmé par 2 sources : règle de la charte, donc pas de post.
-Pour la suite : dis-moi si tu veux un post « n°1 sur Steam mais Activision ne dit rien », ou on attend un communiqué officiel.
+Post publié : https://www.instagram.com/p/DfCodlqlmND/ (6 pages, 4 images du jeu).
+
+Chiffre retenu : Modern Warfare 4 est n° 1 des meilleures ventes Steam (hors jeux gratuits) sur la semaine du 13 au 20 octobre 2026. Sources : SteamDB et VGChartz. Dates de sortie (23 octobre) et d'accès anticipé (16 octobre) : Wikipédia et iXBT.
+
+Pas de graphique comparant les 10 derniers Call of Duty, volontairement : aucun chiffre de ventes Steam comparable sur la même durée n'existe pour les 10 jeux. Steam ne publie que des classements. Les seuls chiffres trouvés (Alinea Analytics : Black Ops 7 environ 401 000 exemplaires en 26 jours contre 2,3 M pour Black Ops 6) viennent d'une seule source et ne couvrent que 2 jeux. Le post précise que Steam classe par chiffre d'affaires, pas par exemplaires.
+
+Images : captures de la fiche Steam officielle, créditées « Activision ». Je n'ai pas pu confirmer image par image qu'elles viennent bien de MW4 plutôt que d'un autre jeu de la fiche partagée.
