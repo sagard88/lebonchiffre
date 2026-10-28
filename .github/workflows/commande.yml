@@ -1,6 +1,8 @@
-# Post à la demande : Olivier ouvre une issue (appli GitHub sur téléphone) avec sa consigne,
-# Claude cherche, vérifie, fabrique et publie tout de suite, puis répond dans l'issue.
-# Lancement possible aussi à la main (onglet Actions → Commande → Run workflow).
+# Post à la demande. Trois façons de passer commande :
+#  - un e-mail à lebonchiffre.actu@gmail.com (script Google gabarit/commande-mail.gs, qui lance ce workflow) ;
+#  - une issue ouverte par Olivier (appli GitHub) ;
+#  - à la main : onglet Actions → Commande → Run workflow.
+# Claude cherche, vérifie, fabrique et publie tout de suite, puis répond (issue, ou fichier lu par le script e-mail).
 name: Commande
 on:
   issues:
@@ -10,8 +12,12 @@ on:
       consigne:
         description: 'Ta consigne (sujet, chiffre, angle…)'
         required: true
+      id:
+        description: 'Identifiant de la commande (rempli par le script e-mail)'
+        required: false
+        default: ''
 concurrency:
-  group: lebonchiffre
+  group: lebonchiffre-commande
   cancel-in-progress: false
 permissions:
   contents: write
@@ -48,13 +54,20 @@ jobs:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: bash gabarit/ci-claude.sh commande
+      - name: Préparer la réponse
+        if: always()
+        env:
+          ID: ${{ github.event.inputs.id }}
+        run: |
+          if [ -f PAUSE ]; then echo "Fichier PAUSE présent : aucune publication." > journal/derniere-commande.md; fi
+          [ -s journal/derniere-commande.md ] || echo "Le passage a échoué sans réponse. Détails dans l'onglet Actions du dépôt GitHub." > journal/derniere-commande.md
+          # Commande par e-mail : la réponse est rangée sous son identifiant, le script e-mail la renvoie à Olivier.
+          if [ -n "$ID" ]; then mkdir -p journal/commandes && cp journal/derniere-commande.md "journal/commandes/$(echo "$ID" | tr -cd 'A-Za-z0-9_-').md"; fi
       - name: Répondre dans l'issue
         if: always() && github.event_name == 'issues'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ -f PAUSE ]; then echo "Fichier PAUSE présent : aucune publication." > journal/derniere-commande.md; fi
-          [ -s journal/derniere-commande.md ] || echo "Le passage a échoué sans réponse. Détails dans l'onglet Actions du dépôt." > journal/derniere-commande.md
           gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body-file journal/derniere-commande.md
           gh issue close ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY"
       - name: Enregistrer
