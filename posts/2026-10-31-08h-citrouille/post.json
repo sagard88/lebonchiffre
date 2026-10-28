@@ -6,8 +6,11 @@
       "type": "couverture",
       "chiffre": "1 432 kg",
       "phrase": "pour la citrouille la plus lourde jamais pesée.",
-      "contexte": "Plus lourde qu'une voiture citadine. Joyeux Halloween.",
-      "source": "AP, Guinness World Records"
+      "contexte": "Ici, une Atlantic Giant, la variété des records.",
+      "source": "AP, Guinness World Records",
+      "image": "atlantic-giant.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : KENPEI, CC BY-SA 3.0"
     },
     {
       "type": "texte",
@@ -20,11 +23,14 @@
       "source": "AP, Guinness World Records, AGI"
     },
     {
-      "type": "image",
-      "image": "citrouilles.jpg",
-      "titre": "Faite à 90 % d'eau.",
-      "texte": "Toutes viennent de l'Atlantic Giant. Pollinisées à la main, un seul fruit par plant, elles prennent jusqu'à 23 kg par jour au pic de croissance. Ici, un concours en Californie.",
-      "credit": "Photo : Nick Ares, CC BY-SA 2.0",
+      "type": "texte",
+      "etiquette": "Le secret",
+      "titre": "Faite à 90 % d’eau.",
+      "paragraphes": [
+        "Toutes les citrouilles géantes viennent d’une seule variété : l’**Atlantic Giant**.",
+        "Pollinisées à la main, un seul fruit par plant, elles boivent des centaines de litres d’eau par jour et prennent jusqu’à **23 kg par jour** au pic de leur croissance.",
+        "Ron Wallace a cultivé la sienne pour la première fois **sous serre**, ce qu’il juge décisif."
+      ],
       "source": "AP (via Demotivateur)"
     },
     {
@@ -49,7 +55,7 @@
         "Associated Press, pesée du 10 octobre 2026 à Warren (via Demotivateur)",
         "AGI, 15 octobre 2026",
         "Guinness World Records, record d'Ian Paton du 3 octobre 2026",
-        "Photo : Nick Ares, CC BY-SA 2.0, Wikimedia Commons"
+        "Photo : KENPEI, CC BY-SA 3.0, Wikimedia Commons"
       ],
       "question": "Vous creusez une citrouille ce soir ?\nDites-le en commentaire."
     }
@@ -63,5 +69,6 @@
       "insolite",
       "actu"
     ]
-  }
+  },
+  "style": "photo"
 }

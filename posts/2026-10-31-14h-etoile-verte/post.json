@@ -7,7 +7,10 @@
       "chiffre": "280",
       "phrase": "années-lumière : la distance de la première étoile verte.",
       "contexte": "Une couleur qu'on croyait impossible pour une étoile.",
-      "source": "Université de Warwick"
+      "source": "Université de Warwick",
+      "image": "naine-verte.webp",
+      "cadrage": "50% 0%",
+      "credit": "Vue d’artiste : Mark A. Garlick, Université de Warwick"
     },
     {
       "type": "texte",
@@ -40,13 +43,14 @@
       "sources": [
         "Université de Warwick, communiqué du 15 octobre 2026",
         "M. Hollands et al., RAS Techniques and Instruments, octobre 2026",
-        "CNN, 16 octobre 2026 ; Nautilus, octobre 2026"
+        "CNN, 16 octobre 2026 ; Nautilus, octobre 2026",
+        "Image : Mark A. Garlick / Université de Warwick (vue simulée)"
       ],
       "question": "Vous saviez qu'aucune étoile n'est verte ?\nDites-le en commentaire."
     }
   ],
   "legende": {
-    "contexte": "Des astronomes de l'université de Warwick, au Royaume-Uni, ont repéré la première étoile qui paraîtrait verte à l'œil humain. Il s'agit d'une naine blanche, WD J1330+6435, située à environ 280 années-lumière, dans la constellation du Dragon.\n\nLes étoiles normales ne peuvent paraître qu'orange, blanches ou bleues. Mais l'atmosphère très dense des naines blanches garde la trace de ce qu'elles ont avalé : ici, du sodium qui absorbe la partie orange de la lumière, avec du calcium et du lithium probablement venus de débris de planètes.\n\nL'étude, publiée le 15 octobre, suggère que d'autres naines blanches paraîtraient roses, cyan, jaunes ou violettes.",
+    "contexte": "Des astronomes de l'université de Warwick, au Royaume-Uni, ont repéré la première étoile qui paraîtrait verte à l'œil humain. Il s'agit d'une naine blanche, WD J1330+6435, située à environ 280 années-lumière, dans la constellation du Dragon.\n\nLes étoiles normales ne peuvent paraître qu'orange, blanches ou bleues. Mais l'atmosphère très dense des naines blanches garde la trace de ce qu'elles ont avalé : ici, du sodium qui absorbe la partie orange de la lumière, avec du calcium et du lithium probablement venus de débris de planètes.\n\nL'étude, publiée le 15 octobre, suggère que d'autres naines blanches paraîtraient roses, cyan, jaunes ou violettes.\n\nImage : vue simulée de la naine blanche, Mark A. Garlick / Université de Warwick.",
     "hashtags": [
       "astronomie",
       "espace",
@@ -54,5 +58,6 @@
       "science",
       "actu"
     ]
-  }
+  },
+  "style": "photo"
 }

@@ -7,7 +7,10 @@
       "chiffre": "9,01 ct",
       "phrase": "le diamant rose qu'on a retrouvé caché dans une pomme.",
       "contexte": "Exposé au château de Chantilly, 100 ans après son vol.",
-      "source": "Musée Condé"
+      "source": "Musée Condé",
+      "image": "chantilly-aerien.jpg",
+      "cadrage": "45% 0%",
+      "credit": "Photo : Carsten Steger, CC BY-SA 4.0"
     },
     {
       "type": "texte",
@@ -20,12 +23,13 @@
       "source": "Unidivers, Galerie Magazine"
     },
     {
-      "type": "image",
-      "image": "chantilly.jpg",
-      "cadrage": "50% 40%",
-      "titre": "Une copie à sa place depuis.",
-      "texte": "Après son retour, le vrai diamant a été mis à l'abri et une réplique a pris sa place. L'original est présenté au musée Condé depuis le 17 octobre.",
-      "credit": "Photo : Dguendel, CC BY 4.0",
+      "type": "texte",
+      "etiquette": "Depuis",
+      "titre": "Une copie à sa place.",
+      "paragraphes": [
+        "Après son retour, le vrai diamant a été mis à l’abri et une **réplique** a pris sa place dans les vitrines.",
+        "L’original est présenté au **musée Condé**, dans le château de Chantilly, depuis le 17 octobre."
+      ],
       "source": "Unidivers, Galerie Magazine"
     },
     {
@@ -55,7 +59,7 @@
         "Unidivers, « Le diamant rose de Chantilly », octobre 2026",
         "Galerie Magazine, octobre 2026",
         "Ministère de la Culture, base Joconde, notice OA 1575",
-        "Photo : Dguendel, CC BY 4.0, Wikimedia Commons"
+        "Photo : Carsten Steger, CC BY-SA 4.0, Wikimedia Commons"
       ],
       "question": "Vous iriez le voir ?\nDites-le en commentaire."
     }
@@ -69,5 +73,6 @@
       "histoire",
       "actu"
     ]
-  }
+  },
+  "style": "photo"
 }
