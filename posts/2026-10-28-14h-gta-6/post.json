@@ -1,48 +1,78 @@
 {
-  "accent": "vert",
+  "accent": "rose",
+  "style": "photo",
   "rubrique": "GTA 6",
   "pages": [
     {
       "type": "couverture",
       "chiffre": "260 M$",
-      "phrase": "de précommandes pour GTA 6 en une semaine.",
+      "phrase": "de précommandes pour GTA 6 en une semaine.",
       "contexte": "Selon le cabinet Newzoo. Sortie le jeudi 19 novembre.",
-      "source": "Newzoo, via Mac4ever"
+      "image": "Jason_and_Lucia_01.jpg",
+      "cadrage": "33% 30%",
+      "credit": "Image : Rockstar Games",
+      "source": "Newzoo"
+    },
+    {
+      "type": "image",
+      "image": "Vice_City_10.jpg",
+      "titre": "Retour à Vice City.",
+      "texte": "La ville inspirée de Miami revient, 24 ans après GTA Vice City (2002), dans l'État imaginaire de Leonida.",
+      "credit": "Image : Rockstar Games",
+      "source": "Rockstar Games"
     },
     {
       "type": "liste",
       "etiquette": "Le compte à rebours",
       "titre": "Le jeu le plus attendu\nde la décennie.",
       "lignes": [
-        { "gauche": "2013", "droite": "sortie de GTA V, l'épisode précédent" },
-        { "gauche": "25 juin", "droite": "ouverture des précommandes" },
-        { "gauche": "19 nov.", "droite": "sortie sur PS5 et Xbox Series", "fort": true },
-        { "gauche": "13 ans", "droite": "d'attente entre les deux jeux" }
+        {
+          "gauche": "2013",
+          "droite": "sortie de GTA V, l'épisode précédent"
+        },
+        {
+          "gauche": "13 ans",
+          "droite": "d'attente entre les deux jeux"
+        },
+        {
+          "gauche": "180 M$",
+          "droite": "de précommandes aux États-Unis et en Europe"
+        },
+        {
+          "gauche": "19 nov.",
+          "droite": "sortie sur PS5 et Xbox Series",
+          "fort": true
+        }
       ],
-      "source": "Rockstar, Journal du Geek"
+      "source": "Rockstar, Newzoo"
     },
     {
-      "type": "chiffres",
-      "etiquette": "Les estimations",
-      "titre": "Des chiffres qui donnent le vertige.",
-      "chiffres": [
-        { "valeur": "180 M$", "texte": "Des précommandes de la première semaine aux États-Unis et dans les cinq grands pays européens." },
-        { "valeur": "20 M+", "texte": "Exemplaires vendus dès le lancement, selon certains analystes. Les prévisions varient beaucoup." }
-      ],
-      "source": "Newzoo, Tech Insider"
+      "type": "image",
+      "image": "Jason_and_Lucia_03.jpg",
+      "cadrage": "45% 30%",
+      "titre": "Jason et Lucia.",
+      "texte": "Le jeu suit un couple de criminels, Jason Duval et Lucia Caminos, les deux héros jouables.",
+      "credit": "Image : Rockstar Games",
+      "source": "Rockstar Games"
     },
     {
       "type": "fin",
       "sources": [
-        "Mac4ever, estimation Newzoo des précommandes",
-        "Journal du Geek, 18 juin 2026",
-        "Tech Insider et Gamewave, octobre 2026"
+        "Newzoo, estimation des précommandes de la première semaine (via Mac4ever)",
+        "Rockstar Games, site officiel de GTA VI",
+        "Images : Rockstar Games, espace médias officiel"
       ],
       "question": "Vous l'avez précommandé ?\nDites-le en commentaire."
     }
   ],
   "legende": {
-    "contexte": "Plus que 22 jours : GTA 6 sort le jeudi 19 novembre sur PS5 et Xbox Series. Selon le cabinet Newzoo, le jeu de Rockstar a déjà généré environ 260 millions de dollars de précommandes numériques sur sa première semaine, dont 180 millions aux États-Unis et dans les cinq plus grands marchés européens.\n\nUn chiffre « exceptionnel » selon l'éditeur Take-Two, même s'il reste loin des rumeurs d'un milliard. Les analystes prévoient plus de 20 millions d'exemplaires vendus dès le lancement, certains bien davantage.\n\nIl aura fallu attendre 13 ans depuis GTA V, sorti en 2013 et devenu l'un des jeux les plus vendus de l'histoire.",
-    "hashtags": ["gta6", "jeuxvideo", "rockstar", "gaming", "actu"]
+    "contexte": "Plus que 22 jours : GTA 6 sort le jeudi 19 novembre sur PS5 et Xbox Series. Selon le cabinet Newzoo, le jeu de Rockstar a déjà généré environ 260 millions de dollars de précommandes numériques sur sa première semaine, dont 180 millions aux États-Unis et dans les cinq plus grands marchés européens.\n\nDirection Vice City, la ville inspirée de Miami, de retour 24 ans après GTA Vice City, dans l'État imaginaire de Leonida. Aux commandes : un couple de criminels, Jason Duval et Lucia Caminos.\n\nIl aura fallu attendre 13 ans depuis GTA V, sorti en 2013 et devenu l'un des jeux les plus vendus de l'histoire.",
+    "hashtags": [
+      "gta6",
+      "jeuxvideo",
+      "rockstar",
+      "vicecity",
+      "actu"
+    ]
   }
 }

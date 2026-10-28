@@ -110,7 +110,9 @@ Les deux polices sont gratuites (Google Fonts).
 - Deux versions :
   - **texte seul** (fond noir) ;
   - **illustrée** : l'illustration en noir et blanc, légèrement assombrie, occupe le haut de la page sous le nom du compte, et se fond dans le noir derrière le chiffre. Le chiffre reste toujours l'élément le plus visible. Le crédit s'ajoute après la source, en bas.
-- Alterner les deux au fil des posts.
+- **Dès que le sujet se voit (jeu vidéo, film, série, produit, personne, lieu, animal, objet), la couverture est illustrée par la vraie image, toujours.** Une couverture noire sans image pour GTA 6, c'est raté. La couverture texte seul est réservée aux idées abstraites sans image possible (un taux, un budget, un indice).
+- **Sujets visuels et attirants (jeux, films, sport, people, lieux) : style « photo »** (`"style": "photo"`), images en couleur et couverture en pleine page. Choisir l'image la plus spectaculaire, avec les visages ou le sujet dans le haut de l'image pour que le chiffre ne les cache pas (`cadrage` pour recadrer). Le noir et blanc reste pour les sujets graves ou abstraits.
+- **Où trouver l'image** : l'espace médias officiel de l'éditeur, du studio ou de la marque d'abord (ex. rockstargames.com/VI/media, qui autorise le partage), puis Wikimedia Commons. Crédit « Image : <éditeur> ».
 
 **Page texte** (`texte`)
 Un titre, puis 2 à 4 paragraphes courts qui racontent l'info : ce qui s'est passé, pourquoi, ce que ça change, le détail étonnant.
@@ -141,7 +143,7 @@ Un titre, puis 2 ou 3 chiffres secondaires (Anton 120 px, accent), chacun avec u
 **Placement** : sur toute la largeur des marges (920 px), environ 640 px de haut (proportion 3:2).
 Filet de **12 px** en couleur d'accent juste dessous. Crédit en dessous, toujours.
 
-**Traitement : toute image passe en noir et blanc**, quelle que soit sa source, avec un contraste légèrement renforcé.
+**Traitement : noir et blanc par défaut**, avec un contraste légèrement renforcé ; **en couleur avec le style « photo »** pour les sujets visuels (voir Couverture).
 C'est le gabarit qui s'en charge, jamais l'image d'origine qu'on garde telle quelle.
 
 **Règle d'or : vraie image ou illustration assumée**

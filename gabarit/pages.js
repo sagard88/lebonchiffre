@@ -169,7 +169,7 @@ function cadre(page, ctx, contenu, gap) {
   const droite = page.type === 'couverture' ? 'Glissez pour comprendre →' : `${ctx.numero} / ${ctx.total}`;
   // Couverture illustrée : l'image en fond sur le haut de la page, le chiffre posé dessus.
   const fond = page.type === 'couverture' && page.image ? `
-  <div class="fond"><img src="${pathToFileURL(path.resolve(ctx.dossier, page.image)).href}" alt=""></div>` : '';
+  <div class="fond"><img src="${pathToFileURL(path.resolve(ctx.dossier, page.image)).href}" alt=""${page.cadrage ? ` style="object-position: ${echapper(page.cadrage)}"` : ''}></div>` : '';
   let credit = fond ? ` · ${echapper(texteCredit(page))}` : '';
   let gaucheFinale = gauche;
   if (fond && texteCredit(page) === `Photo : ${page.source}`) {
