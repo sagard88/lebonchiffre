@@ -1,7 +1,5 @@
-Post publié : https://www.instagram.com/p/DfCodlqlmND/ (6 pages, 4 images du jeu).
-
-Chiffre retenu : Modern Warfare 4 est n° 1 des meilleures ventes Steam (hors jeux gratuits) sur la semaine du 13 au 20 octobre 2026. Sources : SteamDB et VGChartz. Dates de sortie (23 octobre) et d'accès anticipé (16 octobre) : Wikipédia et iXBT.
-
-Pas de graphique comparant les 10 derniers Call of Duty, volontairement : aucun chiffre de ventes Steam comparable sur la même durée n'existe pour les 10 jeux. Steam ne publie que des classements. Les seuls chiffres trouvés (Alinea Analytics : Black Ops 7 environ 401 000 exemplaires en 26 jours contre 2,3 M pour Black Ops 6) viennent d'une seule source et ne couvrent que 2 jeux. Le post précise que Steam classe par chiffre d'affaires, pas par exemplaires.
-
-Images : captures de la fiche Steam officielle, créditées « Activision ». Je n'ai pas pu confirmer image par image qu'elles viennent bien de MW4 plutôt que d'un autre jeu de la fiche partagée.
+Post Halloween prêt mais NON publié : Instagram a répondu « Application request limit reached » (limite de requêtes de l'appli, après les 3 publications de cet après-midi).
+Dossier : posts/2026-10-28-16h-halloween-animaux (5 pages : couverture photo, texte, illustration IA d'un teckel hot-dog, podium, sources).
+Chiffre retenu : 920 M$ prévus aux États-Unis pour les déguisements d'animaux à Halloween 2026 (860 M$ prévus en 2025). Hot dog 2e déguisement d'animal (5,9 %), devant le fantôme (2,8 %). Sources : communiqué NRF de septembre 2026, Talk Business & Politics, Finder. Photo : Petful, CC BY 2.0.
+Insolite volontaire : j'ai évité la citrouille géante, déjà programmée le 31 octobre.
+Pour publier : réponds « publie le post Halloween animaux » dans le fil, une fois la limite levée (quelques heures).

@@ -1,0 +1,61 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Halloween",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "920 M$",
+      "phrase": "prévus pour déguiser les animaux, aux États-Unis.",
+      "contexte": "Prévision NRF pour Halloween 2026. Le hot dog bat le fantôme.",
+      "image": "requin.jpg",
+      "cadrage": "50% 25%",
+      "credit": "Photo : Petful, CC BY 2.0",
+      "source": "NRF, enquête de septembre 2026"
+    },
+    {
+      "type": "texte",
+      "etiquette": "En détail",
+      "titre": "Les animaux ont\nleur budget.",
+      "paragraphes": [
+        "La fédération américaine du commerce de détail (NRF) prévoit **920 millions de dollars** de déguisements pour animaux en 2026. C'était 860 millions prévus en 2025, soit **7 % de plus**.",
+        "C'est près d'**un cinquième** des 4,4 milliards de dollars de déguisements prévus au total, et près de 7 % des 13,5 milliards de dollars attendus pour tout Halloween.",
+        "Ce sont des prévisions, tirées d'une enquête auprès de 7 889 consommateurs, réalisée du 1er au 9 septembre 2026."
+      ],
+      "source": "NRF, communiqué de septembre 2026"
+    },
+    {
+      "type": "image",
+      "etiquette": "Le détail",
+      "image": "hotdog.jpg",
+      "ia": true,
+      "titre": "Le hot dog, roi des chiens.",
+      "texte": "Parmi les déguisements d'animaux, le hot dog arrive en deuxième position. Il devance les fantômes, plus de deux fois moins cités.",
+      "source": "NRF"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Le podium",
+      "titre": "Les déguisements d'animaux\nles plus cités.",
+      "lignes": [
+        { "gauche": "Citrouille", "droite": "11,6 %" },
+        { "gauche": "Hot dog", "droite": "5,9 %", "fort": true },
+        { "gauche": "Fantôme", "droite": "2,8 %" }
+      ],
+      "source": "NRF, enquête de septembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "NRF, communiqué sur Halloween 2026, septembre 2026",
+        "Talk Business & Politics, Finder (reprises NRF)",
+        "Photo : Petful, CC BY 2.0. Illustration IA."
+      ],
+      "question": "Votre animal a-t-il un costume\ncette année ? Dites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "920 M$ : c'est ce que les Américains devraient dépenser en 2026 pour déguiser leurs animaux à Halloween, selon la NRF, la fédération américaine du commerce de détail. C'est une prévision, contre 860 M$ prévus en 2025.\n\nLe hot dog est le deuxième déguisement d'animal le plus cité (5,9 %), devant le fantôme (2,8 %). La citrouille est en tête (11,6 %).\n\nVotre animal a-t-il un costume cette année ? Dites-le en commentaire.\n\nSources : NRF (enquête du 1er au 9 septembre 2026, 7 889 consommateurs), Talk Business & Politics, Finder.\nPhoto : Petful, CC BY 2.0. Illustration générée par IA.",
+    "hashtags": ["halloween", "insolite", "animaux", "actu"]
+  }
+}
