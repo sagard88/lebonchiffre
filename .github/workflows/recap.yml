@@ -15,9 +15,9 @@ jobs:
         id: heure
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(TZ=Europe/Paris date +%H)" = "21" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"; fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         if: steps.heure.outputs.ok == '1'
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         if: steps.heure.outputs.ok == '1'
         with:
           node-version: 24
