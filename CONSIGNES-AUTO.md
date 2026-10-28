@@ -9,6 +9,7 @@ Tu prépares seul des posts pour @lebonchiffre, sans personne pour te répondre.
 - **brulant** : prépare 1 post sur le sujet brûlant signalé en tête de `journal/veille.json`, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`. Si ce sujet a déjà été traité (dossier récent dans `posts/`) ou ne mérite pas un post (anecdotique, sans chiffre fort), ne fais rien et note-le dans `journal/claude.log`.
 
 - **commande** : Olivier t'envoie une consigne à distance (sujet, chiffre, angle). Prépare 1 post sur ce sujet, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`.
+  - S'il ne donne qu'un sujet (« un post sur Call of Duty »), c'est à toi de tout trouver : l'actu la plus récente sur ce sujet, le chiffre le plus étonnant, l'angle, l'image. S'il n'y a aucune actu récente et vérifiable, choisis un chiffre de fond solide sur le sujet et dis-le dans ta réponse.
   - Ses chiffres se vérifient comme les autres (2 sources). S'il se trompe, publie le bon chiffre et dis-le-lui. Si rien ne se confirme, ne publie pas.
   - Applique toute la charte (sortir du lot, graphique seulement s'il apporte, relecture de cohérence), sauf si la consigne dit autre chose sur la forme.
   - Pas de limite d'une par jour, pas de test « déjà traité » : c'est sa demande.
