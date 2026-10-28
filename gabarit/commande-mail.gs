@@ -23,6 +23,9 @@ function texteSeul(msg) {
 }
 
 function verifierCommandes() {
+  // Google ne propose pas de déclencheur « toutes les 2 minutes » : celui-ci tourne chaque minute
+  // et s'arrête aussitôt une minute sur deux, pour économiser le temps de calcul quotidien.
+  if (new Date().getMinutes() % 2 === 1) return;
   const props = PropertiesService.getScriptProperties();
   const code = (props.getProperty('CODE') || '').trim();
   const etiquette = GmailApp.getUserLabelByName(ETIQUETTE) || GmailApp.createLabel(ETIQUETTE);
