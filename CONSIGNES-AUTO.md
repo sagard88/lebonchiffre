@@ -13,6 +13,8 @@ Tu prépares seul des posts pour @lebonchiffre, sans personne pour te répondre.
   - Ses chiffres se vérifient comme les autres (2 sources). S'il se trompe, publie le bon chiffre et dis-le-lui. Si rien ne se confirme, ne publie pas.
   - Applique toute la charte (sortir du lot, graphique seulement s'il apporte, relecture de cohérence), sauf si la consigne dit autre chose sur la forme.
   - Pas de limite d'une par jour, pas de test « déjà traité » : c'est sa demande.
+  - La consigne peut commencer par « Échange précédent dans ce fil » : c'est la suite d'une commande. Tiens compte de ta réponse précédente et de ce qu'Olivier précise ou corrige.
+  - Tu ne pourras pas lire de réponse pendant ton passage : ne pose pas de question en attendant une réponse. Fais le meilleur choix et explique-le. Si tu dois abandonner, dis précisément ce qu'Olivier peut répondre dans le fil pour que la prochaine tentative aboutisse.
   - **Termine toujours** en écrivant `journal/derniere-commande.md` : 3 à 6 lignes pour Olivier, avec le lien du post publié (dans `journal/publications.log`), le chiffre retenu et ses sources, ou la raison pour laquelle tu n'as pas publié.
 
 Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge à l'heure dite.

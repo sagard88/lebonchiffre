@@ -5,7 +5,7 @@
 > Objet : Publie un post sur Call of Duty
 
 Le script répond « Bien reçu », puis renvoie dans le même fil, 10 à 20 minutes plus tard, le lien du post publié (ou la raison de l'abandon).
-Un nouvel e-mail par commande (une réponse dans un fil déjà traité est ignorée).
+Pour préciser ou corriger, réponds dans le même fil avec le code : la commande repart en tenant compte de l'échange.
 
 ## Installation (une seule fois, 10 minutes)
 
