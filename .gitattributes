@@ -1,2 +1,2 @@
-*.sh text eol=lf
-*.yml text eol=lf
+# Journaux en ajout seul : les lignes de deux passages simultanés sont gardées toutes les deux.
+journal/*.log merge=union

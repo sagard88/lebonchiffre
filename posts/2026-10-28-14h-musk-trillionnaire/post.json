@@ -1,0 +1,73 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Elon Musk",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "1 000 Mds",
+      "phrase": "de dollars : Elon Musk, premier trillionnaire de l'histoire.",
+      "contexte": "Un cap franchi grâce à l'entrée en Bourse de SpaceX.",
+      "image": "musk.jpg",
+      "cadrage": "50% 15%",
+      "credit": "Photo : UK Government, CC BY 2.0",
+      "source": "Bloomberg"
+    },
+    {
+      "type": "image",
+      "image": "starship.jpg",
+      "cadrage": "50% 8%",
+      "titre": "La fusée qui l'a rendu\ntrillionnaire.",
+      "texte": "L'entrée en Bourse de SpaceX, sa société spatiale, a fait bondir la valeur de ses parts. Ici, un décollage de Starship.",
+      "credit": "Photo : Steve Jurvetson, CC BY 2.0",
+      "source": "Bloomberg, AP"
+    },
+    {
+      "type": "texte",
+      "etiquette": "Les montagnes russes",
+      "titre": "Une fortune qui fait\nle yo-yo.",
+      "paragraphes": [
+        "Le 5 octobre, sa fortune a bondi de **65 milliards de dollars** en une seule séance, pour atteindre 1 040 milliards, selon Bloomberg.",
+        "Elle dépend presque entièrement des actions **SpaceX et Tesla** : quand elles baissent, il repasse sous la barre.",
+        "Et les classements ne sont pas d'accord : Forbes, qui calcule autrement, l'estime nettement plus bas."
+      ],
+      "source": "Bloomberg, Forbes"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Le détail",
+      "titre": "Le mot juste.",
+      "chiffres": [
+        {
+          "valeur": "1 billion",
+          "texte": "C'est le vrai nom français de 1 000 milliards. Le « trillion » anglais est un faux ami."
+        },
+        {
+          "valeur": "12 zéros",
+          "texte": "1 000 000 000 000 de dollars. En français, un trillion en compte… 18."
+        }
+      ],
+      "source": "Académie française, système international"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Bloomberg, « Musk Is a Trillionaire Again », 5 octobre 2026",
+        "Associated Press, introduction en Bourse de SpaceX",
+        "Forbes, classement en temps réel, octobre 2026",
+        "Photos : UK Government (CC BY 2.0) ; Steve Jurvetson (CC BY 2.0), Wikimedia Commons"
+      ],
+      "question": "Une telle fortune, ça vous inspire quoi ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "1 000 milliards de dollars : aucun être humain n'avait atteint ce cap avant Elon Musk, devenu le premier « trillionnaire » de l'histoire grâce à l'entrée en Bourse de SpaceX.\n\nSa fortune fait le yo-yo au rythme des actions SpaceX et Tesla. Le 5 octobre, elle a bondi de 65 milliards en une séance, à 1 040 milliards de dollars selon Bloomberg, avant de repasser sous la barre quelques jours plus tard. Forbes, qui calcule autrement, l'estime plus bas.\n\nDétail de vocabulaire : en français, 1 000 milliards s'appelle un billion. Le « trillion » anglais est un faux ami, puisqu'un trillion français compte 18 zéros.",
+    "hashtags": [
+      "elonmusk",
+      "spacex",
+      "fortune",
+      "milliardaire",
+      "actu"
+    ]
+  }
+}
