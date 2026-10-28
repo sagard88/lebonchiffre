@@ -1,0 +1,60 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Film 100 % IA",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "181 k$",
+      "phrase": "de recettes pour le premier film chinois 100 % IA.",
+      "contexte": "Sorti le 23 octobre 2026, il n'a rendu que 12 % de son budget.",
+      "image": "masque8.jpg",
+      "cadrage": "50% 30%",
+      "credit": "Photo : Gary Todd, CC0 (masque de Sanxingdui)",
+      "source": "Maoyan, Fortune, The Next Web"
+    },
+    {
+      "type": "image",
+      "image": "masque3.jpg",
+      "cadrage": "50% 40%",
+      "titre": "Un film sur Sanxingdui.",
+      "texte": "Le titre du film renvoie à Sanxingdui, site archéologique chinois célèbre pour ses masques de bronze. Photo d'un masque du musée, pas une image du film.",
+      "credit": "Photo : Gary Todd, CC0 (masque du musée de Sanxingdui)",
+      "source": "Bona Film Group, AFP"
+    },
+    {
+      "type": "texte",
+      "titre": "Un budget loin d'être rattrapé.",
+      "paragraphes": [
+        "Le film est sorti le **23 octobre 2026** en Chine. Au 26 octobre, il avait rapporté environ **181 000 $**, selon la plateforme Maoyan.",
+        "Son budget annoncé par le studio Bona Film Group dépasse **10 millions de yuans**, soit environ **1,5 M$**. Le film n'a donc rendu que 12 % de cette somme.",
+        "Près de **100 personnes** y ont travaillé pendant **plus de deux ans**."
+      ],
+      "source": "Maoyan, Fortune, The Next Web"
+    },
+    {
+      "type": "texte",
+      "etiquette": "Le détail",
+      "titre": "Ce n'est pas un film fait en un clic.",
+      "paragraphes": [
+        "Les acteurs et toutes les scènes sont **générés par IA**, mais le film a demandé des **mois de travail humain**.",
+        "Un dirigeant de Bona reconnaît un accueil tiède, mais parle d'une **expérience importante** pour le cinéma."
+      ],
+      "source": "Fortune, The Next Web"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Maoyan, recettes au 26 octobre 2026 (relayées par Fortune et The Next Web)",
+        "Bona Film Group : budget de plus de 10 M de yuans, près de 100 personnes, plus de 2 ans",
+        "AFP, via The Standard et Malay Mail, 23 octobre 2026",
+        "Images : Gary Todd, Wikimedia Commons, CC0"
+      ],
+      "question": "Iriez-vous voir un film entièrement fait par IA ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le premier film chinois présenté comme entièrement généré par IA, « Sanxingdui: Future Past », est sorti le 23 octobre 2026. Au 26 octobre, il avait rapporté environ 181 000 $ pour un budget annoncé de plus de 1,5 M$.\n\nPrès de 100 personnes ont travaillé plus de deux ans dessus, selon son studio Bona Film Group.",
+    "hashtags": ["cinema", "actu", "ia", "chine"]
+  }
+}
