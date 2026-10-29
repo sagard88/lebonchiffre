@@ -1,5 +1,9 @@
-Post fabriqué mais PAS publié : Instagram refuse (« Application request limit reached », comme pour le post Halloween de 16h).
-Dossier prêt : posts/2026-10-28-16h-film-ia-chinois (5 pages, accent bleu). Relance quand la limite est levée : `npm run publier -- posts/2026-10-28-16h-film-ia-chinois`.
-Chiffre retenu : 181 000 $ au 26 octobre (Maoyan), pour un budget de plus de 10 M de yuans (~1,5 M$) et près de 100 personnes sur plus de 2 ans (Bona). Sources : Fortune (27/10), The Next Web, PetaPixel, AFP via The Standard.
-Images : pas de photo du film libre de droits ; couverture et page 2 avec des masques de bronze de Sanxingdui (Gary Todd, CC0, Wikimedia Commons), signalés comme tels. Si tu as une affiche ou un kit presse officiel, envoie-le dans le fil.
-Tu peux répondre « republie le post du film IA » dans le fil pour une nouvelle tentative.
+# Dernière commande (29/10, post milliardaires Forbes)
+
+**Pas publié** : Instagram répond « Application request limit reached » (même erreur que les 2 échecs du 28/10). Le post est fabriqué et prêt : `posts/2026-10-29-14h-milliardaires-forbes` (5 pages, accent vert).
+
+Chiffre retenu : **3 428 milliardaires** (Forbes, classement du 10 mars 2026, +400 vs 2025). Par pays : États-Unis 989, Chine hors Hong Kong 539, Inde 229, Allemagne 212, Italie 89, France 51 (13e). Sources : Forbes, Journal de l'économie (total, États-Unis, Inde), Wikipédia d'après Forbes (rangs et pays). Allemagne, Italie, France : seulement Wikipédia et World Population Review, tous deux dérivés de Forbes.
+
+Images : couverture illustrée par IA (pyramide de pièces) et photo de Paris (Gugalcrom123, CC BY 4.0).
+
+Pour relancer : répondre « republie le post milliardaires » dans le fil, quand le quota Instagram sera revenu. Aucun lien : rien en ligne.

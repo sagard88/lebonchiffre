@@ -1,0 +1,66 @@
+{
+  "accent": "vert",
+  "rubrique": "Milliardaires",
+  "publier_a": "14:44",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "3 428",
+      "phrase": "milliardaires dans le monde, selon Forbes en mars 2026.",
+      "contexte": "400 de plus en un an : un record.",
+      "image": "couverture.jpg",
+      "ia": true,
+      "source": "Forbes, 10 mars 2026"
+    },
+    {
+      "type": "graphique",
+      "titre": "Les États-Unis\nécrasent le classement.",
+      "unite": "Nombre de milliardaires par pays, classement Forbes 2026",
+      "sens": "horizontal",
+      "barres": [
+        { "label": "États-Unis", "valeur": 989, "affiche": "989" },
+        { "label": "Chine (hors Hong Kong)", "valeur": 539, "affiche": "539" },
+        { "label": "Inde", "valeur": 229, "affiche": "229" },
+        { "label": "Allemagne", "valeur": 212, "affiche": "212" },
+        { "label": "Italie", "valeur": 89, "affiche": "89" },
+        { "label": "France", "valeur": 51, "affiche": "51", "jour": true }
+      ],
+      "source": "Forbes, 10 mars 2026"
+    },
+    {
+      "type": "image",
+      "image": "paris.jpg",
+      "cadrage": "50% 50%",
+      "etiquette": "La France",
+      "titre": "13e rang mondial,\nloin derrière.",
+      "texte": "Avec 51 milliardaires, la France compte 4 fois moins que l'Allemagne (212) et se classe derrière l'Italie (89). Ici, Paris vue de la tour Eiffel, avec La Défense au loin.",
+      "credit": "Photo : Gugalcrom123, CC BY 4.0",
+      "source": "Forbes, 10 mars 2026"
+    },
+    {
+      "type": "texte",
+      "etiquette": "Le détail",
+      "titre": "Ce que ce chiffre\nne dit pas.",
+      "paragraphes": [
+        "Pour entrer dans le classement, il faut un patrimoine net d'au moins **1 milliard de dollars**.",
+        "Le nombre de milliardaires ne mesure ni la richesse de toute la population, ni sa **répartition**. Il ne dit pas non plus comment ces fortunes se sont faites : entreprise créée, héritage ou hausse de la valeur des actifs.",
+        "La vraie question dépasse le classement : comment permettre au plus grand nombre de **participer à la création de richesse** et d'en profiter ?"
+      ],
+      "source": "Forbes, 10 mars 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Forbes, The World's Billionaires 2026, publié le 10 mars 2026",
+        "Journal de l'économie, 3 428 milliardaires en 2026 (total, États-Unis, Inde)",
+        "Wikipédia, d'après Forbes (mars 2026) : chiffres par pays et rangs",
+        "Photo : Gugalcrom123 (CC BY 4.0), Wikimedia Commons. Illustration générée par IA"
+      ],
+      "question": "Comment permettre à plus de monde\nde s'enrichir ? Dites-le ici."
+    }
+  ],
+  "legende": {
+    "contexte": "3 428 milliardaires dans le monde : c'est le record du classement Forbes publié le 10 mars 2026, soit 400 de plus qu'en 2025. Il faut un patrimoine net d'au moins 1 milliard de dollars pour y figurer.\n\nLes États-Unis dominent avec 989 milliardaires, devant la Chine hors Hong Kong (539) et l'Inde (229). La France en compte 51 et se place au 13e rang mondial, loin derrière l'Allemagne (212) et l'Italie (89).\n\nMais ce nombre ne dit ni la richesse de l'ensemble de la population, ni sa répartition, ni l'origine des fortunes. Comment permettre au plus grand nombre de participer à la création de richesse et d'en profiter ?",
+    "hashtags": ["milliardaires", "forbes", "economie", "actu"]
+  }
+}
