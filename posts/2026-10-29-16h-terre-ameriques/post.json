@@ -1,0 +1,59 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "La Terre",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "1 Md",
+      "phrase": "d'habitants sur les Amériques, vues de l'espace.",
+      "contexte": "Photo prise le mercredi 28 octobre 2026.",
+      "image": "terre-source.jpg",
+      "cadrage": "50% 50%",
+      "credit": "Photo : NASA / NOAA (GOES-19)",
+      "source": "NOAA, ONU"
+    },
+    {
+      "type": "image",
+      "image": "terre-source.jpg",
+      "cadrage": "50% 45%",
+      "titre": "Aucune frontière visible.",
+      "texte": "Du Canada à la Terre de Feu, toutes les Amériques tiennent sur un seul globe. Des métropoles aux forêts tropicales, des régions glacées aux déserts.",
+      "credit": "Photo : NASA / NOAA (GOES-19), 28 octobre 2026, 17 h UTC",
+      "source": "NOAA"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce que la photo contient.",
+      "chiffres": [
+        { "valeur": "1,05 Md", "texte": "d'habitants dans les Amériques en 2025, selon les estimations de l'ONU." },
+        { "valeur": "1 sur 8", "texte": "C'est la part des humains qui vivent sur ce continent." },
+        { "valeur": "36 000 km", "texte": "d'altitude : la distance du satellite qui a pris la photo." }
+      ],
+      "source": "ONU (Perspectives de la population mondiale 2024), INED, NOAA"
+    },
+    {
+      "type": "texte",
+      "titre": "Un seul véritable foyer.",
+      "paragraphes": [
+        "Vue d'en haut, la Terre semble **paisible**. Sous ces nuages, des milliards de personnes ont chacune leur vie, leurs souvenirs et leurs projets.",
+        "À notre échelle, le monde paraît immense. Vu de l'espace, toutes ces vies tiennent sur **une petite sphère bleue**.",
+        "Au milieu de l'Univers, nous ne connaissons pour l'instant **aucun autre endroit** que nous puissions appeler chez nous."
+      ],
+      "source": "NOAA"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "NOAA / NESDIS STAR, satellite GOES-19, image GeoColor du 28 octobre 2026 à 17 h UTC",
+        "ONU, Perspectives de la population mondiale 2024 ; INED, projections par continent",
+        "Photo : NASA / NOAA"
+      ],
+      "question": "Si vous pouviez voir un seul endroit\ndepuis l'espace, ce serait lequel ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Cette image donne presque le vertige. Vue depuis l'espace, la Terre semble paisible, sans frontières visibles. Pourtant, sous ces nuages vivent plus d'un milliard de personnes : c'est la population des Amériques, que montre cette photo prise le 28 octobre 2026 par le satellite GOES-19 de la NOAA.\n\nDes métropoles gigantesques aux régions presque inhabitées, des paysages glacés aux forêts tropicales, tout apparaît à l'échelle d'un seul globe. Une planète qui nous semble parfois infinie, mais qui reste notre seul véritable foyer.\n\nSi vous pouviez voir un seul endroit depuis l'espace, ce serait lequel ?\n\nSources : NOAA / NESDIS STAR (GOES-19), ONU (Perspectives de la population mondiale 2024), INED.\nPhoto : NASA / NOAA",
+    "hashtags": ["terre", "espace", "nasa", "actu"]
+  }
+}
