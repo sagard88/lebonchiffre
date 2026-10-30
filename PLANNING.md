@@ -18,7 +18,8 @@ Relecture complète après les remarques d'Olivier (erreurs, graphiques inutiles
 - **Remplacés** : produits-frais (graphique trompeur, chiffre périmé le jour même de l'inflation d'octobre), halloween (prévision 2025 présentée comme un résultat, chiffres contradictoires), chomage (chiffre d'août), toussaint (chiffres de 2024).
 - **Corrigés** : voitures-electriques (graphique aux catégories qui se recoupent, cause non sourcée), loyers et expulsions (graphiques remplacés par une page texte), budget-2027 (« le double de 30 » faux, 54 et 43 Mds expliqués), greve (couleur mise en avant sans raison), démographie (formulations), couleurs de toute la semaine.
 - Meta Business Suite refuse de supprimer, déplacer ou reprogrammer ces posts (« Impossible de supprimer votre publication »), mais accepte de les **modifier**. Les 11 posts ont donc été modifiés sur place le 28 octobre (nouvelles images et légendes, mêmes créneaux), puis vérifiés un par un. Ils partent toujours par Meta, pas par l'API : aucun `publier_a`.
-- credit-immobilier (ven. 30, 19 h) est resté tel quel : exact, mais sans angle. À remplacer de la même façon si un meilleur sujet se présente.
+- credit-immobilier (ven. 30, 19 h) n'a pas été révisé : exact, mais sans angle. À remplacer de la même façon si un meilleur sujet se présente.
+- 30 octobre : une image en couverture devient obligatoire. credit-immobilier, budget-2027 et greve-5-novembre ont reçu une vraie photo et ont été remplacés dans Meta (mêmes créneaux, légendes inchangées).
 - À retenir : pour changer un post programmé dans Meta, passer par « Modifier la publication », jamais par la suppression.
 
 ## À publier en direct (impossible à préparer)
