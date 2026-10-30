@@ -21,6 +21,7 @@ Relecture complète après les remarques d'Olivier (erreurs, graphiques inutiles
 - credit-immobilier (ven. 30, 19 h) n'a pas été révisé : exact, mais sans angle. À remplacer de la même façon si un meilleur sujet se présente.
 - 30 octobre : une image en couverture devient obligatoire. credit-immobilier, budget-2027 et greve-5-novembre ont reçu une vraie photo et ont été remplacés dans Meta (mêmes créneaux, légendes inchangées).
 - 30 octobre, 15 h : post hors planning sur le berger australien (7 ans en tête du LOF), demandé par Olivier, publié par l'API. Supprimé par Olivier puis republié dans la foulée avec une meilleure couverture et une page 5 réécrite (dossier `-v2`).
+- Sam. 31 octobre, 17 h : post hors planning sur les chauves-souris vampires (3 espèces), demandé par Olivier. Part par l'API avec `publier_a`, pas par Meta.
 - À retenir : pour changer un post programmé dans Meta, passer par « Modifier la publication », jamais par la suppression.
 
 ## À publier en direct (impossible à préparer)

@@ -1,0 +1,61 @@
+{
+  "publier_a": "2026-10-31T17:00",
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Halloween",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "3",
+      "phrase": "espèces de chauves-souris boivent du sang.",
+      "contexte": "Sur environ 1 400 dans le monde.",
+      "source": "Natural History, Département de l'Intérieur des États-Unis",
+      "image": "tete-couverture.jpg",
+      "credit": "Photo : Juan Cruzado Cortés, CC BY-SA 4.0"
+    },
+    {
+      "type": "texte",
+      "etiquette": "Les 3 vampires",
+      "titre": "Elles ne boivent pas toutes le même sang.",
+      "paragraphes": [
+        "Le **vampire commun** boit surtout le sang des mammifères.",
+        "Le **vampire à pattes velues** et le **vampire à ailes blanches** préfèrent celui des oiseaux.",
+        "Toutes les trois vivent en Amérique latine."
+      ],
+      "source": "Natural History, Wikipédia"
+    },
+    {
+      "type": "image",
+      "etiquette": "Le détail",
+      "image": "crocs.jpg",
+      "credit": "Photo : Gerry Carter, CC BY-SA 4.0",
+      "titre": "Deux nuits sans manger peuvent la tuer.",
+      "texte": "Alors les femelles qui ont mangé régurgitent du sang pour celles qui ont faim, même hors de leur famille.",
+      "source": "National Geographic, BBC Wildlife"
+    },
+    {
+      "type": "image",
+      "etiquette": "Et chez nous ?",
+      "image": "gant.jpg",
+      "credit": "Photo : Carlos Funes, CC BY 4.0",
+      "titre": "Aucune ne vit en France.",
+      "texte": "La France compte 36 espèces de chauves-souris, toutes protégées. Aucune d'elles ne boit de sang.",
+      "source": "Ministère de la Transition écologique, Natural History"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Natural History, « The Curious, Bloody Lives of Vampire Bats »",
+        "National Geographic, 17 novembre 2015",
+        "BBC Wildlife, vampires et partage du sang",
+        "Département de l'Intérieur des États-Unis, 13 faits sur les chauves-souris",
+        "Ministère de la Transition écologique, Nuit de la chauve-souris"
+      ],
+      "question": "Vous auriez cru qu'il y en avait si peu ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "À Halloween, on pense vite aux chauves-souris vampires. Pourtant, sur environ 1 400 espèces dans le monde, seules trois boivent du sang : le vampire commun, le vampire à pattes velues et le vampire à ailes blanches. Toutes vivent en Amérique latine.\n\nDeux nuits sans repas peuvent suffire à les faire mourir de faim. Les femelles qui ont mangé régurgitent donc du sang pour celles qui ont faim, y compris hors de leur famille.\n\nEn France, les 36 espèces de chauves-souris sont protégées, et aucune ne boit de sang.",
+    "hashtags": ["halloween", "chauvesouris", "vampire", "animaux", "actu"]
+  }
+}
