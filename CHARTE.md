@@ -107,10 +107,8 @@ Les deux polices sont gratuites (Google Fonts).
 - Le chiffre en Anton, couleur d'accent ; un trait blanc de 140 × 12 px ; la phrase qui dit ce qu'il mesure.
 - **Date obligatoire en couverture** dès que le chiffre se rapporte à un événement daté (manifestation, match, élection, catastrophe…) : « Samedi 24 octobre : … ». Ces événements se répètent, le lecteur doit savoir duquel on parle.
 - Contexte : **une seule phrase courte, l'accroche** qui donne envie de glisser (« Près de 7 fois l'inflation. »), pas un rappel de date.
-- Deux versions :
-  - **texte seul** (fond noir) ;
-  - **illustrée** : l'illustration en noir et blanc, légèrement assombrie, occupe le haut de la page sous le nom du compte, et se fond dans le noir derrière le chiffre. Le chiffre reste toujours l'élément le plus visible. Le crédit s'ajoute après la source, en bas.
-- **Dès que le sujet se voit (jeu vidéo, film, série, produit, personne, lieu, animal, objet), la couverture est illustrée par la vraie image, toujours.** Une couverture noire sans image pour GTA 6, c'est raté. La couverture texte seul est réservée aux idées abstraites sans image possible (un taux, un budget, un indice).
+- **Une image en couverture à chaque post, sans exception** : l'illustration en noir et blanc, légèrement assombrie, occupe le haut de la page sous le nom du compte, et se fond dans le noir derrière le chiffre. Le chiffre reste toujours l'élément le plus visible. Le crédit s'ajoute après la source, en bas.
+- **Jamais de couverture texte seul**, même pour une idée abstraite (un taux, un budget, un indice). Choix de l'image : section 7. Le gabarit refuse de fabriquer un post dont la couverture n'a pas d'image.
 - **Sujets visuels et attirants (jeux, films, sport, people, lieux) : style « photo »** (`"style": "photo"`), images en couleur et couverture en pleine page. Choisir l'image la plus spectaculaire, avec les visages ou le sujet dans le haut de l'image pour que le chiffre ne les cache pas (`cadrage` pour recadrer). Le noir et blanc reste pour les sujets graves ou abstraits.
 - **Où trouver l'image** : l'espace médias officiel de l'éditeur, du studio ou de la marque d'abord (ex. rockstargames.com/VI/media, qui autorise le partage), puis Wikimedia Commons. Crédit « Image : <éditeur> ».
 
@@ -146,9 +144,11 @@ Filet de **12 px** en couleur d'accent juste dessous. Crédit en dessous, toujou
 **Traitement : noir et blanc par défaut**, avec un contraste légèrement renforcé ; **en couleur avec le style « photo »** pour les sujets visuels (voir Couverture).
 C'est le gabarit qui s'en charge, jamais l'image d'origine qu'on garde telle quelle.
 
-**Règle d'or : vraie image ou illustration assumée**
+**Règle d'or : une image à chaque post, la vraie d'abord, Gemini seulement en dernier recours**
 - Le post parle d'**un objet, une personne, un lieu ou un événement réels** (un robot précis, un dirigeant, un monument) : **la vraie image obligatoirement**, venant d'une source autorisée ci-dessous (espace presse officiel en priorité), avec son crédit.
-- Le post parle d'**une idée ou d'un phénomène** (l'inflation, la chaleur, la natalité) : **une illustration**, dans le style choisi pour le post (gravure, réaliste, autre), créditée « Illustration générée par IA ».
+- Le post parle d'**une idée ou d'un phénomène** (l'inflation, un taux, un budget) : **d'abord une vraie photo libre** qui évoque le sujet (des immeubles pour un crédit immobilier, l'Assemblée nationale pour un budget), avec son crédit.
+- **Seulement si aucune vraie image ne convient : une illustration Gemini**, dans le style choisi pour le post (gravure, réaliste, autre), créditée « Illustration générée par IA ».
+- Si aucune image n'est possible (crédit Gemini épuisé, par exemple), le post n'est pas fabriqué.
 - Jamais d'image générée qui imite un objet ou une personne réels.
 
 **Sources autorisées**

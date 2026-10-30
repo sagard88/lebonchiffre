@@ -34,7 +34,7 @@ Chaque page a un `type` et une `source` (sauf la page `fin`).
 
 | Type | Champs | Étiquette par défaut |
 |---|---|---|
-| `couverture` (toujours en 1re) | `chiffre` (8 caractères au plus), `phrase` (10 mots au plus), `contexte` | la rubrique |
+| `couverture` (toujours en 1re) | `chiffre` (8 caractères au plus), `phrase` (10 mots au plus), `contexte`, `image` (obligatoire) et `credit` ou `"ia": true` | la rubrique |
 | `texte` | `titre`, `paragraphes` : `["…", "…"]` (2 à 4 paragraphes courts ; `**mot**` passe en couleur d'accent) | EN DÉTAIL |
 | `liste` | `titre`, `lignes` : `[{ "gauche": "1804", "droite": "1 milliard", "fort": true }]` (`fort` = en couleur d'accent) | LE CONTEXTE |
 | `chiffres` | `titre`, `chiffres` : `[{ "valeur": "10,3 Mds", "texte": "…" }]` (2 ou 3) | ET APRÈS ? |

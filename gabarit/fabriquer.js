@@ -42,7 +42,7 @@ function controler(post, dossier) {
       const mots = String(p.phrase ?? '').trim().split(/\s+/).length;
       if (mots > 10) alertes.push(`${n} : la phrase fait ${mots} mots (10 au plus)`);
     }
-    if (p.type === 'image' || (p.type === 'couverture' && p.image)) {
+    if (p.type === 'image' || p.type === 'couverture') {
       if (!p.image || !fs.existsSync(path.resolve(dossier, p.image))) erreurs.push(`${n} : image introuvable (${p.image})`);
       if (!p.ia && !p.credit) erreurs.push(`${n} : crédit de l'image manquant`);
     }

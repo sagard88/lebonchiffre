@@ -22,7 +22,7 @@ Les deux passages planifiés sont espacés de plus de 5 heures : chacun tombe da
 
 - **Réserve de sujets de fond** : des posts « intemporels » préparés à l'avance, par lots, pendant les sessions avec Olivier. Ils comblent un créneau quand l'actu du moment ne vaut pas un passage de Claude.
 - **Abandon rapide** : sujet laissé de côté dès que les 2 sources ne concordent pas.
-- **Images** : vraie photo libre d'abord ; Gemini en dernier recours (crédit de 5 €).
+- **Images** : une image en couverture à chaque post ; vraie photo libre d'abord ; Gemini en dernier recours (crédit de 5 €).
 - **Journal** : tokens consommés à chaque passage, dans `journal/claude.log`, pour mesurer le vrai coût.
 
 ## Garde-fous
