@@ -207,6 +207,7 @@ Fabriqués par le gabarit à partir des vrais chiffres, **jamais par Gemini**.
 - Virgule pour les décimales (1,5), espace pour les milliers (12 400), espace insécable avant « % », « € », « °C ».
 - Phrase de couverture : **10 mots au plus**.
 - Une idée par phrase. Phrases courtes, vocabulaire courant, pas de jargon sans explication.
+- **Chaque page se comprend seule, du premier coup**, par quelqu'un qui ne connaît pas le sujet : le titre et le contenu doivent suffire, sans avoir besoin de l'étiquette en haut à droite. En cas de doute, une phrase complète plutôt qu'un tableau ou une liste de mots.
 - Dates complètes la première fois (« le 15 novembre 2022 »).
 - Les projections sont toujours dites comme telles (« prévu », « selon les projections de »).
 
