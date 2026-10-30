@@ -20,14 +20,22 @@ function maintenantParis() {
 const enMs = (h) => Date.parse(h + ':00Z');
 
 const maintenant = maintenantParis();
-const dus = fs.readdirSync(POSTS)
+const programmes = fs.readdirSync(POSTS)
   .map((d) => path.join(POSTS, d))
   .filter((d) => fs.existsSync(path.join(d, 'post.json')) && !fs.existsSync(path.join(d, 'publie.json')))
   .map((d) => ({ dossier: d, a: JSON.parse(fs.readFileSync(path.join(d, 'post.json'), 'utf8')).publier_a }))
-  .filter((p) => p.a && p.a <= maintenant)
+  .filter((p) => p.a);
+
+// Une heure sans date ("14:44") n'est jamais "en retard" : le post repartirait à chaque passage.
+const malFormes = programmes.filter((p) => !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(p.a));
+const dus = programmes
+  .filter((p) => !malFormes.includes(p) && p.a <= maintenant)
   .sort((x, y) => x.a.localeCompare(y.a));
 
-let echecs = 0;
+let echecs = malFormes.length;
+for (const p of malFormes) {
+  console.error(`✖ ${path.basename(p.dossier)} : "publier_a" mal formé (${p.a}), attendu AAAA-MM-JJTHH:MM, non publié`);
+}
 for (const p of dus) {
   const nom = path.basename(p.dossier);
   if (enMs(maintenant) - enMs(p.a) > RETARD_MAX) {

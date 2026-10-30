@@ -38,7 +38,7 @@ Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge
 
 ## Fabriquer
 
-- Suis `CHARTE.md` et le format de `README.md`. Dossier : `posts/AAAA-MM-JJ-HHh-sujet/`. Ajoute `"publier_a"` dans `post.json`.
+- Suis `CHARTE.md` et le format de `README.md`. Dossier : `posts/AAAA-MM-JJ-HHh-sujet/`. Ajoute `"publier_a"` dans `post.json`, date comprise (`"2026-11-02T08:00"`), sauf en mode brulant ou commande (publication immédiate).
 - **Date en couverture** pour tout événement daté.
 - **Couleur principale** (`accent`) : varie parmi les 8 de la charte (jaune, rouge, vert, bleu, violet, rose, turquoise, orange), jamais la même que les deux derniers posts (regarde leur `post.json`).
 - **Une couverture qui donne envie** : si le sujet se voit (jeu, film, produit, personne, lieu…), couverture illustrée par la vraie image, en `"style": "photo"` (couleur, pleine page), avec la plus belle image disponible et le sujet en haut pour que le chiffre ne le masque pas. Jamais de couverture noire pour un sujet visuel.

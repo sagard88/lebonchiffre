@@ -28,7 +28,8 @@ Les deux passages planifiés sont espacés de plus de 5 heures : chacun tombe da
 ## Garde-fous
 
 - Fichier `PAUSE` à la racine : plus rien n'est publié.
-- Un post déjà publié ne repart jamais (`publie.json`).
+- Un post déjà publié ne repart jamais (`publie.json`, et vérification de la légende parmi les 25 derniers posts du compte avant chaque publication).
+- Instagram peut répondre « Application request limit reached » alors que le post est bien parti : `publier.js` vérifie en ligne avant de conclure à l'échec.
 - Journal de chaque publication : `journal/publications.log`.
 - E-mail récapitulatif chaque soir à lebonchiffre.actu@gmail.com.
 - Le PC doit être allumé aux heures de passage : sinon le créneau saute.

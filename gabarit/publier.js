@@ -73,6 +73,20 @@ async function attendrePret(id, jeton) {
   throw new Error(`conteneur ${id} : toujours pas prêt après 90 s`);
 }
 
+// Cherche le post en ligne d'après sa légende, parmi les 25 derniers du compte.
+async function retrouverEnLigne(legende, jeton) {
+  const propre = (t) => t.replace(/\s+/g, ' ').trim();
+  const { data } = await graph('GET', '/me/media', { fields: 'caption,permalink,timestamp', limit: '25' }, jeton);
+  return data.find((m) => m.caption && propre(m.caption) === propre(legende));
+}
+
+function marquerPublie(dossier, { id, permalink }) {
+  fs.writeFileSync(path.join(dossier, 'publie.json'),
+    JSON.stringify({ media: id, permalink, date: new Date().toISOString() }, null, 2) + '\n');
+  journal(`PUBLIÉ ${path.basename(dossier)} : ${permalink}`);
+  console.log(`✔ publié : ${permalink}`);
+}
+
 function journal(ligne) {
   fs.mkdirSync(path.dirname(JOURNAL), { recursive: true });
   fs.appendFileSync(JOURNAL, `${new Date().toISOString()} ${ligne}\n`);
@@ -109,6 +123,16 @@ async function main() {
   if (legende.length > 2200) throw new Error(`légende de ${legende.length} caractères (2 200 au plus)`);
   if ((legende.match(/#/g) ?? []).length > 30) throw new Error('plus de 30 mots-dièse');
 
+  // Déjà en ligne sans publie.json (passage interrompu) : ne jamais publier en double.
+  if (!essai) {
+    const enLigne = await retrouverEnLigne(legende, jeton);
+    if (enLigne) {
+      console.log('⚠ même légende déjà en ligne : pas de nouvelle publication');
+      marquerPublie(dossier, enLigne);
+      return;
+    }
+  }
+
   // 1. Mise en ligne des images (Instagram va les chercher à une adresse publique).
   console.log(`… mise en ligne de ${jpegs.length} images`);
   await deposerSurGithub(nom, jpegs.map((f) => path.join(images, f)), GITHUB_TOKEN);
@@ -141,12 +165,18 @@ async function main() {
   }
 
   // 3. Publication.
-  const { id: media } = await graph('POST', `/${compte}/media_publish`, { creation_id: conteneur }, jeton);
-  const { permalink } = await graph('GET', `/${media}`, { fields: 'permalink' }, jeton);
-  fs.writeFileSync(path.join(dossier, 'publie.json'),
-    JSON.stringify({ media, permalink, date: new Date().toISOString() }, null, 2) + '\n');
-  journal(`PUBLIÉ ${nom} : ${permalink}`);
-  console.log(`✔ publié : ${permalink}`);
+  // Instagram peut répondre par une erreur alors que le post est bien parti : on vérifie avant de conclure à l'échec.
+  let publie;
+  try {
+    const { id: media } = await graph('POST', `/${compte}/media_publish`, { creation_id: conteneur }, jeton);
+    publie = await graph('GET', `/${media}`, { fields: 'permalink' }, jeton);
+  } catch (e) {
+    await attendre(5000);
+    publie = await retrouverEnLigne(legende, jeton);
+    if (!publie) throw e;
+    console.log(`⚠ ${e.message}, mais le post est bien en ligne`);
+  }
+  marquerPublie(dossier, publie);
 }
 
 main().catch((e) => {
