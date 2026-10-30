@@ -20,7 +20,7 @@ Relecture complète après les remarques d'Olivier (erreurs, graphiques inutiles
 - Meta Business Suite refuse de supprimer, déplacer ou reprogrammer ces posts (« Impossible de supprimer votre publication »), mais accepte de les **modifier**. Les 11 posts ont donc été modifiés sur place le 28 octobre (nouvelles images et légendes, mêmes créneaux), puis vérifiés un par un. Ils partent toujours par Meta, pas par l'API : aucun `publier_a`.
 - credit-immobilier (ven. 30, 19 h) n'a pas été révisé : exact, mais sans angle. À remplacer de la même façon si un meilleur sujet se présente.
 - 30 octobre : une image en couverture devient obligatoire. credit-immobilier, budget-2027 et greve-5-novembre ont reçu une vraie photo et ont été remplacés dans Meta (mêmes créneaux, légendes inchangées).
-- 30 octobre, 15 h : post hors planning sur le berger australien (7 ans en tête du LOF), demandé par Olivier, publié par l'API.
+- 30 octobre, 15 h : post hors planning sur le berger australien (7 ans en tête du LOF), demandé par Olivier, publié par l'API. Supprimé par Olivier puis republié dans la foulée avec une meilleure couverture et une page 5 réécrite (dossier `-v2`).
 - À retenir : pour changer un post programmé dans Meta, passer par « Modifier la publication », jamais par la suppression.
 
 ## À publier en direct (impossible à préparer)
