@@ -7,7 +7,9 @@
       "chiffre": "3,40 %",
       "phrase": "le taux moyen des crédits immobiliers en septembre.",
       "contexte": "En hausse, selon l'Observatoire Crédit Logement/CSA.",
-      "source": "Crédit Logement/CSA"
+      "source": "Crédit Logement/CSA",
+      "image": "immeuble.jpg",
+      "credit": "Photo : Gary Todd, CC0"
     },
     {
       "type": "liste",
