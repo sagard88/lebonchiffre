@@ -1,0 +1,73 @@
+{
+  "accent": "turquoise",
+  "style": "photo",
+  "rubrique": "Berger australien",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "7 ans",
+      "phrase": "au sommet pour le berger australien, détrôné en 2025.",
+      "contexte": "Le golden retriever lui a pris sa place.",
+      "source": "Centrale Canine",
+      "image": "chiot-couverture.jpg",
+      "cadrage": "100% 50%",
+      "credit": "Photo : Gorfiest, CC0"
+    },
+    {
+      "type": "graphique",
+      "titre": "Près de 6 000 chiots de moins en 4 ans.",
+      "unite": "Bergers australiens inscrits au LOF par an (2024 : estimation)",
+      "barres": [
+        { "label": "2021", "valeur": 20449, "affiche": "20 449" },
+        { "label": "2022", "valeur": 20018, "affiche": "20 018" },
+        { "label": "2023", "valeur": 17609, "affiche": "17 609" },
+        { "label": "2024", "valeur": 15700, "affiche": "≈ 15 700" },
+        { "label": "2025", "valeur": 14609, "affiche": "14 609", "jour": true }
+      ],
+      "source": "Centrale Canine, via Santévet et Breizh-Info"
+    },
+    {
+      "type": "image",
+      "etiquette": "Le détail",
+      "image": "saut.jpg",
+      "cadrage": "50% 50%",
+      "credit": "Photo : Reinhold Möller Ermell, CC BY-SA 4.0",
+      "titre": "Le golden n'a presque pas bougé.",
+      "texte": "14 948 chiots en 2022, 15 062 en 2025. S'il passe devant, c'est surtout parce que le berger australien recule.",
+      "source": "Centrale Canine, via Santévet et Breizh-Info"
+    },
+    {
+      "type": "image",
+      "etiquette": "Le contexte",
+      "image": "neige.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : PxHere, CC0",
+      "titre": "Les chiens de race reculent aussi.",
+      "texte": "276 506 chiots inscrits en 2021, année record. Près de 200 000 en 2025 : environ 28 % de moins. Le berger australien (−29 %) suit la tendance.",
+      "source": "Centrale Canine, via Santévet et Corse Net Infos"
+    },
+    {
+      "type": "image",
+      "etiquette": "Et après ?",
+      "image": "portrait.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : Thcipriani, CC BY-SA 4.0",
+      "titre": "Il ne lui manque que 453 chiots.",
+      "texte": "C'est l'écart avec le golden en 2025. Et il reste loin devant le 3e, le staffordshire bull terrier : environ 8 600 chiots.",
+      "source": "Centrale Canine, via Santévet et Breizh-Info"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Centrale Canine (LOF), via Santévet, classement 2025",
+        "Breizh-Info, 26 janvier 2026 et années précédentes",
+        "Corse Net Infos, 24 janvier 2026"
+      ],
+      "question": "Team berger australien ou team golden ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Pendant sept ans, le berger australien a été la race la plus inscrite au Livre des origines français (LOF). En 2025, il cède sa place au golden retriever : 14 609 chiots contre 15 062, selon les chiffres de la Centrale Canine.\n\nLe golden n'a pourtant presque pas progressé depuis 2022 (14 948). C'est surtout le berger australien qui recule : 20 449 chiots en 2021, soit environ 29 % de moins en quatre ans. Une baisse proche de celle de l'ensemble des chiens de race, partis d'une année record.\n\nCe classement compte les chiots inscrits au LOF, pas tous les chiens de France.",
+    "hashtags": ["bergeraustralien", "chien", "goldenretriever", "animaux", "actu"]
+  }
+}
