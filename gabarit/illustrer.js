@@ -12,7 +12,7 @@ function prompt(sujet) {
   return [
     `Image éditoriale pour un média d'information. Sujet : ${sujet}`,
     'Rendu photographique très réaliste, en couleur, couleurs naturelles et vives, lumière naturelle, belle profondeur de champ.',
-    'Une scène vivante et spectaculaire qui raconte le sujet d\'un coup d\'œil, avec de l\'émotion et des détails parlants, comme une photo de magazine.',
+    'Une image spectaculaire qui raconte le sujet d\'un coup d\'œil, avec de l\'émotion et des détails parlants, comme une photo de magazine.',
     'Le personnage ou l\'élément principal, grand et net, dans le haut de l\'image ; composition percutante, lisible en petit.',
     'Aucun texte, aucune lettre, aucun chiffre, aucun logo.',
     'Personnages entièrement fictifs : aucune personne réelle identifiable, aucun produit ou marque réels.',
