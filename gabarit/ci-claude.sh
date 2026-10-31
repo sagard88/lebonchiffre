@@ -15,8 +15,9 @@ const fs = require("fs");
 let r = {}; try { r = JSON.parse(fs.readFileSync("/tmp/claude.json", "utf8")); } catch {}
 const u = r.usage || {};
 // La dernière réponse de Claude : sans elle, un passage qui ne prépare rien ne dit pas pourquoi.
-const reponse = String(r.result || "").replace(/\s+/g, " ").slice(0, 400);
-const ligne = `${new Date().toISOString()} ${process.argv[1]} : ${r.subtype || "échec"}, ${r.num_turns ?? "?"} tours, tokens entrée ${u.input_tokens ?? "?"} + cache ${(u.cache_read_input_tokens ?? 0) + (u.cache_creation_input_tokens ?? 0)}, sortie ${u.output_tokens ?? "?"} | ${reponse}\n`;
+const reponse = String(r.result || "").replace(/\s+/g, " ").slice(0, 1500);
+const refus = (r.permission_denials || []).map((d) => `${d.tool_name} ${JSON.stringify(d.tool_input).slice(0, 80)}`).join(" ; ");
+const ligne = `${new Date().toISOString()} ${process.argv[1]} : ${r.subtype || "échec"}, ${r.num_turns ?? "?"} tours, tokens entrée ${u.input_tokens ?? "?"} + cache ${(u.cache_read_input_tokens ?? 0) + (u.cache_creation_input_tokens ?? 0)}, sortie ${u.output_tokens ?? "?"} | ${reponse}${refus ? " | refus : " + refus : ""}\n`;
 fs.mkdirSync("journal", { recursive: true });
 fs.appendFileSync("journal/claude.log", ligne);
 console.log(ligne.trim());

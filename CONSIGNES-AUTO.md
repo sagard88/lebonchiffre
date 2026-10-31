@@ -22,7 +22,7 @@ Ne publie jamais toi-même en mode matin, soir ou essai : `gabarit/file.js` s'en
 
 ## Choisir le sujet
 
-1. Lis `journal/veille.json` (tendances classées, gratuites) : c'est ton point de départ.
+1. Lis `journal/veille.json` (tendances classées, gratuites) : c'est un point de départ, pas une limite. **Si elle ne propose rien de bon, cherche toi-même** : le calendrier du jour, les publications récentes d'organismes (Insee, Météo-France, ESA, NASA, muséums…), la science, les animaux, les records, l'histoire. Une veille décevante n'est jamais une raison de s'arrêter.
 2. Varie les rubriques (politique, économie, sport, jeux vidéo, tech, société, culture…). Évite tout sujet déjà traité ces 7 derniers jours : regarde les noms des dossiers de `posts/` et la fin de `journal/publications.log`.
 3. Le sujet doit tenir en **un chiffre fort et vérifiable**.
 4. **Sortir du lot** (section « Sortir du lot » de `CHARTE.md`) : cherche le chiffre qui fait dire « ah bon ? ». Soit l'angle que personne ne met en avant dans un sujet du jour, soit un sujet décalé (sciences, animaux, records, espace, histoire, faits curieux) d'actualité. Si ton chiffre est déjà en titre partout, trouve un autre angle.
@@ -55,4 +55,5 @@ Ne publie jamais toi-même en mode matin, soir ou essai : `gabarit/file.js` s'en
 
 - Ajoute une ligne à `journal/claude.log` : date, mode, dossiers préparés (ou raison de l'abandon).
 - Ne touche jamais à `.env` ni aux secrets, ne les affiche jamais.
-- Si rien de fiable n'est trouvé, ne prépare rien plutôt qu'un post douteux, et note-le dans `journal/claude.log`.
+- Écris dans le journal avec les outils Read puis Edit (pas de `echo` : il est refusé).
+- En mode matin, soir ou essai, un créneau vide est un échec : si un sujet ne se confirme pas, passe au suivant. Tu ne renonces qu'après **3 sujets réellement essayés** ; note-les alors dans `journal/claude.log`. Un post douteux reste interdit : la règle des 2 sources ne s'assouplit jamais.
