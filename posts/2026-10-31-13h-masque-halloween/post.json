@@ -1,0 +1,49 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Masques d'Halloween",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "15 000 €",
+      "phrase": "d'amende au maximum pour un masque d'Halloween près d'une manif.",
+      "contexte": "Ce samedi 31 octobre, Halloween tombe le jour de l'acte III.",
+      "image": "masque.jpg",
+      "ia": true,
+      "source": "ICI, France 3"
+    },
+    {
+      "type": "texte",
+      "titre": "Permis dans la rue, risqué près d'un cortège.",
+      "paragraphes": [
+        "Se cacher le visage dans l'espace public est interdit depuis 2010 : **jusqu'à 150 € d'amende**. Mais la loi fait une exception pour les fêtes. Un masque d'Halloween y est donc en principe autorisé.",
+        "Au sein ou aux abords immédiats d'une manifestation à risque de troubles, une loi de 2019 s'applique : sans motif légitime, **jusqu'à un an de prison et 15 000 € d'amende**. Simples passants compris.",
+        "Le ministre de l'Intérieur prévient : Halloween « ne sera pas un motif légitime ». En cas de contestation, c'est au juge de trancher."
+      ],
+      "source": "ICI, France 3"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Un risque de troubles « très élevé », selon le ministre.",
+      "chiffres": [
+        { "valeur": "70 000", "texte": "policiers et gendarmes mobilisés ce samedi, autant que le 24 octobre." },
+        { "valeur": "26", "texte": "blindés Centaure de la gendarmerie engagés, avec drones et hélicoptères." }
+      ],
+      "source": "Franceinfo, France 24"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "ICI, 30 et 31 octobre 2026",
+        "France 3 Normandie, 31 octobre 2026",
+        "Franceinfo, 29 octobre 2026",
+        "France 24 avec AFP, 29 octobre 2026"
+      ],
+      "question": "Sortirez-vous masqué ce soir ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Ce samedi 31 octobre, l'acte III de la mobilisation contre la vie chère tombe le soir d'Halloween. Dans la rue, un masque de fête est en principe autorisé. Mais au sein ou aux abords immédiats d'une manifestation à risque de troubles, se cacher le visage sans motif légitime peut valoir jusqu'à un an de prison et 15 000 € d'amende.\n\nLe ministre de l'Intérieur a prévenu qu'Halloween « ne sera pas un motif légitime », avec 70 000 policiers et gendarmes mobilisés. En cas de contestation, c'est au juge de trancher.",
+    "hashtags": ["halloween", "manifestation", "acte3", "actu", "france"]
+  }
+}

@@ -23,6 +23,7 @@ Relecture complète après les remarques d'Olivier (erreurs, graphiques inutiles
 - 30 octobre, 15 h : post hors planning sur le berger australien (7 ans en tête du LOF), demandé par Olivier, publié par l'API. Supprimé par Olivier puis republié dans la foulée avec une meilleure couverture et une page 5 réécrite (dossier `-v2`).
 - Sam. 31 octobre, 17 h : post hors planning sur les chauves-souris vampires (3 espèces), demandé par Olivier. Part par l'API avec `publier_a`, pas par Meta.
 - Sam. 31 octobre, midi : post hors planning sur les JO de la jeunesse à Dakar (2 700 athlètes), issu de l'essai du système, avec une vraie photo, publié par l'API à la demande d'Olivier.
+- Sam. 31 octobre, 12 h 34 : post hors planning sur les masques d'Halloween près des manifestations (15 000 €), demandé par Olivier, avec une image Gemini à titre exceptionnel, publié par l'API.
 - À retenir : pour changer un post programmé dans Meta, passer par « Modifier la publication », jamais par la suppression.
 
 ## À publier en direct (impossible à préparer)
