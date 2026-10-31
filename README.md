@@ -43,4 +43,4 @@ Chaque page a un `type` et une `source` (sauf la page `fin`).
 | `fin` (toujours en dernière) | `sources` (liste), `question` | SOURCES |
 
 Dans un graphique : `jour` met la barre en couleur d'accent, `projection` la dessine en pointillés (la légende s'ajoute seule).
-Une image est toujours passée en noir et blanc par le gabarit ; avec `"ia": true`, le crédit et la légende portent « Illustration générée par IA ».
+Avec `"style": "photo"`, les images restent en couleur et la couverture est en pleine page ; sans ce style, une vraie photo passe en noir et blanc. Avec `"ia": true`, l'image reste toujours en couleur, et le crédit et la légende portent « Illustration générée par IA ».

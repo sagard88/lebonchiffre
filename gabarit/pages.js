@@ -299,7 +299,9 @@ function htmlPage(post, page, numero, total, dossier) {
     etiquette: page.etiquette ?? (page.type === 'couverture' ? post.rubrique : ETIQUETTES[page.type]),
   };
   const [contenu, gap] = MODELES[page.type](page, ctx);
-  return document_(ACCENTS[post.accent], cadre(page, ctx, contenu, gap), post.style);
+  // Une image Gemini reste toujours en couleur, comme avec le style « photo ».
+  const style = post.pages.some((p) => p.ia) ? 'photo' : post.style;
+  return document_(ACCENTS[post.accent], cadre(page, ctx, contenu, gap), style);
 }
 
 module.exports = { htmlPage, ACCENTS, MODELES };

@@ -1,30 +1,28 @@
 // Génère une illustration de couverture par l'API Gemini, avec le prompt type de CHARTE.md.
-// Usage : node gabarit/illustrer.js posts/<dossier> "sujet en une phrase" [nom.jpg] [--realiste]
+// Usage : node gabarit/illustrer.js posts/<dossier> "sujet en une phrase" [nom.jpg]
 // Réservé aux idées et phénomènes : jamais pour un objet, une personne ou un lieu réels (CHARTE.md).
+// Toujours réaliste et en couleur, jamais de noir et blanc (demande d'Olivier, 31/10/2026).
 const fs = require('fs');
 const path = require('path');
 const { lireEnv } = require('./env');
 
 const MODELE = 'gemini-3.1-flash-image';
 
-function prompt(sujet, realiste) {
-  const style = realiste
-    ? 'Style photographique réaliste et sobre, lumière naturelle, fond sombre, sujet unique centré, composition simple et lisible en petit.'
-    : 'Style gravure contemporaine à fort contraste, aplats noirs profonds, fond sombre, sujet unique centré, composition simple et lisible en petit.\nRendu en noir et blanc, sans dégradé coloré.';
+function prompt(sujet) {
   return [
-    `Illustration éditoriale pour un média d'information. Sujet : ${sujet}`,
-    style,
+    `Image éditoriale pour un média d'information. Sujet : ${sujet}`,
+    'Rendu photographique très réaliste, en couleur, couleurs naturelles et vives, lumière naturelle, belle profondeur de champ.',
+    'Un seul sujet, grand et net, dans le haut de l\'image ; fond simple ; composition percutante, lisible en petit.',
     'Aucun texte, aucune lettre, aucun chiffre, aucun logo.',
     'Aucune personne réelle identifiable, aucun produit ou marque réels.',
-    'Format paysage 3:2.',
+    'Format portrait 4:5.',
   ].join('\n');
 }
 
 async function main() {
   const [dossierArg, sujet, nomArg] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
-  const realiste = process.argv.includes('--realiste');
   if (!dossierArg || !sujet) {
-    console.error('Usage : node gabarit/illustrer.js posts/<dossier> "sujet en une phrase" [nom.jpg] [--realiste]');
+    console.error('Usage : node gabarit/illustrer.js posts/<dossier> "sujet en une phrase" [nom.jpg]');
     process.exit(1);
   }
   const { GEMINI_KEY } = lireEnv();
@@ -34,8 +32,8 @@ async function main() {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-goog-api-key': GEMINI_KEY },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt(sujet, realiste) }] }],
-      generationConfig: { responseModalities: ['IMAGE'], imageConfig: { aspectRatio: '3:2' } },
+      contents: [{ parts: [{ text: prompt(sujet) }] }],
+      generationConfig: { responseModalities: ['IMAGE'], imageConfig: { aspectRatio: '4:5' } },
     }),
   });
   const json = await rep.json();
