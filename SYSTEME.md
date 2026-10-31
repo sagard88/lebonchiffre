@@ -7,8 +7,12 @@ Objectif : 3 posts par jour (8 h, 14 h, 19 h) et l'actu brûlante publiée vite,
 | Rôle | Qui | Coût en tokens |
 |---|---|---|
 | Veille des tendances, toutes les 45 min | script `gabarit/veille.js` (Google Trends, Google Actualités, Reddit, YouTube) | 0 |
-| Publication aux heures prévues | script `gabarit/file.js`, lancé chaque heure par GitHub Actions | 0 |
+| Publication aux heures prévues | script `gabarit/file.js`, lancé chaque heure de 7 h à 23 h | 0 |
 | Choix du sujet, vérification à 2 sources, rédaction, fabrication | Claude Code (`claude -p`, modèle Sonnet) | seulement là |
+
+## L'horloge : le script Google
+
+Les horaires de GitHub Actions arrivent avec des heures de retard, parfois pas du tout (constaté fin octobre 2026). Le script Google des commandes par e-mail (`gabarit/commande-mail.gs`, compte lebonchiffre.actu) lance donc lui-même la préparation, la publication, le récap de 21 h 30 et la prolongation du token, à l'heure de Paris. Seule la veille garde les horaires de GitHub. **Après toute modification de `commande-mail.gs`, recoller le code dans script.google.com.**
 
 ## Les passages de Claude (3 par jour au plus, 4 si l'actu flambe)
 
@@ -32,4 +36,5 @@ Les deux passages planifiés sont espacés de plus de 5 heures : chacun tombe da
 - Instagram peut répondre « Application request limit reached » alors que le post est bien parti : `publier.js` vérifie en ligne avant de conclure à l'échec.
 - Journal de chaque publication : `journal/publications.log`.
 - E-mail récapitulatif chaque soir à lebonchiffre.actu@gmail.com.
-- Le PC doit être allumé aux heures de passage : sinon le créneau saute.
+- E-mail d'alerte à Olivier si rien n'est publié à 8 h 30, 14 h 30 ou 19 h 30 (à partir du 2 novembre).
+- Le PC peut rester éteint : tout tourne chez GitHub et Google.

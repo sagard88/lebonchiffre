@@ -1,17 +1,17 @@
 # Passages de Claude : 7 h (posts de 8 h et 14 h) et 18 h (post de 19 h), heure de Paris.
-# Deux horaires UTC par passage pour suivre l'heure d'été et d'hiver ; le mauvais s'arrête tout seul.
+# Lancés par l'horloge du script Google (gabarit/commande-mail.gs) : les horaires de GitHub arrivent avec des heures de retard.
+# Mode essai, à la main : prépare un post sans le publier.
 name: Preparation
 on:
-  schedule:
-    - cron: '0 5,6,16,17 * * *'
   workflow_dispatch:
     inputs:
       mode:
-        description: 'matin ou soir'
+        description: 'matin, soir ou essai'
         required: true
         default: matin
+# Son propre groupe : dans un groupe partagé, une tâche en attente est annulée par la suivante.
 concurrency:
-  group: lebonchiffre
+  group: lebonchiffre-preparation
   cancel-in-progress: false
 permissions:
   contents: write
@@ -20,29 +20,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - name: Choisir le mode
-        id: mode
-        run: |
-          if [ -n "${{ github.event.inputs.mode }}" ]; then echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"; exit 0; fi
-          h=$(TZ=Europe/Paris date +%H)
-          # Jusqu'au 1er novembre, les 3 créneaux sont déjà programmés dans Meta Business Suite.
-          if [ "$(TZ=Europe/Paris date +%Y%m%d)" -lt 20261102 ]; then echo "mode=" >> "$GITHUB_OUTPUT"; exit 0; fi
-          if [ "$h" = "07" ]; then echo "mode=matin" >> "$GITHUB_OUTPUT"; elif [ "$h" = "18" ]; then echo "mode=soir" >> "$GITHUB_OUTPUT"; else echo "mode=" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v5
-        if: steps.mode.outputs.mode != ''
       - uses: actions/setup-node@v5
-        if: steps.mode.outputs.mode != ''
         with:
           node-version: 24
       - name: Veille
-        if: steps.mode.outputs.mode != ''
         run: VEILLE_SANS_ALERTE=1 node gabarit/veille.js || true
       - name: Claude prépare les posts
-        if: steps.mode.outputs.mode != '' && hashFiles('PAUSE') == ''
+        if: hashFiles('PAUSE') == ''
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
-        run: bash gabarit/ci-claude.sh ${{ steps.mode.outputs.mode }}
+        run: bash gabarit/ci-claude.sh ${{ github.event.inputs.mode }}
       - name: Enregistrer
-        if: always() && steps.mode.outputs.mode != ''
-        run: bash gabarit/ci-commit.sh "Préparation ${{ steps.mode.outputs.mode }} du $(TZ=Europe/Paris date '+%d/%m')"
+        if: always()
+        run: bash gabarit/ci-commit.sh "Préparation ${{ github.event.inputs.mode }} du $(TZ=Europe/Paris date '+%d/%m')"

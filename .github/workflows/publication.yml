@@ -1,11 +1,12 @@
-# Publie chaque heure les posts dont l'heure est venue ("publier_a" dans post.json). Aucun token Claude.
+# Publie les posts dont l'heure est venue ("publier_a" dans post.json). Aucun token Claude.
+# Lancé chaque heure de 7 h à 23 h par l'horloge du script Google ; l'horaire GitHub, irrégulier, reste en secours.
 name: Publication
 on:
   schedule:
     - cron: '1 * * * *'
   workflow_dispatch:
 concurrency:
-  group: lebonchiffre
+  group: lebonchiffre-publication
   cancel-in-progress: false
 permissions:
   contents: write

@@ -6,6 +6,7 @@ Tu prépares seul des posts pour @lebonchiffre, sans personne pour te répondre.
 
 - **matin** : prépare 2 posts, `"publier_a"` aujourd'hui à `08:00` et à `14:00` (heure de Paris).
 - **soir** : prépare 1 post, `"publier_a"` aujourd'hui à `19:00`.
+- **essai** : prépare 1 post comme en mode soir, mais **sans** `"publier_a"` et dans un dossier `posts/AAAA-MM-JJ-essai-sujet/`. Il ne sera pas publié.
 - **brulant** : prépare 1 post sur le sujet brûlant signalé en tête de `journal/veille.json`, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`. Si ce sujet a déjà été traité (dossier récent dans `posts/`) ou ne mérite pas un post (anecdotique, sans chiffre fort), ne fais rien et note-le dans `journal/claude.log`.
 
 - **commande** : Olivier t'envoie une consigne à distance (sujet, chiffre, angle). Prépare 1 post sur ce sujet, puis publie-le tout de suite avec `npm run publier -- posts/<dossier>`.
@@ -17,7 +18,7 @@ Tu prépares seul des posts pour @lebonchiffre, sans personne pour te répondre.
   - Tu ne pourras pas lire de réponse pendant ton passage : ne pose pas de question en attendant une réponse. Fais le meilleur choix et explique-le. Si tu dois abandonner, dis précisément ce qu'Olivier peut répondre dans le fil pour que la prochaine tentative aboutisse.
   - **Termine toujours** en écrivant `journal/derniere-commande.md` : 3 à 6 lignes pour Olivier, avec le lien du post publié (dans `journal/publications.log`), le chiffre retenu et ses sources, ou la raison pour laquelle tu n'as pas publié.
 
-Ne publie jamais toi-même en mode matin ou soir : `gabarit/file.js` s'en charge à l'heure dite.
+Ne publie jamais toi-même en mode matin, soir ou essai : `gabarit/file.js` s'en charge à l'heure dite.
 
 ## Choisir le sujet
 

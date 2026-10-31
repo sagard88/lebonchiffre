@@ -1,8 +1,7 @@
 # Prolonge le token Instagram chaque mois (il expire au bout de 60 jours) et met à jour le secret.
+# Lancé le 1er du mois à 4 h par l'horloge du script Google (gabarit/commande-mail.gs).
 name: Jeton
 on:
-  schedule:
-    - cron: '0 3 1 * *'
   workflow_dispatch:
 jobs:
   jeton:

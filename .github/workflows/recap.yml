@@ -1,8 +1,7 @@
-# Récapitulatif chaque soir vers 21 h 30 (heure de Paris) : une issue du dépôt, que GitHub envoie par e-mail.
+# Récapitulatif chaque soir à 21 h 30 (heure de Paris) : une issue du dépôt, que GitHub envoie par e-mail.
+# Lancé par l'horloge du script Google (gabarit/commande-mail.gs).
 name: Recap
 on:
-  schedule:
-    - cron: '30 19,20 * * *'
   workflow_dispatch:
 permissions:
   contents: read
@@ -11,18 +10,11 @@ jobs:
   recap:
     runs-on: ubuntu-latest
     steps:
-      - name: Vérifier l'heure
-        id: heure
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(TZ=Europe/Paris date +%H)" = "21" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v5
-        if: steps.heure.outputs.ok == '1'
       - uses: actions/setup-node@v5
-        if: steps.heure.outputs.ok == '1'
         with:
           node-version: 24
       - name: Envoyer le récapitulatif
-        if: steps.heure.outputs.ok == '1'
         env:
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
           GH_TOKEN: ${{ github.token }}
