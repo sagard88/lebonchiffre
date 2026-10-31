@@ -1,0 +1,70 @@
+{
+  "accent": "vert",
+  "rubrique": "JO de la jeunesse",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "2 700",
+      "phrase": "jeunes athlètes attendus à Dakar, dès ce samedi 31 octobre.",
+      "contexte": "Les JO de la jeunesse, une première olympique en Afrique.",
+      "image": "ayo.jpg",
+      "source": "Comité olympique canadien, Africanews",
+      "credit": "Photo : 4MAPS, CC BY 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Une première olympique en Afrique.",
+      "paragraphes": [
+        "Les Jeux olympiques de la jeunesse de Dakar s'ouvrent le **samedi 31 octobre 2026** à Diamniadio, à 40 km de la capitale sénégalaise.",
+        "C'est **le premier événement olympique organisé sur le continent africain**.",
+        "Ils étaient prévus en 2022. Ils ont été repoussés de **quatre ans** à cause de la pandémie de Covid-19."
+      ],
+      "source": "Comité olympique canadien, Africanews"
+    },
+    {
+      "type": "liste",
+      "etiquette": "Le programme",
+      "titre": "Deux semaines de Jeux pour les jeunes sportifs.",
+      "lignes": [
+        {
+          "gauche": "31 oct.",
+          "droite": "cérémonie d'ouverture à Diamniadio",
+          "fort": true
+        },
+        {
+          "gauche": "14 jours",
+          "droite": "de Jeux"
+        },
+        {
+          "gauche": "2 700",
+          "droite": "jeunes athlètes attendus"
+        },
+        {
+          "gauche": "13 novembre",
+          "droite": "cérémonie de clôture"
+        }
+      ],
+      "source": "Comité olympique canadien, Africanews, Outlook India"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Comité olympique canadien (olympic.ca), Dakar 2026",
+        "Africanews, 26 octobre 2026",
+        "Outlook India, octobre 2026"
+      ],
+      "question": "Quel sport aimeriez-vous voir sur place à Dakar ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Ce samedi 31 octobre, les Jeux olympiques de la jeunesse s'ouvrent à Dakar avec environ 2 700 jeunes athlètes. C'est le premier événement olympique jamais organisé en Afrique.\n\nPrévus en 2022, ils avaient été repoussés de quatre ans à cause du Covid-19. Ils durent 14 jours, jusqu'au 13 novembre.",
+    "hashtags": [
+      "JOJ",
+      "Dakar2026",
+      "actu",
+      "Senegal",
+      "olympisme"
+    ]
+  },
+  "style": "photo"
+}
