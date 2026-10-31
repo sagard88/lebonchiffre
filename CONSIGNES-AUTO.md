@@ -55,5 +55,5 @@ Ne publie jamais toi-même en mode matin, soir ou essai : `gabarit/file.js` s'en
 
 - Ajoute une ligne à `journal/claude.log` : date, mode, dossiers préparés (ou raison de l'abandon).
 - Ne touche jamais à `.env` ni aux secrets, ne les affiche jamais.
-- Écris dans le journal avec les outils Read puis Edit (pas de `echo` : il est refusé).
+- Écris dans le journal avec les outils Read puis Edit (pas de `echo` : il est refusé). Dans Bash, une seule commande à la fois, sans `cd`, `for` ni `rm` : ils sont refusés aussi et gaspillent des tours.
 - En mode matin, soir ou essai, un créneau vide est un échec : si un sujet ne se confirme pas, passe au suivant. Tu ne renonces qu'après **3 sujets réellement essayés** ; note-les alors dans `journal/claude.log`. Un post douteux reste interdit : la règle des 2 sources ne s'assouplit jamais.
