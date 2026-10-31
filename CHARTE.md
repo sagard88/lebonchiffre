@@ -151,6 +151,7 @@ C'est le gabarit qui s'en charge, jamais l'image d'origine qu'on garde telle que
 - Le post parle d'**un objet, une personne, un lieu ou un événement réels** (un robot précis, un dirigeant, un monument) : **la vraie image obligatoirement**, venant d'une source autorisée ci-dessous (espace presse officiel en priorité), avec son crédit.
 - Le post parle d'**une idée ou d'un phénomène** (l'inflation, un taux, un budget) : **d'abord une vraie photo libre** qui évoque le sujet (des immeubles pour un crédit immobilier, l'Assemblée nationale pour un budget), avec son crédit.
 - **Seulement si aucune vraie image ne convient : une image Gemini, réaliste et en couleur** (plus de gravure ni de noir et blanc), créditée « Illustration générée par IA ».
+- **Pour un sujet général, une photo libre banale ne convient pas** : Gemini crée alors une scène qui raconte le sujet, avec des personnages fictifs. Exemple pour les milliardaires : un homme de la jet-set radieux dans un jet privé avec du champagne, ou des liasses de billets à la main dans une villa avec piscine. Le cliché assumé est bienvenu : il arrête le pouce.
 - Si aucune image n'est possible (crédit Gemini épuisé, par exemple), le post n'est pas fabriqué.
 - Jamais d'image générée qui imite un objet ou une personne réels.
 
@@ -173,9 +174,10 @@ C'est le gabarit qui s'en charge, jamais l'image d'origine qu'on garde telle que
 
 > Image éditoriale pour un média d'information. Sujet : [SUJET EN UNE PHRASE].
 > Rendu photographique très réaliste, en couleur, couleurs naturelles et vives, lumière naturelle, belle profondeur de champ.
-> Un seul sujet, grand et net, dans le haut de l'image ; fond simple ; composition percutante, lisible en petit.
+> Une scène vivante et spectaculaire qui raconte le sujet d'un coup d'œil, avec de l'émotion et des détails parlants, comme une photo de magazine.
+> Le personnage ou l'élément principal, grand et net, dans le haut de l'image ; composition percutante, lisible en petit.
 > Aucun texte, aucune lettre, aucun chiffre, aucun logo.
-> Aucune personne réelle identifiable, aucun produit ou marque réels.
+> Personnages entièrement fictifs : aucune personne réelle identifiable, aucun produit ou marque réels.
 > Format portrait 4:5.
 
 ---
