@@ -1,0 +1,41 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "TotalEnergies",
+  "publier_a": "2026-11-02T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "8,3 Mds$",
+      "phrase": "de bénéfice net pour TotalEnergies en trois mois.",
+      "contexte": "Plus du double d'il y a un an.",
+      "source": "TotalEnergies, AFP",
+      "image": "couv.jpg",
+      "cadrage": "50% 20%",
+      "ia": true
+    },
+    {
+      "type": "texte",
+      "titre": "Le raffinage\nfait le bond.",
+      "paragraphes": [
+        "Entre juillet et septembre 2026, TotalEnergies a gagné **8,26 milliards de dollars**, contre 3,68 milliards un an plus tôt. Résultats publiés le 29 octobre 2026.",
+        "Le raffinage, qui transforme le pétrole brut en carburants, rapporte **plus de 3 milliards de dollars** sur le trimestre, contre 687 millions un an avant.",
+        "Les marges de raffinage en Europe ont **quadruplé en un an**, selon ABC Bourse. Son PDG parle de niveaux historiques (AFP)."
+      ],
+      "source": "TotalEnergies, AFP, ABC Bourse"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "TotalEnergies, résultats du 3e trimestre 2026 (29 octobre 2026)",
+        "AFP, 29 octobre 2026",
+        "ABC Bourse, 29 octobre 2026"
+      ],
+      "question": "Faut-il taxer davantage les profits des pétroliers ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "TotalEnergies a gagné 8,26 milliards de dollars entre juillet et septembre 2026, contre 3,68 milliards un an plus tôt. Le raffinage rapporte plus de 3 milliards de dollars sur le trimestre, contre 687 millions un an avant.",
+    "hashtags": ["economie", "actu", "totalenergies", "energie"]
+  }
+}

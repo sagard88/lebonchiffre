@@ -1,0 +1,62 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Serpent",
+  "publier_a": "2026-11-02T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "4 fois",
+      "phrase": "plus vite : ce serpent fuit en roulant sur lui-même.",
+      "contexte": "Découverte publiée le 19 octobre 2026.",
+      "source": "Current Biology, ScienceDaily",
+      "image": "couv.jpg",
+      "cadrage": "60% 50%",
+      "credit": "Photo : Rushen, CC BY-SA 2.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Un serpent\nqui fait la roue.",
+      "paragraphes": [
+        "Des chercheurs de l'université Toho (Japon) ont filmé des **serpents-roseaux nains** d'Asie du Sud-Est. Menacés, ils ne rampent pas : ils **roulent**.",
+        "Leur vitesse de pointe en roulant atteint **3,7 mètres par seconde**, soit environ 13 km/h. C'est environ **quatre fois** leur vitesse maximale en rampant.",
+        "Ces serpents font partie des rares animaux connus pour rouler exprès afin d'échapper à un prédateur potentiel."
+      ],
+      "source": "ScienceDaily, Smithsonian, Popular Science"
+    },
+    {
+      "type": "chiffres",
+      "titre": "L'étude\nen chiffres.",
+      "chiffres": [
+        {
+          "valeur": "13 sur 13",
+          "texte": "serpents du genre Pseudorabdion testés ont roulé."
+        },
+        {
+          "valeur": "0 sur 6",
+          "texte": "serpents du genre Calamaria, utilisés pour comparer, ont roulé."
+        },
+        {
+          "valeur": "< 30 cm",
+          "texte": "de long : ces serpents sont plus courts qu'une règle d'écolier."
+        }
+      ],
+      "source": "Smithsonian Magazine"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Current Biology, étude de l'université Toho, octobre 2026",
+        "ScienceDaily, 24 octobre 2026",
+        "Smithsonian Magazine, 21 octobre 2026",
+        "Popular Science, 19 octobre 2026"
+      ],
+      "question": "Quel animal vous a le plus surpris par sa façon de fuir ?\nDites-le en commentaire."
+    }
+  ],
+  "legende": {
+    "contexte": "Le serpent-roseau nain roule comme une roue pour fuir. Selon une étude publiée dans Current Biology le 19 octobre 2026, sa vitesse de pointe en roulant (jusqu'à environ 3,7 m/s, soit 13 km/h) est environ quatre fois sa vitesse maximale en rampant.\n\nLes 13 serpents du genre Pseudorabdion testés ont tous roulé, contre 0 sur 6 pour le genre Calamaria. Ils mesurent moins de 30 cm."
+    ,
+    "hashtags": ["nature", "actu", "serpent", "science"]
+  }
+}
