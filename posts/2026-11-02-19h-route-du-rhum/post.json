@@ -1,0 +1,51 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Route du Rhum",
+  "publier_a": "2026-11-02T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "6 j 19 h",
+      "phrase": "Dimanche 1er novembre : départ de la Route du Rhum.",
+      "contexte": "C'est le record de la traversée en solitaire.",
+      "source": "La 1ère, Yachting World",
+      "image": "couv.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : Jug81, CC BY-SA 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Moins d'une semaine\npour traverser l'Atlantique.",
+      "paragraphes": [
+        "En 2022, Charles Caudrelier a relié **Saint-Malo à Pointe-à-Pitre**, en Guadeloupe, en **6 jours, 19 heures et 47 minutes**, seul à bord de son trimaran géant Gitana 17.",
+        "C'était un nouveau record de l'épreuve, plus rapide que le précédent, établi lors de l'édition de 2018.",
+        "Cette année, Caudrelier navigue sur un nouveau bateau, **Gitana 18**, celui de la couverture."
+      ],
+      "source": "La 1ère, Yachting World, Filovent"
+    },
+    {
+      "type": "texte",
+      "titre": "Le départ a été donné\nce dimanche.",
+      "paragraphes": [
+        "La 13e Route du Rhum a quitté Saint-Malo le **dimanche 1er novembre 2026 à 13 h 02**. Plus de 110 skippers sont engagés, tous en solitaire.",
+        "Le tenant du titre explique que son record « peut évidemment être battu ». Il reconnaît aussi que son nouveau bateau, plus complexe, ajoute une part d'inconnu."
+      ],
+      "source": "La 1ère, Reuters, Boatnews"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "La 1ère (franceinfo) : Route du Rhum 2026, 1er novembre 2026",
+        "Yachting World : record de Caudrelier, Route du Rhum 2022",
+        "Filovent : fiche Route du Rhum 2026",
+        "Reuters : propos de Charles Caudrelier, 30 octobre 2026"
+      ],
+      "question": "Le record de 6 jours et 19 heures sera-t-il battu cette année ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Dimanche 1er novembre 2026, la 13e Route du Rhum a quitté Saint-Malo, direction la Guadeloupe. Le record de l'épreuve, établi en 2022 par Charles Caudrelier, est de 6 jours, 19 heures et 47 minutes, en solitaire.\n\nPlus de 110 skippers sont engagés. Le tenant du titre estime que son record peut être battu, tout en soulignant l'inconnue que représente son nouveau bateau.\n\nSelon vous, le record de 6 jours et 19 heures sera-t-il battu cette année ?\n\nSources : La 1ère (franceinfo), Yachting World, Filovent, Reuters.\nPhoto : Jug81, CC BY-SA 4.0",
+    "hashtags": ["routedurhum", "voile", "actu", "sport"]
+  }
+}
