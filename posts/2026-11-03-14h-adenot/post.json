@@ -1,0 +1,49 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Espace",
+  "publier_a": "2026-11-03T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "235 j",
+      "phrase": "Jours en orbite : le plus long séjour d'un Européen.",
+      "contexte": "Sophie Adenot est revenue sur Terre le 8 octobre.",
+      "source": "CNES, Euronews",
+      "image": "adenot.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : NASA"
+    },
+    {
+      "type": "texte",
+      "titre": "Près de huit mois\nautour de la Terre.",
+      "paragraphes": [
+        "L'astronaute française de l'ESA **Sophie Adenot** a passé **235 jours** en orbite, à bord de la Station spatiale internationale. C'est la plus longue mission jamais réalisée par un astronaute européen, hommes et femmes confondus.",
+        "Le précédent record appartenait à l'Italien Luca Parmitano, avec **environ 200 jours** en 2019-2020.",
+        "Elle a quitté la Station le **mercredi 7 octobre 2026** et a amerri le lendemain, **jeudi 8 octobre**, au large de la Californie, vers 17 h 35 (heure française)."
+      ],
+      "source": "CNES, Euronews, 8 octobre 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "Elle est aussi sortie\ndans le vide spatial.",
+      "paragraphes": [
+        "Pendant sa mission, Sophie Adenot a réalisé **trois sorties dans l'espace**, les 18 août, 25 août et 1er septembre 2026.",
+        "Ces sorties servaient à la maintenance de la Station, selon le CNES."
+      ],
+      "source": "Euronews, CNES"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "CNES : retour de Sophie Adenot sur Terre, 8 octobre 2026",
+        "Euronews : « L'astronaute Sophie Adenot de retour sur Terre après un séjour spatial record », 8 octobre 2026"
+      ],
+      "question": "Seriez-vous prêt à passer 235 jours en orbite ?"
+    }
+  ],
+  "legende": {
+    "contexte": "235 jours en orbite : c'est la durée de la mission de Sophie Adenot, la plus longue jamais réalisée par un astronaute européen. Revenue sur Terre le 8 octobre 2026, elle dépasse le précédent record, d'environ 200 jours, détenu par l'Italien Luca Parmitano.\n\nPendant son séjour à bord de la Station spatiale internationale, elle a réalisé trois sorties dans l'espace, en août et septembre 2026.\n\nSeriez-vous prêt à passer 235 jours en orbite ?\n\nSources : CNES, Euronews.\nPhoto : NASA",
+    "hashtags": ["espace", "sophieadenot", "iss", "actu"]
+  }
+}
