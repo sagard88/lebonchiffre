@@ -1,0 +1,55 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Moral des ménages",
+  "publier_a": "2026-11-04T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "80",
+      "phrase": "Confiance des ménages : le plus bas depuis juin 2013.",
+      "contexte": "Octobre 2026 : 5 points de moins en un mois.",
+      "source": "Insee, 27 octobre 2026",
+      "image": "illustration.jpg",
+      "cadrage": "50% 0%",
+      "ia": true
+    },
+    {
+      "type": "texte",
+      "titre": "L'indice de l'Insee\nest tombé à 80.",
+      "paragraphes": [
+        "Chaque mois, l'Insee interroge environ **2 000 ménages** sur leur situation et leurs projets. Les réponses donnent un indice de confiance : **100 correspond à la moyenne de longue période**.",
+        "En octobre 2026, l'indice est à **80**, contre **85** en septembre. C'est son niveau le plus bas **depuis juin 2013**.",
+        "Les économistes attendaient un indice stable, à 85."
+      ],
+      "source": "Insee, Informations rapides n° 260, 27 octobre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Deux signes qui\npèsent sur ce moral.",
+      "chiffres": [
+        {
+          "valeur": "-85",
+          "texte": "Solde d'opinion sur le niveau de vie passé en France (avis positifs moins avis négatifs) : le plus bas depuis le début de l'enquête, en octobre 1972."
+        },
+        {
+          "valeur": "61",
+          "texte": "Solde d'opinion sur la peur du chômage, contre 56 en septembre : les craintes augmentent."
+        }
+      ],
+      "source": "Insee, 27 octobre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Insee : « En octobre 2026, la confiance des ménages se dégrade fortement », Informations rapides n° 260, 27 octobre 2026",
+        "Économie Matin et France-Épargne, articles sur l'enquête d'octobre 2026"
+      ],
+      "question": "Votre propre moral financier est-il plus haut ou plus bas qu'il y a un an ?"
+    }
+  ],
+  "legende": {
+    "contexte": "80 : c'est l'indice de confiance des ménages publié par l'Insee pour octobre 2026, au plus bas depuis juin 2013. Il était à 85 en septembre, et la moyenne de longue période est de 100.\n\nAutre record : le solde d'opinion sur le niveau de vie passé en France, à -85, est le plus bas depuis le début de l'enquête en 1972. Les craintes sur le chômage montent de 56 à 61.\n\nVotre propre moral financier est-il plus haut ou plus bas qu'il y a un an ?\n\nSources : Insee (Informations rapides n° 260, 27 octobre 2026), Économie Matin, France-Épargne.\nIllustration générée par IA.",
+    "hashtags": ["confiance", "insee", "pouvoirdachat", "actu"]
+  }
+}
