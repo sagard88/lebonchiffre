@@ -1,0 +1,56 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Budget 2027",
+  "publier_a": "2026-11-05T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "458",
+      "phrase": "Le 4 novembre, voix contre le budget 2027, aucune pour.",
+      "contexte": "Tous les groupes ont dit non.",
+      "source": "Franceinfo et France 24, 4-5 novembre 2026",
+      "image": "assemblee.jpg",
+      "cadrage": "50% 20%",
+      "credit": "Photo : Funky Tee, CC BY-SA 2.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Un rejet unanime,\nmais pas une surprise.",
+      "paragraphes": [
+        "Le **mercredi 4 novembre 2026**, les députés ont voté sur la première partie du budget de l'État pour 2027, celle des recettes. Les **458 votants** l'ont rejetée, avec des voix venues de tous les groupes.",
+        "Ce rejet **emporte tout le texte** : la partie sur les dépenses n'a même pas été examinée dans l'hémicycle. Elle avait déjà été rejetée en commission.",
+        "La partie recettes avait déjà été rejetée de la même façon **l'an dernier**. Cette année, le budget de la Sécurité sociale l'avait aussi été, le **23 octobre 2026**, à la quasi-unanimité."
+      ],
+      "source": "Franceinfo et France 24, 4-5 novembre 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "Et maintenant,\nque devient ce budget ?",
+      "paragraphes": [
+        "Le **Sénat** doit examiner le texte dans sa version initiale, celle du gouvernement.",
+        "Matignon renvoie à **décembre** un éventuel compromis. Sinon, le texte revient à l’Assemblée en nouvelle lecture.",
+        "Le gouvernement vise un déficit de **5 % du PIB** en 2027."
+      ],
+      "source": "Franceinfo et France 24, 4-5 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Franceinfo, « L'Assemblée nationale rejette à l'unanimité le budget de l'État 2027 en première lecture », 5 novembre 2026",
+        "France 24, article du 5 novembre 2026 sur le même vote",
+        "Photo : Funky Tee, Wikimedia Commons, CC BY-SA 2.0"
+      ],
+      "question": "Un budget rejeté par tous : faut-il changer la façon de le voter ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Mercredi 4 novembre 2026, les 458 députés qui ont voté ont rejeté le budget de l'État 2027 en première lecture, avec des voix de tous les groupes.\n\nC'est la partie « recettes » qui a été rejetée, ce qui emporte tout le texte : la partie dépenses n'a pas été examinée dans l'hémicycle. Le Sénat doit maintenant l'étudier dans sa version initiale, et Matignon renvoie un éventuel compromis à décembre. Le gouvernement vise un déficit de 5 % du PIB en 2027.",
+    "hashtags": [
+      "budget",
+      "actu",
+      "assemblee",
+      "politique"
+    ]
+  }
+}

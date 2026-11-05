@@ -1,0 +1,51 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Goncourt",
+  "publier_a": "2026-11-05T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "10 €",
+      "phrase": "Mardi 3 novembre : le chèque du prix Goncourt 2026.",
+      "contexte": "Le prix littéraire le plus célèbre de France.",
+      "source": "Actualitté, RTBF, Sortiraparis, 3 novembre 2026",
+      "image": "jaenada.jpg",
+      "cadrage": "50% 10%",
+      "credit": "Photo : Gérald Garitan, CC BY-SA 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Le plus grand prix littéraire\nrapporte 10 euros.",
+      "paragraphes": [
+        "Le **mardi 3 novembre 2026**, l'Académie Goncourt a couronné **Philippe Jaenada** pour son roman *L'Inconnue du quai de Javel* (Flammarion).",
+        "Sa dotation est de **10 euros**, un chèque symbolique.",
+        "Le roman revient sur une affaire criminelle de la **fin des années 1940**."
+      ],
+      "source": "Actualitté et RTBF, 3 novembre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Du premier tri\nau lauréat.",
+      "chiffres": [
+        { "valeur": "16", "texte": "romans en lice dans la première sélection, annoncée début septembre 2026." },
+        { "valeur": "4", "texte": "finalistes : Philippe Jaenada, Clémentine Mélois, Sylvain Prudhomme et Yannick Haenel." }
+      ],
+      "source": "Actualitté, Paris Match Belgique, Cronica"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Actualitté, « Philippe Jaenada lauréat du Prix Goncourt 2026 », 3 novembre 2026",
+        "RTBF, « Goncourt 2026 : le prestigieux prix a été attribué à Philippe Jaenada »",
+        "Sortiraparis, article sur le chèque de 10 € du Goncourt",
+        "Photo : Gérald Garitan, Wikimedia Commons, CC BY-SA 4.0"
+      ],
+      "question": "Quel livre avez-vous lu grâce à un prix littéraire ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Mardi 3 novembre 2026, Philippe Jaenada a reçu le prix Goncourt pour L'Inconnue du quai de Javel. Le chèque qui l'accompagne : 10 euros.\n\nLe jury était parti de 16 romans début septembre, puis de 4 finalistes. Le livre revient sur une affaire criminelle de la fin des années 1940.",
+    "hashtags": ["goncourt", "actu", "livres", "litterature"]
+  }
+}
