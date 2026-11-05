@@ -1,0 +1,51 @@
+{
+  "accent": "turquoise",
+  "style": "photo",
+  "rubrique": "Tableau spolié",
+  "publier_a": "2026-11-05T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "1,2 M£",
+      "phrase": "5 novembre : Pissarro vendu en 2024, tableau à rendre.",
+      "contexte": "La vente a été annulée par la justice.",
+      "source": "Franceinfo, EFE, 5 novembre 2026",
+      "image": "pissarro.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Camille Pissarro, 1902, domaine public (Wikimedia Commons)"
+    },
+    {
+      "type": "texte",
+      "titre": "Un tableau saisi en 1941,\nvendu en 2024.",
+      "paragraphes": [
+        "Le **jeudi 5 novembre 2026**, le tribunal judiciaire de Paris a ordonné la restitution du tableau « Le Port de Dieppe », peint par Camille Pissarro en **1902**.",
+        "Il appartenait à **Salomon Flavian**, banquier et collectionneur. Les nazis le lui ont confisqué en **1941**.",
+        "Le tableau a été vendu **1,2 million de livres** chez Sotheby's à Londres, le **25 juin 2024**. Le tribunal a déclaré nulles toutes les ventes depuis la saisie, celle-ci comprise."
+      ],
+      "source": "Franceinfo et EFE, 5 novembre 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "Ce que la justice\nexige maintenant.",
+      "paragraphes": [
+        "Le tableau doit être rendu aux descendants de Salomon Flavian, **en quelques mains et quelque lieu qu'il se trouve**.",
+        "Sotheby's doit leur donner l'identité complète de l'acheteur de 2024 sous **deux mois**, sinon elle paiera **1 000 € par jour** de retard.",
+        "La décision s'applique **immédiatement**, même en cas d'appel."
+      ],
+      "source": "Franceinfo et EFE, 5 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Franceinfo, « Spoliations : la justice ordonne la restitution d'un tableau de Pissarro », 5 novembre 2026",
+        "EFE (via Infobae), 5 novembre 2026",
+        "Image : Wikimedia Commons, œuvre de 1902 tombée dans le domaine public"
+      ],
+      "question": "Un tableau volé doit-il toujours être rendu, même des décennies plus tard ?"
+    }
+  ],
+  "legende": {
+    "contexte": "1,2 M£ : le prix auquel un Pissarro a été vendu chez Sotheby's en 2024. Jeudi 5 novembre 2026, le tribunal de Paris a ordonné sa restitution.\n\n« Le Port de Dieppe » (1902) avait été confisqué en 1941 au collectionneur Salomon Flavian. Toutes les ventes depuis sont déclarées nulles, y compris celle de Londres, le 25 juin 2024.\n\nSotheby's doit révéler sous deux mois l'identité de l'acheteur, sous peine de 1 000 € par jour de retard. La décision s'applique même en cas d'appel.",
+    "hashtags": ["pissarro", "actu", "art", "histoire"]
+  }
+}
