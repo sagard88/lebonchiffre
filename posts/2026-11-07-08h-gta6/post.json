@@ -1,0 +1,52 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "GTA VI",
+  "publier_a": "2026-11-07T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "13 ans",
+      "phrase": "Jeudi 19 novembre : GTA VI sort, 13 ans après.",
+      "contexte": "Son aîné s'est vendu à plus de 200 millions d'exemplaires.",
+      "source": "Rockstar Games, Gematsu, 2026",
+      "image": "gta6.jpg",
+      "cadrage": "50% 50%",
+      "credit": "Image : Rockstar Games"
+    },
+    {
+      "type": "texte",
+      "titre": "GTA VI sort jeudi 19 novembre 2026.",
+      "paragraphes": [
+        "Le dernier épisode, **GTA V**, est sorti le **17 septembre 2013**. Entre les deux, il s'est écoulé **13 ans et 2 mois**.",
+        "Rockstar a ouvert les précommandes le **25 juin 2026**. Le jeu sort sur **PlayStation 5** et **Xbox Series**.",
+        "Aucune version PC n'est annoncée pour le lancement : les joueurs sur ordinateur devront attendre un éventuel portage."
+      ],
+      "source": "Rockstar Games, Journal du Geek, Gematsu, 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce qu'a réussi GTA V.",
+      "chiffres": [
+        { "valeur": "1 Md$", "texte": "de recettes en seulement 3 jours après la sortie en 2013." },
+        { "valeur": "200 M+", "texte": "d'exemplaires vendus depuis, selon Take-Two, l'éditeur du jeu." }
+      ],
+      "source": "Presse-citron, Wikipédia, Actugaming, 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Rockstar Games, page officielle de GTA VI, novembre 2026",
+        "Journal du Geek, 18 juin 2026 (précommandes, plateformes)",
+        "Gematsu et Presse-citron (sortie de GTA V le 17 septembre 2013, 1 Md$ en 3 jours)",
+        "Actugaming et Take-Two (plus de 200 millions d'exemplaires de GTA V)",
+        "Image : Rockstar Games"
+      ],
+      "question": "Vous jouerez à GTA VI dès le jour de la sortie ?"
+    }
+  ],
+  "legende": {
+    "contexte": "GTA VI sort le jeudi 19 novembre 2026 sur PS5 et Xbox Series, soit 13 ans après GTA V (17 septembre 2013).\n\nGTA V avait dépassé le milliard de dollars de recettes en 3 jours et s'est vendu à plus de 200 millions d'exemplaires. Aucune version PC n'est annoncée au lancement.\n\nVous jouerez à GTA VI dès le jour de la sortie ?\n\nSources : Rockstar Games, Journal du Geek, Gematsu, Presse-citron, Actugaming.",
+    "hashtags": ["gta6", "jeuxvideo", "actu", "rockstar"]
+  }
+}

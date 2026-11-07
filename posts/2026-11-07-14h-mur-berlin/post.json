@@ -1,0 +1,51 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Mur de Berlin",
+  "publier_a": "2026-11-07T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "10 315",
+      "phrase": "jours d'existence pour le Mur de Berlin.",
+      "contexte": "Lundi 9 novembre 2026, sa chute aura 37 ans.",
+      "source": "Wikipédia, The New Daily, 2026",
+      "image": "mur.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : Marcin Szala, CC BY-SA 3.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Du 13 août 1961\nau 9 novembre 1989.",
+      "paragraphes": [
+        "Le Mur de Berlin a été construit dans la nuit du **12 au 13 août 1961** pour fermer le secteur ouest de la ville.",
+        "Il est tombé le **9 novembre 1989**, après l'annonce que les Allemands de l'Est pouvaient passer à l'Ouest.",
+        "Cela fait **28 ans et 2 mois**, soit **10 315 jours** : un peu plus de 10 000 jours de séparation."
+      ],
+      "source": "Wikipédia (Mur de Berlin), The New Daily, 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "Il est tombé depuis plus\nlongtemps qu'il n'a existé.",
+      "paragraphes": [
+        "Début **février 2018**, le Mur est tombé depuis **10 315 jours**, autant de jours qu'il a tenu debout.",
+        "Depuis, l'écart grandit chaque jour. En novembre 2026, le Mur est tombé depuis **37 ans**, contre **28 ans** d'existence."
+      ],
+      "source": "The New Daily, Wikipédia, 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Wikipédia, « Mur de Berlin » (construction 13 août 1961, chute 9 novembre 1989)",
+        "The New Daily, « Berlin Wall now gone one day longer than it stood : 10 315 days », 6 février 2018",
+        "Calcul : 28 ans et 88 jours, dont 7 années bissextiles = 10 315 jours",
+        "Photo : Marcin Szala, Wikimedia Commons, CC BY-SA 3.0"
+      ],
+      "question": "Où étiez-vous (ou vos parents) le soir du 9 novembre 1989 ?"
+    }
+  ],
+  "legende": {
+    "contexte": "10 315 jours : c'est la durée de vie du Mur de Berlin, construit le 13 août 1961 et tombé le 9 novembre 1989.\n\nLundi 9 novembre 2026, cela fera 37 ans que le Mur est tombé, plus que les 28 ans qu'il est resté debout. Le cap a été franchi début février 2018.\n\nOù étiez-vous (ou vos parents) le soir du 9 novembre 1989 ?\n\nSources : Wikipédia, The New Daily.",
+    "hashtags": ["histoire", "actu", "berlin", "murdeberlin"]
+  }
+}
