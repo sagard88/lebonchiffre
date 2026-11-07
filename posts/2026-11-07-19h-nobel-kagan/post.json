@@ -1,0 +1,52 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Nobel de chimie",
+  "publier_a": "2026-11-07T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "95 ans",
+      "phrase": "L'âge du Français Henri Kagan, Nobel de chimie.",
+      "contexte": "Presque un siècle de vie, un Nobel.",
+      "source": "Euronews, La Télé, 7 octobre 2026",
+      "image": "kagan.jpg",
+      "cadrage": "50% 15%",
+      "credit": "Photo : École polytechnique, CC BY-SA 2.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Le prix Nobel de chimie 2026 va à un chimiste de 95 ans.",
+      "paragraphes": [
+        "Le mercredi 7 octobre 2026, le Français **Henri Kagan** et le Japonais **Kenso Soai** ont reçu le prix Nobel de chimie.",
+        "Ils sont récompensés pour leurs travaux sur les **molécules « images miroir »** : deux molécules identiques en apparence, comme une main gauche et une main droite, mais qui n'agissent pas pareil.",
+        "Ces travaux servent à concevoir des réactions utilisées pour fabriquer des **médicaments**."
+      ],
+      "source": "Euronews, Collège de France, 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Deux lauréats, 19 ans d'écart.",
+      "chiffres": [
+        { "valeur": "95 ans", "texte": "L'âge d'Henri Kagan quand le prix a été annoncé." },
+        { "valeur": "76 ans", "texte": "L'âge de Kenso Soai, son corécompensé japonais." },
+        { "valeur": "12 M", "texte": "Couronnes suédoises de dotation, soit un peu plus d'un million d'euros." }
+      ],
+      "source": "Euronews, La Télé, nippon.com, 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Euronews, « Des chercheurs français et japonais remportent le Nobel de chimie 2026 », 7 octobre 2026",
+        "La Télé, « Un Français et un Japonais reçoivent le prix Nobel de chimie », 7 octobre 2026",
+        "Nippon.com (âge de Kenso Soai), 7 octobre 2026",
+        "Photo : École polytechnique, Wikimedia Commons, CC BY-SA 2.0"
+      ],
+      "question": "À 95 ans, que voudriez-vous encore accomplir ?"
+    }
+  ],
+  "legende": {
+    "contexte": "95 ans : c'est l'âge d'Henri Kagan, chimiste français, quand il a reçu le prix Nobel de chimie 2026, annoncé le mercredi 7 octobre.\n\nIl partage le prix avec le Japonais Kenso Soai, 76 ans, pour leurs travaux sur les molécules « images miroir », utiles à la fabrication de médicaments. La dotation est de 12 millions de couronnes suédoises, un peu plus d'un million d'euros.\n\nÀ 95 ans, que voudriez-vous encore accomplir ?\n\nSources : Euronews, La Télé, Nippon.com.",
+    "hashtags": ["nobel", "actu", "chimie", "science"]
+  }
+}
