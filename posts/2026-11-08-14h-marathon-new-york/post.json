@@ -1,0 +1,51 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Marathon de New York",
+  "publier_a": "2026-11-08T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "2:06:01",
+      "phrase": "Dimanche 1er novembre : un Suédois gagne à New York.",
+      "contexte": "Pour son tout premier marathon.",
+      "source": "Marathons.com, WUNC/NPR, 1er novembre 2026",
+      "image": "almgren.jpg",
+      "cadrage": "50% 15%",
+      "credit": "Photo : Frankie Fouganthin, CC BY-SA 4.0 (2023)"
+    },
+    {
+      "type": "texte",
+      "titre": "Un inconnu du marathon remporte la course de New York.",
+      "paragraphes": [
+        "Le dimanche 1er novembre 2026, le Suédois **Andreas Almgren** a gagné le marathon de New York en **2 h 06 min 01 s**.",
+        "C'était la **toute première fois** qu'il courait la distance : 42,195 km pour une première.",
+        "Avant lui, aucun Suédois n'avait jamais remporté cette course."
+      ],
+      "source": "Marathons.com, NBC Sports, 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Une arrivée très serrée.",
+      "chiffres": [
+        { "valeur": "13 s", "texte": "L'écart avec l'Italien Yeman Crippa, deuxième en 2 h 06 min 14 s." },
+        { "valeur": "3 pays", "texte": "La Suède, l'Italie et le Lesotho (Kamohelo Mofolo) occupent le podium masculin." }
+      ],
+      "source": "Marathons.com, WUNC/NPR, 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Marathons.com, « Andreas Almgren wins the 2026 New York City Marathon in 2:06:01 on his debut », 1er novembre 2026",
+        "WUNC / NPR, « New York City Marathon: Sweden's Almgren and Kenya's Chepkirui win », 1er novembre 2026",
+        "NBC Sports (premier Suédois vainqueur), novembre 2026",
+        "Photo : Frankie Fouganthin, Wikimedia Commons, CC BY-SA 4.0"
+      ],
+      "question": "Seriez-vous capable de courir un marathon un jour ?"
+    }
+  ],
+  "legende": {
+    "contexte": "2 h 06 min 01 s : c'est le temps du Suédois Andreas Almgren, vainqueur du marathon de New York le dimanche 1er novembre 2026.\n\nIl courait un marathon pour la première fois. Il devance l'Italien Yeman Crippa de 13 secondes, et aucun Suédois n'avait gagné la course avant lui.\n\nSeriez-vous capable de courir un marathon un jour ?\n\nSources : Marathons.com, WUNC/NPR, NBC Sports.",
+    "hashtags": ["marathon", "sport", "actu", "newyork"]
+  }
+}
