@@ -1,0 +1,52 @@
+{
+  "accent": "turquoise",
+  "style": "photo",
+  "rubrique": "Cinéma",
+  "publier_a": "2026-11-09T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "151,8 M",
+      "phrase": "Entrées au cinéma en France, de janvier à octobre 2026.",
+      "contexte": "+24,8 % par rapport à 2025.",
+      "source": "CNC, CB News, 3 novembre 2026",
+      "image": "cinema.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : Wolfmann, CC BY-SA 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Les salles françaises ont retrouvé le public.",
+      "paragraphes": [
+        "Du 1er janvier au 31 octobre 2026, les cinémas français ont vendu **151,82 millions** de billets, selon les estimations du CNC publiées le 3 novembre 2026.",
+        "C'est **24,8 % de plus** que sur les dix premiers mois de 2025.",
+        "Mais par rapport à 2024, la hausse n'est que de **6 %** : la bonne année 2026 efface surtout une année 2025 faible.",
+        "Pour le seul mois d'octobre : 14,66 millions d'entrées, soit 17,1 % de plus qu'en octobre 2025."
+      ],
+      "source": "CNC, CB News, 3 novembre 2026"
+    },
+    {
+      "type": "liste",
+      "titre": "Part des entrées : les films américains gagnent 14 points.",
+      "lignes": [
+        { "gauche": "Américains", "droite": "43,3 % (29,3 % en 2025)", "fort": true },
+        { "gauche": "Français", "droite": "39,9 % (38,1 % en 2025)" },
+        { "gauche": "Autres", "droite": "16,8 % (32,6 % en 2025)" }
+      ],
+      "source": "CNC, CB News ; part des entrées, janvier-octobre"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "CNC, « La fréquentation au mois d'octobre 2026 dépasse les 14 millions d'entrées », 3 novembre 2026",
+        "CB News, « Cinéma : la fréquentation des salles progresse de 17,1 % en octobre », 3 novembre 2026",
+        "Photo : Wolfmann, Wikimedia Commons, CC BY-SA 4.0"
+      ],
+      "question": "Quel est le dernier film que vous avez vu en salle ?"
+    }
+  ],
+  "legende": {
+    "contexte": "151,8 M : c'est le nombre d'entrées vendues dans les cinémas français de janvier à octobre 2026, soit 24,8 % de plus qu'à la même période de 2025.\n\nPar rapport à 2024, la hausse est de 6 %. Les films américains captent 43,3 % des entrées, contre 29,3 % un an plus tôt. Les films français font 39,9 %.\n\nQuel est le dernier film que vous avez vu en salle ?\n\nSources : CNC (estimations du 3 novembre 2026), CB News.\nPhoto : Wolfmann, CC BY-SA 4.0.",
+    "hashtags": ["cinema", "culture", "actu", "boxoffice"]
+  }
+}
