@@ -1,0 +1,52 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Climat",
+  "publier_a": "2026-11-09T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "+1,75 °C",
+      "phrase": "Le mois d'octobre le plus chaud jamais mesuré, en 2026.",
+      "contexte": "Par rapport à l'époque préindustrielle.",
+      "source": "Copernicus, 6 novembre 2026",
+      "image": "c.jpg",
+      "cadrage": "50% 50%",
+      "credit": "Photo : Hydrosami, CC BY-SA 4.0 (sol craquelé en Algérie, image d'illustration)"
+    },
+    {
+      "type": "texte",
+      "titre": "Jamais un mois d'octobre n'avait été aussi chaud sur Terre.",
+      "paragraphes": [
+        "Selon le service européen Copernicus, la température moyenne de l'air à la surface du globe a atteint **15,35 °C** en octobre 2026.",
+        "C'est **0,90 °C** de plus que la moyenne des octobres de 1991 à 2020, et **1,75 °C** de plus que la moyenne de 1850 à 1900, la période dite « préindustrielle ».",
+        "Copernicus publie ce bilan le 6 novembre 2026. Il estime que 2026 sera très probablement la deuxième année la plus chaude jamais enregistrée, derrière 2024."
+      ],
+      "source": "Copernicus (bulletin d'octobre 2026), Down To Earth"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Trois chiffres pour comprendre ce record.",
+      "chiffres": [
+        { "valeur": "3 mois", "texte": "d'affilée (août, septembre, octobre 2026) à plus de 1,5 °C au-dessus de l'époque préindustrielle." },
+        { "valeur": "20,95 °C", "texte": "Température moyenne de la surface des océans en octobre (hors pôles) : un record pour un mois d'octobre." },
+        { "valeur": "20 %", "texte": "Chance que 2026 égale ou batte 2024, l'année la plus chaude à ce jour, selon Copernicus." }
+      ],
+      "source": "Copernicus (bulletin d'octobre 2026), Down To Earth, DH / AFP"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Copernicus Climate Change Service, « Surface air temperature for October 2026 », 6 novembre 2026",
+        "DH / AFP, « Climat : 2026 en passe de devenir la 2e la plus chaude sur la planète », 6 novembre 2026",
+        "Down To Earth, « World records hottest October in 2026 », novembre 2026",
+        "Photo : Hydrosami, Wikimedia Commons, CC BY-SA 4.0"
+      ],
+      "question": "Quelle température faisait-il chez vous en octobre ?"
+    }
+  ],
+  "legende": {
+    "contexte": "+1,75 °C : c'est l'écart de la température mondiale d'octobre 2026 avec l'époque préindustrielle (1850-1900), selon Copernicus. Du jamais vu pour un mois d'octobre.\n\nC'est le troisième mois d'affilée au-dessus de 1,5 °C. Les océans ont aussi battu un record pour un mois d'octobre, à 20,95 °C en moyenne. 2026 sera très probablement la deuxième année la plus chaude, derrière 2024.\n\nQuelle température faisait-il chez vous en octobre ?\n\nSources : Copernicus (6 novembre 2026), DH / AFP, Down To Earth.\nPhoto : Hydrosami, CC BY-SA 4.0 (image d'illustration).",
+    "hashtags": ["climat", "actu", "copernicus", "temperature"]
+  }
+}
