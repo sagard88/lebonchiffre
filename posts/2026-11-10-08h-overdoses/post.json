@@ -1,0 +1,51 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Overdoses",
+  "publier_a": "2026-11-10T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "659",
+      "phrase": "décès par overdose en 2024, contre 243 en 2014.",
+      "contexte": "Presque trois fois plus en dix ans.",
+      "source": "Ofast via RTL et AFP, 7-9 novembre 2026",
+      "image": "pilules.jpg",
+      "cadrage": "50% 50%",
+      "credit": "Photo d'illustration : Shixart1985, CC BY 2.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Les décès par overdose ont bondi de 171 % en dix ans.",
+      "paragraphes": [
+        "En 2024, **659 personnes** sont mortes d'une overdose de drogues ou de médicaments en France. Elles étaient **243** en 2014.",
+        "Le nombre de décès a été multiplié par **2,7**. Cela fait en moyenne près de **deux morts par jour** en 2024.",
+        "Ces chiffres viennent d'une note de l'Office antistupéfiants (Ofast), rapportée par RTL le 7 novembre 2026 puis par l'AFP le 9 novembre."
+      ],
+      "source": "RTL, franceinfo (AFP), 7 et 9 novembre 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "L'Office alerte sur l'essor des drogues de synthèse.",
+      "paragraphes": [
+        "Dans sa note, l'Office antistupéfiants indique que les **drogues de synthèse** sont en plein essor.",
+        "Ce sont des produits fabriqués en laboratoire, comme certains cannabinoïdes ou amphétamines de synthèse.",
+        "Le chiffre de **659 décès** porte sur l'année 2024 : il décrit la situation d'il y a deux ans, pas celle de 2026."
+      ],
+      "source": "Europe 1, Libération (AFP), 9 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "RTL, « De 243 à 659 décès par an : le nombre d'overdoses en France a quasiment triplé en 10 ans », 7 novembre 2026",
+        "franceinfo (AFP), « Les overdoses ont plus que doublé en 10 ans, alerte l'Office antistupéfiants », 9 novembre 2026",
+        "Photo : Shixart1985, Wikimedia Commons, CC BY 2.0"
+      ],
+      "question": "Pensez-vous que la prévention est assez visible en France ?"
+    }
+  ],
+  "legende": {
+    "contexte": "659 : c'est le nombre de décès par overdose de drogues ou de médicaments en France en 2024, contre 243 en 2014. Soit +171 % en dix ans.\n\nCes chiffres viennent d'une note de l'Office antistupéfiants (Ofast), rapportée par RTL puis par l'AFP. L'Office alerte aussi sur l'essor des drogues de synthèse.\n\nPensez-vous que la prévention est assez visible en France ?\n\nSources : RTL (7 novembre 2026), franceinfo/AFP (9 novembre 2026), Europe 1, Libération.\nPhoto d'illustration : Shixart1985, CC BY 2.0.",
+    "hashtags": ["overdose", "sante", "actu", "drogues"]
+  }
+}

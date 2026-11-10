@@ -1,0 +1,52 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Smic",
+  "publier_a": "2026-11-10T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "1 502 €",
+      "phrase": "Le Smic net dès le 1er décembre 2026.",
+      "contexte": "+1,6 %, soit environ 24 € de plus par mois.",
+      "source": "Gouvernement via franceinfo, BFM, Le Figaro, 9 novembre 2026",
+      "image": "euros.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : Santeri Viinamäki, CC BY-SA 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Le gouvernement avance la hausse du Smic.",
+      "paragraphes": [
+        "Le lundi 9 novembre 2026, le gouvernement a annoncé une hausse du Smic de **1,6 %** dès le **1er décembre 2026**.",
+        "Le Smic net mensuel passe ainsi à environ **1 502 euros**, soit près de **24 euros** de plus chaque mois.",
+        "Le Premier ministre Sébastien Lecornu a parlé de « la deuxième hausse la plus importante en 20 ans »."
+      ],
+      "source": "franceinfo, BFM, Le Figaro, 9 novembre 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "Les syndicats jugent la hausse insuffisante.",
+      "paragraphes": [
+        "La CGT a dénoncé « des miettes » et appelle à une nouvelle journée de grève le **17 novembre**.",
+        "La CFDT juge elle aussi la hausse « insuffisante ».",
+        "L'annonce a été faite à l'issue d'une conférence sociale, avec d'autres mesures comme une prime carburant."
+      ],
+      "source": "Le Monde, Le Parisien, Centre Presse Aveyron, 9 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "franceinfo, « Le gouvernement annonce une augmentation du smic de 1,6 % dès le 1er décembre, pour le porter à 1 502 euros », 9 novembre 2026",
+        "Le Figaro et BFM, annonce de la revalorisation du Smic, 9 novembre 2026",
+        "Le Monde et Le Parisien, réactions syndicales, 9 novembre 2026",
+        "Photo : Santeri Viinamäki, Wikimedia Commons, CC BY-SA 4.0"
+      ],
+      "question": "Cette hausse change-t-elle quelque chose pour vous ?"
+    }
+  ],
+  "legende": {
+    "contexte": "1 502 € : c'est le Smic net mensuel à partir du 1er décembre 2026, après une hausse de 1,6 % annoncée par le gouvernement le 9 novembre (environ 24 € de plus par mois).\n\nLe Premier ministre parle de la deuxième hausse la plus importante en 20 ans. La CGT dénonce des miettes et appelle à la grève le 17 novembre.\n\nCette hausse change-t-elle quelque chose pour vous ?\n\nSources : franceinfo, BFM, Le Figaro, Le Monde, Le Parisien (9 novembre 2026).\nPhoto : Santeri Viinamäki, CC BY-SA 4.0.",
+    "hashtags": ["smic", "pouvoirdachat", "actu", "salaires"]
+  }
+}
