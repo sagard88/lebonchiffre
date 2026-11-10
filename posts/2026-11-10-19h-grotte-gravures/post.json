@@ -1,0 +1,50 @@
+{
+  "accent": "turquoise",
+  "style": "photo",
+  "rubrique": "Préhistoire",
+  "publier_a": "2026-11-10T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "280",
+      "phrase": "gravures préhistoriques passées inaperçues dans une grotte ouverte au public.",
+      "contexte": "Révélées en novembre 2026, en Catalogne.",
+      "source": "Antiquity, via Smithsonian Magazine et VRT, 5-6 novembre 2026",
+      "image": "bison.jpg",
+      "cadrage": "50% 30%",
+      "credit": "Image d'illustration : bison de la réplique d'Altamira (musée Anthropos, Brno), HTO, domaine public"
+    },
+    {
+      "type": "texte",
+      "titre": "Des gravures cachées à la vue de tous.",
+      "paragraphes": [
+        "Dans la Cova de la Font Major, à l'Espluga de Francolí en Catalogne, des archéologues ont recensé **280 gravures** sur les parois.",
+        "Elles ont été repérées lors de fouilles, à la fin de **2019**. L'étude vient de paraître dans la revue Antiquity, début novembre 2026.",
+        "Les chercheurs pensent qu'une grande partie date d'il y a **plus de 19 000 ans**, mais l'âge exact reste incertain."
+      ],
+      "source": "VRT, Smithsonian Magazine, novembre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce que montrent les parois.",
+      "chiffres": [
+        { "valeur": "55", "texte": "figures d'animaux reconnaissables : chevaux, cerfs, bovins et même un ours, très rare dans l'art préhistorique." },
+        { "valeur": "1957", "texte": "C'est l'année où la grotte a ouvert aux visiteurs. Pendant des décennies, personne n'a remarqué ces gravures." }
+      ],
+      "source": "VRT, Smithsonian Magazine, novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Vergès et Salas-Altès, étude publiée dans la revue Antiquity, novembre 2026",
+        "Smithsonian Magazine, article du 6 novembre 2026",
+        "VRT NWS, article du 5 novembre 2026"
+      ],
+      "question": "Quel lieu près de chez vous cache peut-être encore une surprise ?"
+    }
+  ],
+  "legende": {
+    "contexte": "280 gravures préhistoriques viennent d'être recensées dans la Cova de la Font Major, en Catalogne, une grotte ouverte aux visiteurs depuis 1957.\n\nParmi elles, 55 figures d'animaux : chevaux, cerfs, bovins et même un ours. Une grande partie daterait de plus de 19 000 ans, selon les chercheurs. L'étude est parue dans la revue Antiquity début novembre 2026.\n\nSources : Antiquity, Smithsonian Magazine (6 novembre 2026), VRT NWS (5 novembre 2026).\nPhoto d'illustration : réplique d'Altamira, HTO, domaine public.",
+    "hashtags": ["histoire", "actu", "prehistoire", "archeologie"]
+  }
+}
