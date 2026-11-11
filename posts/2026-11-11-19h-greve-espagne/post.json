@@ -1,0 +1,53 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Grève en Espagne",
+  "publier_a": "2026-11-11T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "14 ans",
+      "phrase": "Mercredi 11 novembre : l'Espagne en grève pour le logement.",
+      "contexte": "Du jamais vu depuis 2012.",
+      "source": "Le Petit Journal, Idealista, novembre 2026",
+      "image": "greve.jpg",
+      "cadrage": "85% 50%",
+      "credit": "Image d'archive : affiches de la grève générale du 14 novembre 2012, Barcelone. Kippelboy, CC BY-SA 3.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Pourquoi cette grève est rare.",
+      "paragraphes": [
+        "Les deux grands syndicats espagnols, **CCOO** et **UGT**, appellent à une grève générale de **24 heures** ce mercredi 11 novembre 2026.",
+        "C'est leur première grève générale commune depuis **14 ans**. La précédente date de **2012**.",
+        "Ils réclament un accès au logement et des salaires qui permettent de le payer. L'UGT demande aussi un contrôle des loyers."
+      ],
+      "source": "Le Petit Journal, Idealista, octobre 2026"
+    },
+    {
+      "type": "liste",
+      "titre": "Comment on en est arrivé là.",
+      "lignes": [
+        { "gauche": "2012", "droite": "dernière grève générale commune" },
+        { "gauche": "Octobre", "droite": "le Congrès rejette des décrets sur le logement" },
+        { "gauche": "3 oct.", "droite": "des dizaines de milliers de manifestants dans le pays" },
+        { "gauche": "7 oct.", "droite": "CCOO et UGT appellent à la grève" },
+        { "gauche": "11 nov.", "droite": "jour de la grève générale de 2026", "fort": true }
+      ],
+      "source": "Al Jazeera, Le Petit Journal, octobre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Le Petit Journal (Madrid), articles du 8 et 9 octobre 2026",
+        "Idealista, article du 9 octobre 2026",
+        "Al Jazeera, articles des 3 et 7 octobre 2026"
+      ],
+      "question": "Le logement est-il aussi un sujet de colère près de chez vous ?"
+    }
+  ],
+  "legende": {
+    "contexte": "14 ans : c'est le temps écoulé depuis la dernière grève générale commune des deux grands syndicats espagnols, CCOO et UGT. Elle a lieu ce mercredi 11 novembre 2026, pour le logement et les salaires.\n\nLa précédente remonte à 2012. Elle fait suite à des manifestations début octobre, après le rejet par le Congrès de décrets sur le logement.\n\nLe logement est-il aussi un sujet de colère près de chez vous ?\n\nSources : Le Petit Journal, Idealista, Al Jazeera (octobre 2026).\nPhoto d'archive : grève générale du 14 novembre 2012, Kippelboy, CC BY-SA 3.0.",
+    "hashtags": ["espagne", "actu", "logement", "greve"]
+  }
+}
