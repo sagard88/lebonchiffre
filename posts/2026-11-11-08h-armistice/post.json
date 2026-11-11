@@ -1,0 +1,51 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Armistice 1918",
+  "publier_a": "2026-11-11T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "11 000",
+      "phrase": "victimes le 11 novembre 1918, jour de l'armistice.",
+      "contexte": "Tués, blessés ou disparus, selon les historiens.",
+      "source": "Slate.fr ; Associated Press, novembre 2018",
+      "image": "armistice.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : soldats américains fêtant l'armistice, U.S. Army, domaine public"
+    },
+    {
+      "type": "texte",
+      "titre": "Les armes se sont tues à 11 h, pas avant.",
+      "paragraphes": [
+        "L'armistice a été signé tôt le matin du **11 novembre 1918**, mais il ne devait entrer en vigueur qu'à **11 h**.",
+        "Pendant ces quelques heures, les combats ont continué sur le front de l'Ouest.",
+        "Les historiens estiment qu'ils ont fait environ **11 000 victimes** ce jour-là, dont près de **3 000 morts**."
+      ],
+      "source": "Slate.fr ; Associated Press, novembre 2018"
+    },
+    {
+      "type": "texte",
+      "titre": "Les derniers tués, et un bilan réécrit.",
+      "paragraphes": [
+        "Augustin Trébuchon est généralement présenté comme le **dernier soldat français** tué, peu avant 11 h.",
+        "Côté américain, Henry Gunther est tombé à **10 h 59**, une minute avant la fin des combats.",
+        "L'état-major français a fait **antidater** au 10 novembre les avis de décès du 11, selon Slate.fr."
+      ],
+      "source": "Slate.fr, 2018"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Slate.fr : le destin d'Henry Gunther, mort une minute avant l'armistice",
+        "Associated Press, via VOA, novembre 2018 : estimation de l'historien Joseph Persico (environ 10 900 victimes)",
+        "Joseph Persico, « 11th Month, 11th Day, 11th Hour », 2005"
+      ],
+      "question": "Votre famille garde-t-elle un souvenir de la Grande Guerre ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Environ 11 000 victimes le 11 novembre 1918, jour de l'armistice : c'est l'estimation des historiens pour les tués, blessés et disparus du front de l'Ouest, dont près de 3 000 morts.\n\nL'armistice, signé tôt le matin, n'entrait en vigueur qu'à 11 h. Les combats ont donc continué. Côté français, les avis de décès du 11 novembre auraient été antidatés au 10, selon Slate.fr.\n\nVotre famille garde-t-elle un souvenir de la Grande Guerre ?\n\nSources : Slate.fr, Associated Press (via VOA, 2018), J. Persico (2005).\nPhoto : soldats américains fêtant l'armistice, U.S. Army, domaine public.",
+    "hashtags": ["histoire", "actu", "armistice", "11novembre", "premiereguerremondiale"]
+  }
+}

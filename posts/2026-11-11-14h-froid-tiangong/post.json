@@ -1,0 +1,62 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Record de froid",
+  "publier_a": "2026-11-11T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "9,7 pK",
+      "phrase": "au-dessus du zéro absolu : record de froid dans l'espace.",
+      "contexte": "Atteint à bord de la station chinoise Tiangong.",
+      "source": "Science News ; SCMP, novembre 2026",
+      "image": "sortie.jpg",
+      "cadrage": "70% 10%",
+      "credit": "Image d'illustration : sortie dans l'espace sur Tiangong (Shenzhou-15), China Manned Space Engineering Office, CC BY 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Un nuage d'atomes presque à l'arrêt.",
+      "paragraphes": [
+        "Des chercheurs chinois ont refroidi un nuage d'atomes de rubidium à environ **9,7 picokelvins**, à bord de la station spatiale Tiangong.",
+        "Un picokelvin, c'est un **millième de milliardième** de degré au-dessus du zéro absolu, la température la plus basse possible.",
+        "L'incertitude de la mesure va de **7,0 à 12,9 picokelvins**. Le résultat est paru dans la revue Science, début novembre 2026."
+      ],
+      "source": "Science News ; SCMP, novembre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce que ça bat.",
+      "chiffres": [
+        { "valeur": "38 pK", "texte": "L'ancien record dans l'espace, obtenu lors d'une chute libre dans une tour, au sol." },
+        { "valeur": "52 pK", "texte": "Le résultat du Cold Atom Lab de la NASA, à bord de la Station spatiale internationale." },
+        { "valeur": "7 s", "texte": "La durée d'observation du nuage à bord de Tiangong, contre 2 secondes dans la tour de chute libre." }
+      ],
+      "source": "Science News ; sciencepost.fr, novembre 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "Ce n'est pas lu sur un thermomètre.",
+      "paragraphes": [
+        "Les chercheurs déduisent cette température de la **lenteur avec laquelle le nuage d'atomes se dilate** une fois libéré.",
+        "Cela ne veut pas dire que le matériel autour, lui, est aussi froid : il reste **bien plus chaud**.",
+        "Le record est environ **4 fois plus bas** que celui de 38 picokelvins."
+      ],
+      "source": "CGTN, 6 novembre 2026 ; sciencepost.fr"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Revue Science, étude sur le gaz quantique de rubidium dans Tiangong, novembre 2026",
+        "Science News, article sur la température record de la station chinoise",
+        "South China Morning Post et CGTN (6 novembre 2026)",
+        "sciencepost.fr, 10 novembre 2026"
+      ],
+      "question": "Seriez-vous prêt à partir quelques mois dans une station spatiale ?"
+    }
+  ],
+  "legende": {
+    "contexte": "9,7 picokelvins : c'est la température record atteinte par un nuage d'atomes de rubidium à bord de la station chinoise Tiangong, soit un millième de milliardième de degré au-dessus du zéro absolu.\n\nL'ancien record dans l'espace était de 38 picokelvins, obtenu dans une tour de chute libre au sol. Attention : cette température est déduite de la dilatation du nuage, pas lue sur un thermomètre. L'étude est parue dans la revue Science début novembre 2026.\n\nSeriez-vous prêt à partir quelques mois dans une station spatiale ?\n\nSources : Science, Science News, SCMP, CGTN, sciencepost.fr.\nImage d'illustration : sortie dans l'espace sur Tiangong (Shenzhou-15), China Manned Space Engineering Office, CC BY 4.0.",
+    "hashtags": ["science", "actu", "espace", "tiangong", "physique"]
+  }
+}
