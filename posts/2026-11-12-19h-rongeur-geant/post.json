@@ -1,0 +1,62 @@
+{
+  "accent": "rose",
+  "style": "photo",
+  "rubrique": "Rongeur géant",
+  "publier_a": "2026-11-12T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "30 kg",
+      "phrase": "Poids estimé d'un rongeur géant vieux de 34 millions d'années.",
+      "contexte": "Révélé grâce à seulement deux dents.",
+      "source": "Scientific Reports, 4 novembre 2026 ; EurekAlert ; Khaosod English",
+      "image": "rongeur.jpg",
+      "cadrage": "20% 20%",
+      "credit": "Image d'illustration : un capybara, plus grand rongeur actuel. Photo Clodomiro Esteves Junior, CC BY-SA 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Un rongeur inconnu, deux dents.",
+      "paragraphes": [
+        "Le 4 novembre 2026, des chercheurs ont décrit dans la revue **Scientific Reports** une espèce disparue, baptisée *Yakamys sirindhornae*.",
+        "On ne connaît d'elle que **deux dents** : une molaire et une incisive, trouvées dans une mine de lignite de la province de **Krabi**, dans le sud de la Thaïlande.",
+        "Elle vivait il y a environ **34 millions d'années**, au milieu du Paléogène."
+      ],
+      "source": "EurekAlert, 4 novembre 2026 ; Khaosod English, 4 novembre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce que disent les dents.",
+      "chiffres": [
+        {
+          "valeur": "30 kg",
+          "texte": "Le poids estimé de l'animal, calculé à partir de la taille des dents. C'est une estimation, pas une pesée."
+        },
+        {
+          "valeur": "2",
+          "texte": "Les seuls fossiles connus : une molaire et une incisive. Son apparence, son régime et ses habitudes restent inconnus."
+        }
+      ],
+      "source": "EurekAlert, 4 novembre 2026 ; Khaosod English, 4 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Scientific Reports, article du 4 novembre 2026 (Yakamys sirindhornae)",
+        "EurekAlert, communiqué du 4 novembre 2026",
+        "Khaosod English, 4 novembre 2026"
+      ],
+      "question": "Quel animal disparu aimeriez-vous voir en vrai ?"
+    }
+  ],
+  "legende": {
+    "contexte": "30 kg : c'est le poids estimé de Yakamys sirindhornae, un rongeur géant qui vivait en Thaïlande il y a environ 34 millions d'années. Il est décrit dans Scientific Reports le 4 novembre 2026 à partir de deux dents seulement, trouvées dans une mine de la province de Krabi.\n\nLe poids est une estimation faite à partir de la taille des dents. Son apparence et son mode de vie restent inconnus.\n\nQuel animal disparu aimeriez-vous voir en vrai ?\n\nSources : Scientific Reports, EurekAlert, Khaosod English.\nImage d'illustration : un capybara, photo Clodomiro Esteves Junior, CC BY-SA 4.0.",
+    "hashtags": [
+      "science",
+      "actu",
+      "paleontologie",
+      "rongeur",
+      "thailande"
+    ]
+  }
+}
