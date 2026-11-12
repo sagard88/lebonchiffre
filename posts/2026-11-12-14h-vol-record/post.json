@@ -1,0 +1,62 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Vol record",
+  "publier_a": "2026-11-12T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "24 h 24",
+      "phrase": "dans les airs : record du plus long vol commercial.",
+      "contexte": "Un Airbus A350-1000 de Melbourne à Toulouse, sans escale.",
+      "source": "Airbus, 9 novembre 2026 ; Le Matin, 10 novembre 2026",
+      "image": "avion.jpg",
+      "cadrage": "40% 50%",
+      "credit": "Image d'illustration : un Airbus A350-1000 (compagnie Starlux), photo 4300streetcar, CC BY 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Melbourne-Toulouse sans se poser.",
+      "paragraphes": [
+        "Un Airbus A350-1000 modifié a décollé de **Melbourne** le lundi 27 juillet 2026 à 17 h 27, heure locale.",
+        "Il s'est posé à **Toulouse** le mardi 28 juillet à 9 h 51, après **24 heures et 24 minutes** de vol, sur plus de **23 000 kilomètres**.",
+        "Le **Guinness des records** a enregistré ce record du vol commercial le plus long en distance, annoncé par Airbus le 9 novembre 2026."
+      ],
+      "source": "Airbus, 9 novembre 2026 ; Le Matin, 10 novembre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce que ça bat.",
+      "chiffres": [
+        { "valeur": "22 h 42", "texte": "L'ancien record : un Boeing 777-200LR, de Hong Kong à Londres, les 9 et 10 novembre 2005." },
+        { "valeur": "1 h 40", "texte": "Environ le temps gagné sur ce record, vieux de 21 ans." },
+        { "valeur": "23 155 km", "texte": "La distance donnée par Airbus. Certains médias comptent 23 076 km, selon la mesure." }
+      ],
+      "source": "Airbus ; Boeing, 2005 ; Guinness World Records"
+    },
+    {
+      "type": "texte",
+      "titre": "Un vol d'essai, pas un vol de ligne.",
+      "paragraphes": [
+        "L'avion était un **appareil d'essai**, avec des pilotes et des ingénieurs à bord. Il ne transportait pas de passagers.",
+        "Il est équipé d'un **réservoir supplémentaire** intégré à sa structure, qui ajoute environ 1 000 milles nautiques d'autonomie, soit près de 1 850 kilomètres.",
+        "Airbus le présente comme l'A350-1000ULR, destiné à la compagnie australienne **Qantas**."
+      ],
+      "source": "Airbus, 9 novembre 2026 ; Le Matin, 10 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Airbus, communiqué du 9 novembre 2026 (A350-1000ULR)",
+        "Le Matin, 10 novembre 2026",
+        "Guinness World Records, vol commercial le plus long en distance",
+        "Boeing, communiqué de novembre 2005 (record du 777-200LR)"
+      ],
+      "question": "Seriez-vous prêt à passer plus de 24 heures dans un avion ?"
+    }
+  ],
+  "legende": {
+    "contexte": "24 h 24 : c'est la durée du vol d'un Airbus A350-1000 d'essai entre Melbourne et Toulouse, sans escale, les 27 et 28 juillet 2026. Le Guinness des records l'a enregistré comme le plus long vol commercial en distance, annoncé par Airbus le 9 novembre 2026.\n\nL'ancien record datait de novembre 2005 : 22 h 42 pour un Boeing 777-200LR entre Hong Kong et Londres. Ce vol était un essai, sans passagers, avec un réservoir supplémentaire intégré à l'appareil.\n\nSeriez-vous prêt à passer plus de 24 heures dans un avion ?\n\nSources : Airbus, Le Matin, Guinness World Records, Boeing.\nImage d'illustration : un Airbus A350-1000 de la compagnie Starlux, photo 4300streetcar, CC BY 4.0.",
+    "hashtags": ["aviation", "actu", "airbus", "record", "a350"]
+  }
+}
