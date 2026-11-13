@@ -1,0 +1,61 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Super Loto",
+  "publier_a": "2026-11-13T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "21 M€",
+      "phrase": "Vendredi 13 novembre : le jackpot du Super Loto.",
+      "contexte": "Mais vos chances ? Une sur 19 millions.",
+      "source": "FDJ, 13 novembre 2026",
+      "image": "boules.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Image d'illustration : boules de tirage. Photo elizaIO, CC BY-SA 2.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Pourquoi 21 millions ?",
+      "paragraphes": [
+        "Mercredi 11 novembre 2026, le jackpot du Loto, **15 millions d'euros**, n'a pas été remporté.",
+        "Selon la FDJ, le Super Loto du **vendredi 13 novembre** démarre donc avec **au moins 21 millions d'euros** en jeu.",
+        "Il reste possible de jouer jusqu'à **20 h 15** ce vendredi. La FDJ prévoit aussi **50 codes gagnants de 20 000 €**."
+      ],
+      "source": "FDJ (résultats du Loto du 11 novembre 2026, page du Super Loto du vendredi 13)"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce que représente le jackpot.",
+      "chiffres": [
+        {
+          "valeur": "1 sur 19 M",
+          "texte": "Les chances de trouver les 5 bons numéros et le numéro chance : exactement 1 sur 19 068 840."
+        },
+        {
+          "valeur": "220 jours",
+          "texte": "Il faudrait jouer une grille différente par seconde, sans s'arrêter, pour toutes les essayer. Calcul fait à partir des 19 068 840 combinaisons."
+        }
+      ],
+      "source": "Tirage-gagnant.com ; calcul : 1 906 884 combinaisons de 5 numéros parmi 49, multipliées par 10 numéros chance"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "FDJ, résultats du Loto du 11 novembre 2026",
+        "FDJ, page du Super Loto du vendredi 13 novembre 2026",
+        "Tirage-gagnant.com, 12 novembre 2026 (chances de gain)"
+      ],
+      "question": "Vendredi 13 : porte-bonheur ou jour à éviter pour vous ?"
+    }
+  ],
+  "legende": {
+    "contexte": "21 M€ : c'est le jackpot minimum du Super Loto de ce vendredi 13 novembre 2026. Le jackpot du Loto de 15 millions d'euros n'a pas été remporté mercredi, et la FDJ l'a donc porté à 21 millions.\n\nLes chances de trouver les 5 bons numéros et le numéro chance sont de 1 sur 19 068 840. Pour essayer toutes les combinaisons à raison d'une grille par seconde, il faudrait plus de 220 jours.\n\nVendredi 13 : porte-bonheur ou jour à éviter pour vous ?\n\nSources : FDJ, Tirage-gagnant.com.\nImage d'illustration : boules de tirage, photo elizaIO, CC BY-SA 2.0.",
+    "hashtags": [
+      "loto",
+      "actu",
+      "vendredi13",
+      "jackpot"
+    ]
+  }
+}

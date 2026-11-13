@@ -1,0 +1,61 @@
+{
+  "accent": "turquoise",
+  "style": "photo",
+  "rubrique": "Mercure",
+  "publier_a": "2026-11-13T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "8 ans",
+      "phrase": "De voyage pour atteindre Mercure.",
+      "contexte": "La sonde BepiColombo arrive enfin.",
+      "source": "ESA ; Starlust, 4 septembre 2026",
+      "image": "mercure.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Image : Mercure, NASA/Johns Hopkins APL/Carnegie Institution (domaine public)"
+    },
+    {
+      "type": "texte",
+      "titre": "Partie en 2018, presque arrivée.",
+      "paragraphes": [
+        "La sonde européano-japonaise **BepiColombo** a quitté la Terre le **20 octobre 2018**, à bord d'une fusée Ariane 5.",
+        "Le **3 septembre 2026**, son module de transport s'est détaché des **deux sondes scientifiques** qu'il portait depuis près de huit ans.",
+        "Elles doivent maintenant se placer en orbite autour de Mercure, une étape prévue d'ici la **fin 2026**."
+      ],
+      "source": "ESA ; Starlust, 4 septembre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Un trajet fait de détours.",
+      "chiffres": [
+        {
+          "valeur": "9",
+          "texte": "Le nombre de survols de planètes pendant le voyage : 1 de la Terre, 2 de Vénus et 6 de Mercure."
+        },
+        {
+          "valeur": "avril 2027",
+          "texte": "Début prévu des opérations scientifiques, une fois les deux sondes installées autour de Mercure."
+        }
+      ],
+      "source": "ESA ; Starlust, 4 septembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "ESA, page de la mission BepiColombo",
+        "Starlust, 4 septembre 2026 (début de l'arrivée, survols, calendrier)"
+      ],
+      "question": "Quelle planète aimeriez-vous voir explorée de plus près ?"
+    }
+  ],
+  "legende": {
+    "contexte": "8 ans : c'est la durée du voyage de BepiColombo vers Mercure. La sonde européano-japonaise a été lancée le 20 octobre 2018 et doit se placer en orbite autour de la planète d'ici la fin 2026.\n\nElle a déjà fait 9 survols de planètes : 1 de la Terre, 2 de Vénus et 6 de Mercure. Le 3 septembre 2026, son module de transport s'est détaché des deux sondes scientifiques. Les opérations scientifiques sont prévues à partir d'avril 2027.\n\nQuelle planète aimeriez-vous voir explorée de plus près ?\n\nSources : ESA, Starlust.\nImage : Mercure, NASA/Johns Hopkins APL/Carnegie Institution, domaine public.",
+    "hashtags": [
+      "espace",
+      "actu",
+      "mercure",
+      "bepicolombo",
+      "esa"
+    ]
+  }
+}
