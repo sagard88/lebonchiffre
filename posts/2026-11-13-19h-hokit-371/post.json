@@ -1,0 +1,53 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "UFC 334",
+  "publier_a": "2026-11-13T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "371",
+      "phrase": "jours entre ses débuts à l'UFC et le titre.",
+      "contexte": "Samedi 14 novembre, Josh Hokit défie Ciryl Gane.",
+      "source": "UFC.com ; Agent MMA ; FightMag",
+      "image": "illustration.jpg",
+      "cadrage": "50% 20%",
+      "ia": true
+    },
+    {
+      "type": "texte",
+      "titre": "Un combat pour la ceinture des poids lourds.",
+      "paragraphes": [
+        "Le **samedi 14 novembre 2026**, au Madison Square Garden de New York, le Français **Ciryl Gane** défend sa ceinture des poids lourds de l'UFC contre l'Américain **Josh Hokit**.",
+        "Gane est devenu champion après le retrait de **Tom Aspinall**, qui a rendu le titre.",
+        "Hokit, lui, a fait ses débuts à l'UFC le **8 novembre 2025**. Entre cette date et le combat, il s'écoule **371 jours** : un peu plus d'un an."
+      ],
+      "source": "FightMag ; Agent MMA ; UFC.com"
+    },
+    {
+      "type": "liste",
+      "titre": "Le parcours de Hokit en quatre dates.",
+      "lignes": [
+        { "gauche": "19 août 2025", "droite": "Contrat UFC obtenu" },
+        { "gauche": "8 nov. 2025", "droite": "Premier combat à l'UFC" },
+        { "gauche": "14 juin 2026", "droite": "Victoire sur Derrick Lewis" },
+        { "gauche": "14 nov. 2026", "droite": "Combat pour le titre", "fort": true }
+      ],
+      "source": "UFC.com ; Bloody Elbow ; FightMag"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "UFC.com, fiche de Josh Hokit (débuts le 8 novembre 2025)",
+        "Agent MMA, 371 jours entre ses débuts et le combat",
+        "FightMag, annonce de l'UFC 334 (14 novembre 2026)",
+        "Bloody Elbow, 20 août 2025 (contrat UFC)"
+      ],
+      "question": "Gane garde-t-il sa ceinture : oui ou non ?"
+    }
+  ],
+  "legende": {
+    "contexte": "371 jours : c'est le temps qui sépare les débuts de Josh Hokit à l'UFC (8 novembre 2025) de son combat pour le titre des poids lourds, le samedi 14 novembre 2026.\n\nIl affronte Ciryl Gane au Madison Square Garden de New York, lors de l'UFC 334. Gane est champion après le retrait de Tom Aspinall.\n\nGane garde-t-il sa ceinture : oui ou non ?\n\nSources : UFC.com, Agent MMA, FightMag, Bloody Elbow.\nIllustration générée par IA.",
+    "hashtags": ["ufc", "mma", "actu", "gane", "sport"]
+  }
+}
