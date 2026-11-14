@@ -1,0 +1,52 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Rugby",
+  "publier_a": "2026-11-14T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "73 ans",
+      "phrase": "Samedi 14 novembre : le Galles bat les All Blacks.",
+      "contexte": "Sa dernière victoire datait de 1953.",
+      "source": "AFP via The Citizen, dave.sport, 14 novembre 2026",
+      "image": "couverture.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : Alan Hughes, CC BY-SA 2.0 (Principality Stadium, Cardiff)"
+    },
+    {
+      "type": "texte",
+      "titre": "Le pays de Galles a battu la Nouvelle-Zélande 35 à 28.",
+      "paragraphes": [
+        "Samedi **14 novembre 2026**, au Principality Stadium de Cardiff, le pays de Galles a battu les **All Blacks 35-28**, lors du Championnat des nations.",
+        "C'est sa **première victoire** contre la Nouvelle-Zélande depuis **1953**, soit **73 ans** d'attente.",
+        "Les Gallois ont marqué **5 essais** contre 4. Le score était de **21-21** à la mi-temps."
+      ],
+      "source": "AFP via The Citizen, dave.sport"
+    },
+    {
+      "type": "liste",
+      "titre": "Une série de 34 défaites d'affilée, enfin stoppée.",
+      "lignes": [
+        { "gauche": "1953", "droite": "Dernière victoire galloise" },
+        { "gauche": "34", "droite": "Défaites de suite ensuite" },
+        { "gauche": "22 nov. 2025", "droite": "Dernier match : 26-52" },
+        { "gauche": "14 nov. 2026", "droite": "Victoire 35-28", "fort": true }
+      ],
+      "source": "AFP via The Citizen, dave.sport, sixnationsrugby.com"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "AFP via The Citizen, « Wales beat New Zealand for first time since 1953 », 14 novembre 2026",
+        "dave.sport, « Wales beat New Zealand 35-28 to end 73-year wait », 14 novembre 2026",
+        "Six Nations Rugby, match du 22 novembre 2025"
+      ],
+      "question": "Quel autre exploit sportif a mis le plus longtemps à arriver ?"
+    }
+  ],
+  "legende": {
+    "contexte": "73 ans. C'est le temps qu'il a fallu au pays de Galles pour battre de nouveau les All Blacks. Samedi 14 novembre 2026, à Cardiff, les Gallois se sont imposés 35-28 dans le Championnat des nations.\n\nLeur dernière victoire contre la Nouvelle-Zélande datait de 1953. Entre-temps, ils avaient perdu 34 matchs de suite face aux All Blacks. Les Gallois ont marqué 5 essais contre 4.\n\nQuel exploit sportif vous a le plus marqué ?\n\nSources : AFP via The Citizen, dave.sport, Six Nations Rugby.",
+    "hashtags": ["rugby", "paysdegalles", "allblacks", "actu", "lebonchiffre"]
+  }
+}
