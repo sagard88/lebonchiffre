@@ -1,0 +1,51 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Chômage des jeunes",
+  "publier_a": "2026-11-14T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "21 %",
+      "phrase": "Des jeunes actifs de 15-24 ans sont au chômage.",
+      "contexte": "Plus d'un sur cinq, au 3e trimestre 2026.",
+      "source": "Insee, Informations rapides n° 270, 10 novembre 2026",
+      "image": "couverture.jpg",
+      "cadrage": "50% 15%",
+      "ia": true
+    },
+    {
+      "type": "texte",
+      "titre": "Près de trois fois le taux des 25-49 ans.",
+      "paragraphes": [
+        "Au **3e trimestre 2026**, le taux de chômage des **15-24 ans** est de **21,0 %**, selon l'Insee (publication du 10 novembre 2026).",
+        "Il a baissé de **0,5 point** depuis le trimestre précédent, mais il a augmenté de **1,6 point** en un an.",
+        "Ce taux ne concerne que les jeunes qui travaillent ou cherchent un emploi. Un étudiant qui ne cherche pas de travail n'est pas compté."
+      ],
+      "source": "Insee, Informations rapides n° 270, 10 novembre 2026"
+    },
+    {
+      "type": "liste",
+      "titre": "Le taux de chômage selon l'âge, au 3e trimestre 2026.",
+      "lignes": [
+        { "gauche": "15-24 ans", "droite": "21,0 %", "fort": true },
+        { "gauche": "25-49 ans", "droite": "7,3 %" },
+        { "gauche": "50 ans et plus", "droite": "5,6 %" },
+        { "gauche": "Ensemble des actifs", "droite": "8,2 %" }
+      ],
+      "source": "Insee, Informations rapides n° 270, 10 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Insee, Informations rapides n° 270, 10 novembre 2026",
+        "AFP, reprise par Le Petit Journal, 10 novembre 2026"
+      ],
+      "question": "Trouver un premier emploi : qu'est-ce qui a été le plus dur pour vous ?"
+    }
+  ],
+  "legende": {
+    "contexte": "21 % : c'est le taux de chômage des 15-24 ans en France au 3e trimestre 2026, selon l'Insee. Plus d'un jeune actif sur cinq est donc sans emploi.\n\nCe taux baisse de 0,5 point sur le trimestre mais monte de 1,6 point sur un an. Chez les 25-49 ans, il est de 7,3 %, et de 5,6 % chez les 50 ans et plus. Pour l'ensemble des actifs, il est de 8,2 %.\n\nTrouver un premier emploi : qu'est-ce qui a été le plus dur pour vous ?\n\nSources : Insee (10 novembre 2026), AFP.\nIllustration générée par IA.",
+    "hashtags": ["emploi", "actu", "chomage", "jeunes", "insee"]
+  }
+}

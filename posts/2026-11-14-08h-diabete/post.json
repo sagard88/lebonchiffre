@@ -1,0 +1,55 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Diabète",
+  "publier_a": "2026-11-14T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "× 4",
+      "phrase": "Adultes diabétiques : plus que quadruplé depuis 1990.",
+      "contexte": "Samedi 14 novembre, Journée mondiale du diabète.",
+      "source": "OMS ; étude NCD-RisC (The Lancet), 2024",
+      "image": "zuo.jpg",
+      "cadrage": "50% 30%",
+      "credit": "Photo : Roy Zuo, CC BY-SA 4.0 (lecteur de glycémie, illustration)"
+    },
+    {
+      "type": "texte",
+      "titre": "Le diabète a explosé en trente ans.",
+      "paragraphes": [
+        "Selon l'**OMS**, plus de **800 millions** d'adultes vivaient avec le diabète en **2022**. Ils étaient moins de 200 millions en **1990**.",
+        "Ces chiffres viennent d'une étude publiée dans la revue The Lancet le **14 novembre 2024**, déjà un jour de Journée mondiale du diabète.",
+        "Le diabète est une maladie chronique : le corps ne régule plus correctement la quantité de sucre dans le sang."
+      ],
+      "source": "OMS ; étude NCD-RisC (The Lancet), 2024"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Et beaucoup ne sont pas soignés.",
+      "chiffres": [
+        {
+          "valeur": "59 %",
+          "texte": "des adultes diabétiques de 30 ans et plus ne prenaient aucun médicament contre la maladie en 2022."
+        },
+        {
+          "valeur": "+ 800 M",
+          "texte": "d'adultes diabétiques dans le monde en 2022, dernière année couverte par l'étude."
+        }
+      ],
+      "source": "OMS ; étude NCD-RisC (The Lancet), 2024"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "OMS, aide-mémoire sur le diabète",
+        "Étude NCD-RisC, The Lancet, 14 novembre 2024 (via News-Medical)"
+      ],
+      "question": "Connaissez-vous votre dernière glycémie ?"
+    }
+  ],
+  "legende": {
+    "contexte": "× 4 : le nombre d'adultes diabétiques dans le monde a plus que quadruplé depuis 1990. Ils étaient plus de 800 millions en 2022, contre moins de 200 millions en 1990.\n\nCes chiffres sont ceux de l'OMS et de l'étude NCD-RisC publiée dans The Lancet le 14 novembre 2024. Ils datent de 2022. En 2022, 59 % des adultes diabétiques de 30 ans et plus ne prenaient aucun médicament contre la maladie.\n\nConnaissez-vous votre dernière glycémie ?\n\nSources : OMS, étude NCD-RisC (The Lancet), News-Medical.\nPhoto : Roy Zuo, CC BY-SA 4.0.",
+    "hashtags": ["sante", "actu", "diabete", "oms"]
+  }
+}
