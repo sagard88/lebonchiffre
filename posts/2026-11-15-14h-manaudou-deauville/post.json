@@ -1,0 +1,49 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "10 km de Deauville",
+  "publier_a": "2026-11-15T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "53 min",
+      "phrase": "Samedi 14 novembre : le 10 km de Laure Manaudou.",
+      "contexte": "Une championne de natation, à pied.",
+      "source": "u-Trail ; résultats officiels du 10 km de Deauville",
+      "image": "couverture.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : Lorevdoreb, CC0 (bonnet de bain exposé au musée des sports de Cruas)"
+    },
+    {
+      "type": "texte",
+      "titre": "La nageuse a bouclé son 10 km en environ 53 minutes.",
+      "paragraphes": [
+        "Le **samedi 14 novembre 2026**, Laure Manaudou a pris le départ du **10 km** du marathon international de **Deauville**.",
+        "Sa montre a affiché **53 min 11 s**. Le classement officiel donne **53 min 25 s**. Les chronos diffèrent de quelques secondes, mais tous disent la même chose : environ **53 minutes**.",
+        "Son chrono a suscité des critiques, rapporte le site u-Trail, qui estime qu'il serait faux d'y voir une mauvaise performance."
+      ],
+      "source": "u-Trail ; résultats officiels du 10 km de Deauville"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Ce que 53 minutes sur 10 km veulent dire.",
+      "chiffres": [
+        { "valeur": "5 min 19 s", "texte": "Le temps moyen mis pour courir un kilomètre, selon sa montre." },
+        { "valeur": "11,3 km/h", "texte": "Sa vitesse moyenne sur la course (calcul : 10 km en 53 min 11 s)." }
+      ],
+      "source": "u-Trail ; calcul Le Bon Chiffre"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "u-Trail, « Comment Laure Manaudou a répondu aux critiques après ses 53 minutes aux 10 km de Deauville »",
+        "Résultats officiels du 10 km du marathon de Deauville, 14 novembre 2026"
+      ],
+      "question": "Et vous, quel est votre meilleur chrono sur 10 km ?"
+    }
+  ],
+  "legende": {
+    "contexte": "53 minutes : c'est le temps de Laure Manaudou au 10 km du marathon international de Deauville, le samedi 14 novembre 2026. Sa montre affiche 53 min 11 s et le classement officiel 53 min 25 s.\n\nCela fait une allure d'environ 5 min 19 s par kilomètre, soit 11,3 km/h de moyenne.\n\nEt vous, quel est votre meilleur chrono sur 10 km ?\n\nSources : u-Trail, résultats officiels du 10 km de Deauville.\nPhoto : Lorevdoreb, CC0.",
+    "hashtags": ["running", "actu", "deauville", "manaudou"]
+  }
+}

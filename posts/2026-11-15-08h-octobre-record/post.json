@@ -1,0 +1,61 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Climat",
+  "publier_a": "2026-11-15T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "+1,75 °C",
+      "phrase": "Octobre 2026 : le plus chaud jamais mesuré.",
+      "contexte": "Au-dessus de l'ère préindustrielle.",
+      "source": "Copernicus (C3S), bulletin d'octobre 2026",
+      "image": "couverture.jpg",
+      "cadrage": "50% 30%",
+      "credit": "Image : NASA/NOAA, domaine public"
+    },
+    {
+      "type": "texte",
+      "titre": "Aucun mois d'octobre n'avait été aussi chaud.",
+      "paragraphes": [
+        "Selon le service européen Copernicus, la température moyenne de l'air à la surface du globe a été de **15,35 °C** en octobre 2026.",
+        "C'est **1,75 °C** de plus que la moyenne de 1850-1900, la période d'avant le réchauffement lié aux activités humaines.",
+        "Le précédent record pour un mois d'octobre datait de **2023**."
+      ],
+      "source": "Copernicus (C3S), bulletin d'octobre 2026"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Octobre 2026 en trois chiffres.",
+      "chiffres": [
+        { "valeur": "15,35 °C", "texte": "La température moyenne de l'air à la surface du globe en octobre 2026." },
+        { "valeur": "+0,05 °C", "texte": "L'avance sur octobre 2023, l'ancien record, par rapport à la moyenne 1991-2020." },
+        { "valeur": "3 mois", "texte": "Août, septembre et octobre 2026 ont tous dépassé 1,5 °C au-dessus de l'ère préindustrielle." }
+      ],
+      "source": "Copernicus (C3S), bulletin d'octobre 2026"
+    },
+    {
+      "type": "texte",
+      "titre": "Trois mois au-dessus de 1,5 °C : l'accord de Paris est-il dépassé ?",
+      "paragraphes": [
+        "Pas encore, au sens strict. L'objectif de **1,5 °C** de l'accord de Paris porte sur une moyenne de **plusieurs années**, pas sur un seul mois.",
+        "Pour l'année entière, Copernicus juge **2026 pratiquement certaine** de dépasser 1,5 °C. Ce serait la **deuxième** année civile dans ce cas.",
+        "Ce bulletin est paru quelques jours avant l'ouverture de la **COP31**, le 9 novembre 2026 à Antalya, en Turquie."
+      ],
+      "source": "Copernicus (C3S) ; Royal Meteorological Society, 9 novembre 2026"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Copernicus Climate Change Service, bulletin d'octobre 2026",
+        "Down To Earth, 6 novembre 2026",
+        "DH / Belga, 6 novembre 2026"
+      ],
+      "question": "Ce mois d'octobre, avez-vous remarqué la chaleur près de chez vous ?"
+    }
+  ],
+  "legende": {
+    "contexte": "+1,75 °C : c'est l'écart de température mondiale d'octobre 2026 avec l'ère préindustrielle (1850-1900), selon le service européen Copernicus. Avec 15,35 °C de moyenne, c'est le mois d'octobre le plus chaud jamais enregistré, devant octobre 2023.\n\nC'est aussi le troisième mois d'affilée au-dessus de 1,5 °C, après août et septembre. L'objectif de l'accord de Paris porte toutefois sur une moyenne de plusieurs années, pas sur un mois.\n\nCe mois d'octobre, avez-vous remarqué la chaleur près de chez vous ?\n\nSources : Copernicus (C3S), Down To Earth, DH / Belga.\nPhoto : NASA/NOAA.",
+    "hashtags": ["climat", "actu", "temperature", "copernicus", "cop31"]
+  }
+}
