@@ -1,0 +1,50 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Étoiles filantes",
+  "publier_a": "2026-11-16T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "15",
+      "phrase": "étoiles filantes par heure, nuit du 17 au 18 novembre.",
+      "contexte": "Prévision : les Léonides atteignent leur pic.",
+      "source": "Star Walk ; EarthSky (American Meteor Society)",
+      "image": "couverture.jpg",
+      "cadrage": "0% 50%",
+      "credit": "Photo : Navicore, CC BY 3.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Les Léonides culminent cette semaine, mais sans spectacle exceptionnel.",
+      "paragraphes": [
+        "Chaque novembre, la Terre traverse les poussières laissées par la comète **55P/Tempel-Tuttle**. Elles brûlent dans le ciel : ce sont les Léonides.",
+        "Le pic est attendu la **nuit du 17 au 18 novembre 2026**. Sous un ciel très sombre, on peut voir **10 à 15 étoiles filantes par heure**, selon EarthSky.",
+        "Aucune « tempête » de Léonides n'est attendue cette année. Pour bien voir : s'éloigner des lumières de la ville, et regarder vers la constellation du Lion, d'où elles semblent partir."
+      ],
+      "source": "Star Walk ; EarthSky (American Meteor Society)"
+    },
+    {
+      "type": "chiffres",
+      "titre": "En 1966, le ciel avait offert tout autre chose.",
+      "chiffres": [
+        { "valeur": "33 ans", "texte": "Le temps que met la comète Tempel-Tuttle pour faire un tour autour du Soleil. C'est elle qui sème les poussières des Léonides." },
+        { "valeur": "40 / s", "texte": "Le 17 novembre 1966, des observateurs en Arizona ont compté jusqu'à 40 météores par seconde au pic, soit environ 144 000 par heure." }
+      ],
+      "source": "EarthSky ; International Meteor Organization ; Space.com"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Star Walk, « Léonides 2026 : comment observer cette pluie de météores »",
+        "EarthSky, « Everything you need to know: Leonid meteor shower » (American Meteor Society)",
+        "International Meteor Organization, « 50 years ago: the 1966 Leonid meteor storm »"
+      ],
+      "question": "Avez-vous déjà fait un vœu devant une étoile filante ?"
+    }
+  ],
+  "legende": {
+    "contexte": "15 : c'est le nombre d'étoiles filantes par heure que l'on peut espérer voir au mieux, sous un ciel très sombre, au pic des Léonides, prévu la nuit du 17 au 18 novembre 2026.\n\nCes météores viennent des poussières de la comète 55P/Tempel-Tuttle, qui fait le tour du Soleil en 33 ans. Le 17 novembre 1966, des observateurs en Arizona en avaient compté jusqu'à 40 par seconde au pic, environ 144 000 par heure.\n\nAvez-vous déjà fait un vœu devant une étoile filante ?\n\nSources : Star Walk, EarthSky (American Meteor Society), International Meteor Organization.\nPhoto : Navicore, CC BY 3.0.",
+    "hashtags": ["astronomie", "actu", "leonides", "etoilesfilantes"]
+  }
+}

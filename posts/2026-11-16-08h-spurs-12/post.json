@@ -1,0 +1,40 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "NBA",
+  "publier_a": "2026-11-16T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "12",
+      "phrase": "Dimanche 15 novembre : 12e victoire de suite des Spurs.",
+      "contexte": "Face à une équipe qui perd pour la 12e fois d'affilée.",
+      "source": "Associated Press ; The Ticket",
+      "image": "couverture.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : Daiei Onoguchi, CC BY 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "San Antonio a battu Utah 110-102 à Salt Lake City.",
+      "paragraphes": [
+        "Le **dimanche 15 novembre 2026**, les Spurs de Victor Wembanyama ont gagné leur **12e match consécutif**.",
+        "En face, le Jazz de l'Utah a perdu son **12e match de suite**. Une série contre une série : l'une des deux devait s'arrêter, et c'est celle du Jazz.",
+        "Wembanyama termine avec **26 points**, **6 passes** et **5 contres**. Son coéquipier Dylan Harper signe son record en carrière : **31 points**, dont 18 dans le dernier quart-temps."
+      ],
+      "source": "Associated Press ; The Ticket"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Associated Press, « Spurs win 12th straight while sending Jazz to 12th straight loss », 15 novembre 2026",
+        "The Ticket, « Spurs pull away late from Jazz for 12th consecutive win », 15 novembre 2026"
+      ],
+      "question": "Jusqu'où ira cette série des Spurs ?"
+    }
+  ],
+  "legende": {
+    "contexte": "12 : c'est le nombre de victoires consécutives des Spurs de San Antonio, après leur succès 110-102 à Utah le dimanche 15 novembre 2026.\n\nLe Jazz, lui, a perdu pour la 12e fois d'affilée. Victor Wembanyama a marqué 26 points et donné 5 contres ; Dylan Harper a inscrit un record personnel de 31 points.\n\nJusqu'où ira cette série des Spurs ?\n\nSources : Associated Press, The Ticket.\nPhoto : Daiei Onoguchi, CC BY 4.0.",
+    "hashtags": ["nba", "actu", "wembanyama", "spurs"]
+  }
+}
