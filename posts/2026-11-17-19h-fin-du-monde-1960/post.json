@@ -1,0 +1,60 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Fin du monde",
+  "publier_a": "2026-11-17T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "66 ans",
+      "phrase": "Le 13 novembre 2026 devait être la fin du monde.",
+      "contexte": "Quatre jours après, on est toujours là.",
+      "source": "Science, 4 novembre 1960 ; ONU",
+      "image": "foerster.jpg",
+      "cadrage": "50% 15%",
+      "credit": "Photo : service de presse de l'Université de l'Illinois (Heinz von Foerster, 1963), via Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Une étude de 1960 donnait une date précise : le vendredi 13 novembre 2026.",
+      "paragraphes": [
+        "Le **4 novembre 1960**, la revue Science publie un article intitulé « Doomsday : Friday, 13 November, A.D. 2026 » (« Jour du jugement : vendredi 13 novembre 2026 »).",
+        "Ses auteurs, **Heinz von Foerster, Patricia Mora et Lawrence Amiot**, de l'université de l'Illinois, ont repris la croissance de la population mondiale depuis 2 000 ans. Plus on avance, plus le temps qu'elle met à doubler raccourcit.",
+        "Si cette tendance continuait telle quelle, la population deviendrait **infinie** le 13 novembre 2026. C'était une extrapolation, pas une prédiction de catastrophe."
+      ],
+      "source": "Science, vol. 132, n° 3436, 4 novembre 1960, p. 1291-1295 ; L'Énergeek"
+    },
+    {
+      "type": "chiffres",
+      "titre": "La réalité a pris un autre chemin.",
+      "chiffres": [
+        { "valeur": "8,2 Mds", "texte": "d'habitants sur Terre à la mi-2025, selon la révision 2024 des projections de l'ONU. Pas l'infini." },
+        { "valeur": "10,3 Mds", "texte": "au maximum vers 2084 selon l'ONU, avant une baisse lente. La croissance annuelle est passée sous 1 % vers 2020." }
+      ],
+      "source": "ONU, World Population Prospects 2024 ; L'Énergeek ; Yahoo Actualités"
+    },
+    {
+      "type": "texte",
+      "titre": "La courbe a décroché au début des années 1990.",
+      "paragraphes": [
+        "Jusqu'au début des années 1990, la formule de 1960 a suivi les chiffres réels de près. Puis la **natalité a baissé** et la croissance a nettement ralenti.",
+        "Le modèle supposait que rien ne freinerait la population. Il ne tenait pas compte de la capacité des sociétés à **s'adapter**.",
+        "Résultat : la date du 13 novembre 2026 est passée, et le monde a continué."
+      ],
+      "source": "L'Énergeek ; Yahoo Actualités"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Science, vol. 132, n° 3436, 4 novembre 1960 : von Foerster, Mora, Amiot (DOI 10.1126/science.132.3436.1291)",
+        "ONU, World Population Prospects 2024 (8,2 milliards en 2025 ; pic vers 2084)",
+        "L'Énergeek, 10 novembre 2026 ; Yahoo Actualités, novembre 2026"
+      ],
+      "question": "Quelle prédiction ancienne vous a le plus surpris(e) ?"
+    }
+  ],
+  "legende": {
+    "contexte": "66 ans après, le vendredi 13 novembre 2026 est passé : une étude de 1960 l'avait désigné comme le jour où la population humaine deviendrait infinie.\n\nPubliée dans la revue Science le 4 novembre 1960, elle prolongeait la courbe de croissance des deux derniers millénaires. Mais la natalité a baissé : nous sommes environ 8,2 milliards, et l'ONU prévoit un pic autour de 10,3 milliards vers 2084.\n\nQuelle prédiction ancienne vous a le plus surpris(e) ?\n\nSources : Science (1960), ONU (World Population Prospects 2024), L'Énergeek, Yahoo Actualités.\nPhoto : service de presse de l'Université de l'Illinois, via Wikimedia Commons, CC BY-SA 4.0.",
+    "hashtags": ["sciences", "actu", "population", "histoire"]
+  }
+}
