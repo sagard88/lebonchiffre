@@ -1,0 +1,50 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Climat",
+  "publier_a": "2026-11-17T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "305 Mds",
+      "phrase": "de dollars par an pour s'adapter au climat d'ici 2035.",
+      "contexte": "COP31 : seul un dixième est versé aujourd'hui.",
+      "source": "PNUE (4 nov. 2026) ; Climate Change News",
+      "image": "couverture.jpg",
+      "cadrage": "50% 50%",
+      "credit": "Photo d'illustration (inondation au Bangladesh) : Md Shameem Ul Islam, CC BY 4.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Les pays en développement auraient besoin de 305 milliards de dollars par an.",
+      "paragraphes": [
+        "Le **4 novembre 2026**, le programme de l'ONU pour l'environnement (PNUE) a publié son rapport sur l'**adaptation** au climat : se préparer aux inondations, aux sécheresses et à la chaleur.",
+        "Il estime le besoin des pays en développement à **305 milliards de dollars par an** d'ici 2035, en prix actuels. Avec l'inflation, ce serait environ 420 milliards.",
+        "Le rapport sort pendant la **COP31**, la conférence de l'ONU sur le climat, qui se tient à Antalya (Turquie) du 9 au 20 novembre 2026."
+      ],
+      "source": "PNUE, Adaptation Gap Report 2026 (4 novembre 2026) ; Climate Change News"
+    },
+    {
+      "type": "chiffres",
+      "titre": "L'argent versé est loin du compte.",
+      "chiffres": [
+        { "valeur": "28 à 32 Mds", "texte": "Aide publique internationale d'adaptation en 2024 : 28,2 à 31,7 milliards de dollars, soit environ un dixième du besoin." },
+        { "valeur": "20 à 29 %", "texte": "Même si l'engagement de la COP30 (tripler l'aide d'ici 2035) était tenu, il ne couvrirait que 20 à 29 % des besoins." }
+      ],
+      "source": "PNUE, Adaptation Gap Report 2026 ; Climate Change News (4 novembre 2026)"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "PNUE, Adaptation Gap Report 2026 et déclaration de la directrice exécutive, 4 novembre 2026",
+        "Climate Change News, « COP30 adaptation pledge would meet under a third of poorer nations' needs », 4 novembre 2026",
+        "ONU Climat (CCNUCC), dates de la COP31 : 9 au 20 novembre 2026, Antalya"
+      ],
+      "question": "Votre région est-elle prête à affronter plus d'inondations ?"
+    }
+  ],
+  "legende": {
+    "contexte": "305 milliards de dollars par an : c'est ce dont les pays en développement auraient besoin d'ici 2035 pour s'adapter au climat, selon le rapport du PNUE publié le 4 novembre 2026 (environ 420 milliards avec l'inflation).\n\nEn 2024, l'aide publique internationale d'adaptation était de 28,2 à 31,7 milliards de dollars, soit environ un dixième du besoin. Tripler cette aide d'ici 2035, comme l'a décidé la COP30, ne couvrirait que 20 à 29 % des besoins. La COP31 se tient à Antalya jusqu'au 20 novembre.\n\nVotre région est-elle prête à affronter plus d'inondations ?\n\nSources : PNUE (Adaptation Gap Report 2026), Climate Change News, ONU Climat.\nPhoto d'illustration : Md Shameem Ul Islam, CC BY 4.0.",
+    "hashtags": ["climat", "actu", "cop31", "adaptation"]
+  }
+}

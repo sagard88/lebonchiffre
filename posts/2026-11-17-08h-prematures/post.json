@@ -1,0 +1,49 @@
+{
+  "accent": "rose",
+  "style": "photo",
+  "rubrique": "Prématurité",
+  "publier_a": "2026-11-17T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "13,4 M",
+      "phrase": "de bébés nés trop tôt en 2020 dans le monde.",
+      "contexte": "17 novembre : Journée mondiale de la prématurité.",
+      "source": "OMS (10 mai 2023) ; ONU Info",
+      "image": "couverture.jpg",
+      "cadrage": "35% 50%",
+      "credit": "Photo : DFID, CC BY 2.0"
+    },
+    {
+      "type": "texte",
+      "titre": "Plus d'un bébé sur dix naît trop tôt.",
+      "paragraphes": [
+        "Un bébé est dit **prématuré** quand il naît avant 37 semaines de grossesse, au lieu d'environ 40.",
+        "En 2020, **13,4 millions** de bébés sont nés ainsi dans le monde, selon l'estimation de l'OMS publiée le 10 mai 2023. C'est un peu plus d'un bébé sur dix.",
+        "La majorité de ces naissances ont lieu en **Asie du Sud** et en **Afrique subsaharienne**."
+      ],
+      "source": "OMS, fiche « Naissance prématurée » (10 mai 2023)"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Selon le pays où il naît, un très grand prématuré n'a pas la même chance.",
+      "chiffres": [
+        { "valeur": "1 sur 10", "texte": "Dans les pays à faible revenu, environ 1 bébé né avant 28 semaines sur 10 survit." },
+        { "valeur": "9 sur 10", "texte": "Dans les pays à revenu élevé, plus de 9 bébés sur 10 nés avant 28 semaines survivent." }
+      ],
+      "source": "OMS (10 mai 2023) ; ONU Info (10 mai 2023)"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "OMS, fiche « Naissance prématurée », 10 mai 2023 (chiffres de 2020)",
+        "ONU Info, « Silent emergency » : rapport OMS-UNICEF « Born too soon », 10 mai 2023"
+      ],
+      "question": "Connaissez-vous quelqu'un né avant terme ?"
+    }
+  ],
+  "legende": {
+    "contexte": "13,4 millions : c'est le nombre de bébés nés prématurément dans le monde en 2020, soit plus d'un sur dix, selon l'estimation de l'OMS publiée le 10 mai 2023. Une naissance est dite prématurée avant 37 semaines de grossesse.\n\nL'endroit où l'on naît change tout : dans les pays à faible revenu, environ 1 bébé né avant 28 semaines sur 10 survit, contre plus de 9 sur 10 dans les pays à revenu élevé.\n\nConnaissez-vous quelqu'un né avant terme ?\n\nSources : OMS, ONU Info.\nPhoto : DFID, CC BY 2.0.",
+    "hashtags": ["sante", "actu", "prematurite", "bebe"]
+  }
+}
