@@ -1,0 +1,61 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Mickey Mouse",
+  "publier_a": "2026-11-18T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "98 ans",
+      "phrase": "Le 18 novembre 1928, Mickey Mouse débutait au cinéma.",
+      "contexte": "Il est tombé dans le domaine public en 2024.",
+      "source": "Wikipédia (Steamboat Willie) ; Herodote.net",
+      "image": "mickey.jpg",
+      "cadrage": "50% 10%",
+      "credit": "Image : Walt Disney / Ub Iwerks, Steamboat Willie (1928), domaine public, via Wikimedia Commons"
+    },
+    {
+      "type": "texte",
+      "titre": "Une première à New York, il y a 98 ans",
+      "paragraphes": [
+        "Le **18 novembre 1928**, le court-métrage d'animation *Steamboat Willie* est projeté pour la première fois au Colony Theater, à New York.",
+        "C'est le film où le public découvre Mickey Mouse sur grand écran, avec un son synchronisé aux images.",
+        "Presque un siècle plus tard, la souris de Walt Disney est l'un des personnages les plus connus au monde."
+      ],
+      "source": "Wikipédia (Steamboat Willie) ; Herodote.net"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Quand Mickey est devenu libre de droits",
+      "chiffres": [
+        { "valeur": "95 ans", "texte": "La durée de protection du droit d'auteur aux États-Unis pour une œuvre de 1928." },
+        { "valeur": "1er janv. 2024", "texte": "Le jour où le film est entré dans le domaine public américain." }
+      ],
+      "source": "NYU JIPEL ; Time"
+    },
+    {
+      "type": "texte",
+      "titre": "Seul le Mickey de 1928 est libre de droits",
+      "paragraphes": [
+        "Ce qui est tombé dans le domaine public, c'est **uniquement la version de Steamboat Willie** : en noir et blanc, sans gants, avec des yeux ovales noirs.",
+        "Les versions plus récentes, comme le Mickey en short rouge, restent protégées par Disney.",
+        "Le nom et le personnage restent aussi des **marques déposées**, ce qui limite leur usage."
+      ],
+      "source": "Law Commentary ; WDWinfo"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Wikipédia : Steamboat Willie (première du 18 novembre 1928)",
+        "Herodote.net : 18 novembre 1928",
+        "NYU JIPEL et Time : domaine public au 1er janvier 2024",
+        "Law Commentary : seule la version de 1928 est concernée"
+      ],
+      "question": "Quel est votre premier souvenir de Mickey ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 18 novembre 1928, Steamboat Willie était projeté pour la première fois à New York : Mickey Mouse a 98 ans aujourd'hui. Depuis le 1er janvier 2024, après 95 ans de droit d'auteur, cette version du personnage est dans le domaine public américain. Les Mickey plus récents restent protégés, et le nom reste une marque déposée.",
+    "hashtags": ["mickey", "disney", "cinema", "actu"]
+  }
+}
