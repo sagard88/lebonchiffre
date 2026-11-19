@@ -1,0 +1,60 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Gettysburg",
+  "publier_a": "2026-11-19T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "2 min",
+      "phrase": "Le 19 novembre 1863, Lincoln prononçait son discours de Gettysburg.",
+      "contexte": "L'orateur vedette, lui, a parlé deux heures.",
+      "source": "Britannica ; Mass Moments",
+      "image": "lincoln.jpg",
+      "cadrage": "50% 10%",
+      "credit": "Photo : Alexander Gardner, Abraham Lincoln, 8 novembre 1863, domaine public, via Wikimedia Commons"
+    },
+    {
+      "type": "texte",
+      "titre": "Il y a 163 ans, une cérémonie en Pennsylvanie",
+      "paragraphes": [
+        "Le **19 novembre 1863**, un cimetière militaire est inauguré à Gettysburg, là où a eu lieu l'une des batailles les plus meurtrières de la guerre de Sécession.",
+        "Le président américain Abraham Lincoln y est invité pour dire **quelques mots**.",
+        "Il parle environ **2 minutes** : c'est le discours de Gettysburg."
+      ],
+      "source": "Britannica ; National Park Service"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Deux discours, deux durées",
+      "chiffres": [
+        { "valeur": "2 heures", "texte": "La durée du discours d'Edward Everett, l'orateur le plus réputé du moment, prononcé avant celui de Lincoln." },
+        { "valeur": "2 minutes", "texte": "La durée du discours de Lincoln, soit environ 270 mots contre plus de 13 000 pour Everett." }
+      ],
+      "source": "Mass Moments ; World History Encyclopedia ; Cornell University Library"
+    },
+    {
+      "type": "texte",
+      "titre": "Everett l'a reconnu lui-même",
+      "paragraphes": [
+        "Peu après, Edward Everett écrit à Lincoln qu'il serait fier d'avoir approché **l'idée centrale** de la cérémonie en deux heures, comme Lincoln l'a fait **en deux minutes**.",
+        "Le discours de Lincoln est aujourd'hui l'un des plus célèbres de l'histoire des États-Unis."
+      ],
+      "source": "Mass Moments ; Britannica"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Britannica : Gettysburg Address",
+        "Mass Moments : 19 novembre 1863",
+        "World History Encyclopedia : Gettysburg Address",
+        "Cornell University Library : texte de 272 mots (copie Bancroft)"
+      ],
+      "question": "Quel discours vous a le plus marqué ?"
+    }
+  ],
+  "legende": {
+    "contexte": "2 minutes : c'est la durée du discours de Gettysburg, prononcé par Abraham Lincoln le 19 novembre 1863, il y a 163 ans. Avant lui, Edward Everett, l'orateur le plus réputé de l'époque, avait parlé environ deux heures. Lincoln a dit environ 270 mots, Everett plus de 13 000. Peu après, Everett lui a écrit qu'il aurait voulu approcher l'idée centrale de la cérémonie en deux heures, comme Lincoln en deux minutes.",
+    "hashtags": ["histoire", "lincoln", "gettysburg", "actu"]
+  }
+}
