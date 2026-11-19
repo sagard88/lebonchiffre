@@ -1,0 +1,59 @@
+{
+  "accent": "turquoise",
+  "style": "photo",
+  "rubrique": "Toilettes",
+  "publier_a": "2026-11-19T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "3,4 Mds",
+      "phrase": "de personnes n'ont pas de toilettes sûres.",
+      "contexte": "Plus de 4 humains sur 10.",
+      "source": "OMS / UNICEF, rapport JMP 2025 (données 2024)",
+      "image": "toilettes.jpg",
+      "cadrage": "50% 55%",
+      "credit": "Photo : SuSanA Secretariat, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "type": "texte",
+      "titre": "Ce que veut dire « toilettes sûres »",
+      "paragraphes": [
+        "Pour l'OMS et l'UNICEF, un assainissement « géré en toute sécurité » est un équipement qui **évacue les déchets sans risque** pour la santé.",
+        "Selon leur rapport publié en août 2025, **3,4 milliards de personnes** n'y avaient pas accès en 2024.",
+        "Parmi elles, **354 millions** vivent sans aucune toilette et font leurs besoins à l'air libre."
+      ],
+      "source": "OMS / UNICEF, communiqué du 26 août 2025"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Deux chiffres pour mesurer l'écart",
+      "chiffres": [
+        { "valeur": "3,4 Mds", "texte": "de personnes sans toilettes gérées en toute sécurité en 2024." },
+        { "valeur": "354 M", "texte": "de personnes sans toilettes du tout, à l'air libre." }
+      ],
+      "source": "OMS / UNICEF, rapport JMP 2025"
+    },
+    {
+      "type": "texte",
+      "titre": "Pourquoi une journée mondiale",
+      "paragraphes": [
+        "Le **19 novembre**, la Journée mondiale des toilettes attire l'attention sur ce manque. Elle a été lancée en 2001 et reconnue par l'ONU en 2013.",
+        "L'ONU rappelle que l'absence d'assainissement favorise des maladies comme le choléra, la dysenterie ou la typhoïde."
+      ],
+      "source": "Dawn, 19 novembre 2025 ; ONU-Eau"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "OMS / UNICEF : rapport JMP 2025, données 2000-2024",
+        "OMS / UNICEF : communiqué du 26 août 2025",
+        "ONU-Eau : Journée mondiale des toilettes"
+      ],
+      "question": "Et chez vous, qu'est-ce qui vous semble le plus essentiel au quotidien ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 19 novembre, c'est la Journée mondiale des toilettes. Selon l'OMS et l'UNICEF, 3,4 milliards de personnes n'avaient pas d'assainissement géré en toute sécurité en 2024, dont 354 millions qui font leurs besoins à l'air libre. Photo : SuSanA Secretariat, CC BY 2.0.",
+    "hashtags": ["toilettes", "sante", "monde", "actu"]
+  }
+}

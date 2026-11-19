@@ -1,0 +1,60 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Apollo 12",
+  "publier_a": "2026-11-19T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "36 s",
+      "phrase": "après le décollage, la foudre frappe Apollo 12.",
+      "contexte": "Le 14 novembre 1969, cinq jours avant la Lune.",
+      "source": "NASA ; Sky at Night",
+      "image": "apollo12.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : NASA, domaine public, via Wikimedia Commons"
+    },
+    {
+      "type": "texte",
+      "titre": "Deux coups de foudre dès le décollage",
+      "paragraphes": [
+        "Le **14 novembre 1969**, la fusée Saturn V d'Apollo 12 décolle de Floride, avec Conrad, Gordon et Bean à bord.",
+        "Elle est touchée par la foudre **36 secondes** après le décollage, puis une seconde fois **16 secondes** plus tard.",
+        "Les contrôleurs perdent la télémétrie : les écrans de la capsule s'affolent."
+      ],
+      "source": "NASA ; Sky at Night"
+    },
+    {
+      "type": "texte",
+      "titre": "Un interrupteur sauve la mission",
+      "paragraphes": [
+        "Le contrôleur John Aaron reconnaît le problème, déjà vu lors d'un exercice un an plus tôt.",
+        "Il demande à l'équipage de basculer l'équipement de conditionnement des signaux sur son circuit de secours : « Try SCE to AUX ».",
+        "Alan Bean trouve l'interrupteur, et le tableau de bord se rallume. Les circuits sont vérifiés ensuite, sans problème notable."
+      ],
+      "source": "Sky at Night ; NASA"
+    },
+    {
+      "type": "liste",
+      "titre": "Apollo 12, en quelques dates",
+      "lignes": [
+        { "gauche": "14 nov. 1969", "droite": "Décollage, foudroyé à 36 s" },
+        { "gauche": "19 nov. 1969", "droite": "Atterrissage et première sortie lunaire", "fort": true },
+        { "gauche": "20 nov. 1969", "droite": "Deuxième sortie lunaire" }
+      ],
+      "source": "NASA"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "NASA : Repeat Performance, Apollo 12 achieves second Moon landing",
+        "Sky at Night Magazine : Apollo 12, the story of the second manned mission to the Moon"
+      ],
+      "question": "Auriez-vous osé monter dans cette fusée ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 14 novembre 1969, Apollo 12 est foudroyée 36 secondes après son décollage, puis une seconde fois 16 secondes plus tard. Grâce au contrôleur John Aaron, l'équipage rebascule un équipement sur son circuit de secours et la mission continue. Elle se posera sur la Lune le 19 novembre.",
+    "hashtags": ["apollo12", "nasa", "espace", "actu"]
+  }
+}
