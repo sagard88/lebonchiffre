@@ -1,0 +1,60 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Droits de l'enfant",
+  "publier_a": "2026-11-20T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "196",
+      "phrase": "pays ont ratifié la Convention des droits de l'enfant.",
+      "contexte": "Adoptée le 20 novembre 1989 : un seul pays manque.",
+      "source": "UNICEF ; Humanium",
+      "image": "enfants.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : LAI Ryanne, CC BY 2.0, via Wikimedia Commons"
+    },
+    {
+      "type": "texte",
+      "titre": "Un seul pays membre de l'ONU ne l'a pas ratifiée",
+      "paragraphes": [
+        "La Convention relative aux droits de l'enfant a été adoptée par les Nations unies le **20 novembre 1989**. Chaque année, cette date est devenue la Journée mondiale de l'enfance.",
+        "**196 pays** y sont aujourd'hui parties, selon l'UNICEF et l'ONG Humanium.",
+        "Le seul pays membre de l'ONU à ne pas l'avoir ratifiée : **les États-Unis**."
+      ],
+      "source": "UNICEF ; Humanium"
+    },
+    {
+      "type": "liste",
+      "titre": "Le cas des États-Unis, en trois étapes",
+      "lignes": [
+        { "gauche": "20 nov. 1989", "droite": "Adoption de la Convention par l'ONU" },
+        { "gauche": "1995", "droite": "Les États-Unis la signent, sans la ratifier" },
+        { "gauche": "2015", "droite": "La Somalie ratifie : les États-Unis restent seuls", "fort": true }
+      ],
+      "source": "UNICEF ; Common Dreams ; Humanium"
+    },
+    {
+      "type": "texte",
+      "titre": "Signer ne suffit pas",
+      "paragraphes": [
+        "Un pays qui **signe** un traité annonce son intention de le ratifier. Il n'est lié par ce traité que lorsqu'il le **ratifie**.",
+        "Les États-Unis ont signé en 1995, mais la ratification n'a jamais eu lieu : c'est ce qui les place seuls en dehors du traité."
+      ],
+      "source": "UNICEF ; Congressional Research Service"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "UNICEF : Convention relative aux droits de l'enfant, questions fréquentes",
+        "Humanium : États signataires et parties à la Convention",
+        "Congressional Research Service : The UN Convention on the Rights of the Child"
+      ],
+      "question": "Selon vous, pourquoi ce dernier pays n'a-t-il pas ratifié ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 20 novembre 1989, l'ONU adoptait la Convention relative aux droits de l'enfant. 196 pays l'ont depuis ratifiée. Un seul État membre de l'ONU manque à l'appel : les États-Unis, qui l'ont signée en 1995 sans jamais la ratifier.",
+    "hashtags": ["droitsdelenfant", "onu", "unicef", "actu"]
+  }
+}

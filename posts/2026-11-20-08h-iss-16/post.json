@@ -1,0 +1,61 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Station spatiale",
+  "publier_a": "2026-11-20T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "16",
+      "phrase": "levers de soleil par jour à bord de l'ISS.",
+      "contexte": "Son premier module a décollé il y a 28 ans.",
+      "source": "NASA ; ESA",
+      "image": "iss.jpg",
+      "cadrage": "50% 50%",
+      "credit": "Photo : NASA, domaine public, via Wikimedia Commons"
+    },
+    {
+      "type": "texte",
+      "titre": "Un tour de la Terre toutes les 90 minutes",
+      "paragraphes": [
+        "La Station spatiale internationale (ISS) file autour de la Terre à environ **400 km** d'altitude.",
+        "Elle boucle un tour en **90 minutes** environ. En 24 heures, elle en fait donc **16**.",
+        "À chaque tour, l'équipage voit un lever et un coucher de soleil : **16 levers de soleil** par jour."
+      ],
+      "source": "NASA ; ESA"
+    },
+    {
+      "type": "liste",
+      "titre": "L'ISS, de son premier module à aujourd'hui",
+      "lignes": [
+        { "gauche": "20 nov. 1998", "droite": "Lancement de Zarya, le premier module", "fort": true },
+        { "gauche": "Nov. 2000", "droite": "Début de la présence humaine continue" },
+        { "gauche": "20 nov. 2026", "droite": "28 ans après le premier module" }
+      ],
+      "source": "ESA ; NASA"
+    },
+    {
+      "type": "texte",
+      "titre": "Le détail qui change tout",
+      "paragraphes": [
+        "Zarya a été lancée le **20 novembre 1998** par une fusée russe Proton, depuis Baïkonour, au Kazakhstan.",
+        "Depuis **novembre 2000**, des astronautes vivent à bord sans interruption.",
+        "Comme un tour dure 90 minutes, jour et nuit se succèdent à toute vitesse, bien loin des **24 heures** d'une journée sur Terre."
+      ],
+      "source": "ESA ; NASA"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "NASA : Space Station Facts and Figures (mise à jour du 16 juillet 2024)",
+        "ESA : Where is the International Space Station ?",
+        "ESA : lancement du premier élément de l'ISS, 20 novembre 1998"
+      ],
+      "question": "Vous aimeriez voir 16 levers de soleil en une journée ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 20 novembre 1998, le module Zarya, premier élément de la Station spatiale internationale, était lancé depuis Baïkonour. Aujourd'hui, la station tourne autour de la Terre en 90 minutes environ : l'équipage assiste à 16 levers de soleil par jour. Des astronautes y vivent sans interruption depuis novembre 2000.",
+    "hashtags": ["iss", "espace", "nasa", "actu"]
+  }
+}
