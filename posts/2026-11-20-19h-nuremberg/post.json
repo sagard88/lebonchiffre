@@ -1,0 +1,61 @@
+{
+  "accent": "orange",
+  "rubrique": "Nuremberg",
+  "publier_a": "2026-11-20T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "12",
+      "phrase": "condamnés à mort sur 22 accusés jugés à Nuremberg.",
+      "contexte": "Le procès s'ouvrait le 20 novembre 1945.",
+      "image": "dock.jpg",
+      "cadrage": "50% 20%",
+      "credit": "Photo : US National Archives, domaine public",
+      "source": "Mémorial des procès de Nuremberg ; Wikipédia"
+    },
+    {
+      "type": "texte",
+      "titre": "Le premier procès international de ce genre",
+      "paragraphes": [
+        "Le 20 novembre 1945, le Tribunal militaire international ouvre son procès à Nuremberg, en Allemagne. Il juge de hauts dirigeants du Troisième Reich.",
+        "24 personnes étaient accusées. Mais **22** seulement ont été jugées : l'une s'était suicidée avant le procès, une autre était déclarée trop malade pour comparaître.",
+        "Le procès a duré environ **neuf mois**. Le jugement a été rendu les 30 septembre et 1er octobre 1946."
+      ],
+      "source": "Mémorial des procès de Nuremberg ; Wikipédia"
+    },
+    {
+      "type": "liste",
+      "titre": "Les verdicts pour les 22 accusés",
+      "lignes": [
+        { "gauche": "Condamnés à mort", "droite": "12", "fort": true },
+        { "gauche": "Prison à perpétuité", "droite": "3" },
+        { "gauche": "Prison de 10 à 20 ans", "droite": "4" },
+        { "gauche": "Acquittés", "droite": "3" }
+      ],
+      "source": "Mémorial des procès de Nuremberg"
+    },
+    {
+      "type": "texte",
+      "titre": "Douze condamnations, mais pas douze pendaisons",
+      "paragraphes": [
+        "Hermann Göring, l'un des douze condamnés à mort, s'est donné la mort avant son exécution.",
+        "Martin Bormann, lui aussi condamné à mort, avait été jugé **en son absence** : il n'était pas dans le box.",
+        "Trois accusés ont été acquittés : Hans Fritzsche, Franz von Papen et Hjalmar Schacht."
+      ],
+      "source": "Wikipédia ; USHMM"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Mémorial des procès de Nuremberg : page sur le jugement du Tribunal militaire international",
+        "Wikipédia : « Procès de Nuremberg »",
+        "USHMM : « The Nuremberg Trials » et « Verdicts of the International Military Tribunal »"
+      ],
+      "question": "Un tel procès international était-il nécessaire ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 20 novembre 1945 s'ouvrait à Nuremberg le procès des principaux dirigeants nazis. Sur les 22 accusés jugés, 12 ont été condamnés à mort, 7 à de la prison et 3 acquittés.\n\nParmi les condamnés à mort, Hermann Göring s'est donné la mort avant son exécution, et Martin Bormann avait été jugé en son absence.\n\nUn tel procès international était-il nécessaire ?\n\nSources : Mémorial des procès de Nuremberg, Wikipédia, USHMM.",
+    "hashtags": ["histoire", "actu", "nuremberg", "1945"]
+  }
+}
