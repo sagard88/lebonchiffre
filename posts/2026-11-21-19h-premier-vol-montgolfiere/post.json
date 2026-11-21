@@ -1,0 +1,62 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Premier vol",
+  "publier_a": "2026-11-21T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "25 min",
+      "phrase": "pour le tout premier vol libre d'êtres humains.",
+      "contexte": "C'était le 21 novembre 1783, il y a 243 ans.",
+      "image": "ballon.jpg",
+      "cadrage": "50% 38%",
+      "credit": "Gravure de 1783 : Paris Musées, CC0",
+      "source": "Guinness World Records ; History.com ; archives de la Défense"
+    },
+    {
+      "type": "texte",
+      "titre": "Deux hommes dans un ballon, sans aucune corde",
+      "paragraphes": [
+        "Le 21 novembre 1783, Jean-François **Pilâtre de Rozier** et le marquis **d'Arlandes** décollent du château de la Muette, à Paris.",
+        "Leur ballon à air chaud a été construit par les frères Montgolfier. Il n'est retenu par aucun câble : c'est le premier vol libre avec des humains à bord.",
+        "Le vol dure environ **25 minutes**, sous les yeux d'une foule venue assister à l'expérience."
+      ],
+      "source": "Guinness World Records ; History.com"
+    },
+    {
+      "type": "liste",
+      "titre": "En 1783, il a fallu des animaux avant les humains",
+      "lignes": [
+        { "gauche": "4 juin", "droite": "Premier essai public, sans passager" },
+        { "gauche": "19 sept.", "droite": "Un mouton, un coq et un canard volent à Versailles devant Louis XVI" },
+        { "gauche": "21 nov.", "droite": "Deux hommes volent librement au-dessus de Paris", "fort": true }
+      ],
+      "source": "Château de Versailles ; History.com"
+    },
+    {
+      "type": "texte",
+      "titre": "Une distance que les sources ne donnent pas pareil",
+      "paragraphes": [
+        "La durée de **25 minutes** fait l'unanimité. La distance parcourue, non.",
+        "Les archives du ministère de la Défense parlent d'environ **9 km**, d'autres sources donnent un peu plus. Nous ne retenons donc pas de chiffre précis.",
+        "Une chose est sûre : pour la première fois, des êtres humains ont voyagé librement dans les airs."
+      ],
+      "source": "Archives de la Défense ; History.com"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Guinness World Records : premier vol libre habité",
+        "History.com : « Men fly over Paris », 21 novembre 1783",
+        "Archives du ministère des Armées : « 21 novembre 1783 »",
+        "Château de Versailles : premier vol en montgolfière"
+      ],
+      "question": "Auriez-vous osé monter à bord en 1783 ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 21 novembre 1783, Pilâtre de Rozier et le marquis d'Arlandes réussissent le premier vol libre avec des humains à bord, dans un ballon des frères Montgolfier. Il y a 243 ans, ils restent environ 25 minutes dans les airs, au-dessus de Paris. Deux mois plus tôt, un mouton, un coq et un canard avaient servi de cobayes à Versailles.",
+    "hashtags": ["histoire", "actu", "montgolfiere", "aviation"]
+  }
+}
