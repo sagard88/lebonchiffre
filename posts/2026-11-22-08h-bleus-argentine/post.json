@@ -1,0 +1,51 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Rugby",
+  "publier_a": "2026-11-22T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "45-17",
+      "phrase": "Les Bleus battent l'Argentine et filent en finale.",
+      "contexte": "Samedi 21 novembre 2026, au Stade de France.",
+      "image": "d.jpg",
+      "cadrage": "38% 45%",
+      "credit": "Photo d'archive (France-Argentine 2024) : Like tears in rain, CC BY-SA 4.0",
+      "source": "TNT Sports ; ESPN"
+    },
+    {
+      "type": "texte",
+      "titre": "Sept essais pour une place en finale",
+      "paragraphes": [
+        "Samedi 21 novembre 2026, le XV de France bat l'Argentine **45 à 17** au Stade de France, en demi-finale du Championnat des nations.",
+        "Les Bleus marquent **sept essais**. Kalvin Gourgues en inscrit deux, et Louis Bielle-Biarrey conclut la soirée à la 78e minute.",
+        "Ils retrouveront l'Afrique du Sud en finale, à Londres, le week-end suivant. C'est la toute première finale de cette compétition."
+      ],
+      "source": "TNT Sports ; ESPN ; VAVEL"
+    },
+    {
+      "type": "chiffres",
+      "etiquette": "Le match",
+      "titre": "Le match en deux chiffres",
+      "chiffres": [
+        { "valeur": "28 pts", "texte": "d'écart au tableau d'affichage : 45 points contre 17." },
+        { "valeur": "7", "texte": "essais marqués par la France pendant la rencontre." }
+      ],
+      "source": "TNT Sports ; ESPN"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "TNT Sports : France 45-17 Argentine, Championnat des nations, 21 novembre 2026",
+        "ESPN : « France score seven tries vs. Argentina »",
+        "VAVEL : France-Argentine, 21 novembre 2026"
+      ],
+      "question": "Qui soulèvera le trophée dimanche prochain : les Bleus ou les Springboks ?"
+    }
+  ],
+  "legende": {
+    "contexte": "45-17 : le XV de France écrase l'Argentine samedi 21 novembre 2026 au Stade de France, avec sept essais. Il se qualifie pour la première finale du Championnat des nations, face à l'Afrique du Sud, à Londres.",
+    "hashtags": ["rugby", "actu", "xvdefrance", "nationschampionship"]
+  }
+}
