@@ -1,0 +1,51 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Lucy",
+  "publier_a": "2026-11-23T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "3,2 M",
+      "phrase": "d'années : l'âge de Lucy, trouvée le 24 novembre 1974.",
+      "contexte": "Demain, sa découverte a 52 ans.",
+      "image": "lucy.jpg",
+      "cadrage": "50% 12%",
+      "credit": "Photo : Andrew, CC BY-SA 2.0 (reconstitution exposée en musée)",
+      "source": "Wikipédia ; The Conversation"
+    },
+    {
+      "type": "texte",
+      "titre": "Une de nos plus anciennes ancêtres, trouvée en Éthiopie",
+      "paragraphes": [
+        "Le **24 novembre 1974**, des chercheurs découvrent à Hadar, en Éthiopie, un squelette fossile surnommé **Lucy**.",
+        "Elle a vécu il y a environ **3,2 millions d'années**. C'est une Australopithecus afarensis, une espèce proche de nos ancêtres.",
+        "Elle est à peine plus grande qu'un mètre."
+      ],
+      "source": "Wikipédia ; The Conversation ; National Geographic"
+    },
+    {
+      "type": "texte",
+      "titre": "Un squelette presque à moitié complet",
+      "paragraphes": [
+        "Environ **40 %** du squelette de Lucy a été retrouvé : c'est exceptionnel pour un fossile aussi ancien.",
+        "Sur la photo, les os bruns sont de vrais fossiles. Les parties blanches sont reconstituées pour compléter la silhouette.",
+        "La photo montre donc une reconstitution exposée au musée, pas le fossile d'origine."
+      ],
+      "source": "Wikipédia ; Britannica"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Wikipédia : « Lucy (Australopithecus) »",
+        "The Conversation : « Lucy, discovered 50 years ago in Ethiopia »",
+        "Britannica et National Geographic : découverte de Lucy, 24 novembre 1974"
+      ],
+      "question": "Quelle découverte scientifique vous a le plus marqué ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 24 novembre 1974, des chercheurs découvrent en Éthiopie le squelette fossile de Lucy, âgée d'environ 3,2 millions d'années. Environ 40 % de son squelette a été retrouvé, ce qui est exceptionnel pour un fossile aussi ancien.\n\nLa photo montre une reconstitution exposée en musée, pas le fossile lui-même.\n\nQuelle découverte scientifique vous a le plus marqué ?\n\nSources : Wikipédia, The Conversation, Britannica, National Geographic.",
+    "hashtags": ["lucy", "actu", "science", "histoire", "prehistoire"]
+  }
+}
