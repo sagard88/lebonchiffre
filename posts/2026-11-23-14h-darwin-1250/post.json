@@ -1,0 +1,52 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Darwin",
+  "publier_a": "2026-11-23T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "1 250",
+      "phrase": "Tirage de L'Origine des espèces, le 24 novembre 1859.",
+      "contexte": "Demain, le livre de Darwin a 167 ans.",
+      "image": "darwin.jpg",
+      "cadrage": "50% 15%",
+      "credit": "Photo : Elliott & Fry, domaine public",
+      "source": "Oxford University Press ; Darwin Online"
+    },
+    {
+      "type": "texte",
+      "titre": "Un livre qui change la science, imprimé à 1 250 exemplaires",
+      "paragraphes": [
+        "Le **24 novembre 1859**, l'éditeur John Murray publie à Londres « De l'origine des espèces » de Charles Darwin.",
+        "Le premier tirage est de **1 250 exemplaires** seulement.",
+        "Darwin note dans son journal que tout est vendu le premier jour."
+      ],
+      "source": "Oxford University Press ; Darwin Online ; Lehigh University"
+    },
+    {
+      "type": "texte",
+      "titre": "Vendu en un jour ? C'est un peu plus compliqué",
+      "paragraphes": [
+        "Les libraires n'ont pas reçu les 1 250 exemplaires : Murray en a mis **1 192** à leur disposition. Les autres étaient destinés à la presse et aux amis de Darwin.",
+        "Les exemplaires ont donc été vendus aux libraires et aux bibliothèques, pas à autant de lecteurs en une journée.",
+        "Les historiens de Darwin Online jugent la formule « tout vendu le premier jour » plus simple que la réalité."
+      ],
+      "source": "Earth Magazine ; Darwin Online"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Oxford University Press : blog sur « On the Origin of Species »",
+        "Darwin Online : introduction éditoriale",
+        "Earth Magazine : « Benchmarks, 1859 »",
+        "Lehigh University : exposition sur la première édition"
+      ],
+      "question": "Quel livre a changé votre façon de voir le monde ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 24 novembre 1859, John Murray publie à Londres « De l'origine des espèces » de Darwin, tiré à 1 250 exemplaires. Darwin note que tout est vendu le premier jour. En réalité, ce sont surtout les libraires qui ont tout acheté : 1 192 exemplaires leur étaient proposés.\n\nQuel livre a changé votre façon de voir le monde ?\n\nSources : Oxford University Press, Darwin Online, Earth Magazine, Lehigh University.",
+    "hashtags": ["darwin", "actu", "science", "histoire", "livres"]
+  }
+}

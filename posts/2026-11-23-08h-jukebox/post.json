@@ -1,0 +1,41 @@
+{
+  "accent": "vert",
+  "style": "photo",
+  "rubrique": "Jukebox",
+  "publier_a": "2026-11-23T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "5 cents",
+      "phrase": "Le 23 novembre 1889, une chanson coûte 5 cents.",
+      "contexte": "Le premier jukebox a 137 ans.",
+      "image": "jukebox.jpg",
+      "cadrage": "50% 30%",
+      "credit": "Photo : Baalgor41, CC BY-SA 4.0 (jukebox moderne)",
+      "source": "Wikipédia ; America Comes Alive"
+    },
+    {
+      "type": "texte",
+      "titre": "Un phonographe qui marche avec une pièce",
+      "paragraphes": [
+        "Le **23 novembre 1889**, à San Francisco, un bar installe un phonographe d'Edison équipé d'un mécanisme à pièce : le Palais Royale Saloon.",
+        "Pour écouter de la musique, il faut glisser **un nickel, soit 5 cents**, dans la fente. On l'appelle alors « nickel-in-the-slot ».",
+        "La machine est l'œuvre de Louis Glass et de William S. Arnold. La photo de la couverture montre un jukebox moderne, pas celui de 1889."
+      ],
+      "source": "Wikipédia ; America Comes Alive"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Wikipédia : article « Jukebox »",
+        "America Comes Alive : « The Invention of the Jukebox »",
+        "Mystic Stamp : « Debut of World's First Jukebox », 23 novembre 1889"
+      ],
+      "question": "Quelle chanson mettriez-vous dans un jukebox pour 5 cents ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 23 novembre 1889, à San Francisco, un phonographe d'Edison à pièce est installé dans le Palais Royale Saloon. Il fallait un nickel, soit 5 cents, pour écouter un morceau. C'est l'ancêtre du jukebox, qui a donc 137 ans.\n\nQuelle chanson mettriez-vous dans un jukebox pour 5 cents ?\n\nSources : Wikipédia, America Comes Alive, Mystic Stamp.",
+    "hashtags": ["jukebox", "actu", "musique", "histoire", "1889"]
+  }
+}
