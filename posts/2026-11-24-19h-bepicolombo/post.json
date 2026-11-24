@@ -1,0 +1,56 @@
+{
+  "accent": "rose",
+  "style": "photo",
+  "rubrique": "Espace",
+  "publier_a": "2026-11-24T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "9",
+      "phrase": "Survols : BepiColombo entre en orbite de Mercure.",
+      "contexte": "Samedi 21 novembre, après presque 8 ans de voyage.",
+      "image": "mercure.jpg",
+      "cadrage": "50% 20%",
+      "credit": "Image : NASA / JHU-APL / Carnegie Institution (domaine public)",
+      "source": "ESA ; Wikipédia"
+    },
+    {
+      "type": "texte",
+      "titre": "Une sonde européenne et japonaise est arrivée",
+      "paragraphes": [
+        "Lancée en **octobre 2018**, la mission **BepiColombo** de l'ESA (Europe) et de la JAXA (Japon) est entrée en orbite autour de Mercure le **21 novembre 2026**.",
+        "Pour y arriver, elle a fait **9 survols** de planètes : **1 de la Terre**, **2 de Vénus** et **6 de Mercure**.",
+        "Il s'agit de deux sondes empilées, l'européenne MPO et la japonaise Mio, qui se sépareront les **9 et 10 décembre 2026**."
+      ],
+      "source": "ESA ; Wikipédia"
+    },
+    {
+      "type": "chiffres",
+      "titre": "Une arrivée un peu différente de celle prévue",
+      "chiffres": [
+        {
+          "valeur": "75 h",
+          "texte": "C'est la durée d'un tour d'orbite obtenue le 21 novembre, soit un peu plus de 3 jours."
+        },
+        {
+          "valeur": "58 h",
+          "texte": "C'était la durée prévue. L'ESA indique que cet écart ne change pas la séparation des deux sondes."
+        }
+      ],
+      "source": "ESA ; Wikipédia"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "ESA : « Latest updates: BepiColombo's arrival at Mercury »",
+        "ESA : fiche de la mission BepiColombo (lancement, survols)",
+        "Wikipédia : « BepiColombo » (insertion en orbite du 21 novembre 2026)"
+      ],
+      "question": "Si vous pouviez envoyer une sonde où vous voulez, ce serait où ?"
+    }
+  ],
+  "legende": {
+    "contexte": "9 survols de planètes, puis l'arrivée : le 21 novembre 2026, la sonde BepiColombo (ESA et JAXA), lancée en octobre 2018, est entrée en orbite autour de Mercure.\n\nElle a fait 1 survol de la Terre, 2 de Vénus et 6 de Mercure avant l'insertion. Son orbite dure 75 heures au lieu des 58 prévues, ce qui ne change pas la séparation des deux sondes, attendue les 9 et 10 décembre.\n\nSi vous pouviez envoyer une sonde où vous voulez, ce serait où ?\n\nSources : ESA, Wikipédia.",
+    "hashtags": ["espace", "actu", "bepicolombo", "mercure"]
+  }
+}
