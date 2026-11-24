@@ -1,0 +1,41 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Freddie Mercury",
+  "publier_a": "2026-11-24T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "45 ans",
+      "phrase": "Freddie Mercury meurt le 24 novembre 1991.",
+      "contexte": "Il y a 35 ans, un jour après son annonce.",
+      "image": "freddie.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Photo : Carl Lender, CC BY-SA 3.0 (Freddie Mercury en concert, 1977)",
+      "source": "Wikipédia ; History"
+    },
+    {
+      "type": "texte",
+      "titre": "Il annonce sa maladie, et meurt le lendemain",
+      "paragraphes": [
+        "Le chanteur du groupe Queen révèle publiquement qu'il est atteint du **sida** **la veille de sa mort**.",
+        "Freddie Mercury meurt le **24 novembre 1991**, à **45 ans**, à son domicile de Londres.",
+        "La cause de sa mort est une **pneumonie** provoquée par le sida."
+      ],
+      "source": "Wikipédia ; History ; Smithsonian"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Wikipédia : « Death of Freddie Mercury »",
+        "History : « Freddie Mercury dies of AIDS » (24 novembre 1991)",
+        "Smithsonian Magazine : l'annonce de sa maladie, un jour avant sa mort"
+      ],
+      "question": "Quelle chanson de Queen vous fait le plus d'effet ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 24 novembre 1991, Freddie Mercury, chanteur de Queen, meurt à 45 ans. Il avait annoncé publiquement sa maladie, le sida, un jour plus tôt.\n\nLa cause de sa mort est une pneumonie provoquée par le sida. Il y a 35 ans.\n\nQuelle chanson de Queen vous fait le plus d'effet ?\n\nSources : Wikipédia, History, Smithsonian Magazine.",
+    "hashtags": ["freddiemercury", "queen", "actu", "musique", "histoire"]
+  }
+}

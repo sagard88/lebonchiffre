@@ -1,0 +1,52 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "D. B. Cooper",
+  "publier_a": "2026-11-24T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "200 k$",
+      "phrase": "réclamés par un pirate de l'air, le 24 novembre 1971.",
+      "contexte": "Il y a 55 ans. Jamais identifié.",
+      "image": "parachute.jpg",
+      "cadrage": "50% 10%",
+      "credit": "Photo : Rstpch, CC BY-SA 4.0 (parachutiste, image d'illustration)",
+      "source": "History ; FBI"
+    },
+    {
+      "type": "texte",
+      "titre": "Un homme détourne un avion de ligne américain",
+      "paragraphes": [
+        "Le **24 novembre 1971**, un homme se faisant appeler « Dan Cooper » détourne un avion de la compagnie Northwest Orient, peu après son décollage de Portland (Oregon).",
+        "À l'atterrissage à Seattle, il obtient **200 000 dollars en billets de 20 dollars** et **quatre parachutes**.",
+        "Puis il fait redécoller l'avion."
+      ],
+      "source": "History ; Wikipédia ; FBI"
+    },
+    {
+      "type": "texte",
+      "titre": "Il saute en pleine nuit, et on ne le retrouve jamais",
+      "paragraphes": [
+        "L'homme saute de l'avion en vol, à environ **3 000 mètres** d'altitude, avec l'argent. Il n'a jamais été identifié.",
+        "En 1980, un garçon de 8 ans trouve une petite partie des billets sur les rives du fleuve Columbia. C'est le seul argent jamais retrouvé.",
+        "Le FBI a suspendu l'enquête en juillet 2016, après **45 ans** de recherches."
+      ],
+      "source": "Wikipédia ; History ; FBI ; NPR"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "History : « Hijacker parachutes into thunderstorm » (24 novembre 1971)",
+        "Wikipédia : « D. B. Cooper »",
+        "FBI : communiqué du 12 juillet 2016 sur l'enquête",
+        "NPR : « FBI is giving up on solving the mystery of D.B. Cooper » (13 juillet 2016)"
+      ],
+      "question": "Pour vous, qui était vraiment D. B. Cooper ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 24 novembre 1971, un homme se faisant appeler Dan Cooper détourne un avion de ligne américain et obtient 200 000 dollars et quatre parachutes. Il saute en vol avec l'argent et n'a jamais été identifié.\n\nL'enquête du FBI, suspendue en juillet 2016 après 45 ans, reste l'une des grandes énigmes criminelles des États-Unis.\n\nPour vous, qui était vraiment D. B. Cooper ?\n\nSources : History, Wikipédia, FBI, NPR.",
+    "hashtags": ["dbcooper", "actu", "histoire", "mystere"]
+  }
+}
