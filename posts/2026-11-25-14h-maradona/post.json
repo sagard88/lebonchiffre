@@ -1,0 +1,42 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Football",
+  "publier_a": "2026-11-25T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "34",
+      "phrase": "Buts de Maradona en 91 matchs avec l'Argentine.",
+      "contexte": "Il est mort le 25 novembre 2020, il y a 6 ans.",
+      "image": "maradona.jpg",
+      "cadrage": "50% 55%",
+      "credit": "Photo : Patrick Janicek, CC BY 2.0, via Wikimedia Commons (maillot de Maradona, Musée national du Sport)",
+      "source": "BBC ; Wikipédia ; FIFA"
+    },
+    {
+      "type": "texte",
+      "titre": "Une carrière avec l'Argentine entre 1977 et 1994",
+      "paragraphes": [
+        "Diego Maradona a joué **91 matchs** et marqué **34 buts** pour l'équipe d'Argentine, de **1977 à 1994**.",
+        "Il a disputé **quatre Coupes du monde** et a mené son pays au titre mondial en **1986**.",
+        "Avec le club italien de **Naples**, il a gagné **deux titres de champion d'Italie** en sept ans.",
+        "Il est mort le **25 novembre 2020**, à **60 ans**."
+      ],
+      "source": "BBC ; Wikipédia ; FIFA"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "BBC : « Diego Maradona dies aged 60 » (34 buts en 91 sélections, quatre Coupes du monde)",
+        "Wikipédia : « Diego Maradona » (sélections, buts, titres, décès)",
+        "FIFA : « A tribute to Diego Maradona » (décès à 60 ans, deux titres à Naples)"
+      ],
+      "question": "Quel est votre plus beau souvenir de football ?"
+    }
+  ],
+  "legende": {
+    "contexte": "34 buts en 91 sélections : c'est le bilan de Diego Maradona avec l'équipe d'Argentine, entre 1977 et 1994.\n\nIl a disputé quatre Coupes du monde et mené l'Argentine au titre en 1986. Avec Naples, il a remporté deux titres de champion d'Italie. Il est mort le 25 novembre 2020, à 60 ans, il y a 6 ans aujourd'hui.\n\nQuel est votre plus beau souvenir de football ?\n\nSources : BBC, Wikipédia, FIFA.\nPhoto : Patrick Janicek, CC BY 2.0, via Wikimedia Commons.",
+    "hashtags": ["football", "actu", "maradona", "argentine"]
+  }
+}

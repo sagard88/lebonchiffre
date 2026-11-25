@@ -1,0 +1,41 @@
+{
+  "accent": "turquoise",
+  "style": "photo",
+  "rubrique": "Théâtre",
+  "publier_a": "2026-11-25T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "30 000",
+      "phrase": "Représentations pour la même pièce, à Londres.",
+      "contexte": "Elle a ouvert le 25 novembre 1952, il y a 74 ans.",
+      "image": "theatre.jpg",
+      "cadrage": "50% 40%",
+      "credit": "Photo : Ji-Elle, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "Guinness World Records ; London Theatre"
+    },
+    {
+      "type": "texte",
+      "titre": "La Souricière, d'Agatha Christie, ne s'arrête plus",
+      "paragraphes": [
+        "La pièce policière **The Mousetrap** (« La Souricière ») a été jouée pour la première fois dans le West End de Londres le **25 novembre 1952**, au théâtre Ambassadors.",
+        "Le **19 mars 2025**, elle a atteint sa **30 000e représentation**. Guinness World Records lui a remis le record de la **plus longue série de représentations** théâtrales.",
+        "Depuis **1974**, elle se joue au **théâtre St Martin's**, juste à côté de l'ancien."
+      ],
+      "source": "Guinness World Records ; London Theatre"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Guinness World Records : « Longest theatrical run » (30 000 représentations au 19 mars 2025)",
+        "London Theatre : « The Mousetrap celebrates 30,000 performances in the West End »",
+        "Wikipédia : « The Mousetrap » (dates d'ouverture et de déménagement)"
+      ],
+      "question": "Quelle est la dernière pièce de théâtre que vous avez vue ?"
+    }
+  ],
+  "legende": {
+    "contexte": "30 000 représentations : c'est le total atteint le 19 mars 2025 par « The Mousetrap » (La Souricière), la pièce d'Agatha Christie jouée à Londres.\n\nElle a ouvert dans le West End le 25 novembre 1952, il y a 74 ans. Guinness World Records lui a décerné le record de la plus longue série de représentations théâtrales. Depuis 1974, elle se joue au théâtre St Martin's.\n\nQuelle est la dernière pièce de théâtre que vous avez vue ?\n\nSources : Guinness World Records, London Theatre, Wikipédia.\nPhoto : Ji-Elle, CC BY-SA 4.0, via Wikimedia Commons.",
+    "hashtags": ["theatre", "actu", "agathachristie", "londres"]
+  }
+}
