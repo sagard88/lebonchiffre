@@ -1,0 +1,50 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Violences",
+  "publier_a": "2026-11-25T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "50 000",
+      "phrase": "Femmes et filles tuées par un proche en 2024.",
+      "contexte": "Une toutes les 10 minutes.",
+      "image": "orange.jpg",
+      "cadrage": "12% 0%",
+      "credit": "Photo : Robinhood50, CC BY-SA 4.0, via Wikimedia Commons (bâtiments éclairés en orange contre les violences faites aux femmes)",
+      "source": "ONU Femmes ; ONUDC ; ONU Info"
+    },
+    {
+      "type": "texte",
+      "titre": "Le danger vient souvent de la maison",
+      "paragraphes": [
+        "En 2024, environ **50 000 femmes et filles** ont été tuées dans le monde par leur partenaire ou par un autre membre de leur famille.",
+        "Cela fait en moyenne **137 victimes par jour**, soit une toutes les **10 minutes**.",
+        "Ce chiffre vient d'un rapport de l'ONUDC (l'office de l'ONU contre la drogue et le crime) et d'ONU Femmes, publié en novembre 2025."
+      ],
+      "source": "ONU Femmes ; ONU Info"
+    },
+    {
+      "type": "texte",
+      "titre": "Pourquoi le 25 novembre ?",
+      "paragraphes": [
+        "Le **25 novembre** est la Journée internationale pour l'élimination de la violence à l'égard des femmes.",
+        "Chaque année, des monuments et des bâtiments sont éclairés en **orange** à cette occasion, comme celui de la photo.",
+        "Selon ONU Femmes, la réalité est probablement **bien plus élevée** que ce chiffre, car beaucoup de cas ne sont pas recensés."
+      ],
+      "source": "ONU Femmes ; ONU Info"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "ONU Femmes : communiqué « En 2024, 137 femmes et filles ont été tuées chaque jour par leur partenaire intime ou un parent proche » (novembre 2025)",
+        "ONU Info : article sur le rapport ONUDC / ONU Femmes sur les féminicides (25 novembre 2025)"
+      ],
+      "question": "Que peut-on faire, à son échelle, pour aider une personne en danger ?"
+    }
+  ],
+  "legende": {
+    "contexte": "En 2024, environ 50 000 femmes et filles ont été tuées dans le monde par leur partenaire ou un membre de leur famille, soit 137 par jour et une toutes les 10 minutes.\n\nC'est ce que montre le rapport de l'ONUDC et d'ONU Femmes. Ces organismes précisent que la réalité est probablement plus élevée, car tous les cas ne sont pas recensés. Aujourd'hui, 25 novembre, c'est la Journée internationale pour l'élimination de la violence à l'égard des femmes.\n\nQue peut-on faire, à son échelle, pour aider une personne en danger ?\n\nSources : ONU Femmes, ONU Info (rapport ONUDC / ONU Femmes, novembre 2025).",
+    "hashtags": ["violences", "actu", "25novembre", "ONU"]
+  }
+}
