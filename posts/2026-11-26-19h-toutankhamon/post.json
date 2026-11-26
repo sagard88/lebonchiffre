@@ -1,0 +1,51 @@
+{
+  "accent": "jaune",
+  "style": "photo",
+  "rubrique": "Égypte",
+  "publier_a": "2026-11-26T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "104 ans",
+      "phrase": "Le 26 novembre 1922, Carter entrait chez Toutankhamon.",
+      "contexte": "Une tombe scellée depuis plus de 3 000 ans.",
+      "image": "masque.jpg",
+      "cadrage": "50% 15%",
+      "credit": "Photo : Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons",
+      "source": "History.com ; Live Science"
+    },
+    {
+      "type": "texte",
+      "titre": "22 jours entre la première marche et la salle au trésor",
+      "paragraphes": [
+        "Le **4 novembre 1922**, l'archéologue britannique Howard Carter trouve la première marche menant à la tombe, dans la Vallée des Rois, en Égypte.",
+        "Le **23 novembre**, lui et son financeur, Lord Carnarvon, percent une première porte en briques.",
+        "Le **26 novembre**, ils ouvrent une seconde porte. Carter passe une bougie par l'ouverture. Lord Carnarvon demande s'il voit quelque chose. Réponse : « Oui, des choses merveilleuses. »"
+      ],
+      "source": "History.com"
+    },
+    {
+      "type": "texte",
+      "titre": "Un pharaon mort adolescent, une tombe presque intacte",
+      "paragraphes": [
+        "Toutankhamon monte sur le trône vers **1333 avant J.-C.**, encore enfant. Il meurt une dizaine d'années plus tard, à **18 ou 19 ans** selon les sources.",
+        "Sa tombe est restée **largement intacte** : elle contient plusieurs **milliers d'objets**, dont le célèbre masque en or.",
+        "Les spécialistes ne donnent pas tous le même total exact : de plus de 4 500 à environ 5 400 objets selon les sources."
+      ],
+      "source": "History.com ; Khaleej Times ; The Past"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "History.com : « Archaeologists enter tomb of King Tut » (26 novembre 1922)",
+        "Live Science : « King Tutankhamun: life, death and mummy »",
+        "Khaleej Times et The Past : exposition de la collection au Grand Musée égyptien (novembre 2025)"
+      ],
+      "question": "Quel trésor aimeriez-vous voir de vos yeux, un jour ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 26 novembre 1922, l'archéologue Howard Carter ouvre une seconde porte et entre dans la tombe de Toutankhamon, 104 ans jour pour jour. Elle contient plusieurs milliers d'objets. Le pharaon est mort adolescent, vers 1323 avant J.-C.\n\nQuel trésor aimeriez-vous voir de vos yeux, un jour ?\n\nSources : History.com, Live Science, Khaleej Times, The Past. Photo : Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons.",
+    "hashtags": ["egypte", "actu", "histoire", "toutankhamon", "archeologie"]
+  }
+}
