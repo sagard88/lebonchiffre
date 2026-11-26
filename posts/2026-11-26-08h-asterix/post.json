@@ -1,0 +1,51 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Espace",
+  "publier_a": "2026-11-26T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "42 kg",
+      "phrase": "Le satellite Astérix, lancé le 26 novembre 1965.",
+      "contexte": "Il tourne encore autour de la Terre.",
+      "image": "maquette.jpg",
+      "cadrage": "50% 30%",
+      "credit": "Photo : Artvill, CC BY-SA 4.0, via Wikimedia Commons (maquette d'Astérix)",
+      "source": "CNES ; Wikipédia ; Universe Today"
+    },
+    {
+      "type": "texte",
+      "titre": "Le premier satellite français, il y a 61 ans",
+      "paragraphes": [
+        "Le **26 novembre 1965**, la France lance Astérix depuis Hammaguir, en Algérie, avec sa fusée Diamant, haute de **19 mètres**.",
+        "Le satellite pèse **42 kg**. Il devient le premier satellite français en orbite.",
+        "La France est alors le **3e pays** à lancer un satellite avec sa propre fusée, après l'URSS et les États-Unis."
+      ],
+      "source": "CNES ; Wikipédia ; Universe Today"
+    },
+    {
+      "type": "texte",
+      "titre": "Un satellite muet, mais toujours là",
+      "paragraphes": [
+        "Les antennes d'Astérix ont été abîmées au lancement : il n'a presque pas pu émettre. Il n'avait de toute façon aucune expérience scientifique.",
+        "Son but : prouver que la France pouvait **envoyer un objet en orbite** et le suivre depuis le sol. C'est réussi.",
+        "Il circule entre environ 500 et 1 700 km d'altitude. Selon Wikipédia et Universe Today, il ne devrait pas retomber avant **plusieurs siècles**."
+      ],
+      "source": "CNES ; Wikipédia ; Universe Today"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "CNES : « Il y a 50 ans, Diamant lançait Astérix, premier satellite français »",
+        "Wikipédia : article « Astérix (satellite) » (masse, orbite)",
+        "Universe Today : « Spotting Asterix: France marks 50 years of space exploration »"
+      ],
+      "question": "Saviez-vous qu'un satellite de 1965 tourne encore au-dessus de nos têtes ?"
+    }
+  ],
+  "legende": {
+    "contexte": "42 kg : c'est le poids d'Astérix, le premier satellite français, lancé le 26 novembre 1965. Il tourne encore autour de la Terre, 61 ans après.\n\nIl a été mis en orbite par la fusée Diamant depuis Hammaguir, en Algérie. La France devenait le 3e pays à lancer un satellite avec sa propre fusée, après l'URSS et les États-Unis. Ses antennes abîmées l'ont empêché d'émettre, mais la mission était réussie : prouver que la France savait aller dans l'espace.\n\nSaviez-vous qu'un satellite de 1965 tourne encore au-dessus de nos têtes ?\n\nSources : CNES, Wikipédia, Universe Today.",
+    "hashtags": ["espace", "actu", "CNES", "Asterix", "histoire"]
+  }
+}

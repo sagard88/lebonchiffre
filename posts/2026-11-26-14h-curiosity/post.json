@@ -1,0 +1,50 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Mars",
+  "publier_a": "2026-11-26T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "15 ans",
+      "phrase": "Curiosity quittait la Terre le 26 novembre 2011.",
+      "contexte": "Prévu pour 2 ans, il roule toujours sur Mars.",
+      "image": "curiosity.jpg",
+      "cadrage": "50% 10%",
+      "credit": "Photo : NASA/JPL-Caltech/MSSS, domaine public, via Wikimedia Commons",
+      "source": "NASA ; Wikipédia"
+    },
+    {
+      "type": "texte",
+      "titre": "Parti de Floride, arrivé sur Mars en 2012",
+      "paragraphes": [
+        "Le robot Curiosity décolle de Cap Canaveral, en Floride, le **26 novembre 2011**.",
+        "Il se pose dans le cratère Gale, sur Mars, le **6 août 2012**, soit **8 mois et demi** plus tard.",
+        "Il pèse **899 kg** sur Terre, dont 80 kg d'instruments scientifiques."
+      ],
+      "source": "NASA ; Wikipédia"
+    },
+    {
+      "type": "texte",
+      "titre": "Une mission de 2 ans qui dure depuis 14 ans",
+      "paragraphes": [
+        "La mission d'origine était prévue pour environ **2 ans**.",
+        "En 2026, la NASA le décrit toujours comme une **mission active** : le robot de 14 ans continue d'explorer les roches de la montagne qu'il gravit, le mont Sharp.",
+        "Cette montagne se trouve au centre du cratère Gale, là où le robot s'est posé."
+      ],
+      "source": "NASA ; Wikipédia"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "NASA : page de la mission Curiosity (MSL), consultée le 26 novembre 2026",
+        "Wikipédia : article « Curiosity (rover) » (dates, masse, durée prévue)"
+      ],
+      "question": "Jusqu'à quel âge un robot sur Mars peut-il encore travailler, selon vous ?"
+    }
+  ],
+  "legende": {
+    "contexte": "15 ans : il y a 15 ans jour pour jour, le 26 novembre 2011, le robot Curiosity décollait pour Mars. Il devait travailler environ 2 ans.\n\nIl s'est posé dans le cratère Gale le 6 août 2012. Aujourd'hui, la NASA le décrit toujours comme une mission active : il explore les roches du mont Sharp.\n\nJusqu'à quel âge un robot sur Mars peut-il encore travailler, selon vous ?\n\nSources : NASA, Wikipédia.",
+    "hashtags": ["mars", "actu", "NASA", "espace"]
+  }
+}
