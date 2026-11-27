@@ -1,0 +1,50 @@
+{
+  "accent": "violet",
+  "style": "photo",
+  "rubrique": "Jimi Hendrix",
+  "publier_a": "2026-11-27T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "3 albums",
+      "phrase": "Né un 27 novembre, Hendrix n'en a sorti que trois.",
+      "contexte": "Il est mort à 27 ans.",
+      "image": "hendrix.jpg",
+      "cadrage": "50% 10%",
+      "credit": "Photo : auteur inconnu, domaine public, via Wikimedia Commons",
+      "source": "Wikipédia ; Biography.com"
+    },
+    {
+      "type": "texte",
+      "titre": "Trois albums studio en 1967 et 1968",
+      "paragraphes": [
+        "Jimi Hendrix naît le **27 novembre 1942** à Seattle, aux États-Unis. Il aurait **84 ans** aujourd'hui.",
+        "De son vivant, il publie seulement trois albums studio, tous avec le groupe The Jimi Hendrix Experience : **Are You Experienced** (1967), **Axis: Bold as Love** (1967) et **Electric Ladyland** (1968).",
+        "Electric Ladyland, son troisième et dernier, a atteint la première place des ventes aux États-Unis en 1968."
+      ],
+      "source": "Wikipédia ; Biography.com"
+    },
+    {
+      "type": "texte",
+      "titre": "Mort à Londres, à 27 ans",
+      "paragraphes": [
+        "Jimi Hendrix meurt le **18 septembre 1970** à Londres, à l'âge de **27 ans**.",
+        "Il n'a pas pu terminer un quatrième album. Beaucoup de chansons sur lesquelles il travaillait en 1969 et 1970 sont sorties après sa mort, dans des compilations comme **First Rays of the New Rising Sun**.",
+        "En 1969, il avait joué au festival de Woodstock."
+      ],
+      "source": "Wikipédia ; Biography.com"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Wikipédia : Jimi Hendrix (naissance, mort, discographie)",
+        "Biography.com : Jimi Hendrix"
+      ],
+      "question": "Quel est votre morceau préféré de Jimi Hendrix ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Jimi Hendrix est né le 27 novembre 1942 à Seattle. De son vivant, il n'a publié que trois albums studio : Are You Experienced et Axis: Bold as Love en 1967, Electric Ladyland en 1968.\n\nIl est mort à Londres le 18 septembre 1970, à 27 ans. Plusieurs de ses chansons ne sont sorties qu'après sa mort.\n\nQuel est votre morceau préféré de Jimi Hendrix ?\n\nSources : Wikipédia, Biography.com. Photo : auteur inconnu, domaine public, via Wikimedia Commons.",
+    "hashtags": ["hendrix", "actu", "musique", "rock"]
+  }
+}
