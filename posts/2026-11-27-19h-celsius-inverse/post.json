@@ -1,0 +1,62 @@
+{
+  "accent": "orange",
+  "style": "photo",
+  "rubrique": "Température",
+  "publier_a": "2026-11-27T19:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "100 °C",
+      "phrase": "Sur l'échelle de Celsius, l'eau gelait à 100 degrés.",
+      "contexte": "Anders Celsius est né le 27 novembre 1701.",
+      "image": "celsius.jpg",
+      "cadrage": "50% 10%",
+      "credit": "Portrait d'Anders Celsius par Olof Arenius, domaine public, via Wikimedia Commons",
+      "source": "Université d'Uppsala ; Wikipédia"
+    },
+    {
+      "type": "texte",
+      "titre": "Une échelle à l'envers",
+      "paragraphes": [
+        "En **1742**, l'astronome suédois Anders Celsius propose une échelle de température fondée sur l'eau, divisée en **100 degrés** entre la glace et l'ébullition.",
+        "Mais son thermomètre est gradué à l'envers : **0 degré** pour l'eau qui bout, **100 degrés** pour l'eau qui gèle. Plus il faisait froid, plus le chiffre montait.",
+        "Son thermomètre d'origine, en mercure, est toujours exposé au musée Gustavianum, à Uppsala (Suède)."
+      ],
+      "source": "Université d'Uppsala ; Wikipédia"
+    },
+    {
+      "type": "liste",
+      "titre": "Comment l'échelle s'est retournée",
+      "lignes": [
+        { "gauche": "1701", "droite": "Naissance de Celsius à Uppsala" },
+        { "gauche": "1742", "droite": "Il propose son échelle : 0 à l'ébullition, 100 au gel" },
+        { "gauche": "1744", "droite": "Il meurt de la tuberculose, à 42 ans" },
+        { "gauche": "Après 1744", "droite": "L'échelle est inversée : 0 au gel, 100 à l'ébullition", "fort": true }
+      ],
+      "source": "Wikipédia ; Université d'Uppsala"
+    },
+    {
+      "type": "texte",
+      "titre": "Qui a retourné le thermomètre ?",
+      "paragraphes": [
+        "Celsius est mort **en 1744**, sans voir son échelle prendre le sens que nous connaissons.",
+        "On attribue souvent l'inversion au naturaliste **Carl von Linné**, qui présente en **1745** un thermomètre à mercure gradué de 0 (glace) à 100 (eau qui bout). Selon les sources, le physicien lyonnais Jean-Pierre Christin aurait eu la même idée dès **1743**.",
+        "Les dates sont celles du calendrier suédois de l'époque."
+      ],
+      "source": "Wikipédia"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Université d'Uppsala : page « Anders Celsius and the Celsius temperature scale »",
+        "Wikipédia : Anders Celsius (fr et en)",
+        "Wikimedia Commons : portrait par Olof Arenius"
+      ],
+      "question": "Vous auriez préféré un thermomètre à l'endroit ou à l'envers ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Anders Celsius est né le 27 novembre 1701 à Uppsala, en Suède. Quand il propose son échelle en 1742, l'eau bout à 0 degré et gèle à 100. Elle n'a été retournée qu'après sa mort, en 1744.",
+    "hashtags": ["sciences", "actu", "celsius", "histoire"]
+  }
+}
