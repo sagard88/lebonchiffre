@@ -1,0 +1,51 @@
+{
+  "accent": "rouge",
+  "style": "photo",
+  "rubrique": "Histoire",
+  "publier_a": "2026-11-28T14:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "18",
+      "phrase": "Un seul navire de Magellan est rentré, avec 18 hommes.",
+      "contexte": "Le 28 novembre 1520, la flotte entre dans le Pacifique.",
+      "image": "magellan.jpg",
+      "cadrage": "50% 0%",
+      "credit": "Portrait de Magellan, auteur inconnu, domaine public, via Wikimedia Commons",
+      "source": "Wikipédia ; National Geographic"
+    },
+    {
+      "type": "texte",
+      "titre": "Cinq navires au départ, un seul au retour",
+      "paragraphes": [
+        "La flotte de Magellan quitte l'Espagne en 1519 avec **cinq navires** : Trinidad, San Antonio, Concepción, Victoria et Santiago.",
+        "Le **28 novembre 1520**, elle sort du détroit qui porte aujourd'hui le nom de Magellan et entre dans l'océan Pacifique.",
+        "Le **6 septembre 1522**, un seul navire revient en Espagne : la **Victoria**, avec **18 hommes** à bord."
+      ],
+      "source": "Wikipédia ; National Geographic"
+    },
+    {
+      "type": "texte",
+      "titre": "Un tour du monde sans son chef",
+      "paragraphes": [
+        "Magellan n'est pas revenu : il est mort aux Philippines en 1521.",
+        "Le nombre d'hommes partis varie selon les sources : **de 237 à 270 environ**. Les historiens ne s'accordent pas sur un chiffre exact.",
+        "La Victoria est pourtant le premier navire à avoir fait le tour du monde."
+      ],
+      "source": "Wikipédia ; National Geographic"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "Wikipédia : Magellan–Elcano circumnavigation",
+        "National Geographic : « 240 men started Magellan's voyage around the world, only 18 finished it »",
+        "Wikimedia Commons : portrait de Magellan"
+      ],
+      "question": "Auriez-vous embarqué sur l'un des cinq navires ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 28 novembre 1520, la flotte de Magellan entre dans le Pacifique. Elle comptait cinq navires au départ d'Espagne, en 1519.\n\nIl y a 506 ans, un seul est revenu : la Victoria, arrivée le 6 septembre 1522 avec 18 hommes. Le nombre exact d'hommes partis varie selon les sources, de 237 à 270 environ.\n\nAuriez-vous embarqué sur l'un des cinq navires ?\n\nSources : Wikipédia, National Geographic.",
+    "hashtags": ["histoire", "magellan", "explorateurs", "actu"]
+  }
+}

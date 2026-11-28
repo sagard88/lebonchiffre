@@ -1,0 +1,51 @@
+{
+  "accent": "bleu",
+  "style": "photo",
+  "rubrique": "Espace",
+  "publier_a": "2026-11-28T08:00",
+  "pages": [
+    {
+      "type": "couverture",
+      "chiffre": "21",
+      "phrase": "Photos de Mars prises de près par une sonde.",
+      "contexte": "Mariner 4 a décollé le 28 novembre 1964.",
+      "image": "mariner.jpg",
+      "cadrage": "50% 60%",
+      "credit": "Sonde Mariner 4, NASA/JPL, domaine public, via Wikimedia Commons",
+      "source": "NASA ; Wikipédia"
+    },
+    {
+      "type": "texte",
+      "titre": "Un voyage de plus de sept mois",
+      "paragraphes": [
+        "Mariner 4 est lancée le **28 novembre 1964** depuis Cap Canaveral, aux États-Unis.",
+        "Elle survole Mars les **14 et 15 juillet 1965**, après plus de sept mois de voyage, à **9 846 km** de la surface de la planète.",
+        "C'est le premier survol réussi de Mars : la sonde en rapporte les premières images prises de près."
+      ],
+      "source": "NASA ; Wikipédia"
+    },
+    {
+      "type": "texte",
+      "titre": "Une planète couverte de cratères",
+      "paragraphes": [
+        "La caméra prend **21 images complètes**, plus 22 lignes d'une 22e. Elles sont transmises vers la Terre une fois le survol passé.",
+        "Elles montrent un sol **criblé de cratères**, un paysage que personne n'avait vu d'aussi près.",
+        "La sonde a ensuite continué sa route : la NASA a gardé le contact jusqu'au **31 décembre 1967**, plus de trois ans après le lancement."
+      ],
+      "source": "NASA ; Wikipédia"
+    },
+    {
+      "type": "fin",
+      "sources": [
+        "NASA : page de la mission Mariner 4",
+        "Wikipédia : Mariner 4",
+        "Wikimedia Commons : photo de la sonde, NASA/JPL"
+      ],
+      "question": "Quelle image de l'espace vous a le plus marqué ?"
+    }
+  ],
+  "legende": {
+    "contexte": "Le 28 novembre 1964, la sonde américaine Mariner 4 quitte la Terre en direction de Mars. Mi-juillet 1965, elle passe à 9 846 km de la planète et prend 21 images complètes, les premières vues rapprochées de Mars.\n\nElles montrent un sol couvert de cratères. La NASA a gardé le contact avec la sonde jusqu'au 31 décembre 1967.\n\nQuelle image de l'espace vous a le plus marqué ?\n\nSources : NASA, Wikipédia.",
+    "hashtags": ["espace", "mars", "nasa", "histoire", "sciences"]
+  }
+}
